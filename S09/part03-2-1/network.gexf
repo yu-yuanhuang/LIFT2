@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-13">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="5" title="關係方向" type="string" />
+      <attribute id="6" title="source_label" type="string" />
+      <attribute id="7" title="target_label" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="點名稱" type="string" />
+      <attribute id="1" title="點身分別" type="string" />
+      <attribute id="2" title="連結數" type="long" />
+      <attribute id="3" title="連結對象" type="string" />
+      <attribute id="4" title="bipartite" type="string" />
+    </attributes>
+    <nodes>
+      <node id="m_9001" label="9001">
+        <attvalues>
+          <attvalue for="0" value="9001" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9002" label="9002">
+        <attvalues>
+          <attvalue for="0" value="9002" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="國際教育機構/海外夥伴" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9003" label="9003">
+        <attvalues>
+          <attvalue for="0" value="9003" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="社區組織" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9004" label="9004">
+        <attvalues>
+          <attvalue for="0" value="9004" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9005" label="9005">
+        <attvalues>
+          <attvalue for="0" value="9005" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9006" label="9006">
+        <attvalues>
+          <attvalue for="0" value="9006" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="NGO/NPO" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9007" label="9007">
+        <attvalues>
+          <attvalue for="0" value="9007" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9008" label="9008">
+        <attvalues>
+          <attvalue for="0" value="9008" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9009" label="9009">
+        <attvalues>
+          <attvalue for="0" value="9009" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9010" label="9010">
+        <attvalues>
+          <attvalue for="0" value="9010" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="社區組織" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9011" label="9011">
+        <attvalues>
+          <attvalue for="0" value="9011" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="NGO/NPO" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9012" label="9012">
+        <attvalues>
+          <attvalue for="0" value="9012" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9013" label="9013">
+        <attvalues>
+          <attvalue for="0" value="9013" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="NGO/NPO" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9014" label="9014">
+        <attvalues>
+          <attvalue for="0" value="9014" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9015" label="9015">
+        <attvalues>
+          <attvalue for="0" value="9015" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9016" label="9016">
+        <attvalues>
+          <attvalue for="0" value="9016" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9017" label="9017">
+        <attvalues>
+          <attvalue for="0" value="9017" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="高等教育機構、國際教育機構/海外夥伴" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9018" label="9018">
+        <attvalues>
+          <attvalue for="0" value="9018" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="NGO/NPO" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9019" label="9019">
+        <attvalues>
+          <attvalue for="0" value="9019" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="社區組織、高等教育機構、NGO/NPO" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9020" label="9020">
+        <attvalues>
+          <attvalue for="0" value="9020" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9021" label="9021">
+        <attvalues>
+          <attvalue for="0" value="9021" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="NGO/NPO" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9022" label="9022">
+        <attvalues>
+          <attvalue for="0" value="9022" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9023" label="9023">
+        <attvalues>
+          <attvalue for="0" value="9023" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="社區組織、企業、NGO/NPO" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9024" label="9024">
+        <attvalues>
+          <attvalue for="0" value="9024" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9025" label="9025">
+        <attvalues>
+          <attvalue for="0" value="9025" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="高等教育機構" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9026" label="9026">
+        <attvalues>
+          <attvalue for="0" value="9026" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9027" label="9027">
+        <attvalues>
+          <attvalue for="0" value="9027" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="m_9028" label="9028">
+        <attvalues>
+          <attvalue for="0" value="9028" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="member" />
+        </attvalues>
+      </node>
+      <node id="c_社區組織" label="社區組織">
+        <attvalues>
+          <attvalue for="0" value="社區組織" />
+          <attvalue for="1" value="校與社區網絡_合作類別" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="9003、9010、9019、9023" />
+          <attvalue for="4" value="category" />
+        </attvalues>
+      </node>
+      <node id="c_高等教育機構" label="高等教育機構">
+        <attvalues>
+          <attvalue for="0" value="高等教育機構" />
+          <attvalue for="1" value="校與社區網絡_合作類別" />
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="9001、9004、9005、9008、9009、9012、9016、9017、9019、9020、9025" />
+          <attvalue for="4" value="category" />
+        </attvalues>
+      </node>
+      <node id="c_企業" label="企業">
+        <attvalues>
+          <attvalue for="0" value="企業" />
+          <attvalue for="1" value="校與社區網絡_合作類別" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="9023" />
+          <attvalue for="4" value="category" />
+        </attvalues>
+      </node>
+      <node id="c_NGO/NPO" label="NGO/NPO">
+        <attvalues>
+          <attvalue for="0" value="NGO/NPO" />
+          <attvalue for="1" value="校與社區網絡_合作類別" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="9006、9011、9013、9018、9019、9021、9023" />
+          <attvalue for="4" value="category" />
+        </attvalues>
+      </node>
+      <node id="c_國際教育機構/海外夥伴" label="國際教育機構/海外夥伴">
+        <attvalues>
+          <attvalue for="0" value="國際教育機構/海外夥伴" />
+          <attvalue for="1" value="校與社區網絡_合作類別" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="9002、9017" />
+          <attvalue for="4" value="category" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="m_9001" target="c_高等教育機構" id="0" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9001" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9002" target="c_國際教育機構/海外夥伴" id="1" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9002" />
+          <attvalue for="7" value="國際教育機構/海外夥伴" />
+        </attvalues>
+      </edge>
+      <edge source="m_9003" target="c_社區組織" id="2" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9003" />
+          <attvalue for="7" value="社區組織" />
+        </attvalues>
+      </edge>
+      <edge source="m_9004" target="c_高等教育機構" id="3" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9004" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9005" target="c_高等教育機構" id="4" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9005" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9006" target="c_NGO/NPO" id="5" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9006" />
+          <attvalue for="7" value="NGO/NPO" />
+        </attvalues>
+      </edge>
+      <edge source="m_9008" target="c_高等教育機構" id="6" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9008" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9009" target="c_高等教育機構" id="7" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9009" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9010" target="c_社區組織" id="8" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9010" />
+          <attvalue for="7" value="社區組織" />
+        </attvalues>
+      </edge>
+      <edge source="m_9011" target="c_NGO/NPO" id="9" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9011" />
+          <attvalue for="7" value="NGO/NPO" />
+        </attvalues>
+      </edge>
+      <edge source="m_9012" target="c_高等教育機構" id="10" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9012" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9013" target="c_NGO/NPO" id="11" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9013" />
+          <attvalue for="7" value="NGO/NPO" />
+        </attvalues>
+      </edge>
+      <edge source="m_9016" target="c_高等教育機構" id="12" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9016" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9017" target="c_高等教育機構" id="13" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9017" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9017" target="c_國際教育機構/海外夥伴" id="14" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9017" />
+          <attvalue for="7" value="國際教育機構/海外夥伴" />
+        </attvalues>
+      </edge>
+      <edge source="m_9018" target="c_NGO/NPO" id="15" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9018" />
+          <attvalue for="7" value="NGO/NPO" />
+        </attvalues>
+      </edge>
+      <edge source="m_9019" target="c_社區組織" id="16" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9019" />
+          <attvalue for="7" value="社區組織" />
+        </attvalues>
+      </edge>
+      <edge source="m_9019" target="c_高等教育機構" id="17" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9019" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9019" target="c_NGO/NPO" id="18" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9019" />
+          <attvalue for="7" value="NGO/NPO" />
+        </attvalues>
+      </edge>
+      <edge source="m_9020" target="c_高等教育機構" id="19" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9020" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+      <edge source="m_9021" target="c_NGO/NPO" id="20" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9021" />
+          <attvalue for="7" value="NGO/NPO" />
+        </attvalues>
+      </edge>
+      <edge source="m_9023" target="c_社區組織" id="21" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9023" />
+          <attvalue for="7" value="社區組織" />
+        </attvalues>
+      </edge>
+      <edge source="m_9023" target="c_企業" id="22" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9023" />
+          <attvalue for="7" value="企業" />
+        </attvalues>
+      </edge>
+      <edge source="m_9023" target="c_NGO/NPO" id="23" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9023" />
+          <attvalue for="7" value="NGO/NPO" />
+        </attvalues>
+      </edge>
+      <edge source="m_9025" target="c_高等教育機構" id="24" label="單向">
+        <attvalues>
+          <attvalue for="5" value="單向" />
+          <attvalue for="6" value="9025" />
+          <attvalue for="7" value="高等教育機構" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

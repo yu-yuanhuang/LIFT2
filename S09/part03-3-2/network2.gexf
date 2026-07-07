@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2026-04-14">
+    <creator>OpenAI ChatGPT</creator>
+    <description>辛亥國小｜校內網絡_學生學習支持｜一模有向網絡（ID版）</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="0" title="身分別" type="string"/>
+      <attribute id="1" title="行政團隊" type="integer"/>
+      <attribute id="2" title="Indegree" type="integer"/>
+    </attributes>
+    <nodes>
+      <node id="9001" label="9001">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="-2.6951" y="-15.1912" z="0.0"/>
+        <viz:size value="27.6364"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9002" label="9002">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="-49.7196" y="54.2195" z="0.0"/>
+        <viz:size value="35.8182"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9003" label="9003">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="21.6237" y="-30.8916" z="0.0"/>
+        <viz:size value="35.8182"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9004" label="9004">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="95.5642" y="-114.9786" z="0.0"/>
+        <viz:size value="27.6364"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9005" label="9005">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="-57.0456" y="92.7393" z="0.0"/>
+        <viz:size value="30.3636"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9006" label="9006">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="-82.8670" y="91.6015" z="0.0"/>
+        <viz:size value="24.9091"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9007" label="9007">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="62.8667" y="-76.7716" z="0.0"/>
+        <viz:size value="22.1818"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9008" label="9008">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="11.5465" y="-15.6702" z="0.0"/>
+        <viz:size value="27.6364"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9009" label="9009">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="53.9875" y="-74.3900" z="0.0"/>
+        <viz:size value="27.6364"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9010" label="9010">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="26.4309" y="-0.6134" z="0.0"/>
+        <viz:size value="30.3636"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9011" label="9011">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="583.7625" y="-723.2473" z="0.0"/>
+        <viz:size value="24.9091"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9012" label="9012">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="-51.6048" y="53.1392" z="0.0"/>
+        <viz:size value="19.4545"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9013" label="9013">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="-42.7525" y="100.4323" z="0.0"/>
+        <viz:size value="35.8182"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9014" label="9014">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="119.3873" y="-149.0713" z="0.0"/>
+        <viz:size value="33.0909"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9015" label="9015">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="143.4595" y="-178.1890" z="0.0"/>
+        <viz:size value="27.6364"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9016" label="9016">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="-48.3931" y="55.8393" z="0.0"/>
+        <viz:size value="27.6364"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9017" label="9017">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="-52.6753" y="57.4580" z="0.0"/>
+        <viz:size value="22.1818"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9018" label="9018">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="-66.8321" y="73.7036" z="0.0"/>
+        <viz:size value="38.5455"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9019" label="9019">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="11.8349" y="-7.8305" z="0.0"/>
+        <viz:size value="22.1818"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9020" label="9020">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="32.7831" y="-38.2536" z="0.0"/>
+        <viz:size value="24.9091"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9021" label="9021">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="9"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="-69.0330" y="76.5082" z="0.0"/>
+        <viz:size value="16.7273"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9022" label="9022">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="-133.0878" y="159.5095" z="0.0"/>
+        <viz:size value="33.0909"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9023" label="9023">
+        <attvalues>
+          <attvalue for="0" value="行政身分"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+        <viz:color r="176" g="118" b="117" a="1.0"/>
+        <viz:position x="-835.1679" y="1000.0000" z="0.0"/>
+        <viz:size value="14.0000"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9024" label="9024">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="19"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="108.2798" y="-134.8507" z="0.0"/>
+        <viz:size value="44.0000"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9025" label="9025">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="17.5278" y="-14.1075" z="0.0"/>
+        <viz:size value="30.3636"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9026" label="9026">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="25.2560" y="-24.7753" z="0.0"/>
+        <viz:size value="22.1818"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9027" label="9027">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="159.1499" y="-193.9707" z="0.0"/>
+        <viz:size value="38.5455"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="9028" label="9028">
+        <attvalues>
+          <attvalue for="0" value="教師身分"/>
+          <attvalue for="1" value="0"/>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+        <viz:color r="124" g="147" b="173" a="1.0"/>
+        <viz:position x="18.4136" y="-22.3480" z="0.0"/>
+        <viz:size value="22.1818"/>
+        <viz:shape value="disc"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="9001" target="9003" weight="1.0"/>
+      <edge id="1" source="9001" target="9007" weight="1.0"/>
+      <edge id="2" source="9001" target="9009" weight="1.0"/>
+      <edge id="3" source="9001" target="9012" weight="1.0"/>
+      <edge id="4" source="9001" target="9017" weight="1.0"/>
+      <edge id="5" source="9001" target="9020" weight="1.0"/>
+      <edge id="6" source="9002" target="9001" weight="1.0"/>
+      <edge id="7" source="9002" target="9003" weight="1.0"/>
+      <edge id="8" source="9002" target="9004" weight="1.0"/>
+      <edge id="9" source="9002" target="9005" weight="1.0"/>
+      <edge id="10" source="9002" target="9006" weight="1.0"/>
+      <edge id="11" source="9002" target="9007" weight="1.0"/>
+      <edge id="12" source="9002" target="9008" weight="1.0"/>
+      <edge id="13" source="9002" target="9009" weight="1.0"/>
+      <edge id="14" source="9002" target="9010" weight="1.0"/>
+      <edge id="15" source="9002" target="9011" weight="1.0"/>
+      <edge id="16" source="9002" target="9012" weight="1.0"/>
+      <edge id="17" source="9002" target="9013" weight="1.0"/>
+      <edge id="18" source="9002" target="9014" weight="1.0"/>
+      <edge id="19" source="9002" target="9015" weight="1.0"/>
+      <edge id="20" source="9002" target="9016" weight="1.0"/>
+      <edge id="21" source="9002" target="9017" weight="1.0"/>
+      <edge id="22" source="9002" target="9018" weight="1.0"/>
+      <edge id="23" source="9002" target="9019" weight="1.0"/>
+      <edge id="24" source="9002" target="9020" weight="1.0"/>
+      <edge id="25" source="9002" target="9021" weight="1.0"/>
+      <edge id="26" source="9002" target="9022" weight="1.0"/>
+      <edge id="27" source="9002" target="9023" weight="1.0"/>
+      <edge id="28" source="9002" target="9024" weight="1.0"/>
+      <edge id="29" source="9002" target="9025" weight="1.0"/>
+      <edge id="30" source="9002" target="9026" weight="1.0"/>
+      <edge id="31" source="9002" target="9027" weight="1.0"/>
+      <edge id="32" source="9002" target="9028" weight="1.0"/>
+      <edge id="33" source="9003" target="9005" weight="1.0"/>
+      <edge id="34" source="9003" target="9006" weight="1.0"/>
+      <edge id="35" source="9003" target="9008" weight="1.0"/>
+      <edge id="36" source="9003" target="9014" weight="1.0"/>
+      <edge id="37" source="9003" target="9015" weight="1.0"/>
+      <edge id="38" source="9003" target="9020" weight="1.0"/>
+      <edge id="39" source="9003" target="9021" weight="1.0"/>
+      <edge id="40" source="9003" target="9022" weight="1.0"/>
+      <edge id="41" source="9003" target="9024" weight="1.0"/>
+      <edge id="42" source="9003" target="9025" weight="1.0"/>
+      <edge id="43" source="9003" target="9026" weight="1.0"/>
+      <edge id="44" source="9003" target="9027" weight="1.0"/>
+      <edge id="45" source="9003" target="9028" weight="1.0"/>
+      <edge id="46" source="9004" target="9002" weight="1.0"/>
+      <edge id="47" source="9004" target="9003" weight="1.0"/>
+      <edge id="48" source="9004" target="9005" weight="1.0"/>
+      <edge id="49" source="9004" target="9006" weight="1.0"/>
+      <edge id="50" source="9004" target="9010" weight="1.0"/>
+      <edge id="51" source="9004" target="9011" weight="1.0"/>
+      <edge id="52" source="9004" target="9013" weight="1.0"/>
+      <edge id="53" source="9004" target="9014" weight="1.0"/>
+      <edge id="54" source="9004" target="9016" weight="1.0"/>
+      <edge id="55" source="9004" target="9017" weight="1.0"/>
+      <edge id="56" source="9004" target="9018" weight="1.0"/>
+      <edge id="57" source="9004" target="9022" weight="1.0"/>
+      <edge id="58" source="9004" target="9024" weight="1.0"/>
+      <edge id="59" source="9004" target="9025" weight="1.0"/>
+      <edge id="60" source="9004" target="9026" weight="1.0"/>
+      <edge id="61" source="9004" target="9027" weight="1.0"/>
+      <edge id="62" source="9004" target="9028" weight="1.0"/>
+      <edge id="63" source="9005" target="9012" weight="1.0"/>
+      <edge id="64" source="9005" target="9013" weight="1.0"/>
+      <edge id="65" source="9005" target="9017" weight="1.0"/>
+      <edge id="66" source="9005" target="9018" weight="1.0"/>
+      <edge id="67" source="9006" target="9001" weight="1.0"/>
+      <edge id="68" source="9006" target="9003" weight="1.0"/>
+      <edge id="69" source="9006" target="9007" weight="1.0"/>
+      <edge id="70" source="9006" target="9008" weight="1.0"/>
+      <edge id="71" source="9006" target="9009" weight="1.0"/>
+      <edge id="72" source="9006" target="9010" weight="1.0"/>
+      <edge id="73" source="9006" target="9011" weight="1.0"/>
+      <edge id="74" source="9006" target="9012" weight="1.0"/>
+      <edge id="75" source="9006" target="9016" weight="1.0"/>
+      <edge id="76" source="9006" target="9017" weight="1.0"/>
+      <edge id="77" source="9006" target="9019" weight="1.0"/>
+      <edge id="78" source="9006" target="9022" weight="1.0"/>
+      <edge id="79" source="9006" target="9023" weight="1.0"/>
+      <edge id="80" source="9006" target="9024" weight="1.0"/>
+      <edge id="81" source="9007" target="9002" weight="1.0"/>
+      <edge id="82" source="9007" target="9003" weight="1.0"/>
+      <edge id="83" source="9007" target="9014" weight="1.0"/>
+      <edge id="84" source="9007" target="9024" weight="1.0"/>
+      <edge id="85" source="9007" target="9025" weight="1.0"/>
+      <edge id="86" source="9007" target="9027" weight="1.0"/>
+      <edge id="87" source="9008" target="9001" weight="1.0"/>
+      <edge id="88" source="9008" target="9002" weight="1.0"/>
+      <edge id="89" source="9008" target="9005" weight="1.0"/>
+      <edge id="90" source="9008" target="9006" weight="1.0"/>
+      <edge id="91" source="9008" target="9007" weight="1.0"/>
+      <edge id="92" source="9008" target="9009" weight="1.0"/>
+      <edge id="93" source="9008" target="9010" weight="1.0"/>
+      <edge id="94" source="9008" target="9013" weight="1.0"/>
+      <edge id="95" source="9008" target="9014" weight="1.0"/>
+      <edge id="96" source="9008" target="9015" weight="1.0"/>
+      <edge id="97" source="9008" target="9016" weight="1.0"/>
+      <edge id="98" source="9008" target="9017" weight="1.0"/>
+      <edge id="99" source="9008" target="9018" weight="1.0"/>
+      <edge id="100" source="9008" target="9019" weight="1.0"/>
+      <edge id="101" source="9008" target="9020" weight="1.0"/>
+      <edge id="102" source="9008" target="9021" weight="1.0"/>
+      <edge id="103" source="9008" target="9022" weight="1.0"/>
+      <edge id="104" source="9008" target="9024" weight="1.0"/>
+      <edge id="105" source="9008" target="9025" weight="1.0"/>
+      <edge id="106" source="9008" target="9027" weight="1.0"/>
+      <edge id="107" source="9009" target="9001" weight="1.0"/>
+      <edge id="108" source="9009" target="9002" weight="1.0"/>
+      <edge id="109" source="9009" target="9014" weight="1.0"/>
+      <edge id="110" source="9009" target="9020" weight="1.0"/>
+      <edge id="111" source="9009" target="9027" weight="1.0"/>
+      <edge id="112" source="9010" target="9002" weight="1.0"/>
+      <edge id="113" source="9010" target="9013" weight="1.0"/>
+      <edge id="114" source="9010" target="9024" weight="1.0"/>
+      <edge id="115" source="9012" target="9001" weight="1.0"/>
+      <edge id="116" source="9012" target="9002" weight="1.0"/>
+      <edge id="117" source="9012" target="9003" weight="1.0"/>
+      <edge id="118" source="9012" target="9004" weight="1.0"/>
+      <edge id="119" source="9012" target="9005" weight="1.0"/>
+      <edge id="120" source="9012" target="9006" weight="1.0"/>
+      <edge id="121" source="9012" target="9007" weight="1.0"/>
+      <edge id="122" source="9012" target="9008" weight="1.0"/>
+      <edge id="123" source="9012" target="9009" weight="1.0"/>
+      <edge id="124" source="9012" target="9010" weight="1.0"/>
+      <edge id="125" source="9012" target="9011" weight="1.0"/>
+      <edge id="126" source="9012" target="9013" weight="1.0"/>
+      <edge id="127" source="9012" target="9014" weight="1.0"/>
+      <edge id="128" source="9012" target="9015" weight="1.0"/>
+      <edge id="129" source="9012" target="9016" weight="1.0"/>
+      <edge id="130" source="9012" target="9017" weight="1.0"/>
+      <edge id="131" source="9012" target="9018" weight="1.0"/>
+      <edge id="132" source="9012" target="9019" weight="1.0"/>
+      <edge id="133" source="9012" target="9020" weight="1.0"/>
+      <edge id="134" source="9012" target="9021" weight="1.0"/>
+      <edge id="135" source="9012" target="9022" weight="1.0"/>
+      <edge id="136" source="9012" target="9023" weight="1.0"/>
+      <edge id="137" source="9012" target="9024" weight="1.0"/>
+      <edge id="138" source="9012" target="9025" weight="1.0"/>
+      <edge id="139" source="9012" target="9026" weight="1.0"/>
+      <edge id="140" source="9012" target="9027" weight="1.0"/>
+      <edge id="141" source="9012" target="9028" weight="1.0"/>
+      <edge id="142" source="9013" target="9012" weight="1.0"/>
+      <edge id="143" source="9013" target="9018" weight="1.0"/>
+      <edge id="144" source="9014" target="9001" weight="1.0"/>
+      <edge id="145" source="9014" target="9002" weight="1.0"/>
+      <edge id="146" source="9014" target="9004" weight="1.0"/>
+      <edge id="147" source="9014" target="9005" weight="1.0"/>
+      <edge id="148" source="9014" target="9006" weight="1.0"/>
+      <edge id="149" source="9014" target="9007" weight="1.0"/>
+      <edge id="150" source="9014" target="9008" weight="1.0"/>
+      <edge id="151" source="9014" target="9009" weight="1.0"/>
+      <edge id="152" source="9014" target="9011" weight="1.0"/>
+      <edge id="153" source="9014" target="9015" weight="1.0"/>
+      <edge id="154" source="9014" target="9019" weight="1.0"/>
+      <edge id="155" source="9014" target="9020" weight="1.0"/>
+      <edge id="156" source="9014" target="9022" weight="1.0"/>
+      <edge id="157" source="9014" target="9024" weight="1.0"/>
+      <edge id="158" source="9014" target="9027" weight="1.0"/>
+      <edge id="159" source="9015" target="9002" weight="1.0"/>
+      <edge id="160" source="9015" target="9010" weight="1.0"/>
+      <edge id="161" source="9015" target="9011" weight="1.0"/>
+      <edge id="162" source="9015" target="9016" weight="1.0"/>
+      <edge id="163" source="9015" target="9018" weight="1.0"/>
+      <edge id="164" source="9015" target="9019" weight="1.0"/>
+      <edge id="165" source="9015" target="9021" weight="1.0"/>
+      <edge id="166" source="9016" target="9001" weight="1.0"/>
+      <edge id="167" source="9016" target="9002" weight="1.0"/>
+      <edge id="168" source="9016" target="9003" weight="1.0"/>
+      <edge id="169" source="9016" target="9004" weight="1.0"/>
+      <edge id="170" source="9016" target="9005" weight="1.0"/>
+      <edge id="171" source="9016" target="9006" weight="1.0"/>
+      <edge id="172" source="9016" target="9007" weight="1.0"/>
+      <edge id="173" source="9016" target="9008" weight="1.0"/>
+      <edge id="174" source="9016" target="9009" weight="1.0"/>
+      <edge id="175" source="9016" target="9010" weight="1.0"/>
+      <edge id="176" source="9016" target="9011" weight="1.0"/>
+      <edge id="177" source="9016" target="9013" weight="1.0"/>
+      <edge id="178" source="9016" target="9014" weight="1.0"/>
+      <edge id="179" source="9016" target="9015" weight="1.0"/>
+      <edge id="180" source="9016" target="9017" weight="1.0"/>
+      <edge id="181" source="9016" target="9018" weight="1.0"/>
+      <edge id="182" source="9016" target="9019" weight="1.0"/>
+      <edge id="183" source="9016" target="9020" weight="1.0"/>
+      <edge id="184" source="9016" target="9021" weight="1.0"/>
+      <edge id="185" source="9016" target="9022" weight="1.0"/>
+      <edge id="186" source="9016" target="9023" weight="1.0"/>
+      <edge id="187" source="9016" target="9024" weight="1.0"/>
+      <edge id="188" source="9016" target="9025" weight="1.0"/>
+      <edge id="189" source="9016" target="9026" weight="1.0"/>
+      <edge id="190" source="9016" target="9027" weight="1.0"/>
+      <edge id="191" source="9016" target="9028" weight="1.0"/>
+      <edge id="192" source="9017" target="9001" weight="1.0"/>
+      <edge id="193" source="9017" target="9002" weight="1.0"/>
+      <edge id="194" source="9017" target="9003" weight="1.0"/>
+      <edge id="195" source="9017" target="9004" weight="1.0"/>
+      <edge id="196" source="9017" target="9005" weight="1.0"/>
+      <edge id="197" source="9017" target="9006" weight="1.0"/>
+      <edge id="198" source="9017" target="9008" weight="1.0"/>
+      <edge id="199" source="9017" target="9009" weight="1.0"/>
+      <edge id="200" source="9017" target="9010" weight="1.0"/>
+      <edge id="201" source="9017" target="9011" weight="1.0"/>
+      <edge id="202" source="9017" target="9012" weight="1.0"/>
+      <edge id="203" source="9017" target="9013" weight="1.0"/>
+      <edge id="204" source="9017" target="9014" weight="1.0"/>
+      <edge id="205" source="9017" target="9015" weight="1.0"/>
+      <edge id="206" source="9017" target="9016" weight="1.0"/>
+      <edge id="207" source="9017" target="9018" weight="1.0"/>
+      <edge id="208" source="9017" target="9019" weight="1.0"/>
+      <edge id="209" source="9017" target="9020" weight="1.0"/>
+      <edge id="210" source="9017" target="9021" weight="1.0"/>
+      <edge id="211" source="9017" target="9022" weight="1.0"/>
+      <edge id="212" source="9017" target="9023" weight="1.0"/>
+      <edge id="213" source="9017" target="9024" weight="1.0"/>
+      <edge id="214" source="9017" target="9025" weight="1.0"/>
+      <edge id="215" source="9017" target="9026" weight="1.0"/>
+      <edge id="216" source="9017" target="9027" weight="1.0"/>
+      <edge id="217" source="9017" target="9028" weight="1.0"/>
+      <edge id="218" source="9018" target="9003" weight="1.0"/>
+      <edge id="219" source="9018" target="9004" weight="1.0"/>
+      <edge id="220" source="9018" target="9005" weight="1.0"/>
+      <edge id="221" source="9018" target="9008" weight="1.0"/>
+      <edge id="222" source="9018" target="9009" weight="1.0"/>
+      <edge id="223" source="9018" target="9010" weight="1.0"/>
+      <edge id="224" source="9018" target="9011" weight="1.0"/>
+      <edge id="225" source="9018" target="9016" weight="1.0"/>
+      <edge id="226" source="9018" target="9019" weight="1.0"/>
+      <edge id="227" source="9018" target="9023" weight="1.0"/>
+      <edge id="228" source="9018" target="9024" weight="1.0"/>
+      <edge id="229" source="9018" target="9025" weight="1.0"/>
+      <edge id="230" source="9018" target="9026" weight="1.0"/>
+      <edge id="231" source="9018" target="9027" weight="1.0"/>
+      <edge id="232" source="9019" target="9005" weight="1.0"/>
+      <edge id="233" source="9019" target="9008" weight="1.0"/>
+      <edge id="234" source="9019" target="9010" weight="1.0"/>
+      <edge id="235" source="9019" target="9013" weight="1.0"/>
+      <edge id="236" source="9019" target="9014" weight="1.0"/>
+      <edge id="237" source="9019" target="9015" weight="1.0"/>
+      <edge id="238" source="9019" target="9016" weight="1.0"/>
+      <edge id="239" source="9019" target="9018" weight="1.0"/>
+      <edge id="240" source="9019" target="9022" weight="1.0"/>
+      <edge id="241" source="9019" target="9024" weight="1.0"/>
+      <edge id="242" source="9020" target="9001" weight="1.0"/>
+      <edge id="243" source="9020" target="9002" weight="1.0"/>
+      <edge id="244" source="9020" target="9003" weight="1.0"/>
+      <edge id="245" source="9020" target="9004" weight="1.0"/>
+      <edge id="246" source="9020" target="9007" weight="1.0"/>
+      <edge id="247" source="9020" target="9009" weight="1.0"/>
+      <edge id="248" source="9020" target="9012" weight="1.0"/>
+      <edge id="249" source="9020" target="9013" weight="1.0"/>
+      <edge id="250" source="9020" target="9014" weight="1.0"/>
+      <edge id="251" source="9020" target="9015" weight="1.0"/>
+      <edge id="252" source="9020" target="9022" weight="1.0"/>
+      <edge id="253" source="9020" target="9024" weight="1.0"/>
+      <edge id="254" source="9020" target="9025" weight="1.0"/>
+      <edge id="255" source="9020" target="9027" weight="1.0"/>
+      <edge id="256" source="9020" target="9028" weight="1.0"/>
+      <edge id="257" source="9021" target="9002" weight="1.0"/>
+      <edge id="258" source="9021" target="9003" weight="1.0"/>
+      <edge id="259" source="9021" target="9004" weight="1.0"/>
+      <edge id="260" source="9021" target="9006" weight="1.0"/>
+      <edge id="261" source="9021" target="9008" weight="1.0"/>
+      <edge id="262" source="9021" target="9009" weight="1.0"/>
+      <edge id="263" source="9021" target="9010" weight="1.0"/>
+      <edge id="264" source="9021" target="9011" weight="1.0"/>
+      <edge id="265" source="9021" target="9012" weight="1.0"/>
+      <edge id="266" source="9021" target="9013" weight="1.0"/>
+      <edge id="267" source="9021" target="9015" weight="1.0"/>
+      <edge id="268" source="9021" target="9016" weight="1.0"/>
+      <edge id="269" source="9021" target="9017" weight="1.0"/>
+      <edge id="270" source="9021" target="9018" weight="1.0"/>
+      <edge id="271" source="9021" target="9022" weight="1.0"/>
+      <edge id="272" source="9021" target="9023" weight="1.0"/>
+      <edge id="273" source="9021" target="9024" weight="1.0"/>
+      <edge id="274" source="9021" target="9025" weight="1.0"/>
+      <edge id="275" source="9021" target="9026" weight="1.0"/>
+      <edge id="276" source="9021" target="9028" weight="1.0"/>
+      <edge id="277" source="9022" target="9001" weight="1.0"/>
+      <edge id="278" source="9022" target="9002" weight="1.0"/>
+      <edge id="279" source="9022" target="9003" weight="1.0"/>
+      <edge id="280" source="9022" target="9004" weight="1.0"/>
+      <edge id="281" source="9022" target="9007" weight="1.0"/>
+      <edge id="282" source="9022" target="9009" weight="1.0"/>
+      <edge id="283" source="9022" target="9010" weight="1.0"/>
+      <edge id="284" source="9022" target="9012" weight="1.0"/>
+      <edge id="285" source="9022" target="9013" weight="1.0"/>
+      <edge id="286" source="9022" target="9016" weight="1.0"/>
+      <edge id="287" source="9022" target="9017" weight="1.0"/>
+      <edge id="288" source="9022" target="9018" weight="1.0"/>
+      <edge id="289" source="9022" target="9019" weight="1.0"/>
+      <edge id="290" source="9022" target="9020" weight="1.0"/>
+      <edge id="291" source="9022" target="9023" weight="1.0"/>
+      <edge id="292" source="9022" target="9024" weight="1.0"/>
+      <edge id="293" source="9022" target="9025" weight="1.0"/>
+      <edge id="294" source="9022" target="9026" weight="1.0"/>
+      <edge id="295" source="9022" target="9027" weight="1.0"/>
+      <edge id="296" source="9022" target="9028" weight="1.0"/>
+      <edge id="297" source="9024" target="9003" weight="1.0"/>
+      <edge id="298" source="9024" target="9004" weight="1.0"/>
+      <edge id="299" source="9024" target="9005" weight="1.0"/>
+      <edge id="300" source="9024" target="9006" weight="1.0"/>
+      <edge id="301" source="9024" target="9008" weight="1.0"/>
+      <edge id="302" source="9024" target="9011" weight="1.0"/>
+      <edge id="303" source="9024" target="9014" weight="1.0"/>
+      <edge id="304" source="9024" target="9015" weight="1.0"/>
+      <edge id="305" source="9024" target="9018" weight="1.0"/>
+      <edge id="306" source="9024" target="9020" weight="1.0"/>
+      <edge id="307" source="9024" target="9021" weight="1.0"/>
+      <edge id="308" source="9024" target="9022" weight="1.0"/>
+      <edge id="309" source="9024" target="9025" weight="1.0"/>
+      <edge id="310" source="9024" target="9026" weight="1.0"/>
+      <edge id="311" source="9024" target="9027" weight="1.0"/>
+      <edge id="312" source="9024" target="9028" weight="1.0"/>
+      <edge id="313" source="9025" target="9002" weight="1.0"/>
+      <edge id="314" source="9025" target="9004" weight="1.0"/>
+      <edge id="315" source="9025" target="9005" weight="1.0"/>
+      <edge id="316" source="9025" target="9006" weight="1.0"/>
+      <edge id="317" source="9025" target="9007" weight="1.0"/>
+      <edge id="318" source="9025" target="9008" weight="1.0"/>
+      <edge id="319" source="9025" target="9010" weight="1.0"/>
+      <edge id="320" source="9025" target="9012" weight="1.0"/>
+      <edge id="321" source="9025" target="9013" weight="1.0"/>
+      <edge id="322" source="9025" target="9016" weight="1.0"/>
+      <edge id="323" source="9025" target="9018" weight="1.0"/>
+      <edge id="324" source="9025" target="9019" weight="1.0"/>
+      <edge id="325" source="9025" target="9024" weight="1.0"/>
+      <edge id="326" source="9025" target="9027" weight="1.0"/>
+      <edge id="327" source="9025" target="9028" weight="1.0"/>
+      <edge id="328" source="9026" target="9001" weight="1.0"/>
+      <edge id="329" source="9026" target="9002" weight="1.0"/>
+      <edge id="330" source="9026" target="9003" weight="1.0"/>
+      <edge id="331" source="9026" target="9004" weight="1.0"/>
+      <edge id="332" source="9026" target="9005" weight="1.0"/>
+      <edge id="333" source="9026" target="9010" weight="1.0"/>
+      <edge id="334" source="9026" target="9013" weight="1.0"/>
+      <edge id="335" source="9026" target="9014" weight="1.0"/>
+      <edge id="336" source="9026" target="9015" weight="1.0"/>
+      <edge id="337" source="9026" target="9017" weight="1.0"/>
+      <edge id="338" source="9026" target="9018" weight="1.0"/>
+      <edge id="339" source="9026" target="9022" weight="1.0"/>
+      <edge id="340" source="9026" target="9024" weight="1.0"/>
+      <edge id="341" source="9026" target="9027" weight="1.0"/>
+      <edge id="342" source="9027" target="9001" weight="1.0"/>
+      <edge id="343" source="9027" target="9003" weight="1.0"/>
+      <edge id="344" source="9027" target="9011" weight="1.0"/>
+      <edge id="345" source="9027" target="9013" weight="1.0"/>
+      <edge id="346" source="9027" target="9014" weight="1.0"/>
+      <edge id="347" source="9027" target="9016" weight="1.0"/>
+      <edge id="348" source="9027" target="9018" weight="1.0"/>
+      <edge id="349" source="9028" target="9001" weight="1.0"/>
+      <edge id="350" source="9028" target="9002" weight="1.0"/>
+      <edge id="351" source="9028" target="9003" weight="1.0"/>
+      <edge id="352" source="9028" target="9004" weight="1.0"/>
+      <edge id="353" source="9028" target="9005" weight="1.0"/>
+      <edge id="354" source="9028" target="9006" weight="1.0"/>
+      <edge id="355" source="9028" target="9007" weight="1.0"/>
+      <edge id="356" source="9028" target="9008" weight="1.0"/>
+      <edge id="357" source="9028" target="9009" weight="1.0"/>
+      <edge id="358" source="9028" target="9013" weight="1.0"/>
+      <edge id="359" source="9028" target="9014" weight="1.0"/>
+      <edge id="360" source="9028" target="9015" weight="1.0"/>
+      <edge id="361" source="9028" target="9018" weight="1.0"/>
+      <edge id="362" source="9028" target="9020" weight="1.0"/>
+      <edge id="363" source="9028" target="9021" weight="1.0"/>
+      <edge id="364" source="9028" target="9022" weight="1.0"/>
+      <edge id="365" source="9028" target="9024" weight="1.0"/>
+      <edge id="366" source="9028" target="9025" weight="1.0"/>
+      <edge id="367" source="9028" target="9026" weight="1.0"/>
+      <edge id="368" source="9028" target="9027" weight="1.0"/>
+    </edges>
+  </graph>
+</gexf>

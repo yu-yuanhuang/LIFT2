@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2026-04-13">
+    <creator>OpenAI</creator>
+    <description>辛亥國小｜校與社區網絡_合作型態（有向網路）</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="0" title="點名稱" type="string"/>
+      <attribute id="1" title="點身分別" type="string"/>
+      <attribute id="2" title="連結數" type="integer"/>
+      <attribute id="3" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="0" title="方向類型" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="9001" label="9001">
+        <attvalues>
+          <attvalue for="0" value="9001"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="活動/課程、研究/課程共創、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9002" label="9002">
+        <attvalues>
+          <attvalue for="0" value="9002"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="活動/課程"/>
+        </attvalues>
+      </node>
+      <node id="9003" label="9003">
+        <attvalues>
+          <attvalue for="0" value="9003"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="服務/支援、活動/課程"/>
+        </attvalues>
+      </node>
+      <node id="9004" label="9004">
+        <attvalues>
+          <attvalue for="0" value="9004"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="教學實習/見習、服務/支援、研究/課程共創、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9005" label="9005">
+        <attvalues>
+          <attvalue for="0" value="9005"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="活動/課程、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9006" label="9006">
+        <attvalues>
+          <attvalue for="0" value="9006"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="服務/支援"/>
+        </attvalues>
+      </node>
+      <node id="9007" label="9007">
+        <attvalues>
+          <attvalue for="0" value="9007"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="9008" label="9008">
+        <attvalues>
+          <attvalue for="0" value="9008"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教學實習/見習、活動/課程、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9009" label="9009">
+        <attvalues>
+          <attvalue for="0" value="9009"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="研究/課程共創"/>
+        </attvalues>
+      </node>
+      <node id="9010" label="9010">
+        <attvalues>
+          <attvalue for="0" value="9010"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="服務/支援、活動/課程、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9011" label="9011">
+        <attvalues>
+          <attvalue for="0" value="9011"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="專案/倡議(NGO/NPO)、教學實習/見習"/>
+        </attvalues>
+      </node>
+      <node id="9012" label="9012">
+        <attvalues>
+          <attvalue for="0" value="9012"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="教學實習/見習、服務/支援、活動/課程、研究/課程共創、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9013" label="9013">
+        <attvalues>
+          <attvalue for="0" value="9013"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="服務/支援、活動/課程"/>
+        </attvalues>
+      </node>
+      <node id="9014" label="9014">
+        <attvalues>
+          <attvalue for="0" value="9014"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="9015" label="9015">
+        <attvalues>
+          <attvalue for="0" value="9015"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="9016" label="9016">
+        <attvalues>
+          <attvalue for="0" value="9016"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="教學實習/見習、服務/支援、活動/課程、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9017" label="9017">
+        <attvalues>
+          <attvalue for="0" value="9017"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="教學實習/見習、活動/課程、研究/課程共創、職涯/實習/見習、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9018" label="9018">
+        <attvalues>
+          <attvalue for="0" value="9018"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="服務/支援、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9019" label="9019">
+        <attvalues>
+          <attvalue for="0" value="9019"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="服務/支援、活動/課程、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9020" label="9020">
+        <attvalues>
+          <attvalue for="0" value="9020"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="活動/課程"/>
+        </attvalues>
+      </node>
+      <node id="9021" label="9021">
+        <attvalues>
+          <attvalue for="0" value="9021"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="活動/課程、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9022" label="9022">
+        <attvalues>
+          <attvalue for="0" value="9022"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="9023" label="9023">
+        <attvalues>
+          <attvalue for="0" value="9023"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="媒體/報導/社群、專案/倡議(NGO/NPO)、活動/課程"/>
+        </attvalues>
+      </node>
+      <node id="9024" label="9024">
+        <attvalues>
+          <attvalue for="0" value="9024"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="活動/課程、資源/場域提供"/>
+        </attvalues>
+      </node>
+      <node id="9025" label="9025">
+        <attvalues>
+          <attvalue for="0" value="9025"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教學實習/見習、活動/課程"/>
+        </attvalues>
+      </node>
+      <node id="9026" label="9026">
+        <attvalues>
+          <attvalue for="0" value="9026"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="9027" label="9027">
+        <attvalues>
+          <attvalue for="0" value="9027"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="9028" label="9028">
+        <attvalues>
+          <attvalue for="0" value="9028"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="type::活動/課程" label="活動/課程">
+        <attvalues>
+          <attvalue for="0" value="活動/課程"/>
+          <attvalue for="1" value="校與社區網絡_合作型態"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="9001、9002、9003、9005、9008、9010、9012、9013、9016、9017、9019、9020、9021、9023、9024、9025"/>
+        </attvalues>
+      </node>
+      <node id="type::資源/場域提供" label="資源/場域提供">
+        <attvalues>
+          <attvalue for="0" value="資源/場域提供"/>
+          <attvalue for="1" value="校與社區網絡_合作型態"/>
+          <attvalue for="2" value="12"/>
+          <attvalue for="3" value="9001、9004、9005、9008、9010、9012、9016、9017、9018、9019、9021、9024"/>
+        </attvalues>
+      </node>
+      <node id="type::服務/支援" label="服務/支援">
+        <attvalues>
+          <attvalue for="0" value="服務/支援"/>
+          <attvalue for="1" value="校與社區網絡_合作型態"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="9003、9004、9006、9010、9012、9013、9016、9018、9019"/>
+        </attvalues>
+      </node>
+      <node id="type::研究/課程共創" label="研究/課程共創">
+        <attvalues>
+          <attvalue for="0" value="研究/課程共創"/>
+          <attvalue for="1" value="校與社區網絡_合作型態"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="9001、9004、9009、9012、9017"/>
+        </attvalues>
+      </node>
+      <node id="type::教學實習/見習" label="教學實習/見習">
+        <attvalues>
+          <attvalue for="0" value="教學實習/見習"/>
+          <attvalue for="1" value="校與社區網絡_合作型態"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="9004、9008、9011、9012、9016、9017、9025"/>
+        </attvalues>
+      </node>
+      <node id="type::職涯/實習/見習" label="職涯/實習/見習">
+        <attvalues>
+          <attvalue for="0" value="職涯/實習/見習"/>
+          <attvalue for="1" value="校與社區網絡_合作型態"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="9017"/>
+        </attvalues>
+      </node>
+      <node id="type::專案/倡議(NGO/NPO)" label="專案/倡議(NGO/NPO)">
+        <attvalues>
+          <attvalue for="0" value="專案/倡議(NGO/NPO)"/>
+          <attvalue for="1" value="校與社區網絡_合作型態"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="9011、9023"/>
+        </attvalues>
+      </node>
+      <node id="type::媒體/報導/社群" label="媒體/報導/社群">
+        <attvalues>
+          <attvalue for="0" value="媒體/報導/社群"/>
+          <attvalue for="1" value="校與社區網絡_合作型態"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="9023"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="9001" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="9001" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="9001" target="type::研究/課程共創" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="9002" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="9003" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="9003" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="9004" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="9004" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="9004" target="type::研究/課程共創" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="9004" target="type::教學實習/見習" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="9005" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="9005" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="9006" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="9008" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="9008" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="9008" target="type::教學實習/見習" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="9009" target="type::研究/課程共創" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="9010" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="9010" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="9010" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="9011" target="type::教學實習/見習" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="9011" target="type::專案/倡議(NGO/NPO)" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="9012" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="9012" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="9012" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="9012" target="type::研究/課程共創" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="9012" target="type::教學實習/見習" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="9013" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="9013" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="9016" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="9016" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="9016" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="9016" target="type::教學實習/見習" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="9017" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="9017" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="9017" target="type::研究/課程共創" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="9017" target="type::教學實習/見習" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="9017" target="type::職涯/實習/見習" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="9018" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="9018" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="9019" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="9019" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="9019" target="type::服務/支援" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="9020" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="9021" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="9021" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="9023" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="9023" target="type::專案/倡議(NGO/NPO)" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="9023" target="type::媒體/報導/社群" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="9024" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="9024" target="type::資源/場域提供" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="9025" target="type::活動/課程" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="9025" target="type::教學實習/見習" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="0" value="單向"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
