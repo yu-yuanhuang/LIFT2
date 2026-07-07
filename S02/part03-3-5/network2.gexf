@@ -1,0 +1,1237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI</creator>
+    <description>02_三和國中_校內網絡_同仁支持鼓勵 一模有向網絡</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="id_attr" title="ID" type="string"/>
+      <attribute id="admin_attr" title="行政團隊" type="integer"/>
+      <attribute id="role_attr" title="身分別" type="string"/>
+      <attribute id="indeg_attr" title="indegree" type="integer"/>
+      <attribute id="outdeg_attr" title="outdegree" type="integer"/>
+    </attributes>
+    <nodes>
+      <node id="2001" label="2001">
+        <attvalues>
+          <attvalue for="id_attr" value="2001"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="500.0" y="0.0" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2002" label="2002">
+        <attvalues>
+          <attvalue for="id_attr" value="2002"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="1"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="498.292" y="41.29" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2003" label="2003">
+        <attvalues>
+          <attvalue for="id_attr" value="2003"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="493.181" y="82.297" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2004" label="2004">
+        <attvalues>
+          <attvalue for="id_attr" value="2004"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="484.7" y="122.743" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2005" label="2005">
+        <attvalues>
+          <attvalue for="id_attr" value="2005"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="6"/>
+          <attvalue for="outdeg_attr" value="8"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="20.0"/>
+        <viz:position x="472.909" y="162.35" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2006" label="2006">
+        <attvalues>
+          <attvalue for="id_attr" value="2006"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="3"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="457.887" y="200.848" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2007" label="2007">
+        <attvalues>
+          <attvalue for="id_attr" value="2007"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="4"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="16.0"/>
+        <viz:position x="439.737" y="237.974" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2008" label="2008">
+        <attvalues>
+          <attvalue for="id_attr" value="2008"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="1"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="418.583" y="273.474" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2009" label="2009">
+        <attvalues>
+          <attvalue for="id_attr" value="2009"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="7"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="394.57" y="307.106" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2010" label="2010">
+        <attvalues>
+          <attvalue for="id_attr" value="2010"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="7"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="367.862" y="338.641" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2011" label="2011">
+        <attvalues>
+          <attvalue for="id_attr" value="2011"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="7"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="22.0"/>
+        <viz:position x="338.641" y="367.862" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2012" label="2012">
+        <attvalues>
+          <attvalue for="id_attr" value="2012"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="1"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="307.106" y="394.57" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2013" label="2013">
+        <attvalues>
+          <attvalue for="id_attr" value="2013"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="9"/>
+          <attvalue for="outdeg_attr" value="7"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="26.0"/>
+        <viz:position x="273.474" y="418.583" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2014" label="2014">
+        <attvalues>
+          <attvalue for="id_attr" value="2014"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="237.974" y="439.737" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2015" label="2015">
+        <attvalues>
+          <attvalue for="id_attr" value="2015"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="1"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="200.848" y="457.887" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2016" label="2016">
+        <attvalues>
+          <attvalue for="id_attr" value="2016"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="162.35" y="472.909" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2017" label="2017">
+        <attvalues>
+          <attvalue for="id_attr" value="2017"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="122.743" y="484.7" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2018" label="2018">
+        <attvalues>
+          <attvalue for="id_attr" value="2018"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="3"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="82.297" y="493.181" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2019" label="2019">
+        <attvalues>
+          <attvalue for="id_attr" value="2019"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="3"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="14.0"/>
+        <viz:position x="41.29" y="498.292" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2020" label="2020">
+        <attvalues>
+          <attvalue for="id_attr" value="2020"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="0.0" y="500.0" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2021" label="2021">
+        <attvalues>
+          <attvalue for="id_attr" value="2021"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="7"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="22.0"/>
+        <viz:position x="-41.29" y="498.292" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2022" label="2022">
+        <attvalues>
+          <attvalue for="id_attr" value="2022"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="-82.297" y="493.181" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2023" label="2023">
+        <attvalues>
+          <attvalue for="id_attr" value="2023"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="2"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="-122.743" y="484.7" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2024" label="2024">
+        <attvalues>
+          <attvalue for="id_attr" value="2024"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="5"/>
+          <attvalue for="outdeg_attr" value="2"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="18.0"/>
+        <viz:position x="-162.35" y="472.909" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2025" label="2025">
+        <attvalues>
+          <attvalue for="id_attr" value="2025"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="5"/>
+          <attvalue for="outdeg_attr" value="5"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="18.0"/>
+        <viz:position x="-200.848" y="457.887" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2026" label="2026">
+        <attvalues>
+          <attvalue for="id_attr" value="2026"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="10"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="-237.974" y="439.737" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2027" label="2027">
+        <attvalues>
+          <attvalue for="id_attr" value="2027"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="7"/>
+          <attvalue for="outdeg_attr" value="9"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="22.0"/>
+        <viz:position x="-273.474" y="418.583" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2028" label="2028">
+        <attvalues>
+          <attvalue for="id_attr" value="2028"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="6"/>
+          <attvalue for="outdeg_attr" value="5"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="20.0"/>
+        <viz:position x="-307.106" y="394.57" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2029" label="2029">
+        <attvalues>
+          <attvalue for="id_attr" value="2029"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="-338.641" y="367.862" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2030" label="2030">
+        <attvalues>
+          <attvalue for="id_attr" value="2030"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="4"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="16.0"/>
+        <viz:position x="-367.862" y="338.641" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2031" label="2031">
+        <attvalues>
+          <attvalue for="id_attr" value="2031"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="-394.57" y="307.106" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2032" label="2032">
+        <attvalues>
+          <attvalue for="id_attr" value="2032"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="10"/>
+          <attvalue for="outdeg_attr" value="14"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="28.0"/>
+        <viz:position x="-418.583" y="273.474" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2033" label="2033">
+        <attvalues>
+          <attvalue for="id_attr" value="2033"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="-439.737" y="237.974" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2034" label="2034">
+        <attvalues>
+          <attvalue for="id_attr" value="2034"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="18"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="-457.887" y="200.848" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2035" label="2035">
+        <attvalues>
+          <attvalue for="id_attr" value="2035"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="9"/>
+          <attvalue for="outdeg_attr" value="5"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="26.0"/>
+        <viz:position x="-472.909" y="162.35" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2036" label="2036">
+        <attvalues>
+          <attvalue for="id_attr" value="2036"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="4"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="16.0"/>
+        <viz:position x="-484.7" y="122.743" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2037" label="2037">
+        <attvalues>
+          <attvalue for="id_attr" value="2037"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="-493.181" y="82.297" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2038" label="2038">
+        <attvalues>
+          <attvalue for="id_attr" value="2038"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="1"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="-498.292" y="41.29" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2039" label="2039">
+        <attvalues>
+          <attvalue for="id_attr" value="2039"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="5"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="-500.0" y="0.0" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2040" label="2040">
+        <attvalues>
+          <attvalue for="id_attr" value="2040"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="-498.292" y="-41.29" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2041" label="2041">
+        <attvalues>
+          <attvalue for="id_attr" value="2041"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="10"/>
+          <attvalue for="outdeg_attr" value="6"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="28.0"/>
+        <viz:position x="-493.181" y="-82.297" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2042" label="2042">
+        <attvalues>
+          <attvalue for="id_attr" value="2042"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="1"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="-484.7" y="-122.743" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2043" label="2043">
+        <attvalues>
+          <attvalue for="id_attr" value="2043"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="2"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="-472.909" y="-162.35" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2044" label="2044">
+        <attvalues>
+          <attvalue for="id_attr" value="2044"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="3"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="-457.887" y="-200.848" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2045" label="2045">
+        <attvalues>
+          <attvalue for="id_attr" value="2045"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="3"/>
+          <attvalue for="outdeg_attr" value="3"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="14.0"/>
+        <viz:position x="-439.737" y="-237.974" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2046" label="2046">
+        <attvalues>
+          <attvalue for="id_attr" value="2046"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="3"/>
+          <attvalue for="outdeg_attr" value="6"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="14.0"/>
+        <viz:position x="-418.583" y="-273.474" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2047" label="2047">
+        <attvalues>
+          <attvalue for="id_attr" value="2047"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="7"/>
+          <attvalue for="outdeg_attr" value="4"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="22.0"/>
+        <viz:position x="-394.57" y="-307.106" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2048" label="2048">
+        <attvalues>
+          <attvalue for="id_attr" value="2048"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="6"/>
+          <attvalue for="outdeg_attr" value="6"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="20.0"/>
+        <viz:position x="-367.862" y="-338.641" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2049" label="2049">
+        <attvalues>
+          <attvalue for="id_attr" value="2049"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="11"/>
+          <attvalue for="outdeg_attr" value="4"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="30.0"/>
+        <viz:position x="-338.641" y="-367.862" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2050" label="2050">
+        <attvalues>
+          <attvalue for="id_attr" value="2050"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="4"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="16.0"/>
+        <viz:position x="-307.106" y="-394.57" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2051" label="2051">
+        <attvalues>
+          <attvalue for="id_attr" value="2051"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="-273.474" y="-418.583" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2052" label="2052">
+        <attvalues>
+          <attvalue for="id_attr" value="2052"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="-237.974" y="-439.737" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2053" label="2053">
+        <attvalues>
+          <attvalue for="id_attr" value="2053"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="-200.848" y="-457.887" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2054" label="2054">
+        <attvalues>
+          <attvalue for="id_attr" value="2054"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="9"/>
+          <attvalue for="outdeg_attr" value="3"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="26.0"/>
+        <viz:position x="-162.35" y="-472.909" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2055" label="2055">
+        <attvalues>
+          <attvalue for="id_attr" value="2055"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="12"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="-122.743" y="-484.7" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2056" label="2056">
+        <attvalues>
+          <attvalue for="id_attr" value="2056"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="-82.297" y="-493.181" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2057" label="2057">
+        <attvalues>
+          <attvalue for="id_attr" value="2057"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="2"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="-41.29" y="-498.292" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2058" label="2058">
+        <attvalues>
+          <attvalue for="id_attr" value="2058"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="6"/>
+          <attvalue for="outdeg_attr" value="6"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="20.0"/>
+        <viz:position x="-0.0" y="-500.0" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2059" label="2059">
+        <attvalues>
+          <attvalue for="id_attr" value="2059"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="1"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="41.29" y="-498.292" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2060" label="2060">
+        <attvalues>
+          <attvalue for="id_attr" value="2060"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="8"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="82.297" y="-493.181" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2061" label="2061">
+        <attvalues>
+          <attvalue for="id_attr" value="2061"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="10"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="28.0"/>
+        <viz:position x="122.743" y="-484.7" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2062" label="2062">
+        <attvalues>
+          <attvalue for="id_attr" value="2062"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="162.35" y="-472.909" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2063" label="2063">
+        <attvalues>
+          <attvalue for="id_attr" value="2063"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="200.848" y="-457.887" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2064" label="2064">
+        <attvalues>
+          <attvalue for="id_attr" value="2064"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="7"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="22.0"/>
+        <viz:position x="237.974" y="-439.737" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2065" label="2065">
+        <attvalues>
+          <attvalue for="id_attr" value="2065"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="273.474" y="-418.583" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2066" label="2066">
+        <attvalues>
+          <attvalue for="id_attr" value="2066"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="6"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="20.0"/>
+        <viz:position x="307.106" y="-394.57" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2067" label="2067">
+        <attvalues>
+          <attvalue for="id_attr" value="2067"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="5"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="18.0"/>
+        <viz:position x="338.641" y="-367.862" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2068" label="2068">
+        <attvalues>
+          <attvalue for="id_attr" value="2068"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="2"/>
+          <attvalue for="outdeg_attr" value="14"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="12.0"/>
+        <viz:position x="367.862" y="-338.641" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2069" label="2069">
+        <attvalues>
+          <attvalue for="id_attr" value="2069"/>
+          <attvalue for="admin_attr" value="1"/>
+          <attvalue for="role_attr" value="行政身分"/>
+          <attvalue for="indeg_attr" value="8"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="199" g="141" b="139" a="1.0"/>
+        <viz:size value="24.0"/>
+        <viz:position x="394.57" y="-307.106" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2070" label="2070">
+        <attvalues>
+          <attvalue for="id_attr" value="2070"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="418.583" y="-273.474" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2071" label="2071">
+        <attvalues>
+          <attvalue for="id_attr" value="2071"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="5"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="439.737" y="-237.974" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2072" label="2072">
+        <attvalues>
+          <attvalue for="id_attr" value="2072"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="457.887" y="-200.848" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2073" label="2073">
+        <attvalues>
+          <attvalue for="id_attr" value="2073"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="0"/>
+          <attvalue for="outdeg_attr" value="8"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="472.909" y="-162.35" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2074" label="2074">
+        <attvalues>
+          <attvalue for="id_attr" value="2074"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="1"/>
+          <attvalue for="outdeg_attr" value="12"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="10.0"/>
+        <viz:position x="484.7" y="-122.743" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2075" label="2075">
+        <attvalues>
+          <attvalue for="id_attr" value="2075"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="5"/>
+          <attvalue for="outdeg_attr" value="8"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="18.0"/>
+        <viz:position x="493.181" y="-82.297" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="2076" label="2076">
+        <attvalues>
+          <attvalue for="id_attr" value="2076"/>
+          <attvalue for="admin_attr" value="0"/>
+          <attvalue for="role_attr" value="教師身分"/>
+          <attvalue for="indeg_attr" value="4"/>
+          <attvalue for="outdeg_attr" value="0"/>
+        </attvalues>
+        <viz:color r="122" g="144" b="164" a="1.0"/>
+        <viz:size value="16.0"/>
+        <viz:position x="498.292" y="-41.29" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="2002" target="2064" weight="1" type="directed"/>
+      <edge id="e2" source="2005" target="2013" weight="1" type="directed"/>
+      <edge id="e3" source="2005" target="2025" weight="1" type="directed"/>
+      <edge id="e4" source="2005" target="2032" weight="1" type="directed"/>
+      <edge id="e5" source="2005" target="2034" weight="1" type="directed"/>
+      <edge id="e6" source="2005" target="2049" weight="1" type="directed"/>
+      <edge id="e7" source="2005" target="2054" weight="1" type="directed"/>
+      <edge id="e8" source="2005" target="2066" weight="1" type="directed"/>
+      <edge id="e9" source="2005" target="2067" weight="1" type="directed"/>
+      <edge id="e10" source="2006" target="2064" weight="1" type="directed"/>
+      <edge id="e11" source="2006" target="2067" weight="1" type="directed"/>
+      <edge id="e12" source="2006" target="2076" weight="1" type="directed"/>
+      <edge id="e13" source="2008" target="2030" weight="1" type="directed"/>
+      <edge id="e14" source="2009" target="2013" weight="1" type="directed"/>
+      <edge id="e15" source="2009" target="2021" weight="1" type="directed"/>
+      <edge id="e16" source="2009" target="2032" weight="1" type="directed"/>
+      <edge id="e17" source="2009" target="2035" weight="1" type="directed"/>
+      <edge id="e18" source="2009" target="2036" weight="1" type="directed"/>
+      <edge id="e19" source="2009" target="2041" weight="1" type="directed"/>
+      <edge id="e20" source="2009" target="2049" weight="1" type="directed"/>
+      <edge id="e21" source="2010" target="2005" weight="1" type="directed"/>
+      <edge id="e22" source="2010" target="2011" weight="1" type="directed"/>
+      <edge id="e23" source="2010" target="2016" weight="1" type="directed"/>
+      <edge id="e24" source="2010" target="2018" weight="1" type="directed"/>
+      <edge id="e25" source="2010" target="2054" weight="1" type="directed"/>
+      <edge id="e26" source="2010" target="2064" weight="1" type="directed"/>
+      <edge id="e27" source="2010" target="2071" weight="1" type="directed"/>
+      <edge id="e28" source="2012" target="2048" weight="1" type="directed"/>
+      <edge id="e29" source="2013" target="2021" weight="1" type="directed"/>
+      <edge id="e30" source="2013" target="2032" weight="1" type="directed"/>
+      <edge id="e31" source="2013" target="2035" weight="1" type="directed"/>
+      <edge id="e32" source="2013" target="2041" weight="1" type="directed"/>
+      <edge id="e33" source="2013" target="2049" weight="1" type="directed"/>
+      <edge id="e34" source="2013" target="2054" weight="1" type="directed"/>
+      <edge id="e35" source="2013" target="2061" weight="1" type="directed"/>
+      <edge id="e36" source="2015" target="2067" weight="1" type="directed"/>
+      <edge id="e37" source="2018" target="2005" weight="1" type="directed"/>
+      <edge id="e38" source="2018" target="2010" weight="1" type="directed"/>
+      <edge id="e39" source="2018" target="2062" weight="1" type="directed"/>
+      <edge id="e40" source="2023" target="2025" weight="1" type="directed"/>
+      <edge id="e41" source="2023" target="2066" weight="1" type="directed"/>
+      <edge id="e42" source="2024" target="2026" weight="1" type="directed"/>
+      <edge id="e43" source="2024" target="2047" weight="1" type="directed"/>
+      <edge id="e44" source="2025" target="2028" weight="1" type="directed"/>
+      <edge id="e45" source="2025" target="2035" weight="1" type="directed"/>
+      <edge id="e46" source="2025" target="2050" weight="1" type="directed"/>
+      <edge id="e47" source="2025" target="2054" weight="1" type="directed"/>
+      <edge id="e48" source="2025" target="2066" weight="1" type="directed"/>
+      <edge id="e49" source="2026" target="2011" weight="1" type="directed"/>
+      <edge id="e50" source="2026" target="2019" weight="1" type="directed"/>
+      <edge id="e51" source="2026" target="2024" weight="1" type="directed"/>
+      <edge id="e52" source="2026" target="2027" weight="1" type="directed"/>
+      <edge id="e53" source="2026" target="2047" weight="1" type="directed"/>
+      <edge id="e54" source="2026" target="2048" weight="1" type="directed"/>
+      <edge id="e55" source="2026" target="2058" weight="1" type="directed"/>
+      <edge id="e56" source="2026" target="2068" weight="1" type="directed"/>
+      <edge id="e57" source="2026" target="2069" weight="1" type="directed"/>
+      <edge id="e58" source="2026" target="2075" weight="1" type="directed"/>
+      <edge id="e59" source="2027" target="2007" weight="1" type="directed"/>
+      <edge id="e60" source="2027" target="2011" weight="1" type="directed"/>
+      <edge id="e61" source="2027" target="2024" weight="1" type="directed"/>
+      <edge id="e62" source="2027" target="2046" weight="1" type="directed"/>
+      <edge id="e63" source="2027" target="2047" weight="1" type="directed"/>
+      <edge id="e64" source="2027" target="2048" weight="1" type="directed"/>
+      <edge id="e65" source="2027" target="2058" weight="1" type="directed"/>
+      <edge id="e66" source="2027" target="2061" weight="1" type="directed"/>
+      <edge id="e67" source="2027" target="2075" weight="1" type="directed"/>
+      <edge id="e68" source="2028" target="2032" weight="1" type="directed"/>
+      <edge id="e69" source="2028" target="2035" weight="1" type="directed"/>
+      <edge id="e70" source="2028" target="2050" weight="1" type="directed"/>
+      <edge id="e71" source="2028" target="2061" weight="1" type="directed"/>
+      <edge id="e72" source="2028" target="2066" weight="1" type="directed"/>
+      <edge id="e73" source="2032" target="2005" weight="1" type="directed"/>
+      <edge id="e74" source="2032" target="2009" weight="1" type="directed"/>
+      <edge id="e75" source="2032" target="2013" weight="1" type="directed"/>
+      <edge id="e76" source="2032" target="2021" weight="1" type="directed"/>
+      <edge id="e77" source="2032" target="2025" weight="1" type="directed"/>
+      <edge id="e78" source="2032" target="2028" weight="1" type="directed"/>
+      <edge id="e79" source="2032" target="2035" weight="1" type="directed"/>
+      <edge id="e80" source="2032" target="2036" weight="1" type="directed"/>
+      <edge id="e81" source="2032" target="2041" weight="1" type="directed"/>
+      <edge id="e82" source="2032" target="2049" weight="1" type="directed"/>
+      <edge id="e83" source="2032" target="2050" weight="1" type="directed"/>
+      <edge id="e84" source="2032" target="2054" weight="1" type="directed"/>
+      <edge id="e85" source="2032" target="2066" weight="1" type="directed"/>
+      <edge id="e86" source="2032" target="2067" weight="1" type="directed"/>
+      <edge id="e87" source="2034" target="2005" weight="1" type="directed"/>
+      <edge id="e88" source="2034" target="2007" weight="1" type="directed"/>
+      <edge id="e89" source="2034" target="2011" weight="1" type="directed"/>
+      <edge id="e90" source="2034" target="2013" weight="1" type="directed"/>
+      <edge id="e91" source="2034" target="2021" weight="1" type="directed"/>
+      <edge id="e92" source="2034" target="2023" weight="1" type="directed"/>
+      <edge id="e93" source="2034" target="2025" weight="1" type="directed"/>
+      <edge id="e94" source="2034" target="2028" weight="1" type="directed"/>
+      <edge id="e95" source="2034" target="2032" weight="1" type="directed"/>
+      <edge id="e96" source="2034" target="2035" weight="1" type="directed"/>
+      <edge id="e97" source="2034" target="2041" weight="1" type="directed"/>
+      <edge id="e98" source="2034" target="2049" weight="1" type="directed"/>
+      <edge id="e99" source="2034" target="2050" weight="1" type="directed"/>
+      <edge id="e100" source="2034" target="2054" weight="1" type="directed"/>
+      <edge id="e101" source="2034" target="2061" weight="1" type="directed"/>
+      <edge id="e102" source="2034" target="2066" weight="1" type="directed"/>
+      <edge id="e103" source="2034" target="2067" weight="1" type="directed"/>
+      <edge id="e104" source="2034" target="2069" weight="1" type="directed"/>
+      <edge id="e105" source="2035" target="2013" weight="1" type="directed"/>
+      <edge id="e106" source="2035" target="2021" weight="1" type="directed"/>
+      <edge id="e107" source="2035" target="2028" weight="1" type="directed"/>
+      <edge id="e108" source="2035" target="2032" weight="1" type="directed"/>
+      <edge id="e109" source="2035" target="2049" weight="1" type="directed"/>
+      <edge id="e110" source="2038" target="2049" weight="1" type="directed"/>
+      <edge id="e111" source="2039" target="2004" weight="1" type="directed"/>
+      <edge id="e112" source="2039" target="2044" weight="1" type="directed"/>
+      <edge id="e113" source="2039" target="2045" weight="1" type="directed"/>
+      <edge id="e114" source="2039" target="2061" weight="1" type="directed"/>
+      <edge id="e115" source="2039" target="2068" weight="1" type="directed"/>
+      <edge id="e116" source="2041" target="2013" weight="1" type="directed"/>
+      <edge id="e117" source="2041" target="2021" weight="1" type="directed"/>
+      <edge id="e118" source="2041" target="2032" weight="1" type="directed"/>
+      <edge id="e119" source="2041" target="2035" weight="1" type="directed"/>
+      <edge id="e120" source="2041" target="2049" weight="1" type="directed"/>
+      <edge id="e121" source="2041" target="2054" weight="1" type="directed"/>
+      <edge id="e122" source="2042" target="2017" weight="1" type="directed"/>
+      <edge id="e123" source="2043" target="2034" weight="1" type="directed"/>
+      <edge id="e124" source="2043" target="2041" weight="1" type="directed"/>
+      <edge id="e125" source="2044" target="2043" weight="1" type="directed"/>
+      <edge id="e126" source="2044" target="2051" weight="1" type="directed"/>
+      <edge id="e127" source="2044" target="2060" weight="1" type="directed"/>
+      <edge id="e128" source="2045" target="2004" weight="1" type="directed"/>
+      <edge id="e129" source="2045" target="2033" weight="1" type="directed"/>
+      <edge id="e130" source="2045" target="2039" weight="1" type="directed"/>
+      <edge id="e131" source="2046" target="2027" weight="1" type="directed"/>
+      <edge id="e132" source="2046" target="2048" weight="1" type="directed"/>
+      <edge id="e133" source="2046" target="2058" weight="1" type="directed"/>
+      <edge id="e134" source="2046" target="2061" weight="1" type="directed"/>
+      <edge id="e135" source="2046" target="2069" weight="1" type="directed"/>
+      <edge id="e136" source="2046" target="2075" weight="1" type="directed"/>
+      <edge id="e137" source="2047" target="2024" weight="1" type="directed"/>
+      <edge id="e138" source="2047" target="2027" weight="1" type="directed"/>
+      <edge id="e139" source="2047" target="2061" weight="1" type="directed"/>
+      <edge id="e140" source="2047" target="2069" weight="1" type="directed"/>
+      <edge id="e141" source="2048" target="2019" weight="1" type="directed"/>
+      <edge id="e142" source="2048" target="2027" weight="1" type="directed"/>
+      <edge id="e143" source="2048" target="2047" weight="1" type="directed"/>
+      <edge id="e144" source="2048" target="2061" weight="1" type="directed"/>
+      <edge id="e145" source="2048" target="2069" weight="1" type="directed"/>
+      <edge id="e146" source="2048" target="2075" weight="1" type="directed"/>
+      <edge id="e147" source="2049" target="2013" weight="1" type="directed"/>
+      <edge id="e148" source="2049" target="2035" weight="1" type="directed"/>
+      <edge id="e149" source="2049" target="2038" weight="1" type="directed"/>
+      <edge id="e150" source="2049" target="2041" weight="1" type="directed"/>
+      <edge id="e151" source="2054" target="2005" weight="1" type="directed"/>
+      <edge id="e152" source="2054" target="2025" weight="1" type="directed"/>
+      <edge id="e153" source="2054" target="2032" weight="1" type="directed"/>
+      <edge id="e154" source="2055" target="2009" weight="1" type="directed"/>
+      <edge id="e155" source="2055" target="2013" weight="1" type="directed"/>
+      <edge id="e156" source="2055" target="2021" weight="1" type="directed"/>
+      <edge id="e157" source="2055" target="2030" weight="1" type="directed"/>
+      <edge id="e158" source="2055" target="2032" weight="1" type="directed"/>
+      <edge id="e159" source="2055" target="2035" weight="1" type="directed"/>
+      <edge id="e160" source="2055" target="2036" weight="1" type="directed"/>
+      <edge id="e161" source="2055" target="2041" weight="1" type="directed"/>
+      <edge id="e162" source="2055" target="2049" weight="1" type="directed"/>
+      <edge id="e163" source="2055" target="2064" weight="1" type="directed"/>
+      <edge id="e164" source="2055" target="2074" weight="1" type="directed"/>
+      <edge id="e165" source="2055" target="2076" weight="1" type="directed"/>
+      <edge id="e166" source="2057" target="2030" weight="1" type="directed"/>
+      <edge id="e167" source="2057" target="2032" weight="1" type="directed"/>
+      <edge id="e168" source="2058" target="2019" weight="1" type="directed"/>
+      <edge id="e169" source="2058" target="2024" weight="1" type="directed"/>
+      <edge id="e170" source="2058" target="2027" weight="1" type="directed"/>
+      <edge id="e171" source="2058" target="2047" weight="1" type="directed"/>
+      <edge id="e172" source="2058" target="2069" weight="1" type="directed"/>
+      <edge id="e173" source="2058" target="2075" weight="1" type="directed"/>
+      <edge id="e174" source="2059" target="2037" weight="1" type="directed"/>
+      <edge id="e175" source="2060" target="2002" weight="1" type="directed"/>
+      <edge id="e176" source="2060" target="2006" weight="1" type="directed"/>
+      <edge id="e177" source="2060" target="2023" weight="1" type="directed"/>
+      <edge id="e178" source="2060" target="2044" weight="1" type="directed"/>
+      <edge id="e179" source="2060" target="2045" weight="1" type="directed"/>
+      <edge id="e180" source="2060" target="2051" weight="1" type="directed"/>
+      <edge id="e181" source="2060" target="2061" weight="1" type="directed"/>
+      <edge id="e182" source="2060" target="2076" weight="1" type="directed"/>
+      <edge id="e183" source="2068" target="2007" weight="1" type="directed"/>
+      <edge id="e184" source="2068" target="2011" weight="1" type="directed"/>
+      <edge id="e185" source="2068" target="2024" weight="1" type="directed"/>
+      <edge id="e186" source="2068" target="2027" weight="1" type="directed"/>
+      <edge id="e187" source="2068" target="2028" weight="1" type="directed"/>
+      <edge id="e188" source="2068" target="2039" weight="1" type="directed"/>
+      <edge id="e189" source="2068" target="2041" weight="1" type="directed"/>
+      <edge id="e190" source="2068" target="2045" weight="1" type="directed"/>
+      <edge id="e191" source="2068" target="2046" weight="1" type="directed"/>
+      <edge id="e192" source="2068" target="2047" weight="1" type="directed"/>
+      <edge id="e193" source="2068" target="2048" weight="1" type="directed"/>
+      <edge id="e194" source="2068" target="2058" weight="1" type="directed"/>
+      <edge id="e195" source="2068" target="2061" weight="1" type="directed"/>
+      <edge id="e196" source="2068" target="2069" weight="1" type="directed"/>
+      <edge id="e197" source="2071" target="2002" weight="1" type="directed"/>
+      <edge id="e198" source="2071" target="2011" weight="1" type="directed"/>
+      <edge id="e199" source="2071" target="2028" weight="1" type="directed"/>
+      <edge id="e200" source="2071" target="2054" weight="1" type="directed"/>
+      <edge id="e201" source="2071" target="2064" weight="1" type="directed"/>
+      <edge id="e202" source="2073" target="2001" weight="1" type="directed"/>
+      <edge id="e203" source="2073" target="2030" weight="1" type="directed"/>
+      <edge id="e204" source="2073" target="2036" weight="1" type="directed"/>
+      <edge id="e205" source="2073" target="2038" weight="1" type="directed"/>
+      <edge id="e206" source="2073" target="2041" weight="1" type="directed"/>
+      <edge id="e207" source="2073" target="2049" weight="1" type="directed"/>
+      <edge id="e208" source="2073" target="2057" weight="1" type="directed"/>
+      <edge id="e209" source="2073" target="2064" weight="1" type="directed"/>
+      <edge id="e210" source="2074" target="2005" weight="1" type="directed"/>
+      <edge id="e211" source="2074" target="2007" weight="1" type="directed"/>
+      <edge id="e212" source="2074" target="2013" weight="1" type="directed"/>
+      <edge id="e213" source="2074" target="2022" weight="1" type="directed"/>
+      <edge id="e214" source="2074" target="2033" weight="1" type="directed"/>
+      <edge id="e215" source="2074" target="2041" weight="1" type="directed"/>
+      <edge id="e216" source="2074" target="2049" weight="1" type="directed"/>
+      <edge id="e217" source="2074" target="2052" weight="1" type="directed"/>
+      <edge id="e218" source="2074" target="2054" weight="1" type="directed"/>
+      <edge id="e219" source="2074" target="2058" weight="1" type="directed"/>
+      <edge id="e220" source="2074" target="2064" weight="1" type="directed"/>
+      <edge id="e221" source="2074" target="2076" weight="1" type="directed"/>
+      <edge id="e222" source="2075" target="2011" weight="1" type="directed"/>
+      <edge id="e223" source="2075" target="2026" weight="1" type="directed"/>
+      <edge id="e224" source="2075" target="2027" weight="1" type="directed"/>
+      <edge id="e225" source="2075" target="2046" weight="1" type="directed"/>
+      <edge id="e226" source="2075" target="2047" weight="1" type="directed"/>
+      <edge id="e227" source="2075" target="2048" weight="1" type="directed"/>
+      <edge id="e228" source="2075" target="2058" weight="1" type="directed"/>
+      <edge id="e229" source="2075" target="2069" weight="1" type="directed"/>
+    </edges>
+  </graph>
+</gexf>
