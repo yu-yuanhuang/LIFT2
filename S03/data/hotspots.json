@@ -1,0 +1,108 @@
+{
+  "part1": {
+    "config": [
+      {
+        "title": "3-1課程與班級學習支持機制",
+        "x": 21,
+        "y": 30,
+        "md": "data/md/part1/config/support-01.md"
+      },
+      {
+        "title": "3-4多元文化氣氛",
+        "x": 49,
+        "y": 44,
+        "md": "data/md/part1/config/support-02.md"
+      },
+      {
+        "title": "3-7學生回應能力支持",
+        "x": 74,
+        "y": 27,
+        "md": "data/md/part1/config/support-03.md"
+      }
+    ],
+    "access": [
+      {
+        "title": "學生實際獲取情形：課堂支持",
+        "x": 28,
+        "y": 55,
+        "md": "data/md/part1/access/access-01.md"
+      },
+      {
+        "title": "學生實際獲取情形：資源可近性",
+        "x": 55,
+        "y": 34,
+        "md": "data/md/part1/access/access-02.md"
+      },
+      {
+        "title": "學生實際獲取情形：教師回應與自信",
+        "x": 77,
+        "y": 58,
+        "md": "data/md/part1/access/access-03.md"
+      }
+    ],
+    "both": [
+      {
+        "title": "配置與獲取對照：支持機制",
+        "x": 20,
+        "y": 36,
+        "md": "data/md/part1/both/both-01.md"
+      },
+      {
+        "title": "配置與獲取對照：文化與氣氛",
+        "x": 49,
+        "y": 28,
+        "md": "data/md/part1/both/both-02.md"
+      },
+      {
+        "title": "配置與獲取對照：學生回應",
+        "x": 72,
+        "y": 52,
+        "md": "data/md/part1/both/both-03.md"
+      }
+    ]
+  },
+  "part2": {
+    "default": [
+      {
+        "title": "課程教學支持",
+        "x": 23,
+        "y": 34,
+        "md": "data/md/part2/teaching.md"
+      },
+      {
+        "title": "協作與資源運作",
+        "x": 52,
+        "y": 48,
+        "md": "data/md/part2/collaboration.md"
+      },
+      {
+        "title": "學校文化與氛圍",
+        "x": 78,
+        "y": 28,
+        "md": "data/md/part2/culture.md"
+      }
+    ]
+  },
+  "part3": {
+    "default": [
+      {
+        "title": "核心節點",
+        "x": 28,
+        "y": 31,
+        "md": "data/md/part3/core-node.md"
+      },
+      {
+        "title": "橋接節點",
+        "x": 56,
+        "y": 52,
+        "md": "data/md/part3/bridge-node.md"
+      },
+      {
+        "title": "外圍節點",
+        "x": 78,
+        "y": 34,
+        "md": "data/md/part3/peripheral-node.md"
+      }
+    ]
+  }
+}

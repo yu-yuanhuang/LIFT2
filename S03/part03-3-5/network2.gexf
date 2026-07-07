@@ -1,0 +1,3784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI GPT-5.4 Thinking</creator>
+    <description>03_板橋高中_校內網絡_同仁支持鼓勵（一模有向網路；節點以ID顯示；行政團隊=1為行政身分，0為教師身分；節點大小依indegree）</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="03_板橋高中_校內網絡_同仁支持鼓勵">
+    <attributes class="node" mode="static">
+      <attribute id="ID" title="ID" type="string"/>
+      <attribute id="身分別" title="身分別" type="string"/>
+      <attribute id="行政團隊" title="行政團隊" type="integer"/>
+      <attribute id="indegree" title="indegree" type="integer"/>
+      <attribute id="outdegree" title="outdegree" type="integer"/>
+      <attribute id="degree" title="degree" type="integer"/>
+      <attribute id="連結對象" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="方向標示" title="方向標示" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="3001" label="3001">
+        <attvalues>
+          <attvalue for="ID" value="3001"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="連結對象" value="3010；3013；3014；3025；3030；3031；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3002" label="3002">
+        <attvalues>
+          <attvalue for="ID" value="3002"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="13"/>
+          <attvalue for="連結對象" value="3010；3014；3025；3033；3010；3011；3013；3014；3025；3031；3041；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="14.3"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3003" label="3003">
+        <attvalues>
+          <attvalue for="ID" value="3003"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="18"/>
+          <attvalue for="degree" value="27"/>
+          <attvalue for="連結對象" value="3005；3007；3009；3012；3014；3016；3023；3025；3026；3029；3032；3033；3034；3039；3040；3042；3044；3046；3005；3010；3013；3015；3025；3026；3041；3044；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="14.3"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3004" label="3004">
+        <attvalues>
+          <attvalue for="ID" value="3004"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="11"/>
+          <attvalue for="連結對象" value="3006；3015；3025；3026；3030；3033；3040；3010；3025；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="10.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3005" label="3005">
+        <attvalues>
+          <attvalue for="ID" value="3005"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="12"/>
+          <attvalue for="outdegree" value="15"/>
+          <attvalue for="degree" value="27"/>
+          <attvalue for="連結對象" value="3003；3003；3007；3012；3015；3017；3025；3026；3032；3033；3034；3039；3040；3042；3043；3044；3009；3010；3011；3013；3015；3025；3026；3036；3039；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="16.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3006" label="3006">
+        <attvalues>
+          <attvalue for="ID" value="3006"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="13"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="13"/>
+          <attvalue for="連結對象" value="3004；3009；3010；3011；3013；3025；3026；3030；3031；3036；3041；3044；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="17.1"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3007" label="3007">
+        <attvalues>
+          <attvalue for="ID" value="3007"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="11"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="15"/>
+          <attvalue for="連結對象" value="3003；3005；3020；3025；3029；3046；3010；3013；3014；3020；3025；3026；3039；3041；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="15.7"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3008" label="3008">
+        <attvalues>
+          <attvalue for="ID" value="3008"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="連結對象" value="3010；3025；3030；3036；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="12.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3009" label="3009">
+        <attvalues>
+          <attvalue for="ID" value="3009"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="20"/>
+          <attvalue for="degree" value="28"/>
+          <attvalue for="連結對象" value="3003；3005；3006；3010；3011；3012；3018；3021；3024；3025；3026；3029；3030；3034；3039；3040；3041；3042；3043；3045；3046；3010；3011；3013；3025；3030；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3010" label="3010">
+        <attvalues>
+          <attvalue for="ID" value="3010"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="45"/>
+          <attvalue for="degree" value="53"/>
+          <attvalue for="連結對象" value="3002；3009；3001；3002；3003；3004；3005；3006；3007；3008；3009；3011；3012；3013；3014；3015；3016；3017；3018；3019；3020；3021；3022；3023；3024；3025；3026；3027；3028；3029；3030；3031；3032；3033；3034；3035；3036；3037；3038；3039；3040；3041；3042；3043；3044；3045；3046；3011；3013；3014；3015；3025；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3011" label="3011">
+        <attvalues>
+          <attvalue for="ID" value="3011"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="19"/>
+          <attvalue for="degree" value="28"/>
+          <attvalue for="連結對象" value="3009；3010；3002；3005；3006；3009；3010；3014；3015；3016；3017；3021；3026；3027；3029；3030；3033；3034；3037；3040；3042；3013；3025；3026；3030；3036；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="14.3"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3012" label="3012">
+        <attvalues>
+          <attvalue for="ID" value="3012"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="11"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="19"/>
+          <attvalue for="連結對象" value="3003；3005；3009；3010；3014；3015；3025；3026；3033；3034；3039；3042；3015；3025；3026；3030；3039；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="15.7"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3013" label="3013">
+        <attvalues>
+          <attvalue for="ID" value="3013"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="36"/>
+          <attvalue for="degree" value="44"/>
+          <attvalue for="連結對象" value="3010；3001；3002；3003；3005；3006；3007；3009；3010；3011；3014；3015；3017；3018；3019；3020；3021；3022；3023；3025；3026；3027；3030；3031；3032；3033；3034；3035；3036；3037；3039；3040；3041；3042；3044；3045；3046；3014；3025；3030；3031；3041；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3014" label="3014">
+        <attvalues>
+          <attvalue for="ID" value="3014"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="13"/>
+          <attvalue for="outdegree" value="21"/>
+          <attvalue for="degree" value="34"/>
+          <attvalue for="連結對象" value="3002；3003；3010；3011；3012；3013；3001；3002；3007；3010；3013；3015；3017；3019；3020；3022；3023；3025；3027；3031；3033；3035；3036；3037；3040；3044；3046；3015；3025；3031；3039；3041；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="17.1"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3015" label="3015">
+        <attvalues>
+          <attvalue for="ID" value="3015"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="12"/>
+          <attvalue for="outdegree" value="13"/>
+          <attvalue for="degree" value="25"/>
+          <attvalue for="連結對象" value="3004；3005；3010；3011；3012；3013；3014；3003；3005；3010；3012；3014；3017；3025；3026；3032；3033；3034；3039；3042；3025；3026；3030；3041；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="16.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3016" label="3016">
+        <attvalues>
+          <attvalue for="ID" value="3016"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="連結對象" value="3003；3010；3011；3025；3026；3030；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3017" label="3017">
+        <attvalues>
+          <attvalue for="ID" value="3017"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="10"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="連結對象" value="3005；3010；3011；3013；3014；3015；3025；3026；3041；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="15.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3018" label="3018">
+        <attvalues>
+          <attvalue for="ID" value="3018"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="連結對象" value="3009；3010；3013；3025；3030；3036；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3019" label="3019">
+        <attvalues>
+          <attvalue for="ID" value="3019"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="連結對象" value="3010；3013；3014；3025；3030；3031；3041；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3020" label="3020">
+        <attvalues>
+          <attvalue for="ID" value="3020"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="連結對象" value="3007；3010；3013；3014；3007；3044；3046；3025；3030；3031；3041；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="14.3"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3021" label="3021">
+        <attvalues>
+          <attvalue for="ID" value="3021"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="11"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="11"/>
+          <attvalue for="連結對象" value="3009；3010；3011；3013；3025；3026；3030；3031；3039；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="15.7"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3022" label="3022">
+        <attvalues>
+          <attvalue for="ID" value="3022"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="9"/>
+          <attvalue for="連結對象" value="3010；3013；3014；3025；3030；3031；3041；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="14.3"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3023" label="3023">
+        <attvalues>
+          <attvalue for="ID" value="3023"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="連結對象" value="3003；3010；3013；3014；3025；3031；3041；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3024" label="3024">
+        <attvalues>
+          <attvalue for="ID" value="3024"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="連結對象" value="3009；3010；3030；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="11.5"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3025" label="3025">
+        <attvalues>
+          <attvalue for="ID" value="3025"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="19"/>
+          <attvalue for="outdegree" value="44"/>
+          <attvalue for="degree" value="63"/>
+          <attvalue for="連結對象" value="3002；3003；3004；3005；3007；3009；3010；3012；3013；3014；3015；3001；3002；3003；3004；3005；3006；3007；3008；3009；3010；3011；3012；3013；3014；3015；3016；3017；3018；3019；3020；3021；3022；3023；3026；3027；3028；3029；3030；3031；3032；3033；3034；3035；3036；3037；3038；3039；3040；3041；3042；3043；3044；3045；3046；3026；3030；3031；3039；3041；3043；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="21.3"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3026" label="3026">
+        <attvalues>
+          <attvalue for="ID" value="3026"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="15"/>
+          <attvalue for="outdegree" value="17"/>
+          <attvalue for="degree" value="32"/>
+          <attvalue for="連結對象" value="3003；3004；3005；3009；3010；3011；3012；3013；3015；3025；3003；3005；3006；3007；3011；3012；3015；3016；3017；3021；3025；3029；3030；3032；3033；3039；3042；3030；3036；3039；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="18.5"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3027" label="3027">
+        <attvalues>
+          <attvalue for="ID" value="3027"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="9"/>
+          <attvalue for="連結對象" value="3010；3011；3013；3014；3025；3030；3039；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="14.3"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3028" label="3028">
+        <attvalues>
+          <attvalue for="ID" value="3028"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="連結對象" value="3010；3025；3030；3036；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="12.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3029" label="3029">
+        <attvalues>
+          <attvalue for="ID" value="3029"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="10"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="連結對象" value="3003；3007；3009；3010；3011；3025；3026；3030；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="15.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3030" label="3030">
+        <attvalues>
+          <attvalue for="ID" value="3030"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="31"/>
+          <attvalue for="degree" value="40"/>
+          <attvalue for="連結對象" value="3004；3009；3010；3011；3013；3025；3026；3001；3006；3008；3009；3011；3012；3013；3015；3016；3018；3019；3020；3021；3022；3024；3025；3026；3027；3028；3029；3032；3033；3034；3037；3038；3039；3040；3041；3042；3043；3045；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="14.3"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3031" label="3031">
+        <attvalues>
+          <attvalue for="ID" value="3031"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="16"/>
+          <attvalue for="degree" value="22"/>
+          <attvalue for="連結對象" value="3010；3013；3014；3025；3001；3002；3006；3013；3014；3019；3020；3021；3022；3023；3025；3032；3033；3035；3037；3044；3041；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="12.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3032" label="3032">
+        <attvalues>
+          <attvalue for="ID" value="3032"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="11"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="11"/>
+          <attvalue for="連結對象" value="3003；3005；3010；3013；3015；3025；3026；3030；3031；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="15.7"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3033" label="3033">
+        <attvalues>
+          <attvalue for="ID" value="3033"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="20"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="20"/>
+          <attvalue for="連結對象" value="3002；3003；3004；3005；3010；3011；3012；3013；3014；3015；3025；3026；3030；3031；3036；3037；3041；3043；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="22.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3034" label="3034">
+        <attvalues>
+          <attvalue for="ID" value="3034"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="13"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="13"/>
+          <attvalue for="連結對象" value="3003；3005；3009；3010；3011；3012；3013；3015；3025；3030；3036；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="17.1"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3035" label="3035">
+        <attvalues>
+          <attvalue for="ID" value="3035"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="連結對象" value="3010；3013；3014；3025；3031；3041；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="13.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3036" label="3036">
+        <attvalues>
+          <attvalue for="ID" value="3036"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="11"/>
+          <attvalue for="degree" value="17"/>
+          <attvalue for="連結對象" value="3010；3013；3014；3025；3005；3006；3008；3011；3018；3026；3028；3033；3034；3037；3040；3041；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="12.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3037" label="3037">
+        <attvalues>
+          <attvalue for="ID" value="3037"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="13"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="連結對象" value="3010；3011；3013；3014；3025；3030；3031；3036；3033；3039；3041；3043；3044；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="17.1"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3038" label="3038">
+        <attvalues>
+          <attvalue for="ID" value="3038"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="連結對象" value="3010；3025；3030；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="11.5"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3039" label="3039">
+        <attvalues>
+          <attvalue for="ID" value="3039"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="12"/>
+          <attvalue for="outdegree" value="9"/>
+          <attvalue for="degree" value="21"/>
+          <attvalue for="連結對象" value="3003；3005；3009；3010；3012；3013；3015；3025；3026；3030；3005；3007；3012；3014；3021；3025；3026；3027；3037；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="16.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3040" label="3040">
+        <attvalues>
+          <attvalue for="ID" value="3040"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="13"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="13"/>
+          <attvalue for="連結對象" value="3003；3004；3005；3009；3010；3011；3013；3014；3025；3030；3036；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="17.1"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3041" label="3041">
+        <attvalues>
+          <attvalue for="ID" value="3041"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="43"/>
+          <attvalue for="degree" value="49"/>
+          <attvalue for="連結對象" value="3009；3010；3013；3025；3030；3002；3003；3004；3005；3006；3007；3008；3009；3011；3012；3013；3014；3015；3016；3017；3018；3019；3020；3021；3022；3023；3024；3025；3026；3027；3028；3029；3030；3031；3032；3033；3034；3035；3036；3037；3038；3039；3040；3042；3043；3044；3045；3046；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="12.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3042" label="3042">
+        <attvalues>
+          <attvalue for="ID" value="3042"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="13"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="13"/>
+          <attvalue for="連結對象" value="3003；3005；3009；3010；3011；3012；3013；3015；3025；3026；3030；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="17.1"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3043" label="3043">
+        <attvalues>
+          <attvalue for="ID" value="3043"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="11"/>
+          <attvalue for="連結對象" value="3005；3009；3010；3025；3030；3041；3025；3033；3037；3046；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="12.9"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3044" label="3044">
+        <attvalues>
+          <attvalue for="ID" value="3044"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="10"/>
+          <attvalue for="outdegree" value="11"/>
+          <attvalue for="degree" value="21"/>
+          <attvalue for="連結對象" value="3003；3005；3010；3013；3014；3020；3025；3031；3041；3001；3002；3003；3006；3013；3014；3022；3025；3033；3035；3037；3046"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="15.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3045" label="3045">
+        <attvalues>
+          <attvalue for="ID" value="3045"/>
+          <attvalue for="身分別" value="教師身分"/>
+          <attvalue for="行政團隊" value="0"/>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="7"/>
+          <attvalue for="連結對象" value="3009；3010；3013；3025；3030；3041；3046"/>
+        </attvalues>
+        <viz:color r="124" g="144" b="169"/>
+        <viz:size value="12.9"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="3046" label="3046">
+        <attvalues>
+          <attvalue for="ID" value="3046"/>
+          <attvalue for="身分別" value="行政身分"/>
+          <attvalue for="行政團隊" value="1"/>
+          <attvalue for="indegree" value="10"/>
+          <attvalue for="outdegree" value="45"/>
+          <attvalue for="degree" value="55"/>
+          <attvalue for="連結對象" value="3003；3007；3009；3010；3013；3014；3020；3025；3041；3043；3001；3002；3003；3004；3005；3006；3007；3008；3009；3010；3011；3012；3013；3014；3015；3016；3017；3018；3019；3020；3021；3022；3023；3024；3025；3026；3027；3028；3029；3030；3031；3032；3033；3034；3035；3036；3037；3038；3039；3040；3041；3042；3043；3044；3045"/>
+        </attvalues>
+        <viz:color r="196" g="131" b="127"/>
+        <viz:size value="15.0"/>
+        <viz:shape value="disc"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="3002" target="3010" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e2" source="3002" target="3014" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e3" source="3002" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e4" source="3002" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e5" source="3003" target="3005" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e6" source="3003" target="3007" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e7" source="3003" target="3009" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e8" source="3003" target="3012" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e9" source="3003" target="3014" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e10" source="3003" target="3016" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e11" source="3003" target="3023" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e12" source="3003" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e13" source="3003" target="3026" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e14" source="3003" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e15" source="3003" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e16" source="3003" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e17" source="3003" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e18" source="3003" target="3039" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e19" source="3003" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e20" source="3003" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e21" source="3003" target="3044" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e22" source="3003" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e23" source="3004" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e24" source="3004" target="3015" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e25" source="3004" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e26" source="3004" target="3026" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e27" source="3004" target="3030" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e28" source="3004" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e29" source="3004" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e30" source="3005" target="3003" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e31" source="3005" target="3007" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e32" source="3005" target="3012" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e33" source="3005" target="3015" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e34" source="3005" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e35" source="3005" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e36" source="3005" target="3026" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e37" source="3005" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e38" source="3005" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e39" source="3005" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e40" source="3005" target="3039" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e41" source="3005" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e42" source="3005" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e43" source="3005" target="3043" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e44" source="3005" target="3044" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e45" source="3007" target="3020" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e46" source="3007" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e47" source="3007" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e48" source="3007" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e49" source="3009" target="3005" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e50" source="3009" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e51" source="3009" target="3010" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e52" source="3009" target="3011" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e53" source="3009" target="3012" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e54" source="3009" target="3018" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e55" source="3009" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e56" source="3009" target="3024" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e57" source="3009" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e58" source="3009" target="3026" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e59" source="3009" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e60" source="3009" target="3030" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e61" source="3009" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e62" source="3009" target="3039" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e63" source="3009" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e64" source="3009" target="3041" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e65" source="3009" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e66" source="3009" target="3043" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e67" source="3009" target="3045" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e68" source="3009" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e69" source="3010" target="3001" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e70" source="3010" target="3002" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e71" source="3010" target="3003" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e72" source="3010" target="3004" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e73" source="3010" target="3005" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e74" source="3010" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e75" source="3010" target="3007" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e76" source="3010" target="3008" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e77" source="3010" target="3009" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e78" source="3010" target="3011" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e79" source="3010" target="3012" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e80" source="3010" target="3013" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e81" source="3010" target="3014" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e82" source="3010" target="3015" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e83" source="3010" target="3016" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e84" source="3010" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e85" source="3010" target="3018" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e86" source="3010" target="3019" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e87" source="3010" target="3020" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e88" source="3010" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e89" source="3010" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e90" source="3010" target="3023" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e91" source="3010" target="3024" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e92" source="3010" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e93" source="3010" target="3026" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e94" source="3010" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e95" source="3010" target="3028" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e96" source="3010" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e97" source="3010" target="3030" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e98" source="3010" target="3031" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e99" source="3010" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e100" source="3010" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e101" source="3010" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e102" source="3010" target="3035" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e103" source="3010" target="3036" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e104" source="3010" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e105" source="3010" target="3038" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e106" source="3010" target="3039" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e107" source="3010" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e108" source="3010" target="3041" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e109" source="3010" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e110" source="3010" target="3043" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e111" source="3010" target="3044" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e112" source="3010" target="3045" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e113" source="3010" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e114" source="3011" target="3002" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e115" source="3011" target="3005" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e116" source="3011" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e117" source="3011" target="3009" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e118" source="3011" target="3010" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e119" source="3011" target="3014" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e120" source="3011" target="3015" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e121" source="3011" target="3016" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e122" source="3011" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e123" source="3011" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e124" source="3011" target="3026" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e125" source="3011" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e126" source="3011" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e127" source="3011" target="3030" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e128" source="3011" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e129" source="3011" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e130" source="3011" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e131" source="3011" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e132" source="3011" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e133" source="3012" target="3014" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e134" source="3012" target="3015" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e135" source="3012" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e136" source="3012" target="3026" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e137" source="3012" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e138" source="3012" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e139" source="3012" target="3039" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e140" source="3012" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e141" source="3013" target="3001" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e142" source="3013" target="3002" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e143" source="3013" target="3003" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e144" source="3013" target="3005" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e145" source="3013" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e146" source="3013" target="3007" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e147" source="3013" target="3009" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e148" source="3013" target="3010" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e149" source="3013" target="3011" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e150" source="3013" target="3014" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e151" source="3013" target="3015" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e152" source="3013" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e153" source="3013" target="3018" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e154" source="3013" target="3019" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e155" source="3013" target="3020" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e156" source="3013" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e157" source="3013" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e158" source="3013" target="3023" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e159" source="3013" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e160" source="3013" target="3026" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e161" source="3013" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e162" source="3013" target="3030" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e163" source="3013" target="3031" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e164" source="3013" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e165" source="3013" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e166" source="3013" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e167" source="3013" target="3035" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e168" source="3013" target="3036" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e169" source="3013" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e170" source="3013" target="3039" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e171" source="3013" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e172" source="3013" target="3041" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e173" source="3013" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e174" source="3013" target="3044" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e175" source="3013" target="3045" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e176" source="3013" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e177" source="3014" target="3001" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e178" source="3014" target="3002" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e179" source="3014" target="3007" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e180" source="3014" target="3010" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e181" source="3014" target="3013" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e182" source="3014" target="3015" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e183" source="3014" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e184" source="3014" target="3019" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e185" source="3014" target="3020" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e186" source="3014" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e187" source="3014" target="3023" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e188" source="3014" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e189" source="3014" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e190" source="3014" target="3031" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e191" source="3014" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e192" source="3014" target="3035" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e193" source="3014" target="3036" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e194" source="3014" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e195" source="3014" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e196" source="3014" target="3044" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e197" source="3014" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e198" source="3015" target="3003" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e199" source="3015" target="3005" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e200" source="3015" target="3010" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e201" source="3015" target="3012" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e202" source="3015" target="3014" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e203" source="3015" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e204" source="3015" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e205" source="3015" target="3026" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e206" source="3015" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e207" source="3015" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e208" source="3015" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e209" source="3015" target="3039" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e210" source="3015" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e211" source="3020" target="3007" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e212" source="3020" target="3044" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e213" source="3020" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e214" source="3025" target="3001" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e215" source="3025" target="3002" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e216" source="3025" target="3003" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e217" source="3025" target="3004" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e218" source="3025" target="3005" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e219" source="3025" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e220" source="3025" target="3007" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e221" source="3025" target="3008" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e222" source="3025" target="3009" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e223" source="3025" target="3010" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e224" source="3025" target="3011" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e225" source="3025" target="3012" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e226" source="3025" target="3013" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e227" source="3025" target="3014" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e228" source="3025" target="3015" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e229" source="3025" target="3016" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e230" source="3025" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e231" source="3025" target="3018" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e232" source="3025" target="3019" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e233" source="3025" target="3020" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e234" source="3025" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e235" source="3025" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e236" source="3025" target="3023" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e237" source="3025" target="3026" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e238" source="3025" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e239" source="3025" target="3028" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e240" source="3025" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e241" source="3025" target="3030" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e242" source="3025" target="3031" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e243" source="3025" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e244" source="3025" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e245" source="3025" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e246" source="3025" target="3035" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e247" source="3025" target="3036" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e248" source="3025" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e249" source="3025" target="3038" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e250" source="3025" target="3039" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e251" source="3025" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e252" source="3025" target="3041" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e253" source="3025" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e254" source="3025" target="3043" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e255" source="3025" target="3044" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e256" source="3025" target="3045" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e257" source="3025" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e258" source="3026" target="3003" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e259" source="3026" target="3005" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e260" source="3026" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e261" source="3026" target="3007" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e262" source="3026" target="3011" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e263" source="3026" target="3012" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e264" source="3026" target="3015" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e265" source="3026" target="3016" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e266" source="3026" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e267" source="3026" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e268" source="3026" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e269" source="3026" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e270" source="3026" target="3030" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e271" source="3026" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e272" source="3026" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e273" source="3026" target="3039" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e274" source="3026" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e275" source="3030" target="3001" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e276" source="3030" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e277" source="3030" target="3008" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e278" source="3030" target="3009" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e279" source="3030" target="3011" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e280" source="3030" target="3012" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e281" source="3030" target="3013" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e282" source="3030" target="3015" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e283" source="3030" target="3016" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e284" source="3030" target="3018" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e285" source="3030" target="3019" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e286" source="3030" target="3020" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e287" source="3030" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e288" source="3030" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e289" source="3030" target="3024" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e290" source="3030" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e291" source="3030" target="3026" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e292" source="3030" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e293" source="3030" target="3028" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e294" source="3030" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e295" source="3030" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e296" source="3030" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e297" source="3030" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e298" source="3030" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e299" source="3030" target="3038" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e300" source="3030" target="3039" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e301" source="3030" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e302" source="3030" target="3041" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e303" source="3030" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e304" source="3030" target="3043" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e305" source="3030" target="3045" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e306" source="3031" target="3001" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e307" source="3031" target="3002" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e308" source="3031" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e309" source="3031" target="3013" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e310" source="3031" target="3014" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e311" source="3031" target="3019" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e312" source="3031" target="3020" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e313" source="3031" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e314" source="3031" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e315" source="3031" target="3023" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e316" source="3031" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e317" source="3031" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e318" source="3031" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e319" source="3031" target="3035" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e320" source="3031" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e321" source="3031" target="3044" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e322" source="3036" target="3005" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e323" source="3036" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e324" source="3036" target="3008" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e325" source="3036" target="3011" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e326" source="3036" target="3018" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e327" source="3036" target="3026" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e328" source="3036" target="3028" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e329" source="3036" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e330" source="3036" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e331" source="3036" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e332" source="3036" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e333" source="3037" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e334" source="3039" target="3005" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e335" source="3039" target="3007" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e336" source="3039" target="3012" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e337" source="3039" target="3014" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e338" source="3039" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e339" source="3039" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e340" source="3039" target="3026" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e341" source="3039" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e342" source="3039" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e343" source="3041" target="3002" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e344" source="3041" target="3003" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e345" source="3041" target="3004" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e346" source="3041" target="3005" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e347" source="3041" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e348" source="3041" target="3007" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e349" source="3041" target="3008" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e350" source="3041" target="3009" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e351" source="3041" target="3011" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e352" source="3041" target="3012" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e353" source="3041" target="3013" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e354" source="3041" target="3014" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e355" source="3041" target="3015" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e356" source="3041" target="3016" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e357" source="3041" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e358" source="3041" target="3018" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e359" source="3041" target="3019" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e360" source="3041" target="3020" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e361" source="3041" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e362" source="3041" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e363" source="3041" target="3023" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e364" source="3041" target="3024" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e365" source="3041" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e366" source="3041" target="3026" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e367" source="3041" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e368" source="3041" target="3028" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e369" source="3041" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e370" source="3041" target="3030" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e371" source="3041" target="3031" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e372" source="3041" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e373" source="3041" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e374" source="3041" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e375" source="3041" target="3035" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e376" source="3041" target="3036" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e377" source="3041" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e378" source="3041" target="3038" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e379" source="3041" target="3039" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e380" source="3041" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e381" source="3041" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e382" source="3041" target="3043" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e383" source="3041" target="3044" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e384" source="3041" target="3045" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e385" source="3041" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e386" source="3043" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e387" source="3043" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e388" source="3043" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e389" source="3043" target="3046" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e390" source="3044" target="3001" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e391" source="3044" target="3002" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e392" source="3044" target="3003" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e393" source="3044" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e394" source="3044" target="3013" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e395" source="3044" target="3014" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e396" source="3044" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e397" source="3044" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e398" source="3044" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e399" source="3044" target="3035" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e400" source="3044" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e401" source="3046" target="3001" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e402" source="3046" target="3002" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e403" source="3046" target="3003" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e404" source="3046" target="3004" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e405" source="3046" target="3005" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e406" source="3046" target="3006" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e407" source="3046" target="3007" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e408" source="3046" target="3008" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e409" source="3046" target="3009" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e410" source="3046" target="3010" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e411" source="3046" target="3011" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e412" source="3046" target="3012" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e413" source="3046" target="3013" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e414" source="3046" target="3014" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e415" source="3046" target="3015" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e416" source="3046" target="3016" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e417" source="3046" target="3017" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e418" source="3046" target="3018" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e419" source="3046" target="3019" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e420" source="3046" target="3020" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e421" source="3046" target="3021" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e422" source="3046" target="3022" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e423" source="3046" target="3023" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e424" source="3046" target="3024" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e425" source="3046" target="3025" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e426" source="3046" target="3026" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e427" source="3046" target="3027" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e428" source="3046" target="3028" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e429" source="3046" target="3029" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e430" source="3046" target="3030" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e431" source="3046" target="3031" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e432" source="3046" target="3032" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e433" source="3046" target="3033" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e434" source="3046" target="3034" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e435" source="3046" target="3035" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e436" source="3046" target="3036" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e437" source="3046" target="3037" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e438" source="3046" target="3038" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e439" source="3046" target="3039" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e440" source="3046" target="3040" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e441" source="3046" target="3041" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e442" source="3046" target="3042" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e443" source="3046" target="3043" type="directed" label="雙向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="雙向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e444" source="3046" target="3044" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e445" source="3046" target="3045" type="directed" label="單向" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+        <viz:color r="142" g="142" b="142"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

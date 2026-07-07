@@ -1,0 +1,1125 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700;800;900&display=swap" rel="stylesheet">
+<title>S03_校內網絡_課程與教學</title>
+<style>
+:root{
+  --bg:#f3eee8;
+  --surface:#fbf8f4;
+  --surface-2:#f0e8e1;
+  --surface-3:#ece3db;
+  --text:#4b433d;
+  --muted:#746b64;
+  --line:rgba(92,82,73,0.12);
+  --line-strong:rgba(184,152,102,0.22);
+  --shadow:0 20px 45px rgba(88,76,67,0.10);
+  --shadow-soft:0 12px 28px rgba(88,76,67,0.08);
+  --teacher:#7d90a3;
+  --teacher-soft:#a8b7c4;
+  --admin:#b9817c;
+  --admin-soft:#d1a7a3;
+  --gold:#b89866;
+  --edge:#aa9c91;
+  --error-text:#8a5b5b;
+  --error-bg:#f7eeee;
+  --error-border:#d8b8b8;
+}
+html,body{
+  margin:0;padding:0;width:100%;height:100%;
+  background:
+    radial-gradient(circle at top left, rgba(185,129,124,0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(125,144,163,0.22), transparent 25%),
+    linear-gradient(180deg, #f8f4ef 0%, var(--bg) 100%);
+  color:var(--text);
+  font-family:"Microsoft JhengHei","Microsoft JhengHei UI","Noto Sans TC",sans-serif;
+  font-weight:800;letter-spacing:.02em;overflow:hidden;
+}
+*{box-sizing:border-box;}
+button,select,input{font:inherit;}
+#app{position:relative;width:100%;height:100%;--headbar-offset:118px;}
+#app.headbar-collapsed{--headbar-offset:82px;}
+#canvas{
+  position:absolute;inset:0;width:100%;height:100%;
+  background:linear-gradient(180deg, rgba(251,248,244,0.18), rgba(240,232,225,0.08));
+  cursor:grab;touch-action:none;
+}
+#canvas.dragging{cursor:grabbing;}
+#headBar{position:absolute;top:14px;left:16px;right:16px;z-index:35;display:flex;flex-direction:column;align-items:flex-start;}
+#headBar .headbar-shell{
+  display:flex;align-items:center;justify-content:space-between;gap:18px;
+  width:min(100%, 980px);padding:16px 20px;border-radius:999px;
+  border:1px solid rgba(255,255,255,0.56);background:rgba(251,248,244,0.82);
+  backdrop-filter:blur(14px);box-shadow:var(--shadow);
+  transition:padding .25s ease, gap .25s ease, width .25s ease, box-shadow .25s ease;
+}
+#headBar .brand{display:flex;align-items:center;gap:14px;min-width:0;}
+#headBar .brand-copy{min-width:0;}
+#headBar .eyebrow{margin:0;font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;}
+#headBar .brand-copy h1{margin:2px 0 0;font-size:1rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#headBar .brand-mark{
+  position:relative;flex:none;width:56px;height:56px;border-radius:50%;
+  background:linear-gradient(145deg, rgba(125,144,163,0.95), rgba(185,129,124,0.92));
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,0.35), 0 12px 28px rgba(82,98,108,0.18);
+}
+#headBar .orb{position:absolute;border-radius:50%;}
+#headBar .orb-a{width:16px;height:16px;left:20px;top:10px;background:#f2bb5f;}
+#headBar .orb-b{width:26px;height:12px;left:15px;top:25px;border-radius:999px;background:#d6d97d;}
+#headBar .orb-c{width:16px;height:16px;left:20px;top:38px;background:#e46d77;}
+#headBar .headbar-actions{display:flex;align-items:center;gap:10px;flex:none;}
+#headBar .meta-pill{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 16px;
+  border-radius:999px;border:1px solid rgba(184,152,102,0.22);
+  background:rgba(255,255,255,0.58);color:var(--text);text-decoration:none;
+  box-shadow:0 10px 22px rgba(88,76,67,0.08);font-size:inherit;
+}
+#headBarCollapse, #panel button, #menuToggle, .ghost-btn{
+  position:relative;overflow:hidden;padding:10px 16px;border-radius:999px;border:1px solid rgba(184,152,102,0.22);
+  background:rgba(255,255,255,0.58);color:var(--text);cursor:pointer;
+  box-shadow:0 10px 22px rgba(88,76,67,0.08);
+  transition:transform .25s ease, box-shadow .25s ease, background .25s ease, border-color .25s ease, width .25s ease, height .25s ease, padding .25s ease, font-size .25s ease;
+}
+#headBarCollapse::before, #panel button::before, #menuToggle::before, .ghost-btn::before{
+  content:"";position:absolute;inset:-2px auto -2px -36%;width:32%;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,0.62), transparent);
+  transform:skewX(-24deg);opacity:0;transition:opacity .25s ease,left .45s ease;
+}
+#headBarCollapse:hover, #headBarCollapse:focus-visible, #panel button:hover, #panel button:focus-visible,
+#menuToggle:hover, #menuToggle:focus-visible, .ghost-btn:hover, .ghost-btn:focus-visible{
+  background:rgba(255,255,255,0.74);border-color:rgba(184,152,102,0.40);
+  box-shadow:0 0 0 4px rgba(184,152,102,0.12), 0 18px 28px rgba(88,76,67,0.12);
+  transform:translateY(-2px);outline:none;
+}
+#headBarCollapse:hover::before,#headBarCollapse:focus-visible::before,#panel button:hover::before,#panel button:focus-visible::before,
+#menuToggle:hover::before,#menuToggle:focus-visible::before,.ghost-btn:hover::before,.ghost-btn:focus-visible::before{left:112%;opacity:1;}
+#app.headbar-collapsed #headBar .headbar-shell{width:max-content;max-width:calc(100vw - 36px);justify-content:flex-start;gap:10px;padding:8px 14px 8px 8px;box-shadow:0 14px 34px rgba(88,76,67,0.12);}
+#app.headbar-collapsed #headBar .headbar-actions{order:-1;gap:0;}
+#app.headbar-collapsed #headBar .brand{gap:10px;}
+#app.headbar-collapsed #headBar .brand-mark, #app.headbar-collapsed #headBar .eyebrow, #app.headbar-collapsed #headBar .meta-pill{display:none;}
+#app.headbar-collapsed #headBar .brand-copy h1{margin:0;font-size:.96rem;line-height:1.2;max-width:min(calc(100vw - 110px), 520px);}
+#app.headbar-collapsed #headBarCollapse{width:48px;height:48px;padding:0;border-radius:50%;display:grid;place-items:center;box-shadow:0 12px 26px rgba(88,76,67,0.12);font-size:0;}
+#app.headbar-collapsed #headBarCollapse::after{content:"+";position:relative;z-index:1;font-size:24px;font-weight:900;line-height:1;color:var(--text);}
+#headBar .headbar-body{
+  margin-top:10px;padding:12px 18px;border-radius:22px;border:1px solid rgba(255,255,255,0.62);
+  background:rgba(251,248,244,0.72);backdrop-filter:blur(12px);box-shadow:var(--shadow-soft);
+  max-height:140px;opacity:1;overflow:hidden;transition:max-height .28s ease, opacity .22s ease, margin-top .22s ease, padding .22s ease;
+}
+#headBar .headbar-body p{margin:0;color:var(--muted);font-size:12px;line-height:1.6;}
+#app.headbar-collapsed #headBar .headbar-body{max-height:0;opacity:0;margin-top:0;padding-top:0;padding-bottom:0;border-width:0;}
+#hint,#panel,#legend,#tooltip,#status{backdrop-filter:blur(14px);}
+#hint{position:absolute;left:16px;top:var(--headbar-offset);z-index:20;max-width:min(360px, calc(100vw - 32px));background:rgba(251,248,244,0.84);border:1px solid rgba(255,255,255,0.65);border-radius:24px;padding:12px 14px;box-shadow:var(--shadow-soft);}
+#hint .hint-title{font-size:14px;line-height:1.2;font-weight:900;margin-bottom:4px;color:var(--text);letter-spacing:.04em;}
+#hint .hint-desc{font-size:12px;line-height:1.5;color:var(--muted);font-weight:700;}
+#panel{position:absolute;right:16px;top:var(--headbar-offset);z-index:20;width:348px;background:rgba(251,248,244,0.84);border:1px solid rgba(255,255,255,0.65);border-radius:28px;padding:18px;box-shadow:var(--shadow);font-size:13px;color:var(--text);}
+#panel h3{margin:0 0 8px 0;font-size:15px;font-weight:900;color:var(--text);letter-spacing:.04em;}
+#panel .panel-sub{margin:0 0 14px;color:var(--muted);font-size:12px;line-height:1.55;font-weight:700;}
+#panel .select-wrap{position:relative;}
+#panel .native-select{position:absolute;inset:0;opacity:0;pointer-events:none;}
+#panel .select-trigger, #panel .select-option{font:inherit;}
+#panel .select-trigger{width:100%;min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;border-radius:22px;border:1px solid rgba(191,167,147,0.36);background:linear-gradient(180deg, rgba(244,237,230,0.96), rgba(236,227,219,0.94));color:var(--text);text-align:left;cursor:pointer;outline:none;box-shadow:inset 0 1px 0 rgba(255,255,255,0.52), 0 10px 22px rgba(88,76,67,0.06);transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .22s ease;}
+#panel .select-trigger:hover, #panel .select-trigger:focus-visible, #panel .custom-select.open .select-trigger{background:linear-gradient(180deg, rgba(248,242,236,0.98), rgba(239,230,221,0.96));border-color:rgba(184,152,102,0.42);box-shadow:0 0 0 4px rgba(184,152,102,0.10), 0 18px 28px rgba(88,76,67,0.10);transform:translateY(-2px);}
+#panel .select-trigger-text{display:block;flex:1 1 auto;min-width:0;}
+#panel .select-trigger-meta{display:block;margin-top:4px;font-size:11px;line-height:1.4;color:var(--muted);font-weight:700;}
+#panel .select-trigger-icon{flex:none;width:13px;height:13px;border-right:2px solid rgba(92,82,73,0.72);border-bottom:2px solid rgba(92,82,73,0.72);transform:rotate(45deg) translateY(-2px);transition:transform .22s ease, border-color .22s ease;}
+#panel .custom-select.open .select-trigger-icon{transform:rotate(225deg) translateY(-1px);}
+#panel .select-menu{position:absolute;left:0;right:0;top:calc(100% + 10px);z-index:25;padding:10px;border-radius:22px;border:1px solid rgba(191,167,147,0.30);background:rgba(251,248,244,0.96);backdrop-filter:blur(14px);box-shadow:0 20px 40px rgba(88,76,67,0.12);opacity:0;pointer-events:none;transform:translateY(-6px) scale(.98);transition:opacity .18s ease, transform .18s ease;}
+#panel .custom-select.open .select-menu{opacity:1;pointer-events:auto;transform:translateY(0) scale(1);}
+#panel .select-option{width:100%;display:block;margin:0 0 6px;padding:12px 14px;border-radius:16px;border:1px solid transparent;background:transparent;color:var(--text);text-align:left;cursor:pointer;outline:none;transition:background .18s ease, border-color .18s ease, color .18s ease, transform .18s ease, box-shadow .18s ease;}
+#panel .select-option:last-child{margin-bottom:0;}
+#panel .select-option:hover,#panel .select-option:focus-visible{background:rgba(236,227,219,0.72);border-color:rgba(191,167,147,0.28);transform:translateY(-1px);box-shadow:0 10px 20px rgba(88,76,67,0.06);}
+#panel .select-option.is-selected{background:linear-gradient(180deg, rgba(125,144,163,0.16), rgba(185,129,124,0.14));border-color:rgba(184,152,102,0.30);box-shadow:inset 0 1px 0 rgba(255,255,255,0.50);}
+#panel .select-option.is-selected::after{content:"✓";float:right;color:rgba(92,82,73,0.70);font-weight:900;}
+#panel .toggle-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px;}
+#panel label.control-check{display:flex;align-items:center;gap:10px;margin:0;color:var(--text);padding:10px 12px;border:1px solid rgba(191,167,147,0.22);border-radius:16px;background:rgba(255,255,255,0.45);transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;}
+#panel label.control-check:hover{transform:translateY(-1px);box-shadow:0 10px 22px rgba(88,76,67,0.06);border-color:rgba(184,152,102,0.24);}
+#panel input[type="checkbox"]{accent-color:#a4927e;transform:translateY(1px);}
+#panel .button-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
+#panel .button-row button{margin:0;flex:1 1 auto;}
+#panel .single-button-row button{flex:1 1 100%;min-height:48px;}
+#legend{position:absolute;left:16px;bottom:16px;z-index:20;background:rgba(251,248,244,0.84);border:1px solid rgba(255,255,255,0.65);border-radius:22px;padding:12px 14px;font-size:13px;color:var(--text);box-shadow:var(--shadow-soft);}
+#legend strong{font-size:13px;}
+.legend-row{display:flex;align-items:center;gap:8px;margin-top:7px;}
+.legend-circle{width:12px;height:12px;border-radius:50%;border:1px solid rgba(255,255,255,.9);box-shadow:0 0 0 1px rgba(92,82,73,.08) inset;}
+.legend-circle.teacher{background:var(--teacher);}
+.legend-circle.admin{background:var(--admin);}
+.legend-line{position:relative;width:18px;height:0;border-top:2px solid var(--edge);}
+.legend-line:after{content:"";position:absolute;right:-1px;top:-4px;width:0;height:0;border-left:6px solid var(--edge);border-top:4px solid transparent;border-bottom:4px solid transparent;}
+#tooltip{position:absolute;z-index:30;display:none;max-width:320px;background:rgba(251,248,244,0.96);border:1px solid rgba(255,255,255,0.72);border-radius:18px;box-shadow:var(--shadow);padding:12px 14px;font-size:12px;line-height:1.6;pointer-events:none;color:var(--text);}
+#tooltip .title{font-weight:900;margin-bottom:6px;color:var(--text);}
+#tooltip .meta{color:var(--muted);margin-bottom:6px;font-weight:700;}
+#tooltip .list{max-height:180px;overflow:auto;}
+#status{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:rgba(251,248,244,0.92);border:1px solid rgba(255,255,255,0.76);border-radius:20px;padding:14px 18px;z-index:40;box-shadow:var(--shadow);font-size:14px;color:var(--text);}
+#status.error{color:var(--error-text);border-color:var(--error-border);background:var(--error-bg);}
+#menuToggle{display:none;position:absolute;right:16px;top:18px;z-index:40;}
+#panelBackdrop{display:none;position:absolute;inset:0;z-index:21;background:rgba(83,74,66,0.18);}
+@media (max-width: 920px){
+  #headBar .brand-copy h1{font-size:.92rem;}
+  #panel{width:326px;}
+}
+@media (max-width: 768px){
+  #app{--headbar-offset:92px;}
+  #app.headbar-collapsed{--headbar-offset:78px;}
+  #headBar{left:12px;right:12px;top:12px;}
+  #headBar .headbar-shell{width:calc(100vw - 88px);padding:12px 14px;gap:12px;}
+  #headBar .brand-mark{width:46px;height:46px;}
+  #headBar .orb-a{left:15px;top:8px;width:14px;height:14px;}
+  #headBar .orb-b{left:10px;top:21px;width:24px;height:10px;}
+  #headBar .orb-c{left:15px;top:31px;width:14px;height:14px;}
+  #headBar .eyebrow{font-size:.68rem;}
+  #headBar .brand-copy h1{font-size:.88rem;}
+  #headBarCollapse{display:inline-flex;align-items:center;justify-content:center;padding:9px 12px;font-size:12px;}
+  #app.headbar-collapsed #headBar .headbar-shell{width:max-content;max-width:calc(100vw - 76px);padding:7px 12px 7px 7px;gap:8px;}
+  #app.headbar-collapsed #headBar .brand-copy h1{font-size:.82rem;max-width:calc(100vw - 128px);}
+  #app.headbar-collapsed #headBarCollapse{width:42px;height:42px;}
+  #headBar .headbar-body{display:none;}
+  #menuToggle{display:block;top:18px;right:14px;padding:9px 12px;font-size:12px;}
+  #hint{display:none;}
+  #panel{right:12px;top:calc(var(--headbar-offset) + 4px);width:min(84vw,320px);max-height:calc(100vh - var(--headbar-offset) - 20px);overflow:auto;transform:translateX(calc(100% + 24px));opacity:0;pointer-events:none;transition:transform .22s ease, opacity .22s ease;z-index:22;}
+  #panel.open{transform:translateX(0);opacity:1;pointer-events:auto;}
+  #panelBackdrop.open{display:block;}
+  #legend{left:12px;bottom:12px;max-width:62vw;font-size:12px;padding:10px 12px;}
+}
+</style>
+</head>
+<body>
+<div id="app" class="headbar-collapsed">
+  <canvas id="canvas"></canvas>
+
+  <header id="headBar" aria-label="頁面標頭">
+    <div class="headbar-shell">
+      <div class="brand" aria-label="頁面標題">
+        <div class="brand-mark" aria-hidden="true">
+          <span class="orb orb-a"></span>
+          <span class="orb orb-b"></span>
+          <span class="orb orb-c"></span>
+        </div>
+        <div class="brand-copy">
+          <p class="eyebrow">LIFT學習生態系統｜一模網絡圖</p>
+          <h1>S03｜校內網絡_課程與教學</h1>
+        </div>
+      </div>
+      <div class="headbar-actions">
+        <button id="headBarCollapse" type="button" aria-expanded="false" aria-label="展開資訊" title="展開資訊">展開資訊</button>
+        <a class="meta-pill" href="../index.html#part3">返回原報告首頁</a>
+      </div>
+    </div>
+    
+  </header>
+
+  <button id="menuToggle" aria-label="開關設定選單">設定</button>
+  <div id="panelBackdrop"></div>
+
+  <div id="hint">
+    <div class="hint-title">操作提示</div>
+    <div class="hint-desc">滑鼠拖曳空白處可平移，滾輪縮放，拖曳節點可微調位置。</div>
+  </div>
+
+  <div id="panel">
+    <h3>網絡設定</h3>
+    <p class="panel-sub">介面風格比照主站視覺系統，保留一模網絡的節點身分類別、箭頭方向與ID顯示。</p>
+
+    <div class="select-wrap custom-select" id="layoutModeWrap">
+      <select id="layoutMode" class="native-select" aria-label="布局模式">
+        <option value="parallel">左右並列</option>
+        <option value="circle">環狀並列</option>
+        <option value="fr">Fruchterman–Reingold</option>
+        <option value="kk">Kamada–Kawai</option>
+      </select>
+      <button type="button" class="select-trigger" id="layoutModeTrigger" aria-haspopup="listbox" aria-expanded="false" aria-controls="layoutModeMenu">
+        <span class="select-trigger-text-wrap">
+          <span class="select-trigger-text">左右並列</span>
+          <span class="select-trigger-meta">切換圖面布局模式</span>
+        </span>
+        <span class="select-trigger-icon" aria-hidden="true"></span>
+      </button>
+      <div class="select-menu" id="layoutModeMenu" role="listbox" aria-label="布局模式選單">
+        <button type="button" class="select-option is-selected" data-value="parallel" role="option" aria-selected="true">左右並列</button>
+        <button type="button" class="select-option" data-value="circle" role="option" aria-selected="false">環狀並列</button>
+        <button type="button" class="select-option" data-value="fr" role="option" aria-selected="false">Fruchterman–Reingold</button>
+        <button type="button" class="select-option" data-value="kk" role="option" aria-selected="false">Kamada–Kawai</button>
+      </div>
+    </div>
+
+    <div class="toggle-grid">
+      <label class="control-check"><input id="toggleLabels" type="checkbox" checked> 顯示ID標籤</label>
+      <label class="control-check"><input id="toggleArrows" type="checkbox" checked> 顯示有向箭頭</label>
+      <label class="control-check"><input id="toggleFocus" type="checkbox" checked> Hover聚焦突顯</label>
+    </div>
+
+    <div class="button-row single-button-row">
+      <button id="resetViewBtn" type="button">重設視圖</button>
+    </div>
+  </div>
+
+  <div id="legend">
+    <div><strong>圖例</strong></div>
+    <div class="legend-row"><span class="legend-circle teacher"></span><span>教師身分</span></div>
+    <div class="legend-row"><span class="legend-circle admin"></span><span>行政身分</span></div>
+    <div class="legend-row"><span class="legend-line"></span><span>有向連結</span></div>
+  </div>
+
+  <div id="tooltip"></div>
+  <div id="status">正在載入network2.gexf…</div>
+</div>
+
+<script>
+
+(function () {
+  const GEXF_FILE = './network2.gexf';
+  const COLORS = {
+    teacher: '#7d90a3',
+    admin: '#b9817c',
+    edge: '#aa9c91',
+    edgeFade: 'rgba(170,156,145,.18)',
+    nodeStroke: 'rgba(255,255,255,.88)',
+    label: '#4e443d'
+  };
+
+  const canvas = document.getElementById('canvas');
+  const ctx = canvas.getContext('2d');
+  const tooltip = document.getElementById('tooltip');
+  const statusBox = document.getElementById('status');
+  const layoutMode = document.getElementById('layoutMode');
+  const resetViewBtn = document.getElementById('resetViewBtn');
+  const toggleLabels = document.getElementById('toggleLabels');
+  const toggleArrows = document.getElementById('toggleArrows');
+  const toggleFocus = document.getElementById('toggleFocus');
+
+  let graph = { nodes: [], edges: [] };
+  let nodeMap = new Map();
+  let adjacency = new Map();
+  let hoverNode = null;
+  let dragNode = null;
+  let isPanning = false;
+  let lastMouse = { x: 0, y: 0 };
+  let camera = { x: 0, y: 0, scale: 1 };
+  let worldBounds = { minX: -500, maxX: 500, minY: -400, maxY: 400 };
+  let currentLayoutMode = 'parallel';
+
+  function getNodeVisualScale(mode) {
+    if (mode === 'parallel' || mode === 'circle') return 1.4;
+    if (mode === 'fr') return 1 / 2;
+    if (mode === 'kk') return 1 / 2;
+    return 1;
+  }
+
+  function getDisplayRadius(node, mode) {
+    return node.radius * getNodeVisualScale(mode || currentLayoutMode);
+  }
+
+  function isNodeVisible(node, mode) {
+    const layout = mode || currentLayoutMode;
+    if ((layout === 'fr' || layout === 'kk') && ['3023', '3024'].includes(String(node.id))) return false;
+    return true;
+  }
+
+  function getVisibleNodes(mode) {
+    return graph.nodes.filter(n => isNodeVisible(n, mode));
+  }
+
+  function getLayoutPaddingFactor(mode) {
+    if (mode === 'fr') return 0.98;
+    if (mode === 'kk') return 0.95;
+    if (mode === 'parallel' || mode === 'circle') return 0.88;
+    return 0.9;
+  }
+
+  function scaleCurrentLayoutPositions(factor, mode) {
+    const nodes = getVisibleNodes(mode);
+    if (!nodes.length || factor === 1) return;
+    const xs = nodes.map(n => n.x);
+    const ys = nodes.map(n => n.y);
+    const cx = (Math.min.apply(null, xs) + Math.max.apply(null, xs)) / 2;
+    const cy = (Math.min.apply(null, ys) + Math.max.apply(null, ys)) / 2;
+    nodes.forEach(n => {
+      n.x = cx + (n.x - cx) * factor;
+      n.y = cy + (n.y - cy) * factor;
+    });
+  }
+
+  function setStatus(msg, persist) {
+    statusBox.innerHTML = msg;
+    statusBox.style.display = 'block';
+    if (!persist) {
+      clearTimeout(setStatus._timer);
+      setStatus._timer = setTimeout(() => {
+        statusBox.style.display = 'none';
+      }, 1700);
+    }
+  }
+
+  function resizeCanvas() {
+    const dpr = window.devicePixelRatio || 1;
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = Math.round(rect.width * dpr);
+    canvas.height = Math.round(rect.height * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    draw();
+  }
+
+  function worldToScreen(x, y) {
+    return {
+      x: canvas.clientWidth / 2 + (x - camera.x) * camera.scale,
+      y: canvas.clientHeight / 2 + (y - camera.y) * camera.scale
+    };
+  }
+
+  function screenToWorld(x, y) {
+    return {
+      x: camera.x + (x - canvas.clientWidth / 2) / camera.scale,
+      y: camera.y + (y - canvas.clientHeight / 2) / camera.scale
+    };
+  }
+
+  function resetView(paddingFactor) {
+    paddingFactor = paddingFactor || getLayoutPaddingFactor(currentLayoutMode);
+    const width = canvas.clientWidth || 1000;
+    const height = canvas.clientHeight || 700;
+    const w = Math.max(1, worldBounds.maxX - worldBounds.minX);
+    const h = Math.max(1, worldBounds.maxY - worldBounds.minY);
+    camera.x = (worldBounds.minX + worldBounds.maxX) / 2;
+    camera.y = (worldBounds.minY + worldBounds.maxY) / 2;
+    camera.scale = Math.min(width / w, height / h) * paddingFactor;
+    draw();
+  }
+
+  function getChildrenByLocalName(parent, name) {
+    return Array.from(parent ? parent.childNodes || [] : []).filter(el => el.nodeType === 1 && el.localName === name);
+  }
+
+  function getFirstChildByLocalName(parent, name) {
+    return Array.from(parent ? parent.childNodes || [] : []).find(el => el.nodeType === 1 && el.localName === name) || null;
+  }
+
+  function getDescendantsByLocalName(parent, name) {
+    return Array.from(parent ? parent.getElementsByTagName('*') : []).filter(el => el.localName === name);
+  }
+
+  function getFirstDescendantByLocalName(parent, names) {
+    const list = Array.isArray(names) ? names : [names];
+    const all = Array.from(parent ? parent.getElementsByTagName('*') : []);
+    for (const name of list) {
+      const found = all.find(el => el.localName === name);
+      if (found) return found;
+    }
+    return null;
+  }
+
+  function getChildrenByLocalName(parent, localName) {
+    return Array.from(parent.children || []).filter(el => (el.localName || el.nodeName || '').toLowerCase() === localName.toLowerCase());
+  }
+
+  function getFirstDescendantByLocalName(parent, localName) {
+    return parent.getElementsByTagNameNS ? parent.getElementsByTagNameNS('*', localName)[0] || null : null;
+  }
+
+  function parseGexf(xmlText) {
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(xmlText, 'application/xml');
+    const parseErr = xml.querySelector('parsererror');
+    if (parseErr) throw new Error('GEXF XML格式錯誤');
+
+    const graphEl = getFirstDescendantByLocalName(xml, 'graph');
+    if (!graphEl) throw new Error('找不到graph節點');
+
+    const attrDefs = {};
+    getChildrenByLocalName(graphEl, 'attributes')
+      .filter(el => (el.getAttribute('class') || '').toLowerCase() === 'node')
+      .forEach(attrsEl => {
+        getChildrenByLocalName(attrsEl, 'attribute').forEach(attr => {
+          attrDefs[attr.getAttribute('id')] = attr.getAttribute('title');
+        });
+      });
+
+    const nodesEl = getChildrenByLocalName(graphEl, 'nodes')[0];
+    const edgesEl = getChildrenByLocalName(graphEl, 'edges')[0];
+    const nodes = [];
+
+    getChildrenByLocalName(nodesEl || graphEl, 'node').forEach(nodeEl => {
+      const attrs = {};
+      Array.from(nodeEl.getElementsByTagNameNS('*', 'attvalue')).forEach(av => {
+        const key = av.getAttribute('for');
+        attrs[key] = av.getAttribute('value');
+      });
+
+      const titleMap = {};
+      Object.keys(attrs).forEach(k => {
+        titleMap[attrDefs[k] || k] = attrs[k];
+      });
+
+      const posEl = getFirstDescendantByLocalName(nodeEl, 'position');
+      const adminValue = String(
+        titleMap['行政團隊'] ?? attrs['admin_attr'] ?? attrs['行政團隊'] ?? '0'
+      ).trim();
+
+      const role = String(
+        titleMap['身分別'] ??
+        attrs['role_attr'] ??
+        (adminValue === '1' ? '行政身分' : '教師身分')
+      ).trim();
+
+      const indegree = Number(
+        titleMap['indegree'] ?? titleMap['Indegree'] ?? attrs['indeg_attr'] ?? attrs['indegree'] ?? 0
+      ) || 0;
+
+      const outdegree = Number(
+        titleMap['outdegree'] ?? titleMap['Outdegree'] ?? attrs['outdeg_attr'] ?? attrs['outdegree'] ?? 0
+      ) || 0;
+
+      let x = Number(posEl ? posEl.getAttribute('x') : 0) || 0;
+      let y = Number(posEl ? posEl.getAttribute('y') : 0) || 0;
+      y = -y;
+
+      nodes.push({
+        id: nodeEl.getAttribute('id'),
+        label: nodeEl.getAttribute('id') || nodeEl.getAttribute('label') || nodeEl.getAttribute('id'),
+        adminValue,
+        role,
+        group: adminValue === '1' ? 'admin' : 'teacher',
+        indegree,
+        outdegree,
+        color: adminValue === '1' ? COLORS.admin : COLORS.teacher,
+        radius: 12,
+        x, y,
+        baseX: x,
+        baseY: y
+      });
+    });
+
+    const edges = [];
+    getChildrenByLocalName(edgesEl || graphEl, 'edge').forEach((edgeEl, idx) => {
+      edges.push({
+        id: edgeEl.getAttribute('id') || ('e' + idx),
+        source: edgeEl.getAttribute('source'),
+        target: edgeEl.getAttribute('target'),
+        weight: Number(edgeEl.getAttribute('weight') || 1) || 1
+      });
+    });
+
+    return { nodes, edges };
+  }
+
+  function buildMaps() {
+    nodeMap = new Map();
+    adjacency = new Map();
+    graph.nodes.forEach(n => {
+      nodeMap.set(n.id, n);
+      adjacency.set(n.id, { in: new Set(), out: new Set(), all: new Set() });
+    });
+    graph.edges.forEach(e => {
+      const s = adjacency.get(e.source);
+      const t = adjacency.get(e.target);
+      if (s && t) {
+        s.out.add(e.target);
+        s.all.add(e.target);
+        t.in.add(e.source);
+        t.all.add(e.source);
+      }
+    });
+  }
+
+  function applyVisualRules() {
+    const indegrees = graph.nodes.map(n => n.indegree);
+    const minIn = Math.min.apply(null, indegrees);
+    const maxIn = Math.max.apply(null, indegrees);
+    graph.nodes.forEach(n => {
+      const t = maxIn === minIn ? 0.5 : (n.indegree - minIn) / (maxIn - minIn);
+      n.radius = 10 + t * 18;
+      n.color = n.group === 'admin' ? COLORS.admin : COLORS.teacher;
+    });
+  }
+
+  function updateBounds() {
+    const visibleNodes = getVisibleNodes();
+    if (!visibleNodes.length) return;
+    const pad = 60;
+    worldBounds.minX = Math.min.apply(null, visibleNodes.map(n => n.x - getDisplayRadius(n))) - pad;
+    worldBounds.maxX = Math.max.apply(null, visibleNodes.map(n => n.x + getDisplayRadius(n))) + pad;
+    worldBounds.minY = Math.min.apply(null, visibleNodes.map(n => n.y - getDisplayRadius(n))) - pad;
+    worldBounds.maxY = Math.max.apply(null, visibleNodes.map(n => n.y + getDisplayRadius(n))) + pad;
+  }
+
+  function sortByLabel(a, b) {
+    return String(a.label).localeCompare(String(b.label), 'zh-Hant');
+  }
+
+  function layoutParallel() {
+    const teachers = graph.nodes.filter(n => n.group === 'teacher').sort(sortByLabel);
+    const admins = graph.nodes.filter(n => n.group === 'admin').sort(sortByLabel);
+    const gap = 68;
+    const leftX = -240;
+    const rightX = 240;
+    const placeColumn = (list, x) => {
+      const startY = -((list.length - 1) * gap) / 2;
+      list.forEach((n, i) => {
+        n.x = x;
+        n.y = startY + i * gap;
+      });
+    };
+    placeColumn(teachers, leftX);
+    placeColumn(admins, rightX);
+    updateBounds();
+  }
+
+  function layoutCircle() {
+    const nodes = graph.nodes.slice().sort((a, b) => {
+      if (a.group !== b.group) return a.group === 'teacher' ? -1 : 1;
+      return sortByLabel(a, b);
+    });
+    const radius = Math.max(240, nodes.length * 15);
+    nodes.forEach((n, i) => {
+      const angle = (-Math.PI / 2) + (Math.PI * 2 * i / nodes.length);
+      n.x = Math.cos(angle) * radius;
+      n.y = Math.sin(angle) * radius;
+    });
+    updateBounds();
+  }
+
+  function normalizeCurrentLayout(scaleTo) {
+    scaleTo = scaleTo || 560;
+    const xs = graph.nodes.map(n => n.x);
+    const ys = graph.nodes.map(n => n.y);
+    const minX = Math.min.apply(null, xs);
+    const maxX = Math.max.apply(null, xs);
+    const minY = Math.min.apply(null, ys);
+    const maxY = Math.max.apply(null, ys);
+    const cx = (minX + maxX) / 2;
+    const cy = (minY + maxY) / 2;
+    const span = Math.max(maxX - minX, maxY - minY, 1);
+    const factor = scaleTo / span;
+    graph.nodes.forEach(n => {
+      n.x = (n.x - cx) * factor;
+      n.y = (n.y - cy) * factor;
+    });
+    updateBounds();
+  }
+
+  function layoutFR() {
+    layoutCircle();
+    const nodes = graph.nodes;
+    const edges = graph.edges;
+    const area = 900 * 900;
+    const k = Math.sqrt(area / Math.max(nodes.length, 1));
+    let temperature = 90;
+
+    for (let iter = 0; iter < 260; iter++) {
+      nodes.forEach(n => { n.dx = 0; n.dy = 0; });
+
+      for (let i = 0; i < nodes.length; i++) {
+        const v = nodes[i];
+        for (let j = i + 1; j < nodes.length; j++) {
+          const u = nodes[j];
+          let dx = v.x - u.x;
+          let dy = v.y - u.y;
+          let dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
+          const force = (k * k) / dist;
+          const fx = dx / dist * force;
+          const fy = dy / dist * force;
+          v.dx += fx; v.dy += fy;
+          u.dx -= fx; u.dy -= fy;
+        }
+      }
+
+      edges.forEach(e => {
+        const s = nodeMap.get(e.source);
+        const t = nodeMap.get(e.target);
+        if (!s || !t) return;
+        let dx = s.x - t.x;
+        let dy = s.y - t.y;
+        let dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
+        const force = (dist * dist) / k;
+        const fx = dx / dist * force;
+        const fy = dy / dist * force;
+        s.dx -= fx; s.dy -= fy;
+        t.dx += fx; t.dy += fy;
+      });
+
+      nodes.forEach(n => {
+        const disp = Math.sqrt(n.dx * n.dx + n.dy * n.dy) || 0.01;
+        const limited = Math.min(disp, temperature);
+        n.x += (n.dx / disp) * limited;
+        n.y += (n.dy / disp) * limited;
+      });
+
+      temperature *= 0.965;
+    }
+    normalizeCurrentLayout(620);
+    scaleCurrentLayoutPositions(3, 'fr');
+    updateBounds();
+  }
+
+  function bfsDistances() {
+    const ids = graph.nodes.map(n => n.id);
+    const index = new Map(ids.map((id, i) => [id, i]));
+    const n = ids.length;
+    const dist = Array.from({ length: n }, () => Array(n).fill(Infinity));
+    ids.forEach((id, i) => {
+      dist[i][i] = 0;
+      const q = [id];
+      const seen = new Set([id]);
+      while (q.length) {
+        const cur = q.shift();
+        const curI = index.get(cur);
+        adjacency.get(cur).all.forEach(next => {
+          if (!seen.has(next)) {
+            seen.add(next);
+            dist[i][index.get(next)] = dist[i][curI] + 1;
+            q.push(next);
+          }
+        });
+      }
+    });
+    return { ids, index, dist };
+  }
+
+  function layoutKK() {
+    layoutCircle();
+    const { ids, dist } = bfsDistances();
+    const n = ids.length;
+    const L0 = 110;
+    const K = 1;
+    const springLength = Array.from({ length: n }, () => Array(n).fill(0));
+    const springStrength = Array.from({ length: n }, () => Array(n).fill(0));
+
+    for (let i = 0; i < n; i++) {
+      for (let j = 0; j < n; j++) {
+        if (i === j) continue;
+        const dij = Number.isFinite(dist[i][j]) ? Math.max(dist[i][j], 1) : n;
+        springLength[i][j] = L0 * dij;
+        springStrength[i][j] = K / (dij * dij);
+      }
+    }
+
+    function calcDelta(idx) {
+      const node = graph.nodes[idx];
+      let ex = 0, ey = 0;
+      for (let j = 0; j < n; j++) {
+        if (j === idx) continue;
+        const other = graph.nodes[j];
+        const dx = node.x - other.x;
+        const dy = node.y - other.y;
+        const d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+        const kij = springStrength[idx][j];
+        const lij = springLength[idx][j];
+        ex += kij * (dx - (lij * dx / d));
+        ey += kij * (dy - (lij * dy / d));
+      }
+      return Math.sqrt(ex * ex + ey * ey);
+    }
+
+    function optimizeNode(idx) {
+      for (let step = 0; step < 30; step++) {
+        let Ex = 0, Ey = 0, Exx = 0, Eyy = 0, Exy = 0;
+        const node = graph.nodes[idx];
+        for (let j = 0; j < n; j++) {
+          if (j === idx) continue;
+          const other = graph.nodes[j];
+          const dx = node.x - other.x;
+          const dy = node.y - other.y;
+          const d2 = dx * dx + dy * dy || 0.0001;
+          const d = Math.sqrt(d2);
+          const kij = springStrength[idx][j];
+          const lij = springLength[idx][j];
+
+          Ex += kij * (dx - lij * dx / d);
+          Ey += kij * (dy - lij * dy / d);
+          Exx += kij * (1 - lij * (dy * dy) / (d2 * d));
+          Eyy += kij * (1 - lij * (dx * dx) / (d2 * d));
+          Exy += kij * (lij * dx * dy / (d2 * d));
+        }
+
+        const det = Exx * Eyy - Exy * Exy;
+        if (Math.abs(det) < 1e-9) break;
+        const deltaX = (-Eyy * Ex + Exy * Ey) / det;
+        const deltaY = (Exy * Ex - Exx * Ey) / det;
+
+        node.x += deltaX;
+        node.y += deltaY;
+
+        if (Math.sqrt(deltaX * deltaX + deltaY * deltaY) < 0.1) break;
+      }
+    }
+
+    for (let iter = 0; iter < 180; iter++) {
+      let maxDelta = -1;
+      let maxIdx = 0;
+      for (let i = 0; i < n; i++) {
+        const d = calcDelta(i);
+        if (d > maxDelta) { maxDelta = d; maxIdx = i; }
+      }
+      if (maxDelta < 0.5) break;
+      optimizeNode(maxIdx);
+    }
+
+    normalizeCurrentLayout(620);
+    scaleCurrentLayoutPositions(10, 'kk');
+    updateBounds();
+  }
+
+  function applyLayout(mode, announce) {
+    if (!graph.nodes.length) return;
+    currentLayoutMode = mode;
+    if (mode === 'parallel') layoutParallel();
+    else if (mode === 'circle') layoutCircle();
+    else if (mode === 'fr') layoutFR();
+    else if (mode === 'kk') layoutKK();
+    updateBounds();
+    resetView(getLayoutPaddingFactor(mode));
+    if (announce) {
+      const label = layoutMode.options[layoutMode.selectedIndex].textContent;
+      setStatus('已切換為' + label, false);
+    }
+  }
+
+  function isConnected(a, b) {
+    const rel = adjacency.get(a.id);
+    return !!rel && rel.all.has(b.id);
+  }
+
+  function edgeIsConnectedToHover(e) {
+    if (!hoverNode) return false;
+    return e.source === hoverNode.id || e.target === hoverNode.id;
+  }
+
+  function drawArrow(x1, y1, x2, y2, size, color, alphaScale) {
+    const angle = Math.atan2(y2 - y1, x2 - x1);
+    ctx.save();
+    ctx.globalAlpha = alphaScale;
+    ctx.fillStyle = color;
+    ctx.beginPath();
+    ctx.moveTo(x2, y2);
+    ctx.lineTo(x2 - Math.cos(angle - Math.PI / 7) * size, y2 - Math.sin(angle - Math.PI / 7) * size);
+    ctx.lineTo(x2 - Math.cos(angle + Math.PI / 7) * size, y2 - Math.sin(angle + Math.PI / 7) * size);
+    ctx.closePath();
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function draw() {
+    const w = canvas.clientWidth;
+    const h = canvas.clientHeight;
+    ctx.clearRect(0, 0, w, h);
+
+    graph.edges.forEach(e => {
+      const s = nodeMap.get(e.source);
+      const t = nodeMap.get(e.target);
+      if (!s || !t) return;
+      if (!isNodeVisible(s) || !isNodeVisible(t)) return;
+      const sp = worldToScreen(s.x, s.y);
+      const tp = worldToScreen(t.x, t.y);
+
+      const dx = tp.x - sp.x;
+      const dy = tp.y - sp.y;
+      const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+      const ux = dx / dist;
+      const uy = dy / dist;
+
+      const sr = getDisplayRadius(s) * camera.scale;
+      const tr = getDisplayRadius(t) * camera.scale;
+      const startX = sp.x + ux * (sr * 0.9);
+      const startY = sp.y + uy * (sr * 0.9);
+      const endX = tp.x - ux * (tr * 1.05);
+      const endY = tp.y - uy * (tr * 1.05);
+
+      const connected = edgeIsConnectedToHover(e);
+      const faded = hoverNode && toggleFocus.checked && !connected;
+      ctx.save();
+      ctx.strokeStyle = faded ? COLORS.edgeFade : COLORS.edge;
+      ctx.globalAlpha = faded ? 0.35 : 0.9;
+      ctx.lineWidth = connected ? 2.3 : 1.2;
+      ctx.beginPath();
+      ctx.moveTo(startX, startY);
+      ctx.lineTo(endX, endY);
+      ctx.stroke();
+      ctx.restore();
+
+      if (toggleArrows.checked) {
+        drawArrow(startX, startY, endX, endY, connected ? 10 : 8, COLORS.edge, faded ? 0.35 : 0.9);
+      }
+    });
+
+    graph.nodes.forEach(n => {
+      if (!isNodeVisible(n)) return;
+      const p = worldToScreen(n.x, n.y);
+      const r = getDisplayRadius(n) * camera.scale;
+      const connected = hoverNode ? (hoverNode.id === n.id || isConnected(hoverNode, n)) : false;
+      const faded = hoverNode && toggleFocus.checked && !connected;
+      ctx.save();
+      ctx.globalAlpha = faded ? 0.28 : 1;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = n.color;
+      ctx.fill();
+      ctx.lineWidth = hoverNode && hoverNode.id === n.id ? 3.2 : 1.6;
+      ctx.strokeStyle = COLORS.nodeStroke;
+      ctx.stroke();
+      ctx.restore();
+
+      if (toggleLabels.checked) {
+        ctx.save();
+        ctx.globalAlpha = faded ? 0.28 : 1;
+        ctx.font = `700 ${Math.max(11, Math.min(16, r * 0.72))}px Noto Sans TC, Microsoft JhengHei, sans-serif`;
+        ctx.fillStyle = COLORS.label;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(n.id, p.x, p.y);
+        ctx.restore();
+      }
+    });
+  }
+
+  function findNodeAt(sx, sy) {
+    for (let i = graph.nodes.length - 1; i >= 0; i--) {
+      const n = graph.nodes[i];
+      if (!isNodeVisible(n)) continue;
+      const p = worldToScreen(n.x, n.y);
+      const r = getDisplayRadius(n) * camera.scale;
+      const dx = sx - p.x;
+      const dy = sy - p.y;
+      if (dx * dx + dy * dy <= r * r) return n;
+    }
+    return null;
+  }
+
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, s => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    }[s]));
+  }
+
+  function showTooltip(node, sx, sy) {
+    const rel = adjacency.get(node.id) || { in:new Set(), out:new Set(), all:new Set() };
+    const inList = Array.from(rel.in).sort((a,b) => String(a).localeCompare(String(b),'zh-Hant'));
+    const outList = Array.from(rel.out).sort((a,b) => String(a).localeCompare(String(b),'zh-Hant'));
+    let html = '<div class="title">' + escapeHtml(node.id) + '</div>'; 
+    html += '<div class="meta">' + escapeHtml(node.role) + '</div>';
+    html += '<div><strong>Indegree：</strong>' + node.indegree + '</div>';
+    html += '<div><strong>Outdegree：</strong>' + node.outdegree + '</div>';
+    html += '<div><strong>連結總數：</strong>' + rel.all.size + '</div>';
+    if (inList.length) {
+      html += '<div class="list"><strong>指向此節點：</strong><ul>';
+      inList.forEach(id => { html += '<li>' + escapeHtml(id) + '</li>'; });
+      html += '</ul></div>';
+    }
+    if (outList.length) {
+      html += '<div class="list"><strong>此節點指向：</strong><ul>';
+      outList.forEach(id => { html += '<li>' + escapeHtml(id) + '</li>'; });
+      html += '</ul></div>';
+    }
+    tooltip.innerHTML = html;
+    tooltip.style.display = 'block';
+    const maxLeft = canvas.clientWidth - tooltip.offsetWidth - 16;
+    const maxTop = canvas.clientHeight - tooltip.offsetHeight - 16;
+    tooltip.style.left = Math.max(16, Math.min(sx + 14, maxLeft)) + 'px';
+    tooltip.style.top = Math.max(16, Math.min(sy + 14, maxTop)) + 'px';
+  }
+
+  function hideTooltip() {
+    tooltip.style.display = 'none';
+  }
+
+  canvas.addEventListener('mousedown', e => {
+    const rect = canvas.getBoundingClientRect();
+    const sx = e.clientX - rect.left;
+    const sy = e.clientY - rect.top;
+    dragNode = findNodeAt(sx, sy);
+    isPanning = !dragNode;
+    lastMouse.x = e.clientX;
+    lastMouse.y = e.clientY;
+    canvas.classList.add('dragging');
+  });
+
+  window.addEventListener('mousemove', e => {
+    const rect = canvas.getBoundingClientRect();
+    if (!rect.width || !rect.height) return;
+    const sx = e.clientX - rect.left;
+    const sy = e.clientY - rect.top;
+
+    if (dragNode) {
+      const w = screenToWorld(sx, sy);
+      dragNode.x = w.x;
+      dragNode.y = w.y;
+      updateBounds();
+      draw();
+      showTooltip(dragNode, sx, sy);
+      return;
+    }
+
+    if (isPanning) {
+      const dx = e.clientX - lastMouse.x;
+      const dy = e.clientY - lastMouse.y;
+      camera.x -= dx / camera.scale;
+      camera.y -= dy / camera.scale;
+      lastMouse.x = e.clientX;
+      lastMouse.y = e.clientY;
+      draw();
+      return;
+    }
+
+    const n = findNodeAt(sx, sy);
+    if (n !== hoverNode) {
+      hoverNode = n;
+      if (hoverNode) showTooltip(hoverNode, sx, sy);
+      else hideTooltip();
+      draw();
+    } else if (hoverNode) {
+      showTooltip(hoverNode, sx, sy);
+    }
+  });
+
+  window.addEventListener('mouseup', () => {
+    dragNode = null;
+    isPanning = false;
+    canvas.classList.remove('dragging');
+  });
+
+  canvas.addEventListener('mouseleave', () => {
+    if (!dragNode && !isPanning) {
+      hoverNode = null;
+      hideTooltip();
+      draw();
+    }
+  });
+
+  canvas.addEventListener('wheel', e => {
+    e.preventDefault();
+    const rect = canvas.getBoundingClientRect();
+    const sx = e.clientX - rect.left;
+    const sy = e.clientY - rect.top;
+    const before = screenToWorld(sx, sy);
+    const factor = e.deltaY < 0 ? 1.12 : 0.89;
+    camera.scale = Math.max(0.18, Math.min(4.8, camera.scale * factor));
+    const after = screenToWorld(sx, sy);
+    camera.x += before.x - after.x;
+    camera.y += before.y - after.y;
+    draw();
+  }, { passive:false });
+
+  [toggleLabels, toggleArrows, toggleFocus].forEach(el => {
+    el.addEventListener('change', draw);
+  });
+
+  layoutMode.addEventListener('change', () => applyLayout(layoutMode.value, true));
+  resetViewBtn.addEventListener('click', () => resetView(getLayoutPaddingFactor(layoutMode.value)));
+  window.addEventListener('resize', resizeCanvas);
+
+  function loadGraph() {
+    fetch(GEXF_FILE + '?_=' + Date.now())
+      .then(res => {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.text();
+      })
+      .then(text => {
+        graph = parseGexf(text);
+        const pageTitle = document.getElementById('pageTitle');
+        if (graph.graphName) {
+          document.title = graph.graphName + '｜一模網絡圖';
+          if (pageTitle) pageTitle.textContent = graph.graphName.replaceAll('_', '｜');
+        }
+        buildMaps();
+        applyVisualRules();
+        applyLayout('parallel', false);
+        layoutMode.value = 'parallel';
+        resizeCanvas();
+        setStatus('network2.gexf載入完成', false);
+      })
+      .catch(err => {
+        statusBox.style.display = 'block';
+        statusBox.innerHTML = '讀取network2.gexf失敗。請確認HTML與network2.gexf放在同一資料夾，且使用HTTP伺服器或GitHub Pages開啟。<br>錯誤：' + escapeHtml(String(err));
+      });
+  }
+
+  resizeCanvas();
+  loadGraph();
+})();
+
+</script>
+<script>
+(function () {
+  const appRoot = document.getElementById('app');
+  const headBarCollapse = document.getElementById('headBarCollapse');
+  const menuToggle = document.getElementById('menuToggle');
+  const panel = document.getElementById('panel');
+  const panelBackdrop = document.getElementById('panelBackdrop');
+  const layoutMode = document.getElementById('layoutMode');
+  const layoutModeWrap = document.getElementById('layoutModeWrap');
+  const layoutModeTrigger = document.getElementById('layoutModeTrigger');
+  const layoutModeMenu = document.getElementById('layoutModeMenu');
+  const layoutModeTriggerText = layoutModeTrigger ? layoutModeTrigger.querySelector('.select-trigger-text') : null;
+  const layoutModeOptions = layoutModeMenu ? Array.from(layoutModeMenu.querySelectorAll('.select-option')) : [];
+
+  function syncLayoutModeSelectUI() {
+    if (!layoutMode || !layoutModeTriggerText || !layoutModeOptions.length) return;
+    const value = layoutMode.value;
+    let label = '';
+    layoutModeOptions.forEach(btn => {
+      const selected = btn.dataset.value === value;
+      btn.classList.toggle('is-selected', selected);
+      btn.setAttribute('aria-selected', selected ? 'true' : 'false');
+      if (selected) label = btn.textContent.trim();
+    });
+    if (!label && layoutMode.selectedIndex >= 0) label = layoutMode.options[layoutMode.selectedIndex].textContent.trim();
+    layoutModeTriggerText.textContent = label || '請選擇';
+  }
+
+  function closeLayoutModeSelect() {
+    if (!layoutModeWrap || !layoutModeTrigger) return;
+    layoutModeWrap.classList.remove('open');
+    layoutModeTrigger.setAttribute('aria-expanded', 'false');
+  }
+
+  function togglePanel(forceOpen) {
+    if (!panel) return;
+    const next = typeof forceOpen === 'boolean' ? forceOpen : !panel.classList.contains('open');
+    panel.classList.toggle('open', next);
+    if (panelBackdrop) panelBackdrop.classList.toggle('open', next);
+    if (menuToggle) menuToggle.setAttribute('aria-expanded', next ? 'true' : 'false');
+  }
+
+  syncLayoutModeSelectUI();
+  layoutMode && layoutMode.addEventListener('change', syncLayoutModeSelectUI);
+
+  if (layoutModeTrigger) {
+    layoutModeTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = layoutModeWrap.classList.contains('open');
+      layoutModeWrap.classList.toggle('open', !isOpen);
+      layoutModeTrigger.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
+    });
+  }
+
+  layoutModeOptions.forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (!layoutMode) return;
+      layoutMode.value = btn.dataset.value;
+      layoutMode.dispatchEvent(new Event('change', { bubbles:true }));
+      closeLayoutModeSelect();
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (layoutModeWrap && !layoutModeWrap.contains(e.target)) closeLayoutModeSelect();
+  });
+
+  if (headBarCollapse) {
+    headBarCollapse.addEventListener('click', () => {
+      const collapsed = appRoot.classList.toggle('headbar-collapsed');
+      headBarCollapse.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      headBarCollapse.textContent = collapsed ? '展開資訊' : '收合資訊';
+      headBarCollapse.title = collapsed ? '展開資訊' : '收合資訊';
+    });
+  }
+
+  if (menuToggle) menuToggle.addEventListener('click', () => togglePanel());
+  if (panelBackdrop) panelBackdrop.addEventListener('click', () => togglePanel(false));
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) togglePanel(false);
+  });
+})();
+</script>
+</body>
+</html>

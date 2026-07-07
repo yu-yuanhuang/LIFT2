@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI GPT-5.4 Thinking</creator>
+    <description>03_板橋高中_校際網絡_校際間合作類別（有向二模網路；學校成員以ID顯示，合作類別以全名顯示）</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="03_板橋高中_校際網絡_校際間合作類別">
+    <attributes class="node" mode="static">
+      <attribute id="node_type" title="node_type" type="string"/>
+      <attribute id="點名稱" title="點名稱" type="string"/>
+      <attribute id="點身分別" title="點身分別" type="string"/>
+      <attribute id="連結數" title="連結數" type="long"/>
+      <attribute id="連結對象" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="方向標示" title="方向標示" type="string"/>
+      <attribute id="網路類型" title="網路類型" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="M_3001" label="3001">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3001"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3002" label="3002">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3002"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="行政與校務交流；學生學習與活動；資源共享與支援"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3003" label="3003">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3003"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="教師專業學習；行政與校務交流；學生學習與活動；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3004" label="3004">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3004"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3005" label="3005">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3005"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3006" label="3006">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3006"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="行政與校務交流"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3007" label="3007">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3007"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教學與課程合作；行政與校務交流；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3008" label="3008">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3008"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3009" label="3009">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3009"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；資源共享與支援"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3010" label="3010">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3010"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教師專業學習；行政與校務交流；資源共享與支援"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3011" label="3011">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3011"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；行政與校務交流；學生學習與活動；資源共享與支援；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3012" label="3012">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3012"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教師專業學習"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3013" label="3013">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3013"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="行政與校務交流；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3014" label="3014">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3014"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="學生學習與活動"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3015" label="3015">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3015"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；行政與校務交流；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3016" label="3016">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3016"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3017" label="3017">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3017"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3018" label="3018">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3018"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3019" label="3019">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3019"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3020" label="3020">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3020"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="行政與校務交流"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3021" label="3021">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3021"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3022" label="3022">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3022"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3023" label="3023">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3023"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3024" label="3024">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3024"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3025" label="3025">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3025"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="教學與課程合作；行政與校務交流；學生學習與活動；資源共享與支援；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3026" label="3026">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3026"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；行政與校務交流；資源共享與支援；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3027" label="3027">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3027"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3028" label="3028">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3028"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="資源共享與支援"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3029" label="3029">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3029"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3030" label="3030">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3030"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3031" label="3031">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3031"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="行政與校務交流"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3032" label="3032">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3032"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3033" label="3033">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3033"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；行政與校務交流；資源共享與支援"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3034" label="3034">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3034"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3035" label="3035">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3035"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3036" label="3036">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3036"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；行政與校務交流；資源共享與支援；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3037" label="3037">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3037"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="行政與校務交流；資源共享與支援；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3038" label="3038">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3038"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3039" label="3039">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3039"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3040" label="3040">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3040"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3041" label="3041">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3041"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；資源共享與支援"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3042" label="3042">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3042"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3043" label="3043">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3043"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="教學與課程合作；教師專業學習；學生學習與活動；資源共享與支援；專案/政策/研究合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3044" label="3044">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3044"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3045" label="3045">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3045"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_3046" label="3046">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="3046"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="行政與校務交流"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="I_教學與課程合作" label="教學與課程合作">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="教學與課程合作"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="13"/>
+          <attvalue for="連結對象" value="3005；3007；3009；3011；3015；3025；3026；3030；3033；3036；3039；3041；3043"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_教師專業學習" label="教師專業學習">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="教師專業學習"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="14"/>
+          <attvalue for="連結對象" value="3003；3005；3009；3010；3011；3012；3015；3026；3030；3033；3036；3039；3041；3043"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_行政與校務交流" label="行政與校務交流">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="行政與校務交流"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="16"/>
+          <attvalue for="連結對象" value="3002；3003；3006；3007；3010；3011；3013；3015；3020；3025；3026；3031；3033；3036；3037；3046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_學生學習與活動" label="學生學習與活動">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="學生學習與活動"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="3002；3003；3011；3014；3025；3043"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_資源共享與支援" label="資源共享與支援">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="資源共享與支援"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="12"/>
+          <attvalue for="連結對象" value="3002；3009；3010；3011；3025；3026；3028；3033；3036；3037；3041；3043"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_專案/政策/研究合作" label="專案/政策/研究合作">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="專案/政策/研究合作"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="11"/>
+          <attvalue for="連結對象" value="3003；3005；3007；3011；3013；3015；3025；3026；3036；3037；3043"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="M_3002" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e2" source="M_3002" target="I_學生學習與活動" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e3" source="M_3002" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e4" source="M_3003" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e5" source="M_3003" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e6" source="M_3003" target="I_學生學習與活動" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e7" source="M_3003" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e8" source="M_3005" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e9" source="M_3005" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e10" source="M_3005" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e11" source="M_3006" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e12" source="M_3007" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e13" source="M_3007" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e14" source="M_3007" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e15" source="M_3009" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e16" source="M_3009" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e17" source="M_3009" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e18" source="M_3010" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e19" source="M_3010" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e20" source="M_3010" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e21" source="M_3011" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e22" source="M_3011" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e23" source="M_3011" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e24" source="M_3011" target="I_學生學習與活動" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e25" source="M_3011" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e26" source="M_3011" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e27" source="M_3012" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e28" source="M_3013" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e29" source="M_3013" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e30" source="M_3014" target="I_學生學習與活動" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e31" source="M_3015" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e32" source="M_3015" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e33" source="M_3015" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e34" source="M_3015" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e35" source="M_3020" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e36" source="M_3025" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e37" source="M_3025" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e38" source="M_3025" target="I_學生學習與活動" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e39" source="M_3025" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e40" source="M_3025" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e41" source="M_3026" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e42" source="M_3026" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e43" source="M_3026" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e44" source="M_3026" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e45" source="M_3026" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e46" source="M_3028" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e47" source="M_3030" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e48" source="M_3030" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e49" source="M_3031" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e50" source="M_3033" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e51" source="M_3033" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e52" source="M_3033" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e53" source="M_3033" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e54" source="M_3036" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e55" source="M_3036" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e56" source="M_3036" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e57" source="M_3036" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e58" source="M_3036" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e59" source="M_3037" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e60" source="M_3037" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e61" source="M_3037" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e62" source="M_3039" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e63" source="M_3039" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e64" source="M_3041" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e65" source="M_3041" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e66" source="M_3041" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e67" source="M_3043" target="I_教學與課程合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e68" source="M_3043" target="I_教師專業學習" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e69" source="M_3043" target="I_學生學習與活動" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e70" source="M_3043" target="I_資源共享與支援" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e71" source="M_3043" target="I_專案/政策/研究合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e72" source="M_3046" target="I_行政與校務交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
