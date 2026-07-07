@@ -1,0 +1,2637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI GPT-5.4 Thinking</creator>
+    <description>02_三和國中_校與社區網絡_合作頻率（有向二模網路；學校成員以ID顯示，合作頻率以全名顯示，邊保留頻率值）</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="02_三和國中_校與社區網絡_合作頻率">
+    <attributes class="node" mode="static">
+      <attribute id="node_type" title="node_type" type="string"/>
+      <attribute id="點名稱" title="點名稱" type="string"/>
+      <attribute id="點身分別" title="點身分別" type="string"/>
+      <attribute id="連結數" title="連結數" type="long"/>
+      <attribute id="連結對象" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="方向標示" title="方向標示" type="string"/>
+      <attribute id="網路類型" title="網路類型" type="string"/>
+      <attribute id="頻率值" title="頻率值" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="M_2001" label="2001">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2001"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2002" label="2002">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2002"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2003" label="2003">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2003"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2004" label="2004">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2004"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2005" label="2005">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2005"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="國立臺灣師範大學(頻率=3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2006" label="2006">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2006"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="荒野保護協會(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2007" label="2007">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2007"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="國立臺灣師範大學(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2008" label="2008">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2008"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立海山高級中學(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2009" label="2009">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2009"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="國教輔導團(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2010" label="2010">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2010"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="高職英文老師(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2011" label="2011">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2011"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="咖啡有的cafe’(頻率=3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2012" label="2012">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2012"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="銘傳大學師資培訓中心(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2013" label="2013">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2013"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2014" label="2014">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2014"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="文化大學師資培育中心(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2015" label="2015">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2015"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="國立臺灣體育運動大學(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2016" label="2016">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2016"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2017" label="2017">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2017"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2018" label="2018">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2018"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2019" label="2019">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2019"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2020" label="2020">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2020"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="淡江大學(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2021" label="2021">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2021"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="國立高雄師範大學(頻率=1)；國立臺北科技大學(頻率=1)；財團法人懷海教育基金會(頻率=1)；財團法人新北市私立鈊象電子社會福利慈善基金會(頻率=1)；新北市五工扶輪社(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2022" label="2022">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2022"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2023" label="2023">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2023"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="新北市教育局教官室(頻率=3)；財團法人圓光文教基金會(頻率=2)；三重分局與各派出所(頻率=3)；里辦公室(頻率=3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2024" label="2024">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2024"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="人本教育文教基金會(頻率=1)；勵馨基金會花漾青春館(頻率=1)；新北市蘆洲少年福利服務中心(頻率=1)；財團法人台北市基督教勵友中心(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2025" label="2025">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2025"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2026" label="2026">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2026"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2027" label="2027">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2027"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="勵馨基金會花漾青春館(頻率=2)；新北市政府家庭暴力暨性侵害防治中心(頻率=2)；財團法人台北市基督教勵友中心(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2028" label="2028">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2028"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2029" label="2029">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2029"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2030" label="2030">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2030"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2031" label="2031">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2031"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="國立臺灣師範大學(頻率=1)；國立臺北教育大學(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2032" label="2032">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2032"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="廣達游於藝(頻率=2)；貍想教育(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2033" label="2033">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2033"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2034" label="2034">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2034"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="7"/>
+          <attvalue for="連結對象" value="財團法人林榮三文化公益基金會(頻率=2)；社團法人世界和平婦女會(頻率=3)；三重社區大學(頻率=1)；城市方舟工作室(頻率=2)；統鮮美食股份有限公司(頻率=3)；新北食品股份有限公司(頻率=2)；津和實業有限公司(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2035" label="2035">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2035"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="12"/>
+          <attvalue for="連結對象" value="南韓 Sangrok High School/常綠高等學校(頻率=2)；莫爾多瓦 PI Liceul Teoretic Cotiujenii Mari/ 科蒂烏熱尼伊馬里高中(頻率=2)；日本茨城縣學園之森義務教育學校(頻率=2)；日本東京都小平西高等學校(頻率=2)；國立臺灣師範大學(頻率=2)；國立臺北教育大學(頻率=2)；國立臺北藝術大學(頻率=2)；國立臺灣體育運動大學(頻率=2)；文化大學(頻率=2)；銘傳大學(頻率=2)；外交部領務局(頻率=2)；元大證券(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2036" label="2036">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2036"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2037" label="2037">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2037"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2038" label="2038">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2038"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="沛徳基金會(頻率=2)；財團法人學思達教育基金會(頻率=2)；玩轉學校(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2039" label="2039">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2039"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="新北市教育局(頻率=1)；財團法人台北愛樂文教基金會(頻率=2)；台灣合唱協會(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2040" label="2040">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2040"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2041" label="2041">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2041"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="國立臺灣師範大學(頻率=1)；惠瑜慈善協會(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2042" label="2042">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2042"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立海山高級中學(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2043" label="2043">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2043"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2044" label="2044">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2044"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="均一教育平台(頻率=2)；AILEAD(頻率=2)；全國排舞協會(頻率=3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2045" label="2045">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2045"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2046" label="2046">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2046"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="台灣諮商與輔導學會(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2047" label="2047">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2047"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="7"/>
+          <attvalue for="連結對象" value="財團法人中華民國兒童福利聯盟基金會(頻率=3)；新北市蘆洲少年福利服務中心(頻率=3)；新北市社會福利服務中心(頻率=3)；新北市三重區社區心理衛生中心(頻率=3)；新北市政府家庭暴力暨性侵害防治中心(頻率=3)；樂融身障者服務中心(頻率=3)；臺灣士林地方法院(頻率=3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2048" label="2048">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2048"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2049" label="2049">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2049"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2050" label="2050">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2050"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="三重社區大學(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2051" label="2051">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2051"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2052" label="2052">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2052"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2053" label="2053">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2053"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="國立臺灣師範大學(頻率=1)；國立臺灣師範大學心測中心(頻率=1)；教科書出版廠商(頻率=1)；教育出版社(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2054" label="2054">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2054"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="社團法人台中市玉蘭花扶弱傳愛協會(頻率=2)；社團法人高雄市肢體障礙協會(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2055" label="2055">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2055"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="社團法人人生百味文化建構協會(頻率=2)；社團法人臺灣夢想城鄉營造協會(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2056" label="2056">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2056"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="國立臺北教育大學(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2057" label="2057">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2057"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="Tutor ABC(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2058" label="2058">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2058"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="勵馨基金會花漾青春館(頻率=2)；新北市蘆洲少年福利服務中心(頻率=2)；新北市政府家庭暴力暨性侵害防治中心(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2059" label="2059">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2059"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="曹崇禮老師(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2060" label="2060">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2060"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="荒野保護協會(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2061" label="2061">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2061"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2062" label="2062">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2062"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2063" label="2063">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2063"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2064" label="2064">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2064"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2065" label="2065">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2065"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="國立臺灣師範大學(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2066" label="2066">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2066"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="三重區社會福利服務中心(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2067" label="2067">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2067"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2068" label="2068">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2068"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="先嗇宮(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2069" label="2069">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2069"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2070" label="2070">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2070"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2071" label="2071">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2071"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="國立臺灣師範大學(頻率=1)；台灣應用劇場發展中心(頻率=2)；古亭共學團(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2072" label="2072">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2072"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2073" label="2073">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2073"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2074" label="2074">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2074"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2075" label="2075">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2075"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="財團法人中華民國兒童福利聯盟基金會(頻率=1)；財團法人台灣兒童暨家庭扶助基金會(頻率=1)；財團法人台北市失親兒福利基金會(頻率=1)；新北市政府家庭暴力暨性侵害防治中心(頻率=1)；新北地方法院少年觀護人(頻率=1)；台灣展翅協會(頻率=1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2076" label="2076">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2076"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="荒野保護協會(頻率=1)；先嗇宮(頻率=2)；義天宮(頻率=2)；侯錦足里長辦公室(頻率=2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="I_新北市立海山高級中學" label="新北市立海山高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立海山高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2008(頻率=1)；2042(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_南韓 Sangrok High School/常綠高等學校" label="南韓 Sangrok High School/常綠高等學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="南韓 Sangrok High School/常綠高等學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_莫爾多瓦 PI Liceul Teoretic Cotiujenii Mari/ 科蒂烏熱尼伊馬里高中" label="莫爾多瓦 PI Liceul Teoretic Cotiujenii Mari/ 科蒂烏熱尼伊馬里高中">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="莫爾多瓦 PI Liceul Teoretic Cotiujenii Mari/ 科蒂烏熱尼伊馬里高中"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_日本茨城縣學園之森義務教育學校" label="日本茨城縣學園之森義務教育學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="日本茨城縣學園之森義務教育學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_日本東京都小平西高等學校" label="日本東京都小平西高等學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="日本東京都小平西高等學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺灣師範大學" label="國立臺灣師範大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺灣師範大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="8"/>
+          <attvalue for="連結對象" value="2005(頻率=3)；2007(頻率=1)；2031(頻率=1)；2035(頻率=2)；2041(頻率=1)；2053(頻率=1)；2065(頻率=1)；2071(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺灣師範大學心測中心" label="國立臺灣師範大學心測中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺灣師範大學心測中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2053(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立高雄師範大學" label="國立高雄師範大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立高雄師範大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2021(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺北教育大學" label="國立臺北教育大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺北教育大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2031(頻率=1)；2035(頻率=2)；2056(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺北科技大學" label="國立臺北科技大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺北科技大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2021(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺北藝術大學" label="國立臺北藝術大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺北藝術大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺灣體育運動大學" label="國立臺灣體育運動大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺灣體育運動大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2015(頻率=1)；2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_淡江大學" label="淡江大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="淡江大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_文化大學" label="文化大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="文化大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_文化大學師資培育中心" label="文化大學師資培育中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="文化大學師資培育中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2014(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_銘傳大學" label="銘傳大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="銘傳大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_銘傳大學師資培訓中心" label="銘傳大學師資培訓中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="銘傳大學師資培訓中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2012(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市教育局" label="新北市教育局">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市教育局"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2039(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市教育局教官室" label="新北市教育局教官室">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市教育局教官室"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2023(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國教輔導團" label="國教輔導團">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國教輔導團"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2009(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_外交部領務局" label="外交部領務局">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="外交部領務局"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_沛徳基金會" label="沛徳基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="沛徳基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2038(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人懷海教育基金會" label="財團法人懷海教育基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人懷海教育基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2021(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人圓光文教基金會" label="財團法人圓光文教基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人圓光文教基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2023(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_人本教育文教基金會" label="人本教育文教基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="人本教育文教基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2024(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_勵馨基金會花漾青春館" label="勵馨基金會花漾青春館">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="勵馨基金會花漾青春館"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2024(頻率=1)；2027(頻率=2)；2058(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人林榮三文化公益基金會" label="財團法人林榮三文化公益基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人林榮三文化公益基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2034(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人學思達教育基金會" label="財團法人學思達教育基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人學思達教育基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2038(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人新北市私立鈊象電子社會福利慈善基金會" label="財團法人新北市私立鈊象電子社會福利慈善基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人新北市私立鈊象電子社會福利慈善基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2021(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人台北愛樂文教基金會" label="財團法人台北愛樂文教基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人台北愛樂文教基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2039(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人中華民國兒童福利聯盟基金會" label="財團法人中華民國兒童福利聯盟基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人中華民國兒童福利聯盟基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2047(頻率=3)；2075(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人台灣兒童暨家庭扶助基金會" label="財團法人台灣兒童暨家庭扶助基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人台灣兒童暨家庭扶助基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2075(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人台北市失親兒福利基金會" label="財團法人台北市失親兒福利基金會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人台北市失親兒福利基金會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2075(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市蘆洲少年福利服務中心" label="新北市蘆洲少年福利服務中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市蘆洲少年福利服務中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2024(頻率=1)；2047(頻率=3)；2058(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_三重區社會福利服務中心" label="三重區社會福利服務中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="三重區社會福利服務中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2066(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市社會福利服務中心" label="新北市社會福利服務中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市社會福利服務中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2047(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區社區心理衛生中心" label="新北市三重區社區心理衛生中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區社區心理衛生中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2047(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市政府家庭暴力暨性侵害防治中心" label="新北市政府家庭暴力暨性侵害防治中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市政府家庭暴力暨性侵害防治中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="2027(頻率=2)；2047(頻率=3)；2058(頻率=2)；2075(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_財團法人台北市基督教勵友中心" label="財團法人台北市基督教勵友中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="財團法人台北市基督教勵友中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2024(頻率=1)；2027(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_樂融身障者服務中心" label="樂融身障者服務中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="樂融身障者服務中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2047(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_社團法人世界和平婦女會" label="社團法人世界和平婦女會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="社團法人世界和平婦女會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2034(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_社團法人台中市玉蘭花扶弱傳愛協會" label="社團法人台中市玉蘭花扶弱傳愛協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="社團法人台中市玉蘭花扶弱傳愛協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2054(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_社團法人高雄市肢體障礙協會" label="社團法人高雄市肢體障礙協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="社團法人高雄市肢體障礙協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2054(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_社團法人人生百味文化建構協會" label="社團法人人生百味文化建構協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="社團法人人生百味文化建構協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2055(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_社團法人臺灣夢想城鄉營造協會" label="社團法人臺灣夢想城鄉營造協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="社團法人臺灣夢想城鄉營造協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2055(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_惠瑜慈善協會" label="惠瑜慈善協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="惠瑜慈善協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2041(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市五工扶輪社" label="新北市五工扶輪社">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市五工扶輪社"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2021(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_台灣諮商與輔導學會" label="台灣諮商與輔導學會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="台灣諮商與輔導學會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2046(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_廣達游於藝" label="廣達游於藝">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="廣達游於藝"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2032(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_貍想教育" label="貍想教育">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="貍想教育"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2032(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_玩轉學校" label="玩轉學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="玩轉學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2038(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_均一教育平台" label="均一教育平台">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="均一教育平台"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2044(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺灣士林地方法院" label="臺灣士林地方法院">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺灣士林地方法院"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2047(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北地方法院少年觀護人" label="新北地方法院少年觀護人">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北地方法院少年觀護人"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2075(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_台灣展翅協會" label="台灣展翅協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="台灣展翅協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2075(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_荒野保護協會" label="荒野保護協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="荒野保護協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2006(頻率=1)；2060(頻率=2)；2076(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_教科書出版廠商" label="教科書出版廠商">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="教科書出版廠商"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2053(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_教育出版社" label="教育出版社">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="教育出版社"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2053(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_台灣應用劇場發展中心" label="台灣應用劇場發展中心">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="台灣應用劇場發展中心"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2071(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_古亭共學團" label="古亭共學團">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="古亭共學團"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2071(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_三重社區大學" label="三重社區大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="三重社區大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2034(頻率=1)；2050(頻率=1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_Tutor ABC" label="Tutor ABC">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="Tutor ABC"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2057(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_高職英文老師" label="高職英文老師">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="高職英文老師"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2010(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_曹崇禮老師" label="曹崇禮老師">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="曹崇禮老師"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2059(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_AILEAD" label="AILEAD">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="AILEAD"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2044(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_咖啡有的cafe’" label="咖啡有的cafe’">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="咖啡有的cafe’"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2011(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_三重分局與各派出所" label="三重分局與各派出所">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="三重分局與各派出所"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2023(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_城市方舟工作室" label="城市方舟工作室">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="城市方舟工作室"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2034(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_全國排舞協會" label="全國排舞協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="全國排舞協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2044(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_元大證券" label="元大證券">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="元大證券"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2035(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_台灣合唱協會" label="台灣合唱協會">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="台灣合唱協會"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2039(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_先嗇宮" label="先嗇宮">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="先嗇宮"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2068(頻率=1)；2076(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_義天宮" label="義天宮">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="義天宮"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2076(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_侯錦足里長辦公室" label="侯錦足里長辦公室">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="侯錦足里長辦公室"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2076(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_里辦公室" label="里辦公室">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="里辦公室"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2023(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_統鮮美食股份有限公司" label="統鮮美食股份有限公司">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="統鮮美食股份有限公司"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2034(頻率=3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北食品股份有限公司" label="新北食品股份有限公司">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北食品股份有限公司"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2034(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_津和實業有限公司" label="津和實業有限公司">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="津和實業有限公司"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2034(頻率=2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="M_2005" target="I_國立臺灣師範大學" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e2" source="M_2006" target="I_荒野保護協會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e3" source="M_2007" target="I_國立臺灣師範大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e4" source="M_2008" target="I_新北市立海山高級中學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e5" source="M_2009" target="I_國教輔導團" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e6" source="M_2010" target="I_高職英文老師" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e7" source="M_2011" target="I_咖啡有的cafe’" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e8" source="M_2012" target="I_銘傳大學師資培訓中心" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e9" source="M_2014" target="I_文化大學師資培育中心" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e10" source="M_2015" target="I_國立臺灣體育運動大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e11" source="M_2020" target="I_淡江大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e12" source="M_2021" target="I_國立高雄師範大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e13" source="M_2021" target="I_國立臺北科技大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e14" source="M_2021" target="I_財團法人懷海教育基金會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e15" source="M_2021" target="I_財團法人新北市私立鈊象電子社會福利慈善基金會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e16" source="M_2021" target="I_新北市五工扶輪社" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e17" source="M_2023" target="I_新北市教育局教官室" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e18" source="M_2023" target="I_財團法人圓光文教基金會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e19" source="M_2023" target="I_三重分局與各派出所" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e20" source="M_2023" target="I_里辦公室" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e21" source="M_2024" target="I_人本教育文教基金會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e22" source="M_2024" target="I_勵馨基金會花漾青春館" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e23" source="M_2024" target="I_新北市蘆洲少年福利服務中心" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e24" source="M_2024" target="I_財團法人台北市基督教勵友中心" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e25" source="M_2027" target="I_勵馨基金會花漾青春館" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e26" source="M_2027" target="I_新北市政府家庭暴力暨性侵害防治中心" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e27" source="M_2027" target="I_財團法人台北市基督教勵友中心" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e28" source="M_2031" target="I_國立臺灣師範大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e29" source="M_2031" target="I_國立臺北教育大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e30" source="M_2032" target="I_廣達游於藝" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e31" source="M_2032" target="I_貍想教育" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e32" source="M_2034" target="I_財團法人林榮三文化公益基金會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e33" source="M_2034" target="I_社團法人世界和平婦女會" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e34" source="M_2034" target="I_三重社區大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e35" source="M_2034" target="I_城市方舟工作室" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e36" source="M_2034" target="I_統鮮美食股份有限公司" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e37" source="M_2034" target="I_新北食品股份有限公司" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e38" source="M_2034" target="I_津和實業有限公司" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e39" source="M_2035" target="I_南韓 Sangrok High School/常綠高等學校" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e40" source="M_2035" target="I_莫爾多瓦 PI Liceul Teoretic Cotiujenii Mari/ 科蒂烏熱尼伊馬里高中" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e41" source="M_2035" target="I_日本茨城縣學園之森義務教育學校" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e42" source="M_2035" target="I_日本東京都小平西高等學校" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e43" source="M_2035" target="I_國立臺灣師範大學" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e44" source="M_2035" target="I_國立臺北教育大學" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e45" source="M_2035" target="I_國立臺北藝術大學" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e46" source="M_2035" target="I_國立臺灣體育運動大學" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e47" source="M_2035" target="I_文化大學" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e48" source="M_2035" target="I_銘傳大學" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e49" source="M_2035" target="I_外交部領務局" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e50" source="M_2035" target="I_元大證券" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e51" source="M_2038" target="I_沛徳基金會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e52" source="M_2038" target="I_財團法人學思達教育基金會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e53" source="M_2038" target="I_玩轉學校" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e54" source="M_2039" target="I_新北市教育局" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e55" source="M_2039" target="I_財團法人台北愛樂文教基金會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e56" source="M_2039" target="I_台灣合唱協會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e57" source="M_2041" target="I_國立臺灣師範大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e58" source="M_2041" target="I_惠瑜慈善協會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e59" source="M_2042" target="I_新北市立海山高級中學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e60" source="M_2044" target="I_均一教育平台" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e61" source="M_2044" target="I_AILEAD" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e62" source="M_2044" target="I_全國排舞協會" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e63" source="M_2046" target="I_台灣諮商與輔導學會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e64" source="M_2047" target="I_財團法人中華民國兒童福利聯盟基金會" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e65" source="M_2047" target="I_新北市蘆洲少年福利服務中心" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e66" source="M_2047" target="I_新北市社會福利服務中心" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e67" source="M_2047" target="I_新北市三重區社區心理衛生中心" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e68" source="M_2047" target="I_新北市政府家庭暴力暨性侵害防治中心" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e69" source="M_2047" target="I_樂融身障者服務中心" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e70" source="M_2047" target="I_臺灣士林地方法院" label="單向;頻率=3" type="directed" weight="3.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="3.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.0"/>
+      </edge>
+      <edge id="e71" source="M_2050" target="I_三重社區大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e72" source="M_2053" target="I_國立臺灣師範大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e73" source="M_2053" target="I_國立臺灣師範大學心測中心" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e74" source="M_2053" target="I_教科書出版廠商" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e75" source="M_2053" target="I_教育出版社" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e76" source="M_2054" target="I_社團法人台中市玉蘭花扶弱傳愛協會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e77" source="M_2054" target="I_社團法人高雄市肢體障礙協會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e78" source="M_2055" target="I_社團法人人生百味文化建構協會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e79" source="M_2055" target="I_社團法人臺灣夢想城鄉營造協會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e80" source="M_2056" target="I_國立臺北教育大學" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e81" source="M_2057" target="I_Tutor ABC" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e82" source="M_2058" target="I_勵馨基金會花漾青春館" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e83" source="M_2058" target="I_新北市蘆洲少年福利服務中心" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e84" source="M_2058" target="I_新北市政府家庭暴力暨性侵害防治中心" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e85" source="M_2059" target="I_曹崇禮老師" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e86" source="M_2060" target="I_荒野保護協會" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e87" source="M_2065" target="I_國立臺灣師範大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e88" source="M_2066" target="I_三重區社會福利服務中心" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e89" source="M_2068" target="I_先嗇宮" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e90" source="M_2071" target="I_國立臺灣師範大學" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e91" source="M_2071" target="I_台灣應用劇場發展中心" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e92" source="M_2071" target="I_古亭共學團" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e93" source="M_2075" target="I_財團法人中華民國兒童福利聯盟基金會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e94" source="M_2075" target="I_財團法人台灣兒童暨家庭扶助基金會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e95" source="M_2075" target="I_財團法人台北市失親兒福利基金會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e96" source="M_2075" target="I_新北市政府家庭暴力暨性侵害防治中心" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e97" source="M_2075" target="I_新北地方法院少年觀護人" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e98" source="M_2075" target="I_台灣展翅協會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e99" source="M_2076" target="I_荒野保護協會" label="單向;頻率=1" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="1.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e100" source="M_2076" target="I_先嗇宮" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e101" source="M_2076" target="I_義天宮" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+      <edge id="e102" source="M_2076" target="I_侯錦足里長辦公室" label="單向;頻率=2" type="directed" weight="2.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="頻率值" value="2.0"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.0"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

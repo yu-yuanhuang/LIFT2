@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI GPT-5.4 Thinking</creator>
+    <description>三和國中_校際網絡_校際間合作管道（有向二模網路；學校成員以ID顯示，合作管道以全名顯示）</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="三和國中_校際網絡_校際間合作管道">
+    <attributes class="node" mode="static">
+      <attribute id="node_type" title="node_type" type="string"/>
+      <attribute id="點名稱" title="點名稱" type="string"/>
+      <attribute id="點身分別" title="點身分別" type="string"/>
+      <attribute id="連結數" title="連結數" type="long"/>
+      <attribute id="連結對象" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="方向標示" title="方向標示" type="string"/>
+      <attribute id="網路類型" title="網路類型" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="M_2001" label="2001">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2001"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2002" label="2002">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2002"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2003" label="2003">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2003"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2004" label="2004">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2004"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2005" label="2005">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2005"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2006" label="2006">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2006"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2007" label="2007">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2007"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2008" label="2008">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2008"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2009" label="2009">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2009"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="行政團隊層級協作；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2010" label="2010">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2010"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2011" label="2011">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2011"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2012" label="2012">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2012"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2013" label="2013">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2013"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2014" label="2014">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2014"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2015" label="2015">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2015"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2016" label="2016">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2016"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2017" label="2017">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2017"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2018" label="2018">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2018"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2019" label="2019">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2019"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2020" label="2020">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2020"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；行政團隊層級協作；自發社群或跨校共學團體；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2021" label="2021">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2021"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="校長層級主動聯繫或串聯；行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2022" label="2022">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2022"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2023" label="2023">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2023"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2024" label="2024">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2024"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2025" label="2025">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2025"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2026" label="2026">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2026"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2027" label="2027">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2027"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2028" label="2028">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2028"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2029" label="2029">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2029"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2030" label="2030">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2030"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2031" label="2031">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2031"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；校長層級主動聯繫或串聯；行政團隊層級協作；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2032" label="2032">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2032"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2033" label="2033">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2033"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2034" label="2034">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2034"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2035" label="2035">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2035"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；校長層級主動聯繫或串聯；行政團隊層級協作；自發社群或跨校共學團體；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2036" label="2036">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2036"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2037" label="2037">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2037"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2038" label="2038">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2038"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="校長層級主動聯繫或串聯；行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2039" label="2039">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2039"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2040" label="2040">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2040"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2041" label="2041">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2041"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；行政團隊層級協作；自發社群或跨校共學團體；跨校聯盟或專案合作平台；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2042" label="2042">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2042"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2043" label="2043">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2043"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2044" label="2044">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2044"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2045" label="2045">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2045"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2046" label="2046">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2046"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體；專業協會或學會網絡；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2047" label="2047">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2047"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2048" label="2048">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2048"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2049" label="2049">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2049"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2050" label="2050">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2050"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="校長層級主動聯繫或串聯"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2051" label="2051">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2051"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2052" label="2052">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2052"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2053" label="2053">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2053"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2054" label="2054">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2054"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2055" label="2055">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2055"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2056" label="2056">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2056"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；校長層級主動聯繫或串聯；行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2057" label="2057">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2057"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2058" label="2058">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2058"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2059" label="2059">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2059"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2060" label="2060">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2060"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體；專業協會或學會網絡"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2061" label="2061">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2061"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2062" label="2062">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2062"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2063" label="2063">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2063"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2064" label="2064">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2064"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2065" label="2065">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2065"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；校長層級主動聯繫或串聯；行政團隊層級協作；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2066" label="2066">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2066"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2067" label="2067">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2067"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2068" label="2068">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2068"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2069" label="2069">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2069"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2070" label="2070">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2070"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2071" label="2071">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2071"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2072" label="2072">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2072"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2073" label="2073">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2073"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2074" label="2074">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2074"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2075" label="2075">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2075"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2076" label="2076">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2076"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="I_教育局或地方政府安排" label="教育局或地方政府安排">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="教育局或地方政府安排"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="25"/>
+          <attvalue for="連結對象" value="2005；2007；2008；2013；2015；2020；2024；2026；2031；2032；2034；2035；2041；2042；2045；2047；2049；2055；2056；2057；2058；2065；2066；2067；2070"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_校長層級主動聯繫或串聯" label="校長層級主動聯繫或串聯">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="校長層級主動聯繫或串聯"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="7"/>
+          <attvalue for="連結對象" value="2021；2031；2035；2038；2050；2056；2065"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_行政團隊層級協作" label="行政團隊層級協作">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="行政團隊層級協作"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="16"/>
+          <attvalue for="連結對象" value="2009；2020；2021；2025；2026；2031；2034；2035；2038；2041；2049；2056；2065；2066；2068；2073"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_自發社群或跨校共學團體" label="自發社群或跨校共學團體">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="自發社群或跨校共學團體"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="26"/>
+          <attvalue for="連結對象" value="2001；2011；2014；2020；2021；2026；2027；2035；2038；2039；2040；2041；2045；2046；2048；2049；2053；2054；2055；2057；2059；2060；2071；2073；2074；2075"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_跨校聯盟或專案合作平台" label="跨校聯盟或專案合作平台">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="跨校聯盟或專案合作平台"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="2007；2009；2020；2032；2035；2041"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_專業協會或學會網絡" label="專業協會或學會網絡">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="專業協會或學會網絡"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2046；2060"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_與大學或研究機構之合作" label="與大學或研究機構之合作">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="與大學或研究機構之合作"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="2031；2041；2046；2055；2065"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="M_2001" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e2" source="M_2005" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e3" source="M_2007" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e4" source="M_2007" target="I_跨校聯盟或專案合作平台" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e5" source="M_2008" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e6" source="M_2009" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e7" source="M_2009" target="I_跨校聯盟或專案合作平台" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e8" source="M_2011" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e9" source="M_2013" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e10" source="M_2014" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e11" source="M_2015" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e12" source="M_2020" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e13" source="M_2020" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e14" source="M_2020" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e15" source="M_2020" target="I_跨校聯盟或專案合作平台" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e16" source="M_2021" target="I_校長層級主動聯繫或串聯" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e17" source="M_2021" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e18" source="M_2021" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e19" source="M_2024" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e20" source="M_2025" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e21" source="M_2026" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e22" source="M_2026" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e23" source="M_2026" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e24" source="M_2027" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e25" source="M_2031" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e26" source="M_2031" target="I_校長層級主動聯繫或串聯" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e27" source="M_2031" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e28" source="M_2031" target="I_與大學或研究機構之合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e29" source="M_2032" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e30" source="M_2032" target="I_跨校聯盟或專案合作平台" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e31" source="M_2034" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e32" source="M_2034" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e33" source="M_2035" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e34" source="M_2035" target="I_校長層級主動聯繫或串聯" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e35" source="M_2035" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e36" source="M_2035" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e37" source="M_2035" target="I_跨校聯盟或專案合作平台" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e38" source="M_2038" target="I_校長層級主動聯繫或串聯" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e39" source="M_2038" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e40" source="M_2038" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e41" source="M_2039" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e42" source="M_2040" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e43" source="M_2041" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e44" source="M_2041" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e45" source="M_2041" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e46" source="M_2041" target="I_跨校聯盟或專案合作平台" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e47" source="M_2041" target="I_與大學或研究機構之合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e48" source="M_2042" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e49" source="M_2045" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e50" source="M_2045" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e51" source="M_2046" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e52" source="M_2046" target="I_專業協會或學會網絡" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e53" source="M_2046" target="I_與大學或研究機構之合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e54" source="M_2047" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e55" source="M_2048" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e56" source="M_2049" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e57" source="M_2049" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e58" source="M_2049" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e59" source="M_2050" target="I_校長層級主動聯繫或串聯" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e60" source="M_2053" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e61" source="M_2054" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e62" source="M_2055" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e63" source="M_2055" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e64" source="M_2055" target="I_與大學或研究機構之合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e65" source="M_2056" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e66" source="M_2056" target="I_校長層級主動聯繫或串聯" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e67" source="M_2056" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e68" source="M_2057" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e69" source="M_2057" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e70" source="M_2058" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e71" source="M_2059" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e72" source="M_2060" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e73" source="M_2060" target="I_專業協會或學會網絡" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e74" source="M_2065" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e75" source="M_2065" target="I_校長層級主動聯繫或串聯" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e76" source="M_2065" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e77" source="M_2065" target="I_與大學或研究機構之合作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e78" source="M_2066" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e79" source="M_2066" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e80" source="M_2067" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e81" source="M_2068" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e82" source="M_2070" target="I_教育局或地方政府安排" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e83" source="M_2071" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e84" source="M_2073" target="I_行政團隊層級協作" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e85" source="M_2073" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e86" source="M_2074" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e87" source="M_2075" target="I_自發社群或跨校共學團體" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

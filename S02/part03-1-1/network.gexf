@@ -1,0 +1,3632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI GPT-5.4 Thinking</creator>
+    <description>三和國中_校際網絡（有向二模網路；學校成員以ID顯示，機構以全名顯示）</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="三和國中_校際網絡">
+    <attributes class="node" mode="static">
+      <attribute id="node_type" title="node_type" type="string"/>
+      <attribute id="點名稱" title="點名稱" type="string"/>
+      <attribute id="點身分別" title="點身分別" type="string"/>
+      <attribute id="連結數" title="連結數" type="long"/>
+      <attribute id="連結對象" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="方向標示" title="方向標示" type="string"/>
+      <attribute id="網路類型" title="網路類型" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="M_2001" label="2001">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2001"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="新北市立福和國民中學；臺北市立弘道國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2002" label="2002">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2002"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="新北市三重區三和國民中學；臺北市立雙園國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2003" label="2003">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2003"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2004" label="2004">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2004"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2005" label="2005">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2005"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="新北市立碧華國民中學；新北市立板橋國民中學；新北市立淡水國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2006" label="2006">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2006"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2007" label="2007">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2007"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="新北市市立明志國民中學；新北市私立東海高級中學；新北市私立穀保家事商業職業學校；新北市私立莊敬高級工業家事職業學校；新北市私立智光高級商工職業學校；新北市立三重高級商工職業學校"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2008" label="2008">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2008"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立頭前國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2009" label="2009">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2009"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="日本學校交流"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2010" label="2010">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2010"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立三重高級商工職業學校"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2011" label="2011">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2011"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立永和國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2012" label="2012">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2012"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="桃園市私立有得雙語中小學；桃園市立內壢國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2013" label="2013">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2013"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立新北高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2014" label="2014">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2014"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市三重區三和國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2015" label="2015">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2015"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立碧華國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2016" label="2016">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2016"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2017" label="2017">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2017"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2018" label="2018">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2018"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2019" label="2019">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2019"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2020" label="2020">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2020"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="21"/>
+          <attvalue for="連結對象" value="新北市三重區三和國民中學；新北市立尖山國民中學；新北市立中山國民中學；新北市立新泰國民中學；新北市立漳和國民中學；基隆市立銘傳國民中學；臺北市立天母國民中學；臺北市立仁愛國民中學；臺北市立介壽國民中學；桃園市立大溪國民中學；桃園市立福豐國民中學；桃園市立大崗國民中學；桃園市立壽山高級中等學校；臺中市立太平國民中學；臺中市立惠文高級中學；彰化縣立北斗國民中學；國立南科國際實驗高級中學；花蓮縣立花崗國民中學；國立臺北教育大學；國立東華大學；淡江大學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2021" label="2021">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2021"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="7"/>
+          <attvalue for="連結對象" value="新北市三重區二重國民中學；新北市立碧華國民中學；新北市立蘆洲國民中學；新北市立忠孝國民中學；新北市立重慶國民中學；新北市立淡水國民中學；新北市立福和國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2022" label="2022">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2022"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2023" label="2023">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2023"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2024" label="2024">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2024"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2025" label="2025">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2025"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="新北市立新北高級中學；新北市立三重高級中學；宜蘭縣私立慧燈高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2026" label="2026">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2026"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市三重區三和國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2027" label="2027">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2027"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="新北市立秀峰高級中學；新北市立三重高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2028" label="2028">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2028"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="12"/>
+          <attvalue for="連結對象" value="新北市三重區厚德國民小學；新北市三重區永福國民小學；新北市三重區重陽國民小學；新北市蘆洲區仁愛國民小學；新北市蘆洲區鷺江國民小學；新北市立鷺江國民中學；新北市立正德國民中學；新北市立新北高級中學；新北市立三民高級中學；新北市立三重高級中學；臺北市立石牌國民中學；國立臺北教育大學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2029" label="2029">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2029"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2030" label="2030">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2030"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2031" label="2031">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2031"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2032" label="2032">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2032"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2033" label="2033">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2033"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2034" label="2034">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2034"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2035" label="2035">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2035"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2036" label="2036">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2036"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2037" label="2037">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2037"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2038" label="2038">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2038"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="新北市立新埔國民中學；新北市立福和國民中學；臺北市立中山女子高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2039" label="2039">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2039"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="臺北市立建國高級中學；高雄市立七賢國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2040" label="2040">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2040"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市永和區永平國民小學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2041" label="2041">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2041"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="7"/>
+          <attvalue for="連結對象" value="新北市永和區秀朗國民小學；新北市三重區光榮國民中學；新北市立碧華國民中學；新北市立新泰國民中學；新北市立新北高級中學；新北市立三民高級中學；國立臺灣師範大學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2042" label="2042">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2042"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立北大高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2043" label="2043">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2043"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2044" label="2044">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2044"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="新北市立溪崑國民中學；新北市立新泰國民中學；臺北市立成功高級中學；桃園市立楊梅高級中等學校；臺南市立永康國民中學；高雄市立壽山國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2045" label="2045">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2045"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="新北市三重區二重國民中學；高雄市立七賢國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2046" label="2046">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2046"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="9"/>
+          <attvalue for="連結對象" value="新北市立新北高級中學；臺北市立大同高級中學；彰化縣立秀水國民中學；臺南市立海佃國民中學；國立臺灣大學；國立清華大學；國立臺灣師範大學；臺北市立大學；國立政治大學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2047" label="2047">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2047"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="新北市三重區二重國民中學；新北市立崇林國民中學；新北市立林口國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2048" label="2048">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2048"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="新北市立積穗國民中學；新北市立清水高級中學；臺北市立景興國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2049" label="2049">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2049"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="新北市蘆洲區仁愛國民小學；新北市立忠孝國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2050" label="2050">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2050"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="國立臺灣師範大學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2051" label="2051">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2051"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2052" label="2052">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2052"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2053" label="2053">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2053"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="新北市三重區三和國民中學；新北市立新埔國民中學；新北市立頭前國民中學；新北市立永和國民中學；新北市立福和國民中學；新北市立海山高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2054" label="2054">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2054"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="新北市立蘆洲國民中學；新北市立鷺江國民中學；新北市立三民高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2055" label="2055">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2055"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="新北市立碧華國民中學；新北市立積穗國民中學；新北市立三民高級中學；國立臺灣師範大學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2056" label="2056">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2056"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立福和國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2057" label="2057">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2057"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立江翠國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2058" label="2058">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2058"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="新北市汐止區汐止國民小學；新北市立蘆洲國民中學；新北市立三重高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2059" label="2059">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2059"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市三重區光榮國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2060" label="2060">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2060"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="8"/>
+          <attvalue for="連結對象" value="新北市蘆洲區忠義國民小學；新北市蘆洲區鷺江國民小學；新北市立蘆洲國民中學；新北市立鷺江國民中學；新北市立海山高級中學；新北市立錦和高級中學；臺北市立蘭雅國民中學；臺北市立明德國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2061" label="2061">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2061"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2062" label="2062">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2062"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2063" label="2063">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2063"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="新北市三重區光榮國民中學；新北市立義學國民中學；新北市立三重高級中學；新北市立丹鳳高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2064" label="2064">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2064"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2065" label="2065">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2065"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="8"/>
+          <attvalue for="連結對象" value="新北市立三和國民中學；新北市立中山國民中學；新北市立泰山國民中學；新北市立新莊國民中學；新北市立永和國民中學；新北市立丹鳳高級中學；臺北市私立華興高級中等學校；桃園市立石門國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2066" label="2066">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2066"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="新北市三重區碧華國民小學；新北市中和區秀山國民小學；新北市立明志國民中學；新北市立安溪國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2067" label="2067">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2067"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="新北市立碧華國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2068" label="2068">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2068"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="新北市三重區厚德國民小學；新北市三重區永福國民小學；新北市三重區碧華國民小學；新北市蘆洲區鷺江國民小學；新北市立碧華國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2069" label="2069">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2069"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2070" label="2070">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2070"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="新北市三重區光榮國民小學；新北市三重區正義國民小學；新北市蘆洲區鷺江國民小學；新北市市立明志國民中學；新北市立鷺江國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2071" label="2071">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2071"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="7"/>
+          <attvalue for="連結對象" value="新北市立大觀國中學；臺北市立仁愛國民中學；臺北市立金華國民中學；臺北市立龍門國民中學；臺北市立木柵國民中學；臺北市立景興國民中學；桃園市立永豐高級中等學校"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2072" label="2072">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2072"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2073" label="2073">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2073"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="新北市立明志國民中學；新北市立新埔國民中學；新北市立頭前國民中學；新北市立永和國民中學；新北市立福和國民中學；新北市立錦和高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2074" label="2074">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2074"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="8"/>
+          <attvalue for="連結對象" value="新北市三重區三和國民中學；新北市立中平國民中學；新北市立三民高級中學；新北市立丹鳳高級中學；新北市立永平高級中學；臺北市立敦化國民中學；桃園市立武陵高級中等學校；苗栗縣立建國國民中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2075" label="2075">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2075"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="新北市三重區厚德國民小學；新北市市立明志國民中學；新北市立蘆洲國民中學；慈濟大學附屬高級中學"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="M_2076" label="2076">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="2076"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="I_新北市汐止區汐止國民小學" label="新北市汐止區汐止國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市汐止區汐止國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2058"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區光榮國民小學" label="新北市三重區光榮國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區光榮國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2070"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區厚德國民小學" label="新北市三重區厚德國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區厚德國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2028；2068；2075"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區正義國民小學" label="新北市三重區正義國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區正義國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2070"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區永福國民小學" label="新北市三重區永福國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區永福國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2028；2068"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區碧華國民小學" label="新北市三重區碧華國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區碧華國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2066；2068"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區重陽國民小學" label="新北市三重區重陽國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區重陽國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2028"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市蘆洲區仁愛國民小學" label="新北市蘆洲區仁愛國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市蘆洲區仁愛國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2028；2049"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市蘆洲區忠義國民小學" label="新北市蘆洲區忠義國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市蘆洲區忠義國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2060"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市蘆洲區鷺江國民小學" label="新北市蘆洲區鷺江國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市蘆洲區鷺江國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="2028；2060；2068；2070"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市板橋區海山國民小學" label="新北市板橋區海山國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市板橋區海山國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市淡水區鄧公國民小學" label="新北市淡水區鄧公國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市淡水區鄧公國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市林口區南勢國民小學" label="新北市林口區南勢國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市林口區南勢國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市中和區秀山國民小學" label="新北市中和區秀山國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市中和區秀山國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2066"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市永和區永平國民小學" label="新北市永和區永平國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市永和區永平國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2040"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市永和區秀朗國民小學" label="新北市永和區秀朗國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市永和區秀朗國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2041"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區三和國民中學" label="新北市三重區三和國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區三和國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="2002；2014；2020；2026；2053；2074"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立三和國民中學" label="新北市立三和國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立三和國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2065"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區二重國民中學" label="新北市三重區二重國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區二重國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2021；2045；2047"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市三重區光榮國民中學" label="新北市三重區光榮國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區光榮國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2041；2059；2063"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市市立明志國民中學" label="新北市市立明志國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市市立明志國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2007；2070；2075"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立明志國民中學" label="新北市立明志國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立明志國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2066；2073"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立碧華國民中學" label="新北市立碧華國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立碧華國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="7"/>
+          <attvalue for="連結對象" value="2005；2015；2021；2041；2055；2067；2068"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立蘆洲國民中學" label="新北市立蘆洲國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立蘆洲國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="2021；2054；2058；2060；2075"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立鷺江國民中學" label="新北市立鷺江國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立鷺江國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="2028；2054；2060；2070"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立安溪國民中學" label="新北市立安溪國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立安溪國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2066"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立尖山國民中學" label="新北市立尖山國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立尖山國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立中山國民中學" label="新北市立中山國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立中山國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2020；2065"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立大觀國中學" label="新北市立大觀國中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立大觀國中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2071"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立忠孝國民中學" label="新北市立忠孝國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立忠孝國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2021；2049"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立新埔國民中學" label="新北市立新埔國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立新埔國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2038；2053；2073"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立板橋國民中學" label="新北市立板橋國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立板橋國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2005"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立江翠國民中學" label="新北市立江翠國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立江翠國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2057"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立溪崑國民中學" label="新北市立溪崑國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立溪崑國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2044"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立重慶國民中學" label="新北市立重慶國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立重慶國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2021"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立淡水國民中學" label="新北市立淡水國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立淡水國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2005；2021"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立正德國民中學" label="新北市立正德國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立正德國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2028"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立泰山國民中學" label="新北市立泰山國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立泰山國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2065"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立中平國民中學" label="新北市立中平國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立中平國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2074"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立崇林國民中學" label="新北市立崇林國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立崇林國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2047"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立新泰國民中學" label="新北市立新泰國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立新泰國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2020；2041；2044"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立新莊國民中學" label="新北市立新莊國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立新莊國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2065"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立林口國民中學" label="新北市立林口國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立林口國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2047"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立義學國民中學" label="新北市立義學國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立義學國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2063"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立頭前國民中學" label="新北市立頭前國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立頭前國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2008；2053；2073"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立平溪國民中學" label="新北市立平溪國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立平溪國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立永和國民中學" label="新北市立永和國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立永和國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="2011；2053；2065；2073"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立漳和國民中學" label="新北市立漳和國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立漳和國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立福和國民中學" label="新北市立福和國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立福和國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="6"/>
+          <attvalue for="連結對象" value="2001；2021；2038；2053；2056；2073"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立積穗國民中學" label="新北市立積穗國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立積穗國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2048；2055"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立秀峰高級中學" label="新北市立秀峰高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立秀峰高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2027"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立新北高級中學" label="新北市立新北高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立新北高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="2013；2025；2028；2041；2046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立三民高級中學" label="新北市立三民高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立三民高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="2028；2041；2054；2055；2074"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立三重高級中學" label="新北市立三重高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立三重高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="2025；2027；2028；2058；2063"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市私立東海高級中學" label="新北市私立東海高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市私立東海高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2007"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市私立穀保家事商業職業學校" label="新北市私立穀保家事商業職業學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市私立穀保家事商業職業學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2007"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立北大高級中學" label="新北市立北大高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立北大高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2042"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市私立莊敬高級工業家事職業學校" label="新北市私立莊敬高級工業家事職業學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市私立莊敬高級工業家事職業學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2007"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立海山高級中學" label="新北市立海山高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立海山高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2053；2060"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立清水高級中學" label="新北市立清水高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立清水高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2048"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立丹鳳高級中學" label="新北市立丹鳳高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立丹鳳高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="2063；2065；2074"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立永平高級中學" label="新北市立永平高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立永平高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2074"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立錦和高級中學" label="新北市立錦和高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立錦和高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2060；2073"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市私立智光高級商工職業學校" label="新北市私立智光高級商工職業學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市私立智光高級商工職業學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2007"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_新北市立三重高級商工職業學校" label="新北市立三重高級商工職業學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立三重高級商工職業學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2007；2010"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_基隆市立銘傳國民中學" label="基隆市立銘傳國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="基隆市立銘傳國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立天母國民中學" label="臺北市立天母國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立天母國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立蘭雅國民中學" label="臺北市立蘭雅國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立蘭雅國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2060"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市私立華興高級中等學校" label="臺北市私立華興高級中等學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市私立華興高級中等學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2065"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立仁愛國民中學" label="臺北市立仁愛國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立仁愛國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2020；2071"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立金華國民中學" label="臺北市立金華國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立金華國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2071"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立龍門國民中學" label="臺北市立龍門國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立龍門國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2071"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立大同高級中學" label="臺北市立大同高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立大同高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立中山女子高級中學" label="臺北市立中山女子高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立中山女子高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2038"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立弘道國民中學" label="臺北市立弘道國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立弘道國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2001"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立成功高級中學" label="臺北市立成功高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立成功高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2044"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立建國高級中學" label="臺北市立建國高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立建國高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2039"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立木柵國民中學" label="臺北市立木柵國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立木柵國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2071"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立景興國民中學" label="臺北市立景興國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立景興國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2048；2071"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立石牌國民中學" label="臺北市立石牌國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立石牌國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2028"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立明德國民中學" label="臺北市立明德國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立明德國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2060"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立介壽國民中學" label="臺北市立介壽國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立介壽國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立敦化國民中學" label="臺北市立敦化國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立敦化國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2074"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立雙園國民中學" label="臺北市立雙園國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立雙園國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2002"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市私立有得雙語中小學" label="桃園市私立有得雙語中小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市私立有得雙語中小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2012"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立石門國民中學" label="桃園市立石門國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立石門國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2065"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立大溪國民中學" label="桃園市立大溪國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立大溪國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立福豐國民中學" label="桃園市立福豐國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立福豐國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立內壢國民中學" label="桃園市立內壢國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立內壢國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2012"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立大崗國民中學" label="桃園市立大崗國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立大崗國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立永豐高級中等學校" label="桃園市立永豐高級中等學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立永豐高級中等學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2071"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立武陵高級中等學校" label="桃園市立武陵高級中等學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立武陵高級中等學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2074"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立楊梅高級中等學校" label="桃園市立楊梅高級中等學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立楊梅高級中等學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2044"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_桃園市立壽山高級中等學校" label="桃園市立壽山高級中等學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="桃園市立壽山高級中等學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_苗栗縣立建國國民中學" label="苗栗縣立建國國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="苗栗縣立建國國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2074"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺中市立太平國民中學" label="臺中市立太平國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺中市立太平國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺中市立惠文高級中學" label="臺中市立惠文高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺中市立惠文高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_彰化縣立秀水國民中學" label="彰化縣立秀水國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="彰化縣立秀水國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_彰化縣立北斗國民中學" label="彰化縣立北斗國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="彰化縣立北斗國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺南市立永康國民中學" label="臺南市立永康國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺南市立永康國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2044"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺南市立海佃國民中學" label="臺南市立海佃國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺南市立海佃國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立南科國際實驗高級中學" label="國立南科國際實驗高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立南科國際實驗高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_高雄市立七賢國民中學" label="高雄市立七賢國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="高雄市立七賢國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2039；2045"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_高雄市立壽山國民中學" label="高雄市立壽山國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="高雄市立壽山國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2044"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_宜蘭縣私立慧燈高級中學" label="宜蘭縣私立慧燈高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="宜蘭縣私立慧燈高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2025"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_花蓮縣立花崗國民中學" label="花蓮縣立花崗國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="花蓮縣立花崗國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_慈濟大學附屬高級中學" label="慈濟大學附屬高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="慈濟大學附屬高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2075"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺灣大學" label="國立臺灣大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺灣大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立清華大學" label="國立清華大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立清華大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺灣師範大學" label="國立臺灣師範大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺灣師範大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="2041；2046；2050；2055"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立臺北教育大學" label="國立臺北教育大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺北教育大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="2020；2028"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_臺北市立大學" label="臺北市立大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立政治大學" label="國立政治大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立政治大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2046"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_國立東華大學" label="國立東華大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立東華大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_淡江大學" label="淡江大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="淡江大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2020"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+      <node id="I_日本學校交流" label="日本學校交流">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="日本學校交流"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="2009"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="M_2001" target="I_新北市立福和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e2" source="M_2001" target="I_臺北市立弘道國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e3" source="M_2002" target="I_新北市三重區三和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e4" source="M_2002" target="I_臺北市立雙園國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e5" source="M_2005" target="I_新北市立碧華國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e6" source="M_2005" target="I_新北市立板橋國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e7" source="M_2005" target="I_新北市立淡水國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e8" source="M_2007" target="I_新北市市立明志國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e9" source="M_2007" target="I_新北市私立東海高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e10" source="M_2007" target="I_新北市私立穀保家事商業職業學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e11" source="M_2007" target="I_新北市私立莊敬高級工業家事職業學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e12" source="M_2007" target="I_新北市私立智光高級商工職業學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e13" source="M_2007" target="I_新北市立三重高級商工職業學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e14" source="M_2008" target="I_新北市立頭前國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e15" source="M_2009" target="I_日本學校交流" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e16" source="M_2010" target="I_新北市立三重高級商工職業學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e17" source="M_2011" target="I_新北市立永和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e18" source="M_2012" target="I_桃園市私立有得雙語中小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e19" source="M_2012" target="I_桃園市立內壢國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e20" source="M_2013" target="I_新北市立新北高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e21" source="M_2014" target="I_新北市三重區三和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e22" source="M_2015" target="I_新北市立碧華國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e23" source="M_2020" target="I_新北市三重區三和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e24" source="M_2020" target="I_新北市立尖山國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e25" source="M_2020" target="I_新北市立中山國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e26" source="M_2020" target="I_新北市立新泰國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e27" source="M_2020" target="I_新北市立漳和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e28" source="M_2020" target="I_基隆市立銘傳國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e29" source="M_2020" target="I_臺北市立天母國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e30" source="M_2020" target="I_臺北市立仁愛國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e31" source="M_2020" target="I_臺北市立介壽國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e32" source="M_2020" target="I_桃園市立大溪國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e33" source="M_2020" target="I_桃園市立福豐國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e34" source="M_2020" target="I_桃園市立大崗國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e35" source="M_2020" target="I_桃園市立壽山高級中等學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e36" source="M_2020" target="I_臺中市立太平國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e37" source="M_2020" target="I_臺中市立惠文高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e38" source="M_2020" target="I_彰化縣立北斗國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e39" source="M_2020" target="I_國立南科國際實驗高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e40" source="M_2020" target="I_花蓮縣立花崗國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e41" source="M_2020" target="I_國立臺北教育大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e42" source="M_2020" target="I_國立東華大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e43" source="M_2020" target="I_淡江大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e44" source="M_2021" target="I_新北市三重區二重國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e45" source="M_2021" target="I_新北市立碧華國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e46" source="M_2021" target="I_新北市立蘆洲國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e47" source="M_2021" target="I_新北市立忠孝國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e48" source="M_2021" target="I_新北市立重慶國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e49" source="M_2021" target="I_新北市立淡水國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e50" source="M_2021" target="I_新北市立福和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e51" source="M_2025" target="I_新北市立新北高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e52" source="M_2025" target="I_新北市立三重高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e53" source="M_2025" target="I_宜蘭縣私立慧燈高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e54" source="M_2026" target="I_新北市三重區三和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e55" source="M_2027" target="I_新北市立秀峰高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e56" source="M_2027" target="I_新北市立三重高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e57" source="M_2028" target="I_新北市三重區厚德國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e58" source="M_2028" target="I_新北市三重區永福國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e59" source="M_2028" target="I_新北市三重區重陽國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e60" source="M_2028" target="I_新北市蘆洲區仁愛國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e61" source="M_2028" target="I_新北市蘆洲區鷺江國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e62" source="M_2028" target="I_新北市立鷺江國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e63" source="M_2028" target="I_新北市立正德國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e64" source="M_2028" target="I_新北市立新北高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e65" source="M_2028" target="I_新北市立三民高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e66" source="M_2028" target="I_新北市立三重高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e67" source="M_2028" target="I_臺北市立石牌國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e68" source="M_2028" target="I_國立臺北教育大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e69" source="M_2038" target="I_新北市立新埔國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e70" source="M_2038" target="I_新北市立福和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e71" source="M_2038" target="I_臺北市立中山女子高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e72" source="M_2039" target="I_臺北市立建國高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e73" source="M_2039" target="I_高雄市立七賢國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e74" source="M_2040" target="I_新北市永和區永平國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e75" source="M_2041" target="I_新北市永和區秀朗國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e76" source="M_2041" target="I_新北市三重區光榮國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e77" source="M_2041" target="I_新北市立碧華國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e78" source="M_2041" target="I_新北市立新泰國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e79" source="M_2041" target="I_新北市立新北高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e80" source="M_2041" target="I_新北市立三民高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e81" source="M_2041" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e82" source="M_2042" target="I_新北市立北大高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e83" source="M_2044" target="I_新北市立溪崑國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e84" source="M_2044" target="I_新北市立新泰國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e85" source="M_2044" target="I_臺北市立成功高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e86" source="M_2044" target="I_桃園市立楊梅高級中等學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e87" source="M_2044" target="I_臺南市立永康國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e88" source="M_2044" target="I_高雄市立壽山國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e89" source="M_2045" target="I_新北市三重區二重國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e90" source="M_2045" target="I_高雄市立七賢國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e91" source="M_2046" target="I_新北市立新北高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e92" source="M_2046" target="I_臺北市立大同高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e93" source="M_2046" target="I_彰化縣立秀水國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e94" source="M_2046" target="I_臺南市立海佃國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e95" source="M_2046" target="I_國立臺灣大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e96" source="M_2046" target="I_國立清華大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e97" source="M_2046" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e98" source="M_2046" target="I_臺北市立大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e99" source="M_2046" target="I_國立政治大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e100" source="M_2047" target="I_新北市三重區二重國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e101" source="M_2047" target="I_新北市立崇林國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e102" source="M_2047" target="I_新北市立林口國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e103" source="M_2048" target="I_新北市立積穗國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e104" source="M_2048" target="I_新北市立清水高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e105" source="M_2048" target="I_臺北市立景興國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e106" source="M_2049" target="I_新北市蘆洲區仁愛國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e107" source="M_2049" target="I_新北市立忠孝國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e108" source="M_2050" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e109" source="M_2053" target="I_新北市三重區三和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e110" source="M_2053" target="I_新北市立新埔國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e111" source="M_2053" target="I_新北市立頭前國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e112" source="M_2053" target="I_新北市立永和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e113" source="M_2053" target="I_新北市立福和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e114" source="M_2053" target="I_新北市立海山高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e115" source="M_2054" target="I_新北市立蘆洲國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e116" source="M_2054" target="I_新北市立鷺江國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e117" source="M_2054" target="I_新北市立三民高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e118" source="M_2055" target="I_新北市立碧華國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e119" source="M_2055" target="I_新北市立積穗國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e120" source="M_2055" target="I_新北市立三民高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e121" source="M_2055" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e122" source="M_2056" target="I_新北市立福和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e123" source="M_2057" target="I_新北市立江翠國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e124" source="M_2058" target="I_新北市汐止區汐止國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e125" source="M_2058" target="I_新北市立蘆洲國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e126" source="M_2058" target="I_新北市立三重高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e127" source="M_2059" target="I_新北市三重區光榮國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e128" source="M_2060" target="I_新北市蘆洲區忠義國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e129" source="M_2060" target="I_新北市蘆洲區鷺江國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e130" source="M_2060" target="I_新北市立蘆洲國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e131" source="M_2060" target="I_新北市立鷺江國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e132" source="M_2060" target="I_新北市立海山高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e133" source="M_2060" target="I_新北市立錦和高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e134" source="M_2060" target="I_臺北市立蘭雅國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e135" source="M_2060" target="I_臺北市立明德國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e136" source="M_2063" target="I_新北市三重區光榮國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e137" source="M_2063" target="I_新北市立義學國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e138" source="M_2063" target="I_新北市立三重高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e139" source="M_2063" target="I_新北市立丹鳳高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e140" source="M_2065" target="I_新北市立三和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e141" source="M_2065" target="I_新北市立中山國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e142" source="M_2065" target="I_新北市立泰山國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e143" source="M_2065" target="I_新北市立新莊國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e144" source="M_2065" target="I_新北市立永和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e145" source="M_2065" target="I_新北市立丹鳳高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e146" source="M_2065" target="I_臺北市私立華興高級中等學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e147" source="M_2065" target="I_桃園市立石門國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e148" source="M_2066" target="I_新北市三重區碧華國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e149" source="M_2066" target="I_新北市中和區秀山國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e150" source="M_2066" target="I_新北市立明志國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e151" source="M_2066" target="I_新北市立安溪國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e152" source="M_2067" target="I_新北市立碧華國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e153" source="M_2068" target="I_新北市三重區厚德國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e154" source="M_2068" target="I_新北市三重區永福國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e155" source="M_2068" target="I_新北市三重區碧華國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e156" source="M_2068" target="I_新北市蘆洲區鷺江國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e157" source="M_2068" target="I_新北市立碧華國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e158" source="M_2070" target="I_新北市三重區光榮國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e159" source="M_2070" target="I_新北市三重區正義國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e160" source="M_2070" target="I_新北市蘆洲區鷺江國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e161" source="M_2070" target="I_新北市市立明志國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e162" source="M_2070" target="I_新北市立鷺江國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e163" source="M_2071" target="I_新北市立大觀國中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e164" source="M_2071" target="I_臺北市立仁愛國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e165" source="M_2071" target="I_臺北市立金華國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e166" source="M_2071" target="I_臺北市立龍門國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e167" source="M_2071" target="I_臺北市立木柵國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e168" source="M_2071" target="I_臺北市立景興國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e169" source="M_2071" target="I_桃園市立永豐高級中等學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e170" source="M_2073" target="I_新北市立明志國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e171" source="M_2073" target="I_新北市立新埔國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e172" source="M_2073" target="I_新北市立頭前國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e173" source="M_2073" target="I_新北市立永和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e174" source="M_2073" target="I_新北市立福和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e175" source="M_2073" target="I_新北市立錦和高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e176" source="M_2074" target="I_新北市三重區三和國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e177" source="M_2074" target="I_新北市立中平國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e178" source="M_2074" target="I_新北市立三民高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e179" source="M_2074" target="I_新北市立丹鳳高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e180" source="M_2074" target="I_新北市立永平高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e181" source="M_2074" target="I_臺北市立敦化國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e182" source="M_2074" target="I_桃園市立武陵高級中等學校" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e183" source="M_2074" target="I_苗栗縣立建國國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e184" source="M_2075" target="I_新北市三重區厚德國民小學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e185" source="M_2075" target="I_新北市市立明志國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e186" source="M_2075" target="I_新北市立蘆洲國民中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+      <edge id="e187" source="M_2075" target="I_慈濟大學附屬高級中學" label="單向" type="directed" weight="1">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="網路類型" value="二模網路"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.0"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
