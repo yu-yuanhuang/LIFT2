@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://gexf.net/1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-04-16">
+    <creator>OpenAI ChatGPT</creator>
+    <description>01_修德國小_校與社區網絡_合作類別 二模有向網路</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="node_name" type="string"/>
+      <attribute id="1" title="identity" type="string"/>
+      <attribute id="2" title="link_count" type="integer"/>
+      <attribute id="3" title="link_targets" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="1001" label="1001">
+        <attvalues>
+          <attvalue for="0" value="1001"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1002" label="1002">
+        <attvalues>
+          <attvalue for="0" value="1002"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1003" label="1003">
+        <attvalues>
+          <attvalue for="0" value="1003"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="社區組織"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1004" label="1004">
+        <attvalues>
+          <attvalue for="0" value="1004"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1005" label="1005">
+        <attvalues>
+          <attvalue for="0" value="1005"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1006" label="1006">
+        <attvalues>
+          <attvalue for="0" value="1006"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1007" label="1007">
+        <attvalues>
+          <attvalue for="0" value="1007"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1008" label="1008">
+        <attvalues>
+          <attvalue for="0" value="1008"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1009" label="1009">
+        <attvalues>
+          <attvalue for="0" value="1009"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1010" label="1010">
+        <attvalues>
+          <attvalue for="0" value="1010"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="社區組織"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1011" label="1011">
+        <attvalues>
+          <attvalue for="0" value="1011"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1012" label="1012">
+        <attvalues>
+          <attvalue for="0" value="1012"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="社區組織"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1013" label="1013">
+        <attvalues>
+          <attvalue for="0" value="1013"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="高等教育機構"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1014" label="1014">
+        <attvalues>
+          <attvalue for="0" value="1014"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="高等教育機構；國際教育機構/海外夥伴"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1015" label="1015">
+        <attvalues>
+          <attvalue for="0" value="1015"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="社區組織"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1016" label="1016">
+        <attvalues>
+          <attvalue for="0" value="1016"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="國際教育機構/海外夥伴"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1017" label="1017">
+        <attvalues>
+          <attvalue for="0" value="1017"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="NGO/NPO"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1018" label="1018">
+        <attvalues>
+          <attvalue for="0" value="1018"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1019" label="1019">
+        <attvalues>
+          <attvalue for="0" value="1019"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="社區組織"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1020" label="1020">
+        <attvalues>
+          <attvalue for="0" value="1020"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1021" label="1021">
+        <attvalues>
+          <attvalue for="0" value="1021"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="社區組織；高等教育機構；國際教育機構/海外夥伴"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="13.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1022" label="1022">
+        <attvalues>
+          <attvalue for="0" value="1022"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1023" label="1023">
+        <attvalues>
+          <attvalue for="0" value="1023"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1024" label="1024">
+        <attvalues>
+          <attvalue for="0" value="1024"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="NGO/NPO"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1025" label="1025">
+        <attvalues>
+          <attvalue for="0" value="1025"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1026" label="1026">
+        <attvalues>
+          <attvalue for="0" value="1026"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="社區組織；企業；國際教育機構/海外夥伴"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="13.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1027" label="1027">
+        <attvalues>
+          <attvalue for="0" value="1027"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="企業"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1028" label="1028">
+        <attvalues>
+          <attvalue for="0" value="1028"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="社區組織；高等教育機構"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1029" label="1029">
+        <attvalues>
+          <attvalue for="0" value="1029"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="高等教育機構"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1030" label="1030">
+        <attvalues>
+          <attvalue for="0" value="1030"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="國際教育機構/海外夥伴"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1031" label="1031">
+        <attvalues>
+          <attvalue for="0" value="1031"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1032" label="1032">
+        <attvalues>
+          <attvalue for="0" value="1032"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="高等教育機構；NGO/NPO；國際教育機構/海外夥伴"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="13.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1033" label="1033">
+        <attvalues>
+          <attvalue for="0" value="1033"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="社區組織；高等教育機構"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1034" label="1034">
+        <attvalues>
+          <attvalue for="0" value="1034"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="高等教育機構"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="社區組織" label="社區組織">
+        <attvalues>
+          <attvalue for="0" value="社區組織"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="1003；1010；1012；1015；1019；1021；1026；1028；1033"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="22.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="高等教育機構" label="高等教育機構">
+        <attvalues>
+          <attvalue for="0" value="高等教育機構"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="1013；1014；1021；1028；1029；1032；1033；1034"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="21.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="企業" label="企業">
+        <attvalues>
+          <attvalue for="0" value="企業"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="1026；1027"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="12.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="NGO/NPO" label="NGO/NPO">
+        <attvalues>
+          <attvalue for="0" value="NGO/NPO"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="1017；1024；1032"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="14.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="國際教育機構/海外夥伴" label="國際教育機構/海外夥伴">
+        <attvalues>
+          <attvalue for="0" value="國際教育機構/海外夥伴"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="1014；1016；1021；1026；1030；1032"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="18.4"/>
+        <viz:shape value="disc"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1003" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="1" source="1010" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="2" source="1012" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="3" source="1013" target="高等教育機構" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="4" source="1014" target="高等教育機構" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="5" source="1014" target="國際教育機構/海外夥伴" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="6" source="1015" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="7" source="1016" target="國際教育機構/海外夥伴" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="8" source="1017" target="NGO/NPO" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="9" source="1019" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="10" source="1021" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="11" source="1021" target="高等教育機構" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="12" source="1021" target="國際教育機構/海外夥伴" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="13" source="1024" target="NGO/NPO" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="14" source="1026" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="15" source="1026" target="企業" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="16" source="1026" target="國際教育機構/海外夥伴" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="17" source="1027" target="企業" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="18" source="1028" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="19" source="1028" target="高等教育機構" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="20" source="1029" target="高等教育機構" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="21" source="1030" target="國際教育機構/海外夥伴" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="22" source="1032" target="高等教育機構" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="23" source="1032" target="NGO/NPO" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="24" source="1032" target="國際教育機構/海外夥伴" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="25" source="1033" target="社區組織" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="26" source="1033" target="高等教育機構" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="27" source="1034" target="高等教育機構" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

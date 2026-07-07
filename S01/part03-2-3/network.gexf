@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://gexf.net/1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-04-16">
+    <creator>OpenAI ChatGPT</creator>
+    <description>01_修德國小_校與社區網絡_合作頻率 二模有向網路</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="node_name" type="string"/>
+      <attribute id="1" title="identity" type="string"/>
+      <attribute id="2" title="link_count" type="integer"/>
+      <attribute id="3" title="link_targets" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="1001" label="1001">
+        <attvalues>
+          <attvalue for="0" value="1001"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1002" label="1002">
+        <attvalues>
+          <attvalue for="0" value="1002"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1003" label="1003">
+        <attvalues>
+          <attvalue for="0" value="1003"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1004" label="1004">
+        <attvalues>
+          <attvalue for="0" value="1004"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="普賢教育基金會(1)；新北市立圖書館三重分館(2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1005" label="1005">
+        <attvalues>
+          <attvalue for="0" value="1005"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1006" label="1006">
+        <attvalues>
+          <attvalue for="0" value="1006"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="新北市三重區五華國民小學(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1007" label="1007">
+        <attvalues>
+          <attvalue for="0" value="1007"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="新北市女童軍會(3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1008" label="1008">
+        <attvalues>
+          <attvalue for="0" value="1008"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1009" label="1009">
+        <attvalues>
+          <attvalue for="0" value="1009"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1010" label="1010">
+        <attvalues>
+          <attvalue for="0" value="1010"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="天文館(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1011" label="1011">
+        <attvalues>
+          <attvalue for="0" value="1011"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="荖慕工作室(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1012" label="1012">
+        <attvalues>
+          <attvalue for="0" value="1012"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="里民活動(2)；文教基金會(3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1013" label="1013">
+        <attvalues>
+          <attvalue for="0" value="1013"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="國立臺北教育大學(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1014" label="1014">
+        <attvalues>
+          <attvalue for="0" value="1014"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="國立臺北教育大學(3)；daleville community schools(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1015" label="1015">
+        <attvalues>
+          <attvalue for="0" value="1015"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="臺北區監理所(1)；新北市脊髓損傷者協會(2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1016" label="1016">
+        <attvalues>
+          <attvalue for="0" value="1016"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="daleville community schools(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1017" label="1017">
+        <attvalues>
+          <attvalue for="0" value="1017"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="天恆文教基金會(3)；瑞星韻律體操協會(3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1018" label="1018">
+        <attvalues>
+          <attvalue for="0" value="1018"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="明志國中Steam中心(2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1019" label="1019">
+        <attvalues>
+          <attvalue for="0" value="1019"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="慈濟(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1020" label="1020">
+        <attvalues>
+          <attvalue for="0" value="1020"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1021" label="1021">
+        <attvalues>
+          <attvalue for="0" value="1021"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="國立臺北教育大學(2)；瑞星韻律體操協會(3)；臺北市立大學(2)；傅爾布萊特基金會(3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="14.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1022" label="1022">
+        <attvalues>
+          <attvalue for="0" value="1022"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1023" label="1023">
+        <attvalues>
+          <attvalue for="0" value="1023"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="新北市立十三行博物館(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1024" label="1024">
+        <attvalues>
+          <attvalue for="0" value="1024"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="肢體障礙協會(1)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1025" label="1025">
+        <attvalues>
+          <attvalue for="0" value="1025"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1026" label="1026">
+        <attvalues>
+          <attvalue for="0" value="1026"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="里長(2)；扶輪社(2)；得榮基金會(3)；黃金博物館(2)；松菸(2)；高貴林(2)；民代議員(2)；先嗇宮(2)；見賢思齊基金會(3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="22.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1027" label="1027">
+        <attvalues>
+          <attvalue for="0" value="1027"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="盛源精密工業股份有限公司(2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1028" label="1028">
+        <attvalues>
+          <attvalue for="0" value="1028"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="國立臺北教育大學師培中心(1)；國立臺北護理健康大學(1)；張老師生命教育中心(2)；陽光社會福利基金會(2)；三蘆區慈善功德會(3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="16.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1029" label="1029">
+        <attvalues>
+          <attvalue for="0" value="1029"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="新北市英語教育資源中心(2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1030" label="1030">
+        <attvalues>
+          <attvalue for="0" value="1030"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="校內外師(3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1031" label="1031">
+        <attvalues>
+          <attvalue for="0" value="1031"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1032" label="1032">
+        <attvalues>
+          <attvalue for="0" value="1032"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="國立臺北教育大學(2)；國立臺灣師範大學(2)；三重心教育協會(2)；三蘆家長協會(2)；天恆教基金會(2)；新北工商促進會(2)；英美達外師仲介(2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="19.200000000000003"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1033" label="1033">
+        <attvalues>
+          <attvalue for="0" value="1033"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="國立臺北教育大學(3)；新北市教師會(3)；私立大同大學(3)；國家教育研究院(3)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="14.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1034" label="1034">
+        <attvalues>
+          <attvalue for="0" value="1034"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="國立臺北教育大學(2)"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="普賢教育基金會" label="普賢教育基金會">
+        <attvalues>
+          <attvalue for="0" value="普賢教育基金會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1004(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="新北市立圖書館三重分館" label="新北市立圖書館三重分館">
+        <attvalues>
+          <attvalue for="0" value="新北市立圖書館三重分館"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1004(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="新北市三重區五華國民小學" label="新北市三重區五華國民小學">
+        <attvalues>
+          <attvalue for="0" value="新北市三重區五華國民小學"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1006(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="新北市女童軍會" label="新北市女童軍會">
+        <attvalues>
+          <attvalue for="0" value="新北市女童軍會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1007(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="天文館" label="天文館">
+        <attvalues>
+          <attvalue for="0" value="天文館"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1010(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="荖慕工作室" label="荖慕工作室">
+        <attvalues>
+          <attvalue for="0" value="荖慕工作室"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1011(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="里民活動" label="里民活動">
+        <attvalues>
+          <attvalue for="0" value="里民活動"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1012(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="文教基金會" label="文教基金會">
+        <attvalues>
+          <attvalue for="0" value="文教基金會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1012(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="國立臺北教育大學" label="國立臺北教育大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺北教育大學"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="1013(1)；1014(3)；1021(2)；1032(2)；1033(3)；1034(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="17.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="daleville community schools" label="daleville community schools">
+        <attvalues>
+          <attvalue for="0" value="daleville community schools"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="1014(1)；1016(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="12.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="臺北區監理所" label="臺北區監理所">
+        <attvalues>
+          <attvalue for="0" value="臺北區監理所"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1015(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="新北市脊髓損傷者協會" label="新北市脊髓損傷者協會">
+        <attvalues>
+          <attvalue for="0" value="新北市脊髓損傷者協會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1015(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="天恆文教基金會" label="天恆文教基金會">
+        <attvalues>
+          <attvalue for="0" value="天恆文教基金會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1017(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="瑞星韻律體操協會" label="瑞星韻律體操協會">
+        <attvalues>
+          <attvalue for="0" value="瑞星韻律體操協會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="1017(3)；1021(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="12.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="明志國中Steam中心" label="明志國中Steam中心">
+        <attvalues>
+          <attvalue for="0" value="明志國中Steam中心"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1018(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="慈濟" label="慈濟">
+        <attvalues>
+          <attvalue for="0" value="慈濟"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1019(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="臺北市立大學" label="臺北市立大學">
+        <attvalues>
+          <attvalue for="0" value="臺北市立大學"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1021(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="傅爾布萊特基金會" label="傅爾布萊特基金會">
+        <attvalues>
+          <attvalue for="0" value="傅爾布萊特基金會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1021(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="新北市立十三行博物館" label="新北市立十三行博物館">
+        <attvalues>
+          <attvalue for="0" value="新北市立十三行博物館"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1023(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="肢體障礙協會" label="肢體障礙協會">
+        <attvalues>
+          <attvalue for="0" value="肢體障礙協會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1024(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="里長" label="里長">
+        <attvalues>
+          <attvalue for="0" value="里長"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="扶輪社" label="扶輪社">
+        <attvalues>
+          <attvalue for="0" value="扶輪社"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="得榮基金會" label="得榮基金會">
+        <attvalues>
+          <attvalue for="0" value="得榮基金會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="黃金博物館" label="黃金博物館">
+        <attvalues>
+          <attvalue for="0" value="黃金博物館"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="松菸" label="松菸">
+        <attvalues>
+          <attvalue for="0" value="松菸"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="高貴林" label="高貴林">
+        <attvalues>
+          <attvalue for="0" value="高貴林"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="民代議員" label="民代議員">
+        <attvalues>
+          <attvalue for="0" value="民代議員"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="先嗇宮" label="先嗇宮">
+        <attvalues>
+          <attvalue for="0" value="先嗇宮"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="見賢思齊基金會" label="見賢思齊基金會">
+        <attvalues>
+          <attvalue for="0" value="見賢思齊基金會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1026(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="盛源精密工業股份有限公司" label="盛源精密工業股份有限公司">
+        <attvalues>
+          <attvalue for="0" value="盛源精密工業股份有限公司"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1027(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="國立臺北教育大學師培中心" label="國立臺北教育大學師培中心">
+        <attvalues>
+          <attvalue for="0" value="國立臺北教育大學師培中心"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1028(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="國立臺北護理健康大學" label="國立臺北護理健康大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺北護理健康大學"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1028(1)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="張老師生命教育中心" label="張老師生命教育中心">
+        <attvalues>
+          <attvalue for="0" value="張老師生命教育中心"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1028(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="陽光社會福利基金會" label="陽光社會福利基金會">
+        <attvalues>
+          <attvalue for="0" value="陽光社會福利基金會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1028(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="三蘆區慈善功德會" label="三蘆區慈善功德會">
+        <attvalues>
+          <attvalue for="0" value="三蘆區慈善功德會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1028(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="新北市英語教育資源中心" label="新北市英語教育資源中心">
+        <attvalues>
+          <attvalue for="0" value="新北市英語教育資源中心"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1029(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="校內外師" label="校內外師">
+        <attvalues>
+          <attvalue for="0" value="校內外師"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1030(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="國立臺灣師範大學" label="國立臺灣師範大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺灣師範大學"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1032(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="三重心教育協會" label="三重心教育協會">
+        <attvalues>
+          <attvalue for="0" value="三重心教育協會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1032(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="三蘆家長協會" label="三蘆家長協會">
+        <attvalues>
+          <attvalue for="0" value="三蘆家長協會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1032(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="天恆教基金會" label="天恆教基金會">
+        <attvalues>
+          <attvalue for="0" value="天恆教基金會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1032(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="新北工商促進會" label="新北工商促進會">
+        <attvalues>
+          <attvalue for="0" value="新北工商促進會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1032(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="英美達外師仲介" label="英美達外師仲介">
+        <attvalues>
+          <attvalue for="0" value="英美達外師仲介"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1032(2)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="新北市教師會" label="新北市教師會">
+        <attvalues>
+          <attvalue for="0" value="新北市教師會"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1033(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="私立大同大學" label="私立大同大學">
+        <attvalues>
+          <attvalue for="0" value="私立大同大學"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1033(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="國家教育研究院" label="國家教育研究院">
+        <attvalues>
+          <attvalue for="0" value="國家教育研究院"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="1033(3)"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="11.2"/>
+        <viz:shape value="disc"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1004" target="普賢教育基金會" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="1" source="1004" target="新北市立圖書館三重分館" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="2" source="1006" target="新北市三重區五華國民小學" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="3" source="1007" target="新北市女童軍會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="4" source="1010" target="天文館" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="5" source="1011" target="荖慕工作室" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="6" source="1012" target="里民活動" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="7" source="1012" target="文教基金會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="8" source="1013" target="國立臺北教育大學" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="9" source="1014" target="國立臺北教育大學" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="10" source="1014" target="daleville community schools" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="11" source="1015" target="臺北區監理所" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="12" source="1015" target="新北市脊髓損傷者協會" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="13" source="1016" target="daleville community schools" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="14" source="1017" target="天恆文教基金會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="15" source="1017" target="瑞星韻律體操協會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="16" source="1018" target="明志國中Steam中心" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="17" source="1019" target="慈濟" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="18" source="1021" target="國立臺北教育大學" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="19" source="1021" target="瑞星韻律體操協會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="20" source="1021" target="臺北市立大學" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="21" source="1021" target="傅爾布萊特基金會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="22" source="1023" target="新北市立十三行博物館" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="23" source="1024" target="肢體障礙協會" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="24" source="1026" target="里長" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="25" source="1026" target="扶輪社" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="26" source="1026" target="得榮基金會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="27" source="1026" target="黃金博物館" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="28" source="1026" target="松菸" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="29" source="1026" target="高貴林" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="30" source="1026" target="民代議員" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="31" source="1026" target="先嗇宮" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="32" source="1026" target="見賢思齊基金會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="33" source="1027" target="盛源精密工業股份有限公司" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="34" source="1028" target="國立臺北教育大學師培中心" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="35" source="1028" target="國立臺北護理健康大學" type="directed" weight="1" label="頻率1">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="36" source="1028" target="張老師生命教育中心" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="37" source="1028" target="陽光社會福利基金會" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="38" source="1028" target="三蘆區慈善功德會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="39" source="1029" target="新北市英語教育資源中心" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="40" source="1030" target="校內外師" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="41" source="1032" target="國立臺北教育大學" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="42" source="1032" target="國立臺灣師範大學" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="43" source="1032" target="三重心教育協會" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="44" source="1032" target="三蘆家長協會" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="45" source="1032" target="天恆教基金會" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="46" source="1032" target="新北工商促進會" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="47" source="1032" target="英美達外師仲介" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+      <edge id="48" source="1033" target="國立臺北教育大學" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="49" source="1033" target="新北市教師會" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="50" source="1033" target="私立大同大學" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="51" source="1033" target="國家教育研究院" type="directed" weight="3" label="頻率3">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="3.5999999999999996"/>
+      </edge>
+      <edge id="52" source="1034" target="國立臺北教育大學" type="directed" weight="2" label="頻率2">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="2.4"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

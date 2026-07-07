@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://gexf.net/1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-04-16">
+    <creator>OpenAI ChatGPT</creator>
+    <description>01_修德國小_校際網絡_校際間合作管道 二模有向網路</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="node_name" type="string"/>
+      <attribute id="1" title="identity" type="string"/>
+      <attribute id="2" title="link_count" type="integer"/>
+      <attribute id="3" title="link_targets" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="1001" label="1001">
+        <attvalues>
+          <attvalue for="0" value="1001"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1002" label="1002">
+        <attvalues>
+          <attvalue for="0" value="1002"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1003" label="1003">
+        <attvalues>
+          <attvalue for="0" value="1003"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1004" label="1004">
+        <attvalues>
+          <attvalue for="0" value="1004"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教育局或地方政府安排；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1005" label="1005">
+        <attvalues>
+          <attvalue for="0" value="1005"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="校長層級主動聯繫或串聯；行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="13.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1006" label="1006">
+        <attvalues>
+          <attvalue for="0" value="1006"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1007" label="1007">
+        <attvalues>
+          <attvalue for="0" value="1007"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1008" label="1008">
+        <attvalues>
+          <attvalue for="0" value="1008"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1009" label="1009">
+        <attvalues>
+          <attvalue for="0" value="1009"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1010" label="1010">
+        <attvalues>
+          <attvalue for="0" value="1010"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1011" label="1011">
+        <attvalues>
+          <attvalue for="0" value="1011"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1012" label="1012">
+        <attvalues>
+          <attvalue for="0" value="1012"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教育局或地方政府安排；行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="13.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1013" label="1013">
+        <attvalues>
+          <attvalue for="0" value="1013"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1014" label="1014">
+        <attvalues>
+          <attvalue for="0" value="1014"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1015" label="1015">
+        <attvalues>
+          <attvalue for="0" value="1015"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1016" label="1016">
+        <attvalues>
+          <attvalue for="0" value="1016"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1017" label="1017">
+        <attvalues>
+          <attvalue for="0" value="1017"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="行政團隊層級協作；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1018" label="1018">
+        <attvalues>
+          <attvalue for="0" value="1018"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教育局或地方政府安排；校長層級主動聯繫或串聯；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="13.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1019" label="1019">
+        <attvalues>
+          <attvalue for="0" value="1019"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1020" label="1020">
+        <attvalues>
+          <attvalue for="0" value="1020"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1021" label="1021">
+        <attvalues>
+          <attvalue for="0" value="1021"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="校長層級主動聯繫或串聯；行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1022" label="1022">
+        <attvalues>
+          <attvalue for="0" value="1022"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1023" label="1023">
+        <attvalues>
+          <attvalue for="0" value="1023"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1024" label="1024">
+        <attvalues>
+          <attvalue for="0" value="1024"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="自發社群或跨校共學團體；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1025" label="1025">
+        <attvalues>
+          <attvalue for="0" value="1025"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1026" label="1026">
+        <attvalues>
+          <attvalue for="0" value="1026"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="教育局或地方政府安排；校長層級主動聯繫或串聯；行政團隊層級協作；自發社群或跨校共學團體；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="17.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1027" label="1027">
+        <attvalues>
+          <attvalue for="0" value="1027"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教育局或地方政府安排；行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="11.6"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1028" label="1028">
+        <attvalues>
+          <attvalue for="0" value="1028"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1029" label="1029">
+        <attvalues>
+          <attvalue for="0" value="1029"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="校長層級主動聯繫或串聯；行政團隊層級協作；自發社群或跨校共學團體；專業協會或學會網絡；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="17.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1030" label="1030">
+        <attvalues>
+          <attvalue for="0" value="1030"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1031" label="1031">
+        <attvalues>
+          <attvalue for="0" value="1031"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1032" label="1032">
+        <attvalues>
+          <attvalue for="0" value="1032"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="教育局或地方政府安排；校長層級主動聯繫或串聯；行政團隊層級協作；自發社群或跨校共學團體；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="17.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1033" label="1033">
+        <attvalues>
+          <attvalue for="0" value="1033"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="教育局或地方政府安排"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="9.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="1034" label="1034">
+        <attvalues>
+          <attvalue for="0" value="1034"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="教育局或地方政府安排；校長層級主動聯繫或串聯；行政團隊層級協作；自發社群或跨校共學團體；跨校聯盟或專案合作平台；專業協會或學會網絡"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170"/>
+        <viz:size value="18.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="教育局或地方政府安排" label="教育局或地方政府安排">
+        <attvalues>
+          <attvalue for="0" value="教育局或地方政府安排"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="1004；1012；1013；1018；1026；1027；1028；1032；1033；1034"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="24.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="校長層級主動聯繫或串聯" label="校長層級主動聯繫或串聯">
+        <attvalues>
+          <attvalue for="0" value="校長層級主動聯繫或串聯"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="1005；1018；1021；1026；1029；1032；1034"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="19.799999999999997"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="行政團隊層級協作" label="行政團隊層級協作">
+        <attvalues>
+          <attvalue for="0" value="行政團隊層級協作"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="11"/>
+          <attvalue for="3" value="1002；1005；1012；1014；1017；1021；1026；1027；1029；1032；1034"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="25.4"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="自發社群或跨校共學團體" label="自發社群或跨校共學團體">
+        <attvalues>
+          <attvalue for="0" value="自發社群或跨校共學團體"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="1003；1004；1005；1006；1009；1012；1014；1016；1017；1018；1020；1022；1023；1024；1025；1026；1029；1031；1032；1034"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="38.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="跨校聯盟或專案合作平台" label="跨校聯盟或專案合作平台">
+        <attvalues>
+          <attvalue for="0" value="跨校聯盟或專案合作平台"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="1007；1032；1034"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="14.2"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="專業協會或學會網絡" label="專業協會或學會網絡">
+        <attvalues>
+          <attvalue for="0" value="專業協會或學會網絡"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="1029；1034"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="12.8"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="與大學或研究機構之合作" label="與大學或研究機構之合作">
+        <attvalues>
+          <attvalue for="0" value="與大學或研究機構之合作"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="1024；1026；1029"/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188"/>
+        <viz:size value="14.2"/>
+        <viz:shape value="disc"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1002" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="1" source="1003" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="2" source="1004" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="3" source="1004" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="4" source="1005" target="校長層級主動聯繫或串聯" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="5" source="1005" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="6" source="1005" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="7" source="1006" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="8" source="1007" target="跨校聯盟或專案合作平台" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="9" source="1009" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="10" source="1012" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="11" source="1012" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="12" source="1012" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="13" source="1013" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="14" source="1014" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="15" source="1014" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="16" source="1016" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="17" source="1017" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="18" source="1017" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="19" source="1018" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="20" source="1018" target="校長層級主動聯繫或串聯" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="21" source="1018" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="22" source="1020" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="23" source="1021" target="校長層級主動聯繫或串聯" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="24" source="1021" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="25" source="1022" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="26" source="1023" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="27" source="1024" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="28" source="1024" target="與大學或研究機構之合作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="29" source="1025" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="30" source="1026" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="31" source="1026" target="校長層級主動聯繫或串聯" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="32" source="1026" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="33" source="1026" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="34" source="1026" target="與大學或研究機構之合作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="35" source="1027" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="36" source="1027" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="37" source="1028" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="38" source="1029" target="校長層級主動聯繫或串聯" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="39" source="1029" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="40" source="1029" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="41" source="1029" target="專業協會或學會網絡" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="42" source="1029" target="與大學或研究機構之合作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="43" source="1031" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="44" source="1032" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="45" source="1032" target="校長層級主動聯繫或串聯" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="46" source="1032" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="47" source="1032" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="48" source="1032" target="跨校聯盟或專案合作平台" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="49" source="1033" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="50" source="1034" target="教育局或地方政府安排" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="51" source="1034" target="校長層級主動聯繫或串聯" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="52" source="1034" target="行政團隊層級協作" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="53" source="1034" target="自發社群或跨校共學團體" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="54" source="1034" target="跨校聯盟或專案合作平台" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+      <edge id="55" source="1034" target="專業協會或學會網絡" type="directed" weight="1" label="單向">
+        <viz:color r="185" g="175" b="164"/>
+        <viz:thickness value="1.2"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
