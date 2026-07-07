@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI GPT-5.4 Thinking</creator>
+    <description>芳和實中_校際網路（學校成員以ID顯示，機構顯示全名）</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="芳和實中_校際網路">
+    <attributes class="node" mode="static">
+      <attribute id="node_type" title="node_type" type="string"/>
+      <attribute id="點名稱" title="點名稱" type="string"/>
+      <attribute id="點身分別" title="點身分別" type="string"/>
+      <attribute id="連結數" title="連結數" type="long"/>
+      <attribute id="連結對象" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="方向標示" title="方向標示" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="11001" label="11001">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11001"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11002" label="11002">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11002"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="臺北市立百齡高級中學；臺北市西湖實驗國民中學；臺北市信義區博愛國民小學；臺北市立內湖高級工業職業學校；臺北市立松山高級工農職業學校"/>
+        </attvalues>
+      </node>
+      <node id="11003" label="11003">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11003"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11004" label="11004">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11004"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11005" label="11005">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11005"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11006" label="11006">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11006"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="臺北市立陽明高級中學；臺北市立中山女子高級中學；新北市三重區新北高級中學；高雄市三民區高雄高級中學"/>
+        </attvalues>
+      </node>
+      <node id="11007" label="11007">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11007"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11008" label="11008">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11008"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11009" label="11009">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11009"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="10"/>
+          <attvalue for="連結對象" value="臺北市私立衛理女子高級中學；臺北市立明倫高級中學；國立臺灣師範大學附屬高級中學；臺北市濱江實驗國民中學；臺北市立大直高級中學；臺北市立建國高級中學；臺北市立內湖高級中學；臺北市立敦化國民中學；臺北市立永春高級中學；臺北市立松山高級中學"/>
+        </attvalues>
+      </node>
+      <node id="11010" label="11010">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11010"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11011" label="11011">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11011"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11012" label="11012">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11012"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11013" label="11013">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11013"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11014" label="11014">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11014"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11015" label="11015">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11015"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11016" label="11016">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11016"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="臺北市私立泰北高級中學；臺北市立和平高級中學"/>
+        </attvalues>
+      </node>
+      <node id="11017" label="11017">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11017"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11018" label="11018">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11018"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11019" label="11019">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11019"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11020" label="11020">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11020"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="臺北市芳和實驗中學；新北市立安康高級中學；國立玉井高級工商職業學校"/>
+        </attvalues>
+      </node>
+      <node id="11021" label="11021">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11021"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11022" label="11022">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11022"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="臺北市芳和實驗中學"/>
+        </attvalues>
+      </node>
+      <node id="11023" label="11023">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11023"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11024" label="11024">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11024"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11025" label="11025">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11025"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11026" label="11026">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11026"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11027" label="11027">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11027"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11028" label="11028">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11028"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11029" label="11029">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11029"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="臺北市立和平高級中學；臺北市立中山女子高級中學；國立政治大學附屬高級中學；臺北市立南港高級中學"/>
+        </attvalues>
+      </node>
+      <node id="11030" label="11030">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11030"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11031" label="11031">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11031"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11032" label="11032">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11032"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="臺北市立南湖高級中學"/>
+        </attvalues>
+      </node>
+      <node id="11033" label="11033">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11033"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11034" label="11034">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11034"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11035" label="11035">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11035"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="臺北市立第一女子高級中學；臺北市立南湖高級中學；新北市立永平高級中學"/>
+        </attvalues>
+      </node>
+      <node id="11036" label="11036">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11036"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11037" label="11037">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11037"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11038" label="11038">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11038"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="臺北市立和平高級中學；臺北市濱江實驗國民中學；臺北市立中山女子高級中學；臺北市立成功高級中學；臺北市立永春高級中學"/>
+        </attvalues>
+      </node>
+      <node id="11039" label="11039">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11039"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="臺北市民族實驗國民中學；臺北市立金華國民中學；臺北市立大直高級中學；臺北市立北投國民中學"/>
+        </attvalues>
+      </node>
+      <node id="11040" label="11040">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11040"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11041" label="11041">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11041"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11042" label="11042">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11042"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="10"/>
+          <attvalue for="連結對象" value="臺北市立格致國民中學；臺北市大安區幸安國民小學；臺北市大安區龍安國民小學；臺北市立和平高級中學；臺北市中山區大直國民小學；臺北市立大直高級中學；臺北市立南門國民中學；臺北市文山區武功國民小學；臺北市立景興國民中學；臺北市南港區舊莊國民小學"/>
+        </attvalues>
+      </node>
+      <node id="11043" label="11043">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11043"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="10"/>
+          <attvalue for="連結對象" value="臺北市立和平高級中學；臺北市立中山女子高級中學；臺北市立內湖高級中學；臺北市文山區武功國民小學；臺北市立南港高級中學；國立臺灣科技大學；國立海洋大學；東吳大學；輔仁大學；中央研究院"/>
+        </attvalues>
+      </node>
+      <node id="11044" label="11044">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11044"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11045" label="11045">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11045"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11046" label="11046">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11046"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11047" label="11047">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11047"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11048" label="11048">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11048"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11049" label="11049">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11049"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11050" label="11050">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11050"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11051" label="11051">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11051"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11052" label="11052">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11052"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11053" label="11053">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11053"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11054" label="11054">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11054"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11055" label="11055">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11055"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="臺北市西湖實驗國民中學；新北市立福和國民中學"/>
+        </attvalues>
+      </node>
+      <node id="11056" label="11056">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11056"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11057" label="11057">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11057"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11058" label="11058">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11058"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="11059" label="11059">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11059"/>
+          <attvalue for="點身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value="無"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立格致國民中學" label="臺北市立格致國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立格致國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立百齡高級中學" label="臺北市立百齡高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立百齡高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11002"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立陽明高級中學" label="臺北市立陽明高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立陽明高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11006"/>
+        </attvalues>
+      </node>
+      <node id="臺北市私立泰北高級中學" label="臺北市私立泰北高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市私立泰北高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11016"/>
+        </attvalues>
+      </node>
+      <node id="臺北市私立衛理女子高級中學" label="臺北市私立衛理女子高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市私立衛理女子高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立明倫高級中學" label="臺北市立明倫高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立明倫高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="臺北市大安區幸安國民小學" label="臺北市大安區幸安國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市大安區幸安國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="臺北市大安區龍安國民小學" label="臺北市大安區龍安國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市大安區龍安國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="臺北市民族實驗國民中學" label="臺北市民族實驗國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市民族實驗國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11039"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立金華國民中學" label="臺北市立金華國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立金華國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11039"/>
+        </attvalues>
+      </node>
+      <node id="國立臺灣師範大學附屬高級中學" label="國立臺灣師範大學附屬高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺灣師範大學附屬高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立和平高級中學" label="臺北市立和平高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立和平高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="11016；11029；11038；11042；11043"/>
+        </attvalues>
+      </node>
+      <node id="臺北市芳和實驗中學" label="臺北市芳和實驗中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市芳和實驗中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11020；11022"/>
+        </attvalues>
+      </node>
+      <node id="臺北市中山區大直國民小學" label="臺北市中山區大直國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市中山區大直國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="臺北市濱江實驗國民中學" label="臺北市濱江實驗國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市濱江實驗國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11009；11038"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立大直高級中學" label="臺北市立大直高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立大直高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="11009；11039；11042"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立中山女子高級中學" label="臺北市立中山女子高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立中山女子高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="11006；11029；11038；11043"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立南門國民中學" label="臺北市立南門國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立南門國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立成功高級中學" label="臺北市立成功高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立成功高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11038"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立建國高級中學" label="臺北市立建國高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立建國高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立第一女子高級中學" label="臺北市立第一女子高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立第一女子高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11035"/>
+        </attvalues>
+      </node>
+      <node id="臺北市西湖實驗國民中學" label="臺北市西湖實驗國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市西湖實驗國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11002；11055"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立內湖高級中學" label="臺北市立內湖高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立內湖高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11009；11043"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立南湖高級中學" label="臺北市立南湖高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立南湖高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11032；11035"/>
+        </attvalues>
+      </node>
+      <node id="臺北市文山區武功國民小學" label="臺北市文山區武功國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市文山區武功國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11042；11043"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立景興國民中學" label="臺北市立景興國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立景興國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="國立政治大學附屬高級中學" label="國立政治大學附屬高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立政治大學附屬高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11029"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立北投國民中學" label="臺北市立北投國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立北投國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11039"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立敦化國民中學" label="臺北市立敦化國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立敦化國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="臺北市信義區博愛國民小學" label="臺北市信義區博愛國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市信義區博愛國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11002"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立永春高級中學" label="臺北市立永春高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立永春高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11009；11038"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立松山高級中學" label="臺北市立松山高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立松山高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="臺北市南港區舊莊國民小學" label="臺北市南港區舊莊國民小學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市南港區舊莊國民小學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立南港高級中學" label="臺北市立南港高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立南港高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11029；11043"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立內湖高級工業職業學校" label="臺北市立內湖高級工業職業學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立內湖高級工業職業學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11002"/>
+        </attvalues>
+      </node>
+      <node id="臺北市立松山高級工農職業學校" label="臺北市立松山高級工農職業學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="臺北市立松山高級工農職業學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11002"/>
+        </attvalues>
+      </node>
+      <node id="新北市立福和國民中學" label="新北市立福和國民中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立福和國民中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11055"/>
+        </attvalues>
+      </node>
+      <node id="新北市立永平高級中學" label="新北市立永平高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立永平高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11035"/>
+        </attvalues>
+      </node>
+      <node id="新北市立安康高級中學" label="新北市立安康高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市立安康高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11020"/>
+        </attvalues>
+      </node>
+      <node id="新北市三重區新北高級中學" label="新北市三重區新北高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="新北市三重區新北高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11006"/>
+        </attvalues>
+      </node>
+      <node id="國立玉井高級工商職業學校" label="國立玉井高級工商職業學校">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立玉井高級工商職業學校"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11020"/>
+        </attvalues>
+      </node>
+      <node id="高雄市三民區高雄高級中學" label="高雄市三民區高雄高級中學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="高雄市三民區高雄高級中學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11006"/>
+        </attvalues>
+      </node>
+      <node id="國立臺灣科技大學" label="國立臺灣科技大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立臺灣科技大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="國立海洋大學" label="國立海洋大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="國立海洋大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="東吳大學" label="東吳大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="東吳大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="輔仁大學" label="輔仁大學">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="輔仁大學"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="中央研究院" label="中央研究院">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="中央研究院"/>
+          <attvalue for="點身分別" value="機構"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="11043"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="11002" target="臺北市立百齡高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e2" source="11002" target="臺北市西湖實驗國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e3" source="11002" target="臺北市信義區博愛國民小學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e4" source="11002" target="臺北市立內湖高級工業職業學校" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e5" source="11002" target="臺北市立松山高級工農職業學校" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e6" source="11006" target="臺北市立陽明高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e7" source="11006" target="臺北市立中山女子高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e8" source="11006" target="新北市三重區新北高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e9" source="11006" target="高雄市三民區高雄高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e10" source="11009" target="臺北市私立衛理女子高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e11" source="11009" target="臺北市立明倫高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e12" source="11009" target="國立臺灣師範大學附屬高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e13" source="11009" target="臺北市濱江實驗國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e14" source="11009" target="臺北市立大直高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e15" source="11009" target="臺北市立建國高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e16" source="11009" target="臺北市立內湖高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e17" source="11009" target="臺北市立敦化國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e18" source="11009" target="臺北市立永春高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e19" source="11009" target="臺北市立松山高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e20" source="11016" target="臺北市私立泰北高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e21" source="11016" target="臺北市立和平高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e22" source="11020" target="臺北市芳和實驗中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e23" source="11020" target="新北市立安康高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e24" source="11020" target="國立玉井高級工商職業學校" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e25" source="11022" target="臺北市芳和實驗中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e26" source="11029" target="臺北市立和平高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e27" source="11029" target="臺北市立中山女子高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e28" source="11029" target="國立政治大學附屬高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e29" source="11029" target="臺北市立南港高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e30" source="11032" target="臺北市立南湖高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e31" source="11035" target="臺北市立第一女子高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e32" source="11035" target="臺北市立南湖高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e33" source="11035" target="新北市立永平高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e34" source="11038" target="臺北市立和平高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e35" source="11038" target="臺北市濱江實驗國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e36" source="11038" target="臺北市立中山女子高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e37" source="11038" target="臺北市立成功高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e38" source="11038" target="臺北市立永春高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e39" source="11039" target="臺北市民族實驗國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e40" source="11039" target="臺北市立金華國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e41" source="11039" target="臺北市立大直高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e42" source="11039" target="臺北市立北投國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e43" source="11042" target="臺北市立格致國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e44" source="11042" target="臺北市大安區幸安國民小學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e45" source="11042" target="臺北市大安區龍安國民小學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e46" source="11042" target="臺北市立和平高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e47" source="11042" target="臺北市中山區大直國民小學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e48" source="11042" target="臺北市立大直高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e49" source="11042" target="臺北市立南門國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e50" source="11042" target="臺北市文山區武功國民小學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e51" source="11042" target="臺北市立景興國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e52" source="11042" target="臺北市南港區舊莊國民小學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e53" source="11043" target="臺北市立和平高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e54" source="11043" target="臺北市立中山女子高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e55" source="11043" target="臺北市立內湖高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e56" source="11043" target="臺北市文山區武功國民小學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e57" source="11043" target="臺北市立南港高級中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e58" source="11043" target="國立臺灣科技大學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e59" source="11043" target="國立海洋大學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e60" source="11043" target="東吳大學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e61" source="11043" target="輔仁大學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e62" source="11043" target="中央研究院" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e63" source="11055" target="臺北市西湖實驗國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+      <edge id="e64" source="11055" target="新北市立福和國民中學" label="單向" type="directed">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI ChatGPT</creator>
+    <description>芳和實中｜校與社區網絡_合作頻率（有向網路）</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="點名稱" type="string"/>
+      <attribute id="1" title="點身分別" type="string"/>
+      <attribute id="2" title="連結數" type="integer"/>
+      <attribute id="3" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="頻率值" type="integer"/>
+      <attribute id="1" title="顯示粗細倍率" type="integer"/>
+      <attribute id="2" title="方向類型" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="m_11001" label="11001">
+        <attvalues>
+          <attvalue for="0" value="11001"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11002" label="11002">
+        <attvalues>
+          <attvalue for="0" value="11002"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="蔡燕婷老師"/>
+        </attvalues>
+      </node>
+      <node id="m_11003" label="11003">
+        <attvalues>
+          <attvalue for="0" value="11003"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11004" label="11004">
+        <attvalues>
+          <attvalue for="0" value="11004"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11005" label="11005">
+        <attvalues>
+          <attvalue for="0" value="11005"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11006" label="11006">
+        <attvalues>
+          <attvalue for="0" value="11006"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="國立臺灣大學、國立臺灣師範大學、國立臺灣海洋大學、國立臺北教育大學、國立臺北大學、野鳥窗殺組織、玩轉學校"/>
+        </attvalues>
+      </node>
+      <node id="m_11007" label="11007">
+        <attvalues>
+          <attvalue for="0" value="11007"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11008" label="11008">
+        <attvalues>
+          <attvalue for="0" value="11008"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11009" label="11009">
+        <attvalues>
+          <attvalue for="0" value="11009"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="13"/>
+          <attvalue for="3" value="國立臺灣大學師資培育中心、國立臺灣師範大學歷史學系、國立臺灣師範大學宏觀金融教育研究發展中心籌備處、財團法人臺灣媒體觀察教育基金會、民間公民與法治教育基金會、台灣財經素養教育推廣協會、ReWood森林循環湖口創生、農業政策研究中心、臺北市議會、臺北地方法院、景美人權園區、國家檔案館、寶藏巖國際藝術村"/>
+        </attvalues>
+      </node>
+      <node id="m_11010" label="11010">
+        <attvalues>
+          <attvalue for="0" value="11010"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11011" label="11011">
+        <attvalues>
+          <attvalue for="0" value="11011"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11012" label="11012">
+        <attvalues>
+          <attvalue for="0" value="11012"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11013" label="11013">
+        <attvalues>
+          <attvalue for="0" value="11013"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11014" label="11014">
+        <attvalues>
+          <attvalue for="0" value="11014"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11015" label="11015">
+        <attvalues>
+          <attvalue for="0" value="11015"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11016" label="11016">
+        <attvalues>
+          <attvalue for="0" value="11016"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="自殺防治中心"/>
+        </attvalues>
+      </node>
+      <node id="m_11017" label="11017">
+        <attvalues>
+          <attvalue for="0" value="11017"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11018" label="11018">
+        <attvalues>
+          <attvalue for="0" value="11018"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11019" label="11019">
+        <attvalues>
+          <attvalue for="0" value="11019"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11020" label="11020">
+        <attvalues>
+          <attvalue for="0" value="11020"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="大阪常翔高中、綠色餐飲指南協會、Brisbane state high"/>
+        </attvalues>
+      </node>
+      <node id="m_11021" label="11021">
+        <attvalues>
+          <attvalue for="0" value="11021"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11022" label="11022">
+        <attvalues>
+          <attvalue for="0" value="11022"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="馬來西亞難民學校Hilla community school"/>
+        </attvalues>
+      </node>
+      <node id="m_11023" label="11023">
+        <attvalues>
+          <attvalue for="0" value="11023"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11024" label="11024">
+        <attvalues>
+          <attvalue for="0" value="11024"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11025" label="11025">
+        <attvalues>
+          <attvalue for="0" value="11025"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11026" label="11026">
+        <attvalues>
+          <attvalue for="0" value="11026"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11027" label="11027">
+        <attvalues>
+          <attvalue for="0" value="11027"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11028" label="11028">
+        <attvalues>
+          <attvalue for="0" value="11028"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11029" label="11029">
+        <attvalues>
+          <attvalue for="0" value="11029"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="國立政治大學、國立臺北科技大學、東吳大學"/>
+        </attvalues>
+      </node>
+      <node id="m_11030" label="11030">
+        <attvalues>
+          <attvalue for="0" value="11030"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11031" label="11031">
+        <attvalues>
+          <attvalue for="0" value="11031"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11032" label="11032">
+        <attvalues>
+          <attvalue for="0" value="11032"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11033" label="11033">
+        <attvalues>
+          <attvalue for="0" value="11033"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11034" label="11034">
+        <attvalues>
+          <attvalue for="0" value="11034"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11035" label="11035">
+        <attvalues>
+          <attvalue for="0" value="11035"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="KIST誠致教育基金會、RE-THINK台灣重新思考環境教育協會、臺灣實驗教育推動中心、實驗教育工作者培育計畫"/>
+        </attvalues>
+      </node>
+      <node id="m_11036" label="11036">
+        <attvalues>
+          <attvalue for="0" value="11036"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11037" label="11037">
+        <attvalues>
+          <attvalue for="0" value="11037"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11038" label="11038">
+        <attvalues>
+          <attvalue for="0" value="11038"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="國立臺灣大學、國立臺灣師範大學、國立海洋大學、想享探索TEA、秘密基地"/>
+        </attvalues>
+      </node>
+      <node id="m_11039" label="11039">
+        <attvalues>
+          <attvalue for="0" value="11039"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="康軒文教基金會、臺灣芯福里情緒教育推廣協會、善牧學園"/>
+        </attvalues>
+      </node>
+      <node id="m_11040" label="11040">
+        <attvalues>
+          <attvalue for="0" value="11040"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11041" label="11041">
+        <attvalues>
+          <attvalue for="0" value="11041"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11042" label="11042">
+        <attvalues>
+          <attvalue for="0" value="11042"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="人禾基金會、臺灣原生魚類保育協會、打開台北、鄰里長、民意代表、計畫專案教授"/>
+        </attvalues>
+      </node>
+      <node id="m_11043" label="11043">
+        <attvalues>
+          <attvalue for="0" value="11043"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="國立臺灣科技大學、東吳大學、輔仁大學、馬來西亞難民學校Hilla community school、社團法人中華民國瑩光教育協會、農業科技研究院、ReWood森林循環湖口創生、Impact Hub Taipei"/>
+        </attvalues>
+      </node>
+      <node id="m_11044" label="11044">
+        <attvalues>
+          <attvalue for="0" value="11044"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11045" label="11045">
+        <attvalues>
+          <attvalue for="0" value="11045"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11046" label="11046">
+        <attvalues>
+          <attvalue for="0" value="11046"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11047" label="11047">
+        <attvalues>
+          <attvalue for="0" value="11047"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11048" label="11048">
+        <attvalues>
+          <attvalue for="0" value="11048"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11049" label="11049">
+        <attvalues>
+          <attvalue for="0" value="11049"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11050" label="11050">
+        <attvalues>
+          <attvalue for="0" value="11050"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11051" label="11051">
+        <attvalues>
+          <attvalue for="0" value="11051"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11052" label="11052">
+        <attvalues>
+          <attvalue for="0" value="11052"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11053" label="11053">
+        <attvalues>
+          <attvalue for="0" value="11053"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11054" label="11054">
+        <attvalues>
+          <attvalue for="0" value="11054"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11055" label="11055">
+        <attvalues>
+          <attvalue for="0" value="11055"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="Waker社團法人台灣微客公益行動協會"/>
+        </attvalues>
+      </node>
+      <node id="m_11056" label="11056">
+        <attvalues>
+          <attvalue for="0" value="11056"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11057" label="11057">
+        <attvalues>
+          <attvalue for="0" value="11057"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11058" label="11058">
+        <attvalues>
+          <attvalue for="0" value="11058"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="m_11059" label="11059">
+        <attvalues>
+          <attvalue for="0" value="11059"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+        </attvalues>
+      </node>
+      <node id="p_1" label="國立臺灣大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺灣大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="11006、11038"/>
+        </attvalues>
+      </node>
+      <node id="p_2" label="國立臺灣大學師資培育中心">
+        <attvalues>
+          <attvalue for="0" value="國立臺灣大學師資培育中心"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_3" label="國立臺灣師範大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺灣師範大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="11006、11038"/>
+        </attvalues>
+      </node>
+      <node id="p_4" label="國立臺灣師範大學歷史學系">
+        <attvalues>
+          <attvalue for="0" value="國立臺灣師範大學歷史學系"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_5" label="國立臺灣師範大學宏觀金融教育研究發展中心籌備處">
+        <attvalues>
+          <attvalue for="0" value="國立臺灣師範大學宏觀金融教育研究發展中心籌備處"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_6" label="國立臺灣海洋大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺灣海洋大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11006"/>
+        </attvalues>
+      </node>
+      <node id="p_7" label="國立臺北教育大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺北教育大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11006"/>
+        </attvalues>
+      </node>
+      <node id="p_8" label="國立臺北大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺北大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11006"/>
+        </attvalues>
+      </node>
+      <node id="p_9" label="國立政治大學">
+        <attvalues>
+          <attvalue for="0" value="國立政治大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11029"/>
+        </attvalues>
+      </node>
+      <node id="p_10" label="國立海洋大學">
+        <attvalues>
+          <attvalue for="0" value="國立海洋大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11038"/>
+        </attvalues>
+      </node>
+      <node id="p_11" label="國立臺灣科技大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺灣科技大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="p_12" label="國立臺北科技大學">
+        <attvalues>
+          <attvalue for="0" value="國立臺北科技大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11029"/>
+        </attvalues>
+      </node>
+      <node id="p_13" label="東吳大學">
+        <attvalues>
+          <attvalue for="0" value="東吳大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="11029、11043"/>
+        </attvalues>
+      </node>
+      <node id="p_14" label="輔仁大學">
+        <attvalues>
+          <attvalue for="0" value="輔仁大學"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="p_15" label="馬來西亞難民學校Hilla community school">
+        <attvalues>
+          <attvalue for="0" value="馬來西亞難民學校Hilla community school"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="11022、11043"/>
+        </attvalues>
+      </node>
+      <node id="p_16" label="大阪常翔高中">
+        <attvalues>
+          <attvalue for="0" value="大阪常翔高中"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11020"/>
+        </attvalues>
+      </node>
+      <node id="p_17" label="財團法人臺灣媒體觀察教育基金會">
+        <attvalues>
+          <attvalue for="0" value="財團法人臺灣媒體觀察教育基金會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_18" label="民間公民與法治教育基金會">
+        <attvalues>
+          <attvalue for="0" value="民間公民與法治教育基金會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_19" label="KIST誠致教育基金會">
+        <attvalues>
+          <attvalue for="0" value="KIST誠致教育基金會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11035"/>
+        </attvalues>
+      </node>
+      <node id="p_20" label="康軒文教基金會">
+        <attvalues>
+          <attvalue for="0" value="康軒文教基金會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11039"/>
+        </attvalues>
+      </node>
+      <node id="p_21" label="人禾基金會">
+        <attvalues>
+          <attvalue for="0" value="人禾基金會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="p_22" label="台灣財經素養教育推廣協會">
+        <attvalues>
+          <attvalue for="0" value="台灣財經素養教育推廣協會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_23" label="RE-THINK台灣重新思考環境教育協會">
+        <attvalues>
+          <attvalue for="0" value="RE-THINK台灣重新思考環境教育協會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11035"/>
+        </attvalues>
+      </node>
+      <node id="p_24" label="臺灣芯福里情緒教育推廣協會">
+        <attvalues>
+          <attvalue for="0" value="臺灣芯福里情緒教育推廣協會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11039"/>
+        </attvalues>
+      </node>
+      <node id="p_25" label="社團法人中華民國瑩光教育協會">
+        <attvalues>
+          <attvalue for="0" value="社團法人中華民國瑩光教育協會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="p_26" label="Waker社團法人台灣微客公益行動協會">
+        <attvalues>
+          <attvalue for="0" value="Waker社團法人台灣微客公益行動協會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11055"/>
+        </attvalues>
+      </node>
+      <node id="p_27" label="臺灣原生魚類保育協會">
+        <attvalues>
+          <attvalue for="0" value="臺灣原生魚類保育協會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="p_28" label="綠色餐飲指南協會">
+        <attvalues>
+          <attvalue for="0" value="綠色餐飲指南協會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11020"/>
+        </attvalues>
+      </node>
+      <node id="p_29" label="臺灣實驗教育推動中心">
+        <attvalues>
+          <attvalue for="0" value="臺灣實驗教育推動中心"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11035"/>
+        </attvalues>
+      </node>
+      <node id="p_30" label="農業科技研究院">
+        <attvalues>
+          <attvalue for="0" value="農業科技研究院"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="p_31" label="ReWood森林循環湖口創生">
+        <attvalues>
+          <attvalue for="0" value="ReWood森林循環湖口創生"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="11009、11043"/>
+        </attvalues>
+      </node>
+      <node id="p_32" label="農業政策研究中心">
+        <attvalues>
+          <attvalue for="0" value="農業政策研究中心"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_33" label="臺北市議會">
+        <attvalues>
+          <attvalue for="0" value="臺北市議會"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_34" label="臺北地方法院">
+        <attvalues>
+          <attvalue for="0" value="臺北地方法院"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_35" label="景美人權園區">
+        <attvalues>
+          <attvalue for="0" value="景美人權園區"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_36" label="國家檔案館">
+        <attvalues>
+          <attvalue for="0" value="國家檔案館"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_37" label="野鳥窗殺組織">
+        <attvalues>
+          <attvalue for="0" value="野鳥窗殺組織"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11006"/>
+        </attvalues>
+      </node>
+      <node id="p_38" label="玩轉學校">
+        <attvalues>
+          <attvalue for="0" value="玩轉學校"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11006"/>
+        </attvalues>
+      </node>
+      <node id="p_39" label="寶藏巖國際藝術村">
+        <attvalues>
+          <attvalue for="0" value="寶藏巖國際藝術村"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11009"/>
+        </attvalues>
+      </node>
+      <node id="p_40" label="自殺防治中心">
+        <attvalues>
+          <attvalue for="0" value="自殺防治中心"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11016"/>
+        </attvalues>
+      </node>
+      <node id="p_41" label="Brisbane state high">
+        <attvalues>
+          <attvalue for="0" value="Brisbane state high"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11020"/>
+        </attvalues>
+      </node>
+      <node id="p_42" label="Impact Hub Taipei">
+        <attvalues>
+          <attvalue for="0" value="Impact Hub Taipei"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11043"/>
+        </attvalues>
+      </node>
+      <node id="p_43" label="實驗教育工作者培育計畫">
+        <attvalues>
+          <attvalue for="0" value="實驗教育工作者培育計畫"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11035"/>
+        </attvalues>
+      </node>
+      <node id="p_44" label="想享探索TEA">
+        <attvalues>
+          <attvalue for="0" value="想享探索TEA"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11038"/>
+        </attvalues>
+      </node>
+      <node id="p_45" label="秘密基地">
+        <attvalues>
+          <attvalue for="0" value="秘密基地"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11038"/>
+        </attvalues>
+      </node>
+      <node id="p_46" label="善牧學園">
+        <attvalues>
+          <attvalue for="0" value="善牧學園"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11039"/>
+        </attvalues>
+      </node>
+      <node id="p_47" label="打開台北">
+        <attvalues>
+          <attvalue for="0" value="打開台北"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="p_48" label="鄰里長">
+        <attvalues>
+          <attvalue for="0" value="鄰里長"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="p_49" label="民意代表">
+        <attvalues>
+          <attvalue for="0" value="民意代表"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="p_50" label="計畫專案教授">
+        <attvalues>
+          <attvalue for="0" value="計畫專案教授"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11042"/>
+        </attvalues>
+      </node>
+      <node id="p_51" label="蔡燕婷老師">
+        <attvalues>
+          <attvalue for="0" value="蔡燕婷老師"/>
+          <attvalue for="1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="11002"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="1" source="m_11002" target="p_51" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="2" source="m_11006" target="p_1" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="3" source="m_11006" target="p_3" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="4" source="m_11006" target="p_6" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="5" source="m_11006" target="p_7" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="6" source="m_11006" target="p_8" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="7" source="m_11006" target="p_37" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="8" source="m_11006" target="p_38" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="9" source="m_11009" target="p_2" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="10" source="m_11009" target="p_4" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="11" source="m_11009" target="p_5" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="12" source="m_11009" target="p_17" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="13" source="m_11009" target="p_18" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="14" source="m_11009" target="p_22" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="15" source="m_11009" target="p_31" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="16" source="m_11009" target="p_32" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="17" source="m_11009" target="p_33" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="18" source="m_11009" target="p_34" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="19" source="m_11009" target="p_35" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="20" source="m_11009" target="p_36" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="21" source="m_11009" target="p_39" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="22" source="m_11016" target="p_40" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="23" source="m_11020" target="p_16" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="24" source="m_11020" target="p_28" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="25" source="m_11020" target="p_41" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="26" source="m_11022" target="p_15" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="27" source="m_11029" target="p_9" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="28" source="m_11029" target="p_12" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="29" source="m_11029" target="p_13" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="30" source="m_11035" target="p_19" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="31" source="m_11035" target="p_23" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="32" source="m_11035" target="p_29" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="33" source="m_11035" target="p_43" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="34" source="m_11038" target="p_1" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="35" source="m_11038" target="p_3" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="36" source="m_11038" target="p_10" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="37" source="m_11038" target="p_44" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="38" source="m_11038" target="p_45" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="39" source="m_11039" target="p_20" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="40" source="m_11039" target="p_24" type="directed" weight="1" label="單向｜頻率1">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="1"/>
+      </edge>
+      <edge id="41" source="m_11039" target="p_46" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="42" source="m_11042" target="p_21" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="43" source="m_11042" target="p_27" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="44" source="m_11042" target="p_47" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="45" source="m_11042" target="p_48" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="46" source="m_11042" target="p_49" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="47" source="m_11042" target="p_50" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="48" source="m_11043" target="p_11" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="49" source="m_11043" target="p_13" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="50" source="m_11043" target="p_14" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="51" source="m_11043" target="p_15" type="directed" weight="5" label="單向｜頻率3">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="5"/>
+      </edge>
+      <edge id="52" source="m_11043" target="p_25" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="53" source="m_11043" target="p_30" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="54" source="m_11043" target="p_31" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="55" source="m_11043" target="p_42" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+      <edge id="56" source="m_11055" target="p_26" type="directed" weight="3" label="單向｜頻率2">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="單向"/>
+        </attvalues>
+        <viz:thickness value="3"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

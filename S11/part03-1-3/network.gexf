@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://gexf.net/1.3" xmlns:viz="http://gexf.net/1.3/viz" version="1.3">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI ChatGPT</creator>
+    <description>芳和實中｜校際網絡_校際間合作管道（有向二分網絡）</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node" mode="static">
+      <attribute id="node_type" title="node_type" type="string"/>
+      <attribute id="點名稱" title="點名稱" type="string"/>
+      <attribute id="身分別" title="身分別" type="string"/>
+      <attribute id="連結數" title="連結數" type="integer"/>
+      <attribute id="連結對象" title="連結對象" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="方向標示" title="方向標示" type="string"/>
+      <attribute id="連結類型" title="連結類型" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="11001" label="11001">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11001"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-1218.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11002" label="11002">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11002"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-1176.00" z="0.0"/>
+        <viz:size value="8.82"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11003" label="11003">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11003"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-1134.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11004" label="11004">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11004"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-1092.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11005" label="11005">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11005"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-1050.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11006" label="11006">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11006"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體；行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-1008.00" z="0.0"/>
+        <viz:size value="9.73"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11007" label="11007">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11007"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-966.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11008" label="11008">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11008"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-924.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11009" label="11009">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11009"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="校長層級主動聯繫或串聯；自發社群或跨校共學團體；與大學或研究機構之合作"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-882.00" z="0.0"/>
+        <viz:size value="9.73"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11010" label="11010">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11010"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-840.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11011" label="11011">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11011"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-798.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11012" label="11012">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11012"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-756.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11013" label="11013">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11013"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-714.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11014" label="11014">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11014"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-672.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11015" label="11015">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11015"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-630.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11016" label="11016">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11016"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-588.00" z="0.0"/>
+        <viz:size value="8.82"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11017" label="11017">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11017"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-546.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11018" label="11018">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11018"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-504.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11019" label="11019">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11019"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-462.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11020" label="11020">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11020"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-420.00" z="0.0"/>
+        <viz:size value="8.82"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11021" label="11021">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11021"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-378.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11022" label="11022">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11022"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；校長層級主動聯繫或串聯；自發社群或跨校共學團體；行政團隊層級協作"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-336.00" z="0.0"/>
+        <viz:size value="10.64"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11023" label="11023">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11023"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-294.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11024" label="11024">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11024"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-252.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11025" label="11025">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11025"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-210.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11026" label="11026">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11026"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-168.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11027" label="11027">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11027"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-126.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11028" label="11028">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11028"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-84.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11029" label="11029">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11029"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；校長層級主動聯繫或串聯；自發社群或跨校共學團體；行政團隊層級協作；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="-42.00" z="0.0"/>
+        <viz:size value="11.55"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11030" label="11030">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11030"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="0.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11031" label="11031">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11031"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="42.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11032" label="11032">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11032"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="84.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11033" label="11033">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11033"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="126.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11034" label="11034">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11034"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="168.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11035" label="11035">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11035"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="1"/>
+          <attvalue for="連結對象" value="自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="210.00" z="0.0"/>
+        <viz:size value="7.91"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11036" label="11036">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11036"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="252.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11037" label="11037">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11037"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="294.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11038" label="11038">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11038"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體；行政團隊層級協作；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="336.00" z="0.0"/>
+        <viz:size value="10.64"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11039" label="11039">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11039"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；行政團隊層級協作；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="378.00" z="0.0"/>
+        <viz:size value="9.73"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11040" label="11040">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11040"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="420.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11041" label="11041">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11041"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="462.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11042" label="11042">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11042"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="3"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；行政團隊層級協作；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="504.00" z="0.0"/>
+        <viz:size value="9.73"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11043" label="11043">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11043"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="校長層級主動聯繫或串聯；自發社群或跨校共學團體；與大學或研究機構之合作；行政團隊層級協作；跨校聯盟或專案合作平台"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="546.00" z="0.0"/>
+        <viz:size value="11.55"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11044" label="11044">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11044"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="588.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11045" label="11045">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11045"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="630.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11046" label="11046">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11046"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="672.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11047" label="11047">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11047"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="714.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11048" label="11048">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11048"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="756.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11049" label="11049">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11049"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="798.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11050" label="11050">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11050"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="840.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11051" label="11051">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11051"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="882.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11052" label="11052">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11052"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="924.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11053" label="11053">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11053"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="966.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11054" label="11054">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11054"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="1008.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11055" label="11055">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11055"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="教育局或地方政府安排；自發社群或跨校共學團體"/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="1050.00" z="0.0"/>
+        <viz:size value="8.82"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11056" label="11056">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11056"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="1092.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11057" label="11057">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11057"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="1134.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11058" label="11058">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11058"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="1176.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="11059" label="11059">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="點名稱" value="11059"/>
+          <attvalue for="身分別" value="學校成員"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="171" g="181" b="200" a="1"/>
+        <viz:position x="-420.00" y="1218.00" z="0.0"/>
+        <viz:size value="7.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="教育局或地方政府安排" label="教育局或地方政府安排">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="教育局或地方政府安排"/>
+          <attvalue for="身分別" value="機構"/>
+          <attvalue for="連結數" value="10"/>
+          <attvalue for="連結對象" value="11002；11006；11016；11020；11022；11029；11038；11039；11042；11055"/>
+        </attvalues>
+        <viz:color r="196" g="177" b="184" a="1"/>
+        <viz:position x="420.00" y="-288.00" z="0.0"/>
+        <viz:size value="19.91"/>
+        <viz:shape value="square"/>
+      </node>
+      <node id="校長層級主動聯繫或串聯" label="校長層級主動聯繫或串聯">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="校長層級主動聯繫或串聯"/>
+          <attvalue for="身分別" value="機構"/>
+          <attvalue for="連結數" value="4"/>
+          <attvalue for="連結對象" value="11009；11022；11029；11043"/>
+        </attvalues>
+        <viz:color r="196" g="177" b="184" a="1"/>
+        <viz:position x="420.00" y="-192.00" z="0.0"/>
+        <viz:size value="13.36"/>
+        <viz:shape value="square"/>
+      </node>
+      <node id="行政團隊層級協作" label="行政團隊層級協作">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="行政團隊層級協作"/>
+          <attvalue for="身分別" value="機構"/>
+          <attvalue for="連結數" value="7"/>
+          <attvalue for="連結對象" value="11006；11022；11029；11038；11039；11042；11043"/>
+        </attvalues>
+        <viz:color r="196" g="177" b="184" a="1"/>
+        <viz:position x="420.00" y="-96.00" z="0.0"/>
+        <viz:size value="16.64"/>
+        <viz:shape value="square"/>
+      </node>
+      <node id="自發社群或跨校共學團體" label="自發社群或跨校共學團體">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="自發社群或跨校共學團體"/>
+          <attvalue for="身分別" value="機構"/>
+          <attvalue for="連結數" value="11"/>
+          <attvalue for="連結對象" value="11002；11006；11009；11016；11020；11022；11029；11035；11038；11043；11055"/>
+        </attvalues>
+        <viz:color r="196" g="177" b="184" a="1"/>
+        <viz:position x="420.00" y="0.00" z="0.0"/>
+        <viz:size value="21.00"/>
+        <viz:shape value="square"/>
+      </node>
+      <node id="跨校聯盟或專案合作平台" label="跨校聯盟或專案合作平台">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="跨校聯盟或專案合作平台"/>
+          <attvalue for="身分別" value="機構"/>
+          <attvalue for="連結數" value="5"/>
+          <attvalue for="連結對象" value="11029；11038；11039；11042；11043"/>
+        </attvalues>
+        <viz:color r="196" g="177" b="184" a="1"/>
+        <viz:position x="420.00" y="96.00" z="0.0"/>
+        <viz:size value="14.45"/>
+        <viz:shape value="square"/>
+      </node>
+      <node id="專業協會或學會網絡" label="專業協會或學會網絡">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="專業協會或學會網絡"/>
+          <attvalue for="身分別" value="機構"/>
+          <attvalue for="連結數" value="0"/>
+          <attvalue for="連結對象" value=""/>
+        </attvalues>
+        <viz:color r="196" g="177" b="184" a="1"/>
+        <viz:position x="420.00" y="192.00" z="0.0"/>
+        <viz:size value="9.00"/>
+        <viz:shape value="square"/>
+      </node>
+      <node id="與大學或研究機構之合作" label="與大學或研究機構之合作">
+        <attvalues>
+          <attvalue for="node_type" value="institution"/>
+          <attvalue for="點名稱" value="與大學或研究機構之合作"/>
+          <attvalue for="身分別" value="機構"/>
+          <attvalue for="連結數" value="2"/>
+          <attvalue for="連結對象" value="11009；11043"/>
+        </attvalues>
+        <viz:color r="196" g="177" b="184" a="1"/>
+        <viz:position x="420.00" y="288.00" z="0.0"/>
+        <viz:size value="11.18"/>
+        <viz:shape value="square"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="1" source="11002" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="2" source="11002" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="3" source="11006" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="4" source="11006" target="行政團隊層級協作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="5" source="11006" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="6" source="11009" target="校長層級主動聯繫或串聯" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="7" source="11009" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="8" source="11009" target="與大學或研究機構之合作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="9" source="11016" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="10" source="11016" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="11" source="11020" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="12" source="11020" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="13" source="11022" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="14" source="11022" target="校長層級主動聯繫或串聯" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="15" source="11022" target="行政團隊層級協作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="16" source="11022" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="17" source="11029" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="18" source="11029" target="校長層級主動聯繫或串聯" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="19" source="11029" target="行政團隊層級協作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="20" source="11029" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="21" source="11029" target="跨校聯盟或專案合作平台" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="22" source="11035" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="23" source="11038" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="24" source="11038" target="行政團隊層級協作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="25" source="11038" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="26" source="11038" target="跨校聯盟或專案合作平台" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="27" source="11039" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="28" source="11039" target="行政團隊層級協作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="29" source="11039" target="跨校聯盟或專案合作平台" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="30" source="11042" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="31" source="11042" target="行政團隊層級協作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="32" source="11042" target="跨校聯盟或專案合作平台" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="33" source="11043" target="校長層級主動聯繫或串聯" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="34" source="11043" target="行政團隊層級協作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="35" source="11043" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="36" source="11043" target="跨校聯盟或專案合作平台" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="37" source="11043" target="與大學或研究機構之合作" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="38" source="11055" target="教育局或地方政府安排" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+      <edge id="39" source="11055" target="自發社群或跨校共學團體" label="單向" type="directed" weight="1.0">
+        <attvalues>
+          <attvalue for="方向標示" value="單向"/>
+          <attvalue for="連結類型" value="學校成員→機構"/>
+        </attvalues>
+        <viz:color r="186" g="178" b="169" a="1"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
