@@ -1,0 +1,1732 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700;800;900&display=swap" rel="stylesheet">
+<title>S10_校與社區網絡_合作類別</title>
+<style>
+:root{
+  --bg:#f3eee8;
+  --surface:#fbf8f4;
+  --surface-2:#f0e8e1;
+  --surface-3:#ece3db;
+  --text:#4b433d;
+  --muted:#746b64;
+  --line:rgba(92,82,73,0.12);
+  --line-strong:rgba(184,152,102,0.22);
+  --shadow:0 20px 45px rgba(88,76,67,0.10);
+  --shadow-soft:0 12px 28px rgba(88,76,67,0.08);
+  --sage:#a6b4a0;
+  --dust-blue:#94a8b4;
+  --rose:#c7aaa2;
+  --taupe:#bfa793;
+  --olive:#7f9380;
+  --gold:#b89866;
+  --member:#aeb9aa;
+  --institution:#c6b6bc;
+  --edge:#b9afa4;
+  --error-text:#8a5b5b;
+  --error-bg:#f7eeee;
+  --error-border:#d8b8b8;
+}
+html,body{
+  margin:0;padding:0;width:100%;height:100%;
+  background:
+    radial-gradient(circle at top left, rgba(199,170,162,0.22), transparent 28%),
+    radial-gradient(circle at top right, rgba(148,168,180,0.24), transparent 25%),
+    linear-gradient(180deg, #f8f4ef 0%, var(--bg) 100%);
+  color:var(--text);
+  font-family:"Microsoft JhengHei","Microsoft JhengHei UI","Noto Sans TC",sans-serif;
+  font-weight:800;
+  letter-spacing:.02em;
+  overflow:hidden;
+}
+*{box-sizing:border-box;}
+button,select{font:inherit;}
+#app{
+  position:relative;width:100%;height:100%;
+  --headbar-offset:118px;
+}
+#app.headbar-collapsed{--headbar-offset:82px;}
+#canvas{
+  position:absolute;inset:0;width:100%;height:100%;
+  background:linear-gradient(180deg, rgba(251,248,244,0.16), rgba(240,232,225,0.08));
+  cursor:grab;touch-action:none;
+}
+#canvas.dragging{cursor:grabbing;}
+#headBar{
+  position:absolute;top:14px;left:16px;right:16px;z-index:35;
+  display:flex;flex-direction:column;align-items:flex-start;
+}
+#headBar .headbar-shell{
+  display:flex;align-items:center;justify-content:space-between;gap:18px;
+  width:min(100%, 980px);
+  padding:16px 20px;border-radius:999px;
+  border:1px solid rgba(255,255,255,0.56);
+  background:rgba(251,248,244,0.80);
+  backdrop-filter:blur(14px);
+  box-shadow:var(--shadow);
+  transition:padding .25s ease, gap .25s ease, width .25s ease, box-shadow .25s ease;
+}
+#headBar .brand{display:flex;align-items:center;gap:14px;min-width:0;}
+#headBar .brand-copy{min-width:0;}
+#headBar .eyebrow{margin:0;font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;}
+#headBar .brand-copy h1{margin:2px 0 0;font-size:1rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#headBar .brand-mark{
+  position:relative;flex:none;width:56px;height:56px;border-radius:50%;
+  background:linear-gradient(145deg, rgba(166,180,160,0.95), rgba(148,168,180,0.92));
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,0.35), 0 12px 28px rgba(82,98,108,0.18);
+}
+#headBar .orb{position:absolute;border-radius:50%;}
+#headBar .orb-a{width:16px;height:16px;left:20px;top:10px;background:#f2bb5f;}
+#headBar .orb-b{width:26px;height:12px;left:15px;top:25px;border-radius:999px;background:#d6d97d;}
+#headBar .orb-c{width:16px;height:16px;left:20px;top:38px;background:#e46d77;}
+#headBar .headbar-actions{display:flex;align-items:center;gap:10px;flex:none;}
+#headBar .home-link{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  min-height:44px;padding:10px 16px;border-radius:999px;
+  border:1px solid rgba(184,152,102,0.22);
+  background:rgba(255,255,255,0.58);color:var(--text);text-decoration:none;
+  box-shadow:0 10px 22px rgba(88,76,67,0.08);
+  transition:transform .25s ease, box-shadow .25s ease, background .25s ease, border-color .25s ease, opacity .22s ease;
+}
+#headBar .home-link:hover,
+#headBar .home-link:focus-visible{
+  background:rgba(255,255,255,0.74);
+  border-color:rgba(184,152,102,0.40);
+  box-shadow:0 0 0 4px rgba(184,152,102,0.12), 0 18px 28px rgba(88,76,67,0.12);
+  transform:translateY(-2px);outline:none;
+}
+#app.headbar-collapsed #headBar .headbar-shell{
+  width:max-content;max-width:calc(100vw - 36px);justify-content:flex-start;gap:10px;padding:8px 14px 8px 8px;
+  box-shadow:0 14px 34px rgba(88,76,67,0.12);
+}
+#app.headbar-collapsed #headBar .headbar-actions{order:-1;gap:0;}
+#app.headbar-collapsed #headBar .brand{gap:10px;}
+#app.headbar-collapsed #headBar .brand-mark,
+#app.headbar-collapsed #headBar .eyebrow{display:none;}
+#app.headbar-collapsed #headBar .brand-copy h1{
+  margin:0;font-size:.96rem;line-height:1.2;max-width:min(calc(100vw - 110px), 520px);
+}
+#app.headbar-collapsed #headBar .home-link{display:none;}
+#headBarCollapse,
+#panel button,
+#menuToggle{
+  position:relative;overflow:hidden;
+  padding:10px 16px;border-radius:999px;border:1px solid rgba(184,152,102,0.22);
+  background:rgba(255,255,255,0.58);color:var(--text);cursor:pointer;
+  box-shadow:0 10px 22px rgba(88,76,67,0.08);
+  transition:transform .25s ease, box-shadow .25s ease, background .25s ease, border-color .25s ease, width .25s ease, height .25s ease, padding .25s ease, font-size .25s ease;
+}
+#headBarCollapse::before,
+#panel button::before,
+#menuToggle::before{
+  content:"";position:absolute;inset:-2px auto -2px -36%;width:32%;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,0.62), transparent);
+  transform:skewX(-24deg);opacity:0;transition:opacity .25s ease,left .45s ease;
+}
+#headBarCollapse:hover,
+#headBarCollapse:focus-visible,
+#panel button:hover,
+#panel button:focus-visible,
+#menuToggle:hover,
+#menuToggle:focus-visible{
+  background:rgba(255,255,255,0.74);
+  border-color:rgba(184,152,102,0.40);
+  box-shadow:0 0 0 4px rgba(184,152,102,0.12), 0 18px 28px rgba(88,76,67,0.12);
+  transform:translateY(-2px);outline:none;
+}
+#headBarCollapse:hover::before,
+#headBarCollapse:focus-visible::before,
+#panel button:hover::before,
+#panel button:focus-visible::before,
+#menuToggle:hover::before,
+#menuToggle:focus-visible::before{left:112%;opacity:1;}
+#app.headbar-collapsed #headBarCollapse{
+  width:48px;height:48px;padding:0;border-radius:50%;display:grid;place-items:center;
+  box-shadow:0 12px 26px rgba(88,76,67,0.12);font-size:0;
+}
+#app.headbar-collapsed #headBarCollapse::after{
+  content:"+";position:relative;z-index:1;font-size:24px;font-weight:900;line-height:1;color:var(--text);
+}
+#headBar .headbar-body{
+  margin-top:10px;padding:12px 18px;border-radius:22px;
+  border:1px solid rgba(255,255,255,0.62);
+  background:rgba(251,248,244,0.72);backdrop-filter:blur(12px);
+  box-shadow:var(--shadow-soft);
+  max-height:120px;opacity:1;overflow:hidden;
+  transition:max-height .28s ease, opacity .22s ease, margin-top .22s ease, padding .22s ease;
+}
+#headBar .headbar-body p{margin:0;color:var(--muted);font-size:12px;line-height:1.55;}
+#app.headbar-collapsed #headBar .headbar-body{max-height:0;opacity:0;margin-top:0;padding-top:0;padding-bottom:0;border-width:0;}
+#hint,
+#panel,
+#legend,
+#tooltip,
+#status{
+  backdrop-filter:blur(14px);
+}
+#hint{
+  position:absolute;left:16px;top:var(--headbar-offset);z-index:20;
+  max-width:min(360px, calc(100vw - 32px));
+  background:rgba(251,248,244,0.84);
+  border:1px solid rgba(255,255,255,0.65);
+  border-radius:24px;padding:12px 14px;box-shadow:var(--shadow-soft);
+}
+#hint .hint-title{font-size:14px;line-height:1.2;font-weight:900;margin-bottom:4px;color:var(--text);letter-spacing:.04em;}
+#hint .hint-desc{font-size:12px;line-height:1.5;color:var(--muted);font-weight:700;}
+#panel{
+  position:absolute;right:16px;top:var(--headbar-offset);z-index:20;
+  width:336px;background:rgba(251,248,244,0.84);
+  border:1px solid rgba(255,255,255,0.65);border-radius:28px;padding:18px;
+  box-shadow:var(--shadow);font-size:13px;color:var(--text);
+}
+#panel h3{margin:0 0 14px 0;font-size:15px;font-weight:900;color:var(--text);letter-spacing:.04em;}
+#panel select{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid rgba(191,167,147,0.36);border-radius:16px;background:rgba(240,232,225,0.82);color:var(--text);outline:none;box-shadow:inset 0 1px 0 rgba(255,255,255,0.35);}
+#panel .select-wrap{position:relative;}
+#panel .native-select{position:absolute;inset:0;opacity:0;pointer-events:none;}
+#panel .select-trigger,
+#panel .select-option{font:inherit;}
+#panel .select-trigger{
+  width:100%;min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:14px 18px;border-radius:22px;border:1px solid rgba(191,167,147,0.36);
+  background:linear-gradient(180deg, rgba(244,237,230,0.96), rgba(236,227,219,0.94));
+  color:var(--text);text-align:left;cursor:pointer;outline:none;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.52), 0 10px 22px rgba(88,76,67,0.06);
+  transform:none;transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .22s ease;
+}
+#panel .select-trigger:hover,
+#panel .select-trigger:focus-visible,
+#panel .custom-select.open .select-trigger{
+  background:linear-gradient(180deg, rgba(248,242,236,0.98), rgba(239,230,221,0.96));
+  border-color:rgba(184,152,102,0.42);
+  box-shadow:0 0 0 4px rgba(184,152,102,0.10), 0 18px 28px rgba(88,76,67,0.10);
+  transform:translateY(-2px);
+}
+#panel .select-trigger-text{display:block;flex:1 1 auto;min-width:0;}
+#panel .select-trigger-icon{
+  flex:none;width:13px;height:13px;border-right:2px solid rgba(92,82,73,0.72);border-bottom:2px solid rgba(92,82,73,0.72);
+  transform:rotate(45deg) translateY(-2px);transition:transform .22s ease, border-color .22s ease;
+}
+#panel .custom-select.open .select-trigger-icon{transform:rotate(225deg) translateY(-1px);}
+#panel .select-menu{
+  position:absolute;left:0;right:0;top:calc(100% + 10px);z-index:25;
+  padding:10px;border-radius:22px;border:1px solid rgba(191,167,147,0.30);
+  background:rgba(251,248,244,0.96);backdrop-filter:blur(14px);
+  box-shadow:0 20px 40px rgba(88,76,67,0.12);
+  opacity:0;pointer-events:none;transform:translateY(-6px) scale(.98);
+  transition:opacity .18s ease, transform .18s ease;
+}
+#panel .custom-select.open .select-menu{opacity:1;pointer-events:auto;transform:translateY(0) scale(1);}
+#panel .select-option{
+  width:100%;display:block;margin:0 0 6px;padding:12px 14px;border-radius:16px;border:1px solid transparent;
+  background:transparent;color:var(--text);text-align:left;cursor:pointer;outline:none;box-shadow:none;transform:none;
+  transition:background .18s ease, border-color .18s ease, color .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+#panel .select-option:last-child{margin-bottom:0;}
+#panel .select-option:hover,
+#panel .select-option:focus-visible{
+  background:rgba(236,227,219,0.72);border-color:rgba(191,167,147,0.28);transform:translateY(-1px);
+  box-shadow:0 10px 20px rgba(88,76,67,0.06);
+}
+#panel .select-option.is-selected{
+  background:linear-gradient(180deg, rgba(166,180,160,0.26), rgba(148,168,180,0.22));
+  border-color:rgba(184,152,102,0.30);box-shadow:inset 0 1px 0 rgba(255,255,255,0.50);
+}
+#panel .select-option.is-selected::after{content:"✓";float:right;color:rgba(92,82,73,0.70);font-weight:900;}
+
+#panel label{
+  display:flex;align-items:center;gap:10px;margin:10px 0 0;color:var(--text);
+  padding:10px 12px;border:1px solid rgba(191,167,147,0.22);border-radius:16px;
+  background:rgba(255,255,255,0.45);
+}
+#panel input[type="checkbox"]{accent-color:#a4927e;transform:translateY(1px);}
+#panel > div:last-child{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
+#panel button{margin:0;flex:1 1 auto;}
+#legend{
+  position:absolute;left:16px;bottom:16px;z-index:20;
+  background:rgba(251,248,244,0.84);border:1px solid rgba(255,255,255,0.65);
+  border-radius:22px;padding:12px 14px;font-size:13px;color:var(--text);box-shadow:var(--shadow-soft);
+}
+#legend strong{font-size:13px;}
+.legend-row{display:flex;align-items:center;gap:8px;margin-top:7px;}
+.legend-circle{width:12px;height:12px;border-radius:50%;background:var(--member);border:1px solid #9c978f;}
+.legend-square{width:12px;height:12px;background:var(--institution);border:1px solid #9c978f;}
+.legend-line{position:relative;width:18px;height:0;border-top:2px solid var(--edge);}
+.legend-line:after{content:"";position:absolute;right:-1px;top:-4px;width:0;height:0;border-left:6px solid var(--edge);border-top:4px solid transparent;border-bottom:4px solid transparent;}
+#tooltip{
+  position:absolute;z-index:30;display:none;max-width:320px;background:rgba(251,248,244,0.96);
+  border:1px solid rgba(255,255,255,0.72);border-radius:18px;box-shadow:var(--shadow);
+  padding:12px 14px;font-size:12px;line-height:1.6;pointer-events:none;color:var(--text);
+}
+#tooltip .title{font-weight:900;margin-bottom:6px;color:var(--text);}
+#tooltip .meta{color:var(--muted);margin-bottom:6px;font-weight:700;}
+#tooltip .list{max-height:180px;overflow:auto;}
+#status{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  background:rgba(251,248,244,0.92);border:1px solid rgba(255,255,255,0.76);
+  border-radius:20px;padding:14px 18px;z-index:40;box-shadow:var(--shadow);
+  font-size:14px;color:var(--text);
+}
+#status.error{color:var(--error-text);border-color:var(--error-border);background:var(--error-bg);}
+#menuToggle{display:none;position:absolute;right:16px;top:18px;z-index:40;}
+#panelBackdrop{display:none;position:absolute;inset:0;z-index:21;background:rgba(83,74,66,0.18);}
+#forceDensityWrap{
+  display:none;margin-top:12px;padding:12px 12px 10px;
+  background:rgba(240,232,225,0.58);border:1px solid rgba(191,167,147,0.24);border-radius:18px;
+}
+#forceDensityWrap.active{display:block;}
+.force-density-head{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;margin-bottom:8px;}
+.force-density-title{font-size:12px;font-weight:900;color:var(--text);letter-spacing:.02em;}
+.force-density-current{font-size:11px;color:var(--muted);white-space:nowrap;}
+.force-density-scale-labels{display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--muted);margin-bottom:6px;}
+.force-density-ruler{display:flex;justify-content:space-between;align-items:flex-end;margin:0 2px 5px;height:10px;}
+.force-density-ruler span{width:1px;height:6px;background:rgba(177,164,150,0.8);opacity:.7;}
+.force-density-ruler span.mid{height:9px;opacity:1;}
+#forceDensitySlider{-webkit-appearance:none;appearance:none;width:100%;margin:0;background:transparent;}
+#forceDensitySlider:focus{outline:none;}
+#forceDensitySlider::-webkit-slider-runnable-track{height:6px;border-radius:999px;background:linear-gradient(90deg,#d8cfc3 0%, #cec3b6 100%);}
+#forceDensitySlider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;margin-top:-5px;width:16px;height:16px;border-radius:50%;background:#8f8173;border:2px solid #f6f1ea;box-shadow:0 2px 6px rgba(101,92,82,0.22);}
+#forceDensitySlider::-moz-range-track{height:6px;border-radius:999px;background:linear-gradient(90deg,#d8cfc3 0%, #cec3b6 100%);}
+#forceDensitySlider::-moz-range-thumb{width:16px;height:16px;border:none;border-radius:50%;background:#8f8173;box-shadow:0 2px 6px rgba(101,92,82,0.22);}
+.force-density-ticks{display:flex;justify-content:space-between;gap:4px;margin-top:6px;}
+.force-density-ticks span{flex:1;text-align:center;font-size:10px;color:var(--muted);transition:color .18s ease,font-weight .18s ease,transform .18s ease;}
+.force-density-ticks span.active{color:var(--text);font-weight:900;transform:translateY(-1px);}
+@media (max-width: 920px){
+  #headBar .brand-copy h1{font-size:.92rem;}
+  #panel{width:320px;}
+}
+@media (max-width: 768px){
+  #app{--headbar-offset:92px;}
+  #app.headbar-collapsed{--headbar-offset:78px;}
+  #headBar{left:12px;right:12px;top:12px;}
+  #headBar .headbar-shell{width:calc(100vw - 88px);padding:12px 14px;gap:12px;}
+  #headBar .brand-mark{width:46px;height:46px;}
+  #headBar .orb-a{left:15px;top:8px;width:14px;height:14px;}
+  #headBar .orb-b{left:10px;top:21px;width:24px;height:10px;}
+  #headBar .orb-c{left:15px;top:31px;width:14px;height:14px;}
+  #headBar .eyebrow{font-size:.68rem;}
+  #headBar .brand-copy h1{font-size:.88rem;}
+  #headBarCollapse{display:inline-flex;align-items:center;justify-content:center;padding:9px 12px;font-size:12px;}
+  #app.headbar-collapsed #headBar .headbar-shell{width:max-content;max-width:calc(100vw - 76px);padding:7px 12px 7px 7px;gap:8px;}
+  #app.headbar-collapsed #headBar .brand-copy h1{font-size:.82rem;max-width:calc(100vw - 128px);}
+  #app.headbar-collapsed #headBarCollapse{width:42px;height:42px;}
+  #headBar .headbar-body{display:none;}
+  #menuToggle{display:block;top:18px;right:14px;padding:9px 12px;font-size:12px;}
+  #hint{display:none;}
+  #panel{right:12px;top:calc(var(--headbar-offset) + 4px);width:min(84vw,320px);max-height:calc(100vh - var(--headbar-offset) - 20px);overflow:auto;transform:translateX(calc(100% + 24px));opacity:0;pointer-events:none;transition:transform .22s ease, opacity .22s ease;z-index:22;}
+  #panel.open{transform:translateX(0);opacity:1;pointer-events:auto;}
+  #panelBackdrop.open{display:block;}
+  #legend{left:12px;bottom:12px;max-width:62vw;font-size:12px;padding:10px 12px;}
+  #forceDensityWrap{padding:10px 10px 9px;}
+  .force-density-current{font-size:10px;}
+  .force-density-ticks span{font-size:9px;}
+}
+</style>
+</head>
+<body>
+<div id="app" class="headbar-collapsed">
+  <canvas id="canvas"></canvas>
+
+<header id="headBar" aria-label="頁面標頭">
+  <div class="headbar-shell">
+    <div class="brand" aria-label="頁面標題">
+      <div class="brand-mark" aria-hidden="true">
+        <span class="orb orb-a"></span>
+        <span class="orb orb-b"></span>
+        <span class="orb orb-c"></span>
+      </div>
+      <div class="brand-copy">
+        <p class="eyebrow">LIFT學習生態系統</p>
+        <h1>S10｜校與社區網絡_合作類別</h1>
+      </div>
+    </div>
+    <div class="headbar-actions">
+      <button id="headBarCollapse" type="button" aria-expanded="false" aria-label="展開資訊" title="展開資訊">展開資訊</button>
+      <a class="home-link" href="../index.html#part3" aria-label="返回原報告首頁">返回原報告首頁</a>
+    </div>
+  </div>
+</header>
+
+  <button id="menuToggle" aria-label="開關設定選單">設定</button>
+  <div id="panelBackdrop"></div>
+
+  <div id="hint">
+    <div class="hint-title">操作提示</div>
+    <div class="hint-desc">滑鼠拖曳空白處可平移，滾輪縮放，拖曳節點可微調位置</div>
+  </div>
+
+  <div id="panel">
+    <h3>網絡設定</h3>
+    <div>
+      <div class="select-wrap custom-select" id="layoutModeWrap">
+        <select id="layoutMode" class="native-select" aria-label="布局模式">
+          <option value="parallel">左右並列</option>
+          <option value="arc">環狀並列</option>
+          <option value="fr">Fruchterman–Reingold</option>
+          <option value="kk">Kamada–Kawai</option>
+        </select>
+        <button type="button" class="select-trigger" id="layoutModeTrigger" aria-haspopup="listbox" aria-expanded="false" aria-controls="layoutModeMenu">
+          <span class="select-trigger-text">左右並列</span>
+          <span class="select-trigger-icon" aria-hidden="true"></span>
+        </button>
+        <div class="select-menu" id="layoutModeMenu" role="listbox" aria-label="布局模式選單">
+          <button type="button" class="select-option is-selected" data-value="parallel" role="option" aria-selected="true">左右並列</button>
+          <button type="button" class="select-option" data-value="arc" role="option" aria-selected="false">環狀並列</button>
+          <button type="button" class="select-option" data-value="fr" role="option" aria-selected="false">Fruchterman–Reingold</button>
+          <button type="button" class="select-option" data-value="kk" role="option" aria-selected="false">Kamada–Kawai</button>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:8px;">
+      <label><input id="toggleLabels" type="checkbox" checked> 顯示標籤</label>
+      <label><input id="toggleArrows" type="checkbox" checked> 顯示箭頭</label>
+      <label><input id="toggleHoverFocus" type="checkbox" checked> Hover聚焦突顯</label>
+
+      <div id="forceDensityWrap">
+        <div class="force-density-head">
+          <div class="force-density-title">節點距離</div>
+          <div id="forceDensityCurrent" class="force-density-current">預設密度 ×1.0</div>
+        </div>
+        <div class="force-density-scale-labels">
+          <span>小</span>
+          <span>預設密度</span>
+          <span>大</span>
+        </div>
+        <div class="force-density-ruler">
+          <span></span><span></span><span></span><span></span><span class="mid"></span><span></span><span></span><span></span><span></span>
+        </div>
+        <input id="forceDensitySlider" type="range" min="0" max="8" step="1" value="4">
+        <div id="forceDensityTicks" class="force-density-ticks">
+          <span>÷1.8</span><span>÷1.6</span><span>÷1.4</span><span>÷1.2</span><span>1.0</span><span>×1.2</span><span>×1.4</span><span>×1.6</span><span>×1.8</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button id="exportPNG">匯出PNG</button>
+      <button id="rerunForce">重新布局</button>
+    </div>
+  </div>
+
+  <div id="legend">
+    <div><strong>圖例</strong></div>
+    <div class="legend-row"><span class="legend-circle"></span><span>學校成員</span></div>
+    <div class="legend-row"><span class="legend-square"></span><span>校與社區網絡_合作類別</span></div>
+    <div class="legend-row"><span class="legend-line"></span><span>有向連結</span></div>
+  </div>
+
+  <div id="tooltip"></div>
+  <div id="status">正在載入network.gexf…</div>
+</div>
+
+<script>
+(function () {
+  var MEMBER_COLOR = "#aeb9aa";
+  var INST_COLOR = "#c6b6bc";
+  var EDGE_COLOR = "#b9afa4";
+
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  var tooltip = document.getElementById("tooltip");
+  var statusBox = document.getElementById("status");
+  var layoutMode = document.getElementById("layoutMode");
+  var toggleLabels = document.getElementById("toggleLabels");
+  var toggleArrows = document.getElementById("toggleArrows");
+  var toggleHoverFocus = document.getElementById("toggleHoverFocus");
+  var exportPNG = document.getElementById("exportPNG");
+  var rerunForce = document.getElementById("rerunForce");
+  var forceDensityWrap = document.getElementById("forceDensityWrap");
+  var forceDensitySlider = document.getElementById("forceDensitySlider");
+  var forceDensityCurrent = document.getElementById("forceDensityCurrent");
+  var forceDensityTicks = document.getElementById("forceDensityTicks");
+  var menuToggle = document.getElementById("menuToggle");
+  var panel = document.getElementById("panel");
+  var panelBackdrop = document.getElementById("panelBackdrop");
+  var appRoot = document.getElementById("app");
+  var headBarCollapse = document.getElementById("headBarCollapse");
+  var layoutModeWrap = document.getElementById("layoutModeWrap");
+  var layoutModeTrigger = document.getElementById("layoutModeTrigger");
+  var layoutModeTriggerText = layoutModeTrigger ? layoutModeTrigger.querySelector(".select-trigger-text") : null;
+  var layoutModeMenu = document.getElementById("layoutModeMenu");
+  var layoutModeOptions = layoutModeMenu ? Array.prototype.slice.call(layoutModeMenu.querySelectorAll(".select-option")) : [];
+
+  function syncLayoutModeSelectUI() {
+    if (!layoutMode || !layoutModeTriggerText || !layoutModeOptions.length) return;
+    var value = layoutMode.value;
+    var label = "";
+    layoutModeOptions.forEach(function(optionButton) {
+      var isSelected = optionButton.getAttribute("data-value") === value;
+      optionButton.classList.toggle("is-selected", isSelected);
+      optionButton.setAttribute("aria-selected", isSelected ? "true" : "false");
+      if (isSelected) label = optionButton.textContent.trim();
+    });
+    if (!label && layoutMode.options && layoutMode.selectedIndex >= 0) {
+      label = layoutMode.options[layoutMode.selectedIndex].textContent.trim();
+    }
+    layoutModeTriggerText.textContent = label || "請選擇";
+  }
+
+  function closeLayoutModeSelect() {
+    if (!layoutModeWrap || !layoutModeTrigger) return;
+    layoutModeWrap.classList.remove("open");
+    layoutModeTrigger.setAttribute("aria-expanded", "false");
+  }
+
+  function openLayoutModeSelect() {
+    if (!layoutModeWrap || !layoutModeTrigger) return;
+    layoutModeWrap.classList.add("open");
+    layoutModeTrigger.setAttribute("aria-expanded", "true");
+  }
+
+  var width = 0;
+  var height = 0;
+  var dpr = window.devicePixelRatio || 1;
+
+  var graph = { nodes: [], edges: [] };
+  var nodeMap = {};
+  var inMap = {};
+  var outMap = {};
+
+  var camera = { x: 0, y: 0, scale: 1 };
+  var isPanning = false;
+  var isDragging = false;
+  var dragNode = null;
+  var hovered = null;
+  var lastMouse = { x: 0, y: 0 };
+
+  var touchMode = null;
+  var pinchStartDist = 0;
+  var pinchStartScale = 1;
+  var pinchWorldCenter = null;
+
+  var FORCE_DISTANCE_VALUES = [1/1.8, 1/1.6, 1/1.4, 1/1.2, 1.0, 1.2, 1.4, 1.6, 1.8];
+
+  function getForceDistanceFactor() {
+    var idx = parseInt(forceDensitySlider.value, 10);
+    if (isNaN(idx) || idx < 0 || idx >= FORCE_DISTANCE_VALUES.length) idx = 4;
+    return FORCE_DISTANCE_VALUES[idx];
+  }
+
+  function updateForceDensityUI() {
+    var idx = parseInt(forceDensitySlider.value, 10);
+    if (isNaN(idx) || idx < 0 || idx >= FORCE_DISTANCE_VALUES.length) idx = 4;
+    var factor = getForceDistanceFactor();
+    var text;
+    if (idx === 4) text = "預設密度 ×1.0";
+    else if (idx < 4) text = "距離 ÷" + (1 / factor).toFixed(1);
+    else text = "距離 ×" + factor.toFixed(1);
+    forceDensityCurrent.innerHTML = text;
+
+    if (forceDensityTicks) {
+      var spans = forceDensityTicks.getElementsByTagName("span");
+      for (var i = 0; i < spans.length; i++) {
+        if (i === idx) spans[i].className = "active";
+        else spans[i].className = "";
+      }
+    }
+  }
+
+  function isForceLikeMode(mode) {
+    return mode === "fr" || mode === "kk";
+  }
+
+
+  function updateForceDensityVisibility() {
+    if (isForceLikeMode(layoutMode.value)) forceDensityWrap.classList.add("active");
+    else forceDensityWrap.classList.remove("active");
+  }
+
+  
+  function isMobileView() {
+    return window.innerWidth <= 768;
+  }
+
+  function closeMobilePanel() {
+    if (!isMobileView()) return;
+    panel.classList.remove("open");
+    panelBackdrop.classList.remove("open");
+  }
+
+  function toggleMobilePanel() {
+    if (!isMobileView()) return;
+    var willOpen = !panel.classList.contains("open");
+    if (willOpen) {
+      panel.classList.add("open");
+      panelBackdrop.classList.add("open");
+    } else {
+      panel.classList.remove("open");
+      panelBackdrop.classList.remove("open");
+    }
+  }
+
+  function syncResponsiveUI() {
+    panel.classList.remove("open");
+    panelBackdrop.classList.remove("open");
+  }
+
+  function setStatus(text, isError) {
+    statusBox.innerHTML = text;
+    statusBox.className = isError ? "error" : "";
+    statusBox.style.display = "block";
+  }
+
+  function hideStatus() {
+    statusBox.style.display = "none";
+  }
+
+  function resizeCanvas() {
+    width = canvas.clientWidth;
+    height = canvas.clientHeight;
+    canvas.width = Math.round(width * dpr);
+    canvas.height = Math.round(height * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    fitCamera();
+  }
+
+  function worldToScreen(x, y) {
+    return {
+      x: width / 2 + (x + camera.x) * camera.scale,
+      y: height / 2 + (y + camera.y) * camera.scale
+    };
+  }
+
+  function screenToWorld(x, y) {
+    return {
+      x: (x - width / 2) / camera.scale - camera.x,
+      y: (y - height / 2) / camera.scale - camera.y
+    };
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function parseGexf(text) {
+    var parser = new DOMParser();
+    var xml = parser.parseFromString(text, "application/xml");
+    var parseError = xml.getElementsByTagName("parsererror");
+    if (parseError && parseError.length) throw new Error("GEXF XML解析失敗");
+
+    var g = { nodes: [], edges: [] };
+    var rawNodes = xml.getElementsByTagName("node");
+    var rawEdges = xml.getElementsByTagName("edge");
+    var i, j;
+
+    for (i = 0; i < rawNodes.length; i++) {
+      var n = rawNodes[i];
+      var id = n.getAttribute("id");
+      var label = n.getAttribute("label") || id;
+      var nodeType = null;
+
+      var attvalues = n.getElementsByTagName("attvalue");
+      for (j = 0; j < attvalues.length; j++) {
+        var av = attvalues[j];
+        var forAttr = av.getAttribute("for");
+        var valAttr = av.getAttribute("value");
+        if ((forAttr === "node_type" || forAttr === "0" || forAttr === "type") &&
+            (valAttr === "member" || valAttr === "institution")) {
+          nodeType = valAttr;
+        }
+      }
+
+      g.nodes.push({
+        id: id,
+        label: label,
+        type: nodeType,
+        size: 8,
+        color: null,
+        shape: null,
+        parallelX: 0, parallelY: 0,
+        arcX: 0, arcY: 0,
+        forceX: 0, forceY: 0,
+        forceBaseX: 0, forceBaseY: 0,
+        frX: 0, frY: 0,
+        frBaseX: 0, frBaseY: 0,
+        kkX: 0, kkY: 0,
+        kkBaseX: 0, kkBaseY: 0,
+        x: 0, y: 0
+      });
+    }
+
+    for (i = 0; i < rawEdges.length; i++) {
+      var e = rawEdges[i];
+      g.edges.push({
+        id: e.getAttribute("id") || ("e" + (i + 1)),
+        source: e.getAttribute("source"),
+        target: e.getAttribute("target"),
+        color: EDGE_COLOR,
+        size: 1.4
+      });
+    }
+    return g;
+  }
+
+  function inferNodeTypesIfNeeded() {
+    var i;
+    var indeg = {};
+    var outdeg = {};
+    for (i = 0; i < graph.nodes.length; i++) {
+      indeg[graph.nodes[i].id] = 0;
+      outdeg[graph.nodes[i].id] = 0;
+    }
+    for (i = 0; i < graph.edges.length; i++) {
+      var e = graph.edges[i];
+      if (outdeg.hasOwnProperty(e.source)) outdeg[e.source] += 1;
+      if (indeg.hasOwnProperty(e.target)) indeg[e.target] += 1;
+    }
+    for (i = 0; i < graph.nodes.length; i++) {
+      var n = graph.nodes[i];
+      if (!n.type) {
+        if (outdeg[n.id] > 0 && indeg[n.id] === 0) n.type = "member";
+        else if (indeg[n.id] > 0 && outdeg[n.id] === 0) n.type = "institution";
+        else n.type = "member";
+      }
+      n.color = n.type === "member" ? MEMBER_COLOR : INST_COLOR;
+      n.shape = n.type === "member" ? "circle" : "square";
+    }
+  }
+
+  function computeSizes() {
+    var degree = {};
+    var i;
+    var maxDegree = 1;
+    for (i = 0; i < graph.nodes.length; i++) degree[graph.nodes[i].id] = 0;
+    for (i = 0; i < graph.edges.length; i++) {
+      degree[graph.edges[i].source] += 1;
+      degree[graph.edges[i].target] += 1;
+    }
+    for (var k in degree) if (degree[k] > maxDegree) maxDegree = degree[k];
+    for (i = 0; i < graph.nodes.length; i++) {
+      var d = degree[graph.nodes[i].id] || 1;
+      graph.nodes[i].size = +(6 + (d / maxDegree) * 10).toFixed(2);
+    }
+  }
+
+  function prepareMaps() {
+    var i;
+    nodeMap = {};
+    inMap = {};
+    outMap = {};
+    for (i = 0; i < graph.nodes.length; i++) {
+      var n = graph.nodes[i];
+      nodeMap[n.id] = n;
+      inMap[n.id] = [];
+      outMap[n.id] = [];
+    }
+    for (i = 0; i < graph.edges.length; i++) {
+      var e = graph.edges[i];
+      if (outMap[e.source]) outMap[e.source].push(e.target);
+      if (inMap[e.target]) inMap[e.target].push(e.source);
+    }
+  }
+
+  function getGroups() {
+    var members = [];
+    var insts = [];
+    var i;
+    for (i = 0; i < graph.nodes.length; i++) {
+      if (graph.nodes[i].type === "member") members.push(graph.nodes[i]);
+      else insts.push(graph.nodes[i]);
+    }
+    members.sort(function(a, b) { return String(a.label).localeCompare(String(b.label), "zh-Hant"); });
+    insts.sort(function(a, b) { return String(a.label).localeCompare(String(b.label), "zh-Hant"); });
+    return { members: members, insts: insts };
+  }
+
+  function applyParallelLayout() {
+    var groups = getGroups();
+    var members = groups.members;
+    var insts = groups.insts;
+
+    var maxSize = 8;
+    var i;
+    for (i = 0; i < graph.nodes.length; i++) if (graph.nodes[i].size > maxSize) maxSize = graph.nodes[i].size;
+
+    var minSpacing = maxSize * 4;
+    var span = 900;
+    var sideX = 760;
+
+    function positionsFor(list, xValue) {
+      var out = [];
+      var n = list.length;
+      if (n === 1) {
+        out.push({ x: xValue, y: 0 });
+        return out;
+      }
+      var idealSpacing = n > 1 ? span / (n - 1) : span;
+      var spacing = Math.max(minSpacing, idealSpacing);
+      var totalHeight = spacing * (n - 1);
+      var start = -totalHeight / 2;
+      for (var j = 0; j < n; j++) out.push({ x: xValue, y: +(start + j * spacing).toFixed(2) });
+      return out;
+    }
+
+    var mPos = positionsFor(members, -sideX);
+    var iPos = positionsFor(insts, sideX);
+
+    for (i = 0; i < members.length; i++) {
+      members[i].parallelX = mPos[i].x; members[i].parallelY = mPos[i].y;
+      members[i].x = mPos[i].x; members[i].y = mPos[i].y;
+    }
+    for (i = 0; i < insts.length; i++) {
+      insts[i].parallelX = iPos[i].x; insts[i].parallelY = iPos[i].y;
+      insts[i].x = iPos[i].x; insts[i].y = iPos[i].y;
+    }
+  }
+
+  function applyArcLayout() {
+    var groups = getGroups();
+    var members = groups.members;
+    var insts = groups.insts;
+    var radius = 468; // 1.3x
+    var i;
+
+    function halfCircle(list, startAngle, endAngle) {
+      var arr = [];
+      var n = list.length;
+      if (n === 1) {
+        arr.push({
+          x: +(radius * Math.cos((startAngle + endAngle) / 2)).toFixed(2),
+          y: +(radius * Math.sin((startAngle + endAngle) / 2)).toFixed(2)
+        });
+        return arr;
+      }
+      for (var j = 0; j < n; j++) {
+        var ang = startAngle + j * (endAngle - startAngle) / (n - 1);
+        arr.push({
+          x: +(radius * Math.cos(ang)).toFixed(2),
+          y: +(radius * Math.sin(ang)).toFixed(2)
+        });
+      }
+      return arr;
+    }
+
+    var leftPos = halfCircle(members, Math.PI * 2 / 3, Math.PI * 4 / 3);
+    var rightPos = halfCircle(insts, -Math.PI / 3, Math.PI / 3);
+
+    for (i = 0; i < members.length; i++) {
+      members[i].arcX = leftPos[i].x; members[i].arcY = leftPos[i].y;
+      members[i].x = leftPos[i].x; members[i].y = leftPos[i].y;
+    }
+    for (i = 0; i < insts.length; i++) {
+      insts[i].arcX = rightPos[i].x; insts[i].arcY = rightPos[i].y;
+      insts[i].x = rightPos[i].x; insts[i].y = rightPos[i].y;
+    }
+  }
+
+  function createRandomizedInitialPositions(targetPrefix, radius, jitter) {
+    var n = graph.nodes.length;
+    var phase = Math.random() * Math.PI * 2;
+    for (var i = 0; i < n; i++) {
+      var ang = phase + (Math.PI * 2 * i) / Math.max(1, n);
+      graph.nodes[i][targetPrefix + "X"] = Math.cos(ang) * radius + (Math.random() - 0.5) * jitter;
+      graph.nodes[i][targetPrefix + "Y"] = Math.sin(ang) * radius + (Math.random() - 0.5) * jitter;
+    }
+  }
+
+  function normalizeLayoutCoordinates(sourceXKey, sourceYKey, baseXKey, baseYKey, targetSpan) {
+    var xs = [], ys = [], i;
+    for (i = 0; i < graph.nodes.length; i++) {
+      xs.push(graph.nodes[i][sourceXKey]);
+      ys.push(graph.nodes[i][sourceYKey]);
+    }
+    var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+    var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+    var centerX = (minX + maxX) / 2;
+    var centerY = (minY + maxY) / 2;
+    var scaleX = (maxX - minX) || 1;
+    var scaleY = (maxY - minY) || 1;
+    var normScale = targetSpan / Math.max(scaleX, scaleY, 1);
+
+    for (i = 0; i < graph.nodes.length; i++) {
+      graph.nodes[i][sourceXKey] = +((graph.nodes[i][sourceXKey] - centerX) * normScale).toFixed(2);
+      graph.nodes[i][sourceYKey] = +((graph.nodes[i][sourceYKey] - centerY) * normScale).toFixed(2);
+      graph.nodes[i][baseXKey] = graph.nodes[i][sourceXKey];
+      graph.nodes[i][baseYKey] = graph.nodes[i][sourceYKey];
+    }
+  }
+
+  function relaxCollisions(xKey, yKey, spacingFactor, rounds) {
+    var n = graph.nodes.length;
+    for (var relax = 0; relax < rounds; relax++) {
+      var moved = false;
+      for (var i = 0; i < n; i++) {
+        var a = graph.nodes[i];
+        for (var j = i + 1; j < n; j++) {
+          var b = graph.nodes[j];
+          var cdx = b[xKey] - a[xKey];
+          var cdy = b[yKey] - a[yKey];
+          var cdist = Math.sqrt(cdx * cdx + cdy * cdy);
+          if (cdist < 0.01) {
+            cdx = (Math.random() - 0.5) * 0.1;
+            cdy = (Math.random() - 0.5) * 0.1;
+            cdist = Math.sqrt(cdx * cdx + cdy * cdy);
+          }
+          var minDist = (Math.max(4, a.size) + Math.max(4, b.size) + 18) * Math.max(0.7, spacingFactor);
+          if (cdist < minDist) {
+            var push = (minDist - cdist) / 2;
+            var pux = cdx / cdist * push;
+            var puy = cdy / cdist * push;
+            a[xKey] -= pux;
+            a[yKey] -= puy;
+            b[xKey] += pux;
+            b[yKey] += puy;
+            moved = true;
+          }
+        }
+      }
+      if (!moved) break;
+    }
+  }
+
+  function computeForceLayout() {
+    var i, j;
+    var n = graph.nodes.length;
+    if (!n) return;
+
+    createRandomizedInitialPositions("force", 320, 40);
+
+    var area = 1200 * 900;
+    var spacingFactor = getForceDistanceFactor();
+    var k = Math.sqrt(area / Math.max(1, n)) * spacingFactor;
+    var temperature = 120;
+
+    for (var iter = 0; iter < 220; iter++) {
+      var disp = {};
+      for (i = 0; i < n; i++) disp[graph.nodes[i].id] = { x: 0, y: 0 };
+
+      for (i = 0; i < n; i++) {
+        var v = graph.nodes[i];
+        for (j = i + 1; j < n; j++) {
+          var u = graph.nodes[j];
+          var dx = v.forceX - u.forceX;
+          var dy = v.forceY - u.forceY;
+          var dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 0.01) {
+            dx = (Math.random() - 0.5) * 0.1;
+            dy = (Math.random() - 0.5) * 0.1;
+            dist = Math.sqrt(dx * dx + dy * dy);
+          }
+          var rep = (k * k) / dist;
+          var rx = dx / dist * rep;
+          var ry = dy / dist * rep;
+          disp[v.id].x += rx; disp[v.id].y += ry;
+          disp[u.id].x -= rx; disp[u.id].y -= ry;
+        }
+      }
+
+      for (i = 0; i < graph.edges.length; i++) {
+        var ed = graph.edges[i];
+        var s = nodeMap[ed.source];
+        var t = nodeMap[ed.target];
+        var dx2 = s.forceX - t.forceX;
+        var dy2 = s.forceY - t.forceY;
+        var dist2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
+        if (dist2 < 0.01) dist2 = 0.01;
+        var att = (dist2 * dist2) / k;
+        var ax = dx2 / dist2 * att;
+        var ay = dy2 / dist2 * att;
+        disp[s.id].x -= ax; disp[s.id].y -= ay;
+        disp[t.id].x += ax; disp[t.id].y += ay;
+      }
+
+      for (i = 0; i < n; i++) {
+        var node = graph.nodes[i];
+        var ddx = disp[node.id].x;
+        var ddy = disp[node.id].y;
+        var dlen = Math.sqrt(ddx * ddx + ddy * ddy);
+        if (dlen > 0) {
+          var limited = Math.min(dlen, temperature);
+          node.forceX += ddx / dlen * limited;
+          node.forceY += ddy / dlen * limited;
+        }
+      }
+
+      temperature *= 0.95;
+    }
+
+    normalizeLayoutCoordinates("forceX", "forceY", "forceBaseX", "forceBaseY", 900);
+    relaxCollisions("forceX", "forceY", spacingFactor, 120);
+    for (i = 0; i < n; i++) {
+      graph.nodes[i].forceBaseX = graph.nodes[i].forceX;
+      graph.nodes[i].forceBaseY = graph.nodes[i].forceY;
+    }
+  }
+
+  function computeFrLayout() {
+    var i, j;
+    var n = graph.nodes.length;
+    if (!n) return;
+
+    createRandomizedInitialPositions("fr", 360, 70);
+
+    var area = 1350 * 1000;
+    var spacingFactor = getForceDistanceFactor();
+    var k = Math.sqrt(area / Math.max(1, n)) * spacingFactor;
+    var temperature = 150;
+
+    for (var iter = 0; iter < 260; iter++) {
+      var disp = {};
+      for (i = 0; i < n; i++) disp[graph.nodes[i].id] = { x: 0, y: 0 };
+
+      for (i = 0; i < n; i++) {
+        var v = graph.nodes[i];
+        for (j = i + 1; j < n; j++) {
+          var u = graph.nodes[j];
+          var dx = v.frX - u.frX;
+          var dy = v.frY - u.frY;
+          var dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 0.01) {
+            dx = (Math.random() - 0.5) * 0.1;
+            dy = (Math.random() - 0.5) * 0.1;
+            dist = Math.sqrt(dx * dx + dy * dy);
+          }
+          var rep = (k * k) / dist;
+          var rx = dx / dist * rep;
+          var ry = dy / dist * rep;
+          disp[v.id].x += rx; disp[v.id].y += ry;
+          disp[u.id].x -= rx; disp[u.id].y -= ry;
+        }
+      }
+
+      for (i = 0; i < graph.edges.length; i++) {
+        var ed = graph.edges[i];
+        var s = nodeMap[ed.source];
+        var t = nodeMap[ed.target];
+        var dx2 = s.frX - t.frX;
+        var dy2 = s.frY - t.frY;
+        var dist2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
+        if (dist2 < 0.01) dist2 = 0.01;
+        var att = (dist2 * dist2) / k;
+        var bias = (s.type === t.type) ? 1.08 : 0.92;
+        var ax = dx2 / dist2 * att * bias;
+        var ay = dy2 / dist2 * att * bias;
+        disp[s.id].x -= ax; disp[s.id].y -= ay;
+        disp[t.id].x += ax; disp[t.id].y += ay;
+      }
+
+      for (i = 0; i < n; i++) {
+        var node = graph.nodes[i];
+        var ddx = disp[node.id].x;
+        var ddy = disp[node.id].y;
+        var dlen = Math.sqrt(ddx * ddx + ddy * ddy);
+        if (dlen > 0) {
+          var limited = Math.min(dlen, temperature);
+          node.frX += ddx / dlen * limited;
+          node.frY += ddy / dlen * limited;
+        }
+      }
+
+      temperature *= 0.965;
+    }
+
+    normalizeLayoutCoordinates("frX", "frY", "frBaseX", "frBaseY", 980);
+    relaxCollisions("frX", "frY", spacingFactor, 140);
+    for (i = 0; i < n; i++) {
+      graph.nodes[i].frBaseX = graph.nodes[i].frX;
+      graph.nodes[i].frBaseY = graph.nodes[i].frY;
+    }
+  }
+
+  function computeKkLayout() {
+    var n = graph.nodes.length;
+    if (!n) return;
+
+    var spacingFactor = getForceDistanceFactor();
+    var distMatrix = [];
+    var springLength = [];
+    var springStrength = [];
+    var i, j;
+
+    for (i = 0; i < n; i++) {
+      distMatrix[i] = [];
+      springLength[i] = [];
+      springStrength[i] = [];
+      for (j = 0; j < n; j++) distMatrix[i][j] = i === j ? 0 : Infinity;
+    }
+
+    for (i = 0; i < graph.edges.length; i++) {
+      var e = graph.edges[i];
+      var sIdx = graph.nodes.indexOf(nodeMap[e.source]);
+      var tIdx = graph.nodes.indexOf(nodeMap[e.target]);
+      if (sIdx >= 0 && tIdx >= 0) {
+        distMatrix[sIdx][tIdx] = 1;
+        distMatrix[tIdx][sIdx] = 1;
+      }
+    }
+
+    for (var kf = 0; kf < n; kf++) {
+      for (i = 0; i < n; i++) {
+        for (j = 0; j < n; j++) {
+          var through = distMatrix[i][kf] + distMatrix[kf][j];
+          if (through < distMatrix[i][j]) distMatrix[i][j] = through;
+        }
+      }
+    }
+
+    var maxGraphDist = 1;
+    for (i = 0; i < n; i++) {
+      for (j = 0; j < n; j++) {
+        if (distMatrix[i][j] !== Infinity && distMatrix[i][j] > maxGraphDist) maxGraphDist = distMatrix[i][j];
+      }
+    }
+
+    var baseLength = 120 * spacingFactor;
+    for (i = 0; i < n; i++) {
+      for (j = 0; j < n; j++) {
+        var dij = distMatrix[i][j];
+        if (i === j) {
+          springLength[i][j] = 0;
+          springStrength[i][j] = 0;
+        } else if (dij === Infinity) {
+          springLength[i][j] = baseLength * (maxGraphDist + 1.2);
+          springStrength[i][j] = 0.002;
+        } else {
+          springLength[i][j] = baseLength * dij;
+          springStrength[i][j] = 1 / (dij * dij);
+        }
+      }
+    }
+
+    createRandomizedInitialPositions("kk", 300, 40);
+
+    function calcDelta(index) {
+      var Ex = 0, Ey = 0, x = graph.nodes[index].kkX, y = graph.nodes[index].kkY;
+      for (var m = 0; m < n; m++) {
+        if (m === index) continue;
+        var dx = x - graph.nodes[m].kkX;
+        var dy = y - graph.nodes[m].kkY;
+        var dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
+        var kij = springStrength[index][m];
+        var lij = springLength[index][m];
+        Ex += kij * (dx - (lij * dx) / dist);
+        Ey += kij * (dy - (lij * dy) / dist);
+      }
+      return Math.sqrt(Ex * Ex + Ey * Ey);
+    }
+
+    for (var iter = 0; iter < 600; iter++) {
+      var maxDelta = -1;
+      var maxIndex = 0;
+      for (i = 0; i < n; i++) {
+        var d = calcDelta(i);
+        if (d > maxDelta) {
+          maxDelta = d;
+          maxIndex = i;
+        }
+      }
+      if (maxDelta < 0.25) break;
+
+      for (var inner = 0; inner < 40; inner++) {
+        var m = maxIndex;
+        var x = graph.nodes[m].kkX;
+        var y = graph.nodes[m].kkY;
+        var dEx = 0, dEy = 0, d2Exx = 0, d2Exy = 0, d2Eyy = 0;
+
+        for (j = 0; j < n; j++) {
+          if (j === m) continue;
+          var dx = x - graph.nodes[j].kkX;
+          var dy = y - graph.nodes[j].kkY;
+          var dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
+          var dist3 = dist * dist * dist;
+          var kij = springStrength[m][j];
+          var lij = springLength[m][j];
+
+          dEx += kij * (dx - (lij * dx) / dist);
+          dEy += kij * (dy - (lij * dy) / dist);
+          d2Exx += kij * (1 - (lij * dy * dy) / dist3);
+          d2Exy += kij * ((lij * dx * dy) / dist3);
+          d2Eyy += kij * (1 - (lij * dx * dx) / dist3);
+        }
+
+        var denom = d2Exx * d2Eyy - d2Exy * d2Exy;
+        if (Math.abs(denom) < 1e-6) break;
+
+        var deltaX = (-dEx * d2Eyy + dEy * d2Exy) / denom;
+        var deltaY = (-dEy * d2Exx + dEx * d2Exy) / denom;
+
+        graph.nodes[m].kkX += deltaX;
+        graph.nodes[m].kkY += deltaY;
+
+        if (Math.sqrt(deltaX * deltaX + deltaY * deltaY) < 0.08) break;
+      }
+    }
+
+    normalizeLayoutCoordinates("kkX", "kkY", "kkBaseX", "kkBaseY", 940);
+    relaxCollisions("kkX", "kkY", spacingFactor, 120);
+    for (i = 0; i < n; i++) {
+      graph.nodes[i].kkBaseX = graph.nodes[i].kkX;
+      graph.nodes[i].kkBaseY = graph.nodes[i].kkY;
+    }
+  }
+
+  function applyForceLayout() {
+    var factor = getForceDistanceFactor();
+    for (var i = 0; i < graph.nodes.length; i++) {
+      var bx = typeof graph.nodes[i].forceBaseX === "number" ? graph.nodes[i].forceBaseX : graph.nodes[i].forceX;
+      var by = typeof graph.nodes[i].forceBaseY === "number" ? graph.nodes[i].forceBaseY : graph.nodes[i].forceY;
+      graph.nodes[i].x = bx * factor;
+      graph.nodes[i].y = by * factor;
+    }
+  }
+
+  function applyFrLayout() {
+    var factor = getForceDistanceFactor();
+    for (var i = 0; i < graph.nodes.length; i++) {
+      var bx = typeof graph.nodes[i].frBaseX === "number" ? graph.nodes[i].frBaseX : graph.nodes[i].frX;
+      var by = typeof graph.nodes[i].frBaseY === "number" ? graph.nodes[i].frBaseY : graph.nodes[i].frY;
+      graph.nodes[i].x = bx * factor;
+      graph.nodes[i].y = by * factor;
+    }
+  }
+
+  function applyKkLayout() {
+    var factor = getForceDistanceFactor();
+    for (var i = 0; i < graph.nodes.length; i++) {
+      var bx = typeof graph.nodes[i].kkBaseX === "number" ? graph.nodes[i].kkBaseX : graph.nodes[i].kkX;
+      var by = typeof graph.nodes[i].kkBaseY === "number" ? graph.nodes[i].kkBaseY : graph.nodes[i].kkY;
+      graph.nodes[i].x = bx * factor;
+      graph.nodes[i].y = by * factor;
+    }
+  }
+
+  function applyLayout(mode) {
+    if (mode === "arc") applyArcLayout();
+    else if (mode === "fr") applyFrLayout();
+    else if (mode === "kk") applyKkLayout();
+    else applyParallelLayout();
+    fitCamera();
+    draw();
+  }
+
+  function fitCamera() {
+    if (!graph.nodes.length) return;
+    var xs = [], ys = [], i;
+    for (i = 0; i < graph.nodes.length; i++) {
+      xs.push(graph.nodes[i].x);
+      ys.push(graph.nodes[i].y);
+    }
+    var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+    var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+    var pad = 240;
+    var graphW = Math.max(1, maxX - minX + pad);
+    var graphH = Math.max(1, maxY - minY + pad);
+    var scaleX = width / graphW;
+    var scaleY = height / graphH;
+    var fitFactor = isMobileView() ? 0.72 : 0.92;
+    camera.scale = Math.min(scaleX, scaleY) * fitFactor;
+    camera.x = -((minX + maxX) / 2);
+    camera.y = -((minY + maxY) / 2);
+  }
+
+  function findNodeAt(mx, my) {
+    for (var i = graph.nodes.length - 1; i >= 0; i--) {
+      var n = graph.nodes[i];
+      var p = worldToScreen(n.x, n.y);
+      var r = Math.max(4, n.size) * camera.scale;
+      if (n.shape === "circle") {
+        var dx = mx - p.x, dy = my - p.y;
+        if (dx * dx + dy * dy <= r * r) return n;
+      } else {
+        if (mx >= p.x - r && mx <= p.x + r && my >= p.y - r && my <= p.y + r) return n;
+      }
+    }
+    return null;
+  }
+
+  function isNeighborOfHovered(nodeId) {
+    if (!hovered) return true;
+    if (hovered.id === nodeId) return true;
+    for (var i = 0; i < graph.edges.length; i++) {
+      var e = graph.edges[i];
+      if (e.source === hovered.id && e.target === nodeId) return true;
+      if (e.target === hovered.id && e.source === nodeId) return true;
+    }
+    return false;
+  }
+
+  function drawArrow(sx, sy, tx, ty, color, widthLine, drawHead) {
+    ctx.save();
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
+    ctx.lineWidth = widthLine;
+    ctx.beginPath();
+    ctx.moveTo(sx, sy);
+    ctx.lineTo(tx, ty);
+    ctx.stroke();
+    if (drawHead) {
+      var angle = Math.atan2(ty - sy, tx - sx);
+      var head = Math.max(8, 6 + widthLine * 2);
+      ctx.beginPath();
+      ctx.moveTo(tx, ty);
+      ctx.lineTo(tx - head * Math.cos(angle - Math.PI / 7), ty - head * Math.sin(angle - Math.PI / 7));
+      ctx.lineTo(tx - head * Math.cos(angle + Math.PI / 7), ty - head * Math.sin(angle + Math.PI / 7));
+      ctx.closePath();
+      ctx.fill();
+    }
+    ctx.restore();
+  }
+
+  function getTouchDistance(t1, t2) {
+    var dx = t2.clientX - t1.clientX;
+    var dy = t2.clientY - t1.clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+
+  function getTouchMidpoint(t1, t2) {
+    return { x: (t1.clientX + t2.clientX) / 2, y: (t1.clientY + t2.clientY) / 2 };
+  }
+
+
+  function boxesOverlap(a, b) {
+    return !(a.x + a.w < b.x || b.x + b.w < a.x || a.y + a.h < b.y || b.y + b.h < a.y);
+  }
+
+  function computeForceLabelPlacements() {
+    var placements = [];
+    var placed = [];
+    var nodeBoxes = [];
+    var i;
+
+    ctx.save();
+    ctx.font = isMobileView() ? "11px Arial, Noto Sans TC" : "12px Arial, Noto Sans TC";
+
+    for (i = 0; i < graph.nodes.length; i++) {
+      var np = worldToScreen(graph.nodes[i].x, graph.nodes[i].y);
+      var nr = Math.max(4, graph.nodes[i].size);
+      nodeBoxes.push({
+        id: graph.nodes[i].id,
+        x: np.x - nr,
+        y: np.y - nr,
+        w: nr * 2,
+        h: nr * 2
+      });
+    }
+
+    var nodesSorted = graph.nodes.slice(0);
+    nodesSorted.sort(function(a, b) { return Math.max(4, b.size) - Math.max(4, a.size); });
+
+    for (i = 0; i < nodesSorted.length; i++) {
+      var node = nodesSorted[i];
+      var pt = worldToScreen(node.x, node.y);
+      var gap = Math.max(4, node.size) + 8;
+      var text = node.label;
+      var tw = ctx.measureText(text).width;
+      var boxW = tw + 6;
+      var boxH = 16;
+
+      var candidates = [
+        { x: pt.x + gap, y: pt.y - boxH / 2 },
+        { x: pt.x - boxW - gap, y: pt.y - boxH / 2 },
+        { x: pt.x + gap, y: pt.y - gap - boxH },
+        { x: pt.x + gap, y: pt.y + gap },
+        { x: pt.x - boxW - gap, y: pt.y - gap - boxH },
+        { x: pt.x - boxW - gap, y: pt.y + gap },
+        { x: pt.x - boxW / 2, y: pt.y - gap - boxH },
+        { x: pt.x - boxW / 2, y: pt.y + gap }
+      ];
+
+      var best = null;
+      var bestScore = Infinity;
+      var c, box, score, j, cx, cy;
+
+      for (c = 0; c < candidates.length; c++) {
+        box = { x: candidates[c].x, y: candidates[c].y, w: boxW, h: boxH };
+        score = 0;
+
+        for (j = 0; j < placed.length; j++) {
+          if (boxesOverlap(box, placed[j])) score += 1200;
+        }
+        for (j = 0; j < nodeBoxes.length; j++) {
+          if (nodeBoxes[j].id !== node.id && boxesOverlap(box, nodeBoxes[j])) score += 350;
+        }
+        if (box.x < 4 || box.y < 4 || box.x + box.w > width - 4 || box.y + box.h > height - 4) score += 180;
+
+        cx = box.x + box.w / 2;
+        cy = box.y + box.h / 2;
+        score += Math.sqrt((cx - pt.x) * (cx - pt.x) + (cy - pt.y) * (cy - pt.y)) * 0.15;
+
+        if (score < bestScore) {
+          bestScore = score;
+          best = box;
+        }
+      }
+
+      if (best) {
+        placements.push({ id: node.id, x: best.x, y: best.y, text: text });
+        placed.push(best);
+      }
+    }
+
+    ctx.restore();
+    return placements;
+  }
+
+  function showTooltipForNode(n, mx, my) {
+    var items = [];
+    var i;
+    if (n.type === "member") {
+      for (i = 0; i < graph.edges.length; i++) if (graph.edges[i].source === n.id && nodeMap[graph.edges[i].target]) items.push(nodeMap[graph.edges[i].target].label);
+    } else {
+      for (i = 0; i < graph.edges.length; i++) if (graph.edges[i].target === n.id && nodeMap[graph.edges[i].source]) items.push(nodeMap[graph.edges[i].source].label);
+    }
+    var html = '<div class="title">' + escapeHtml(n.label) + '</div>';
+    html += '<div class="meta">' + (n.type === "member" ? "學校成員" : "校際間合作管道") + '</div>';
+    html += '<div><strong>連結數：' + items.length + '</strong></div>';
+    if (items.length) {
+      html += '<div class="list"><ul style="margin:6px 0 0 18px;padding:0;">';
+      for (var j = 0; j < items.length; j++) html += '<li>' + escapeHtml(items[j]) + '</li>';
+      html += '</ul></div>';
+    }
+    tooltip.innerHTML = html;
+    tooltip.style.display = "block";
+    tooltip.style.left = Math.min(mx + 12, width - 320) + "px";
+    tooltip.style.top = Math.min(my + 12, height - 220) + "px";
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, width, height);
+
+    // edges
+    for (var i = 0; i < graph.edges.length; i++) {
+      var e = graph.edges[i];
+      var s = nodeMap[e.source];
+      var t = nodeMap[e.target];
+      if (!s || !t) continue;
+
+      var sp = worldToScreen(s.x, s.y);
+      var tp = worldToScreen(t.x, t.y);
+      var dx = tp.x - sp.x;
+      var dy = tp.y - sp.y;
+      var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+      var ux = dx / dist;
+      var uy = dy / dist;
+      var sr = Math.max(4, s.size) * camera.scale;
+      var tr = Math.max(4, t.size) * camera.scale;
+      var sx = sp.x + ux * (sr + 2);
+      var sy = sp.y + uy * (sr + 2);
+      var ex = tp.x - ux * (tr + 10);
+      var ey = tp.y - uy * (tr + 10);
+
+      ctx.globalAlpha = hovered && toggleHoverFocus.checked && !(e.source === hovered.id || e.target === hovered.id) ? 0.14 : 1;
+      drawArrow(sx, sy, ex, ey, e.color, e.size, toggleArrows.checked);
+      ctx.globalAlpha = 1;
+    }
+
+    // nodes
+    for (i = 0; i < graph.nodes.length; i++) {
+      var n = graph.nodes[i];
+      var p = worldToScreen(n.x, n.y);
+      var r = Math.max(4, n.size);
+      ctx.save();
+      ctx.globalAlpha = hovered && toggleHoverFocus.checked && !isNeighborOfHovered(n.id) ? 0.25 : 1;
+      ctx.fillStyle = n.color;
+      ctx.strokeStyle = "#9c978f";
+      ctx.lineWidth = 1;
+      if (n.shape === "circle") {
+        ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+      } else {
+        ctx.beginPath(); ctx.rect(p.x - r, p.y - r, r * 2, r * 2); ctx.fill(); ctx.stroke();
+      }
+      ctx.restore();
+    }
+
+    // labels
+    if (toggleLabels.checked) {
+      ctx.save();
+      ctx.font = isMobileView() ? "11px Arial, Noto Sans TC" : "12px Arial, Noto Sans TC";
+      ctx.fillStyle = "#5f564d";
+
+      if (isForceLikeMode(layoutMode.value)) {
+        var forcePlacements = computeForceLabelPlacements();
+        for (i = 0; i < forcePlacements.length; i++) {
+          ctx.globalAlpha = hovered && toggleHoverFocus.checked && !isNeighborOfHovered(forcePlacements[i].id) ? 0.25 : 1;
+          ctx.fillText(forcePlacements[i].text, forcePlacements[i].x, forcePlacements[i].y);
+        }
+      } else {
+        for (i = 0; i < graph.nodes.length; i++) {
+          var node = graph.nodes[i];
+          var pt = worldToScreen(node.x, node.y);
+          var gap = Math.max(4, node.size) + 6;
+          var text = node.label;
+          var tw = ctx.measureText(text).width;
+          var lx, ly;
+
+          if (layoutMode.value === "parallel") {
+            if (node.type === "member") { lx = pt.x - tw - gap; ly = pt.y - 8; }
+            else { lx = pt.x + gap; ly = pt.y - 8; }
+          } else if (layoutMode.value === "arc") {
+            if (node.type === "member") { lx = pt.x - tw - gap; ly = pt.y - 8; }
+            else { lx = pt.x + gap; ly = pt.y - 8; }
+          } else {
+            if (pt.x < width / 2) { lx = pt.x - tw - gap; ly = pt.y - 8; }
+            else { lx = pt.x + gap; ly = pt.y - 8; }
+          }
+
+          ctx.globalAlpha = hovered && toggleHoverFocus.checked && !isNeighborOfHovered(node.id) ? 0.25 : 1;
+          ctx.fillText(text, lx, ly);
+        }
+      }
+      ctx.restore();
+    }
+  }
+
+  function loadGexf() {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "./network.gexf?_=" + String(new Date().getTime()), true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== 4) return;
+      if (xhr.status >= 200 && xhr.status < 300) {
+        try {
+          graph = parseGexf(xhr.responseText);
+          inferNodeTypesIfNeeded();
+          computeSizes();
+          prepareMaps();
+          applyParallelLayout();
+          applyArcLayout();
+          computeFrLayout();
+          computeKkLayout();
+          applyLayout("parallel"); // default
+          hideStatus();
+        } catch (err) {
+          setStatus("解析network.gexf失敗：<br><br>" + escapeHtml(String(err)), true);
+          if (window.console) console.error(err);
+        }
+      } else {
+        setStatus("讀取network.gexf失敗。請確認index.html與network.gexf在同一資料夾，且用HTTP伺服器開啟。<br><br>HTTP狀態：" + xhr.status, true);
+      }
+    };
+    xhr.send(null);
+  }
+
+  // mouse events
+  canvas.addEventListener("mousedown", function(e) {
+    var rect = canvas.getBoundingClientRect();
+    var mx = e.clientX - rect.left;
+    var my = e.clientY - rect.top;
+    var n = findNodeAt(mx, my);
+    lastMouse.x = e.clientX; lastMouse.y = e.clientY;
+    if (n) { isDragging = true; dragNode = n; canvas.className = "dragging"; }
+    else { isPanning = true; canvas.className = "dragging"; }
+  });
+
+  window.addEventListener("mousemove", function(e) {
+    var rect = canvas.getBoundingClientRect();
+    var mx = e.clientX - rect.left;
+    var my = e.clientY - rect.top;
+
+    if (isDragging && dragNode) {
+      var w = screenToWorld(mx, my);
+      dragNode.x = w.x; dragNode.y = w.y; draw();
+      if (hovered && hovered.id === dragNode.id) showTooltipForNode(dragNode, mx, my);
+      return;
+    }
+    if (isPanning) {
+      var dx = e.clientX - lastMouse.x;
+      var dy = e.clientY - lastMouse.y;
+      camera.x += dx / camera.scale; camera.y += dy / camera.scale;
+      lastMouse.x = e.clientX; lastMouse.y = e.clientY; draw();
+      return;
+    }
+    var n = findNodeAt(mx, my);
+    if (n) {
+      if (!hovered || hovered.id !== n.id) hovered = n;
+      showTooltipForNode(n, mx, my);
+      draw();
+    } else {
+      hovered = null; tooltip.style.display = "none"; draw();
+    }
+  });
+
+  window.addEventListener("mouseup", function() {
+    isPanning = false; isDragging = false; dragNode = null; canvas.className = "";
+  });
+
+  canvas.addEventListener("wheel", function(e) {
+    e.preventDefault();
+    var rect = canvas.getBoundingClientRect();
+    var mx = e.clientX - rect.left;
+    var my = e.clientY - rect.top;
+    var before = screenToWorld(mx, my);
+    var factor = e.deltaY < 0 ? 1.1 : 0.9;
+    camera.scale = Math.max(0.12, Math.min(6, camera.scale * factor));
+    var after = screenToWorld(mx, my);
+    camera.x += after.x - before.x; camera.y += after.y - before.y;
+    draw();
+  }, { passive: false });
+
+  // touch events
+  canvas.addEventListener("touchstart", function(e) {
+    if (!e.touches || !e.touches.length) return;
+    var rect = canvas.getBoundingClientRect();
+
+    if (e.touches.length === 1) {
+      var t = e.touches[0];
+      var mx = t.clientX - rect.left;
+      var my = t.clientY - rect.top;
+      var n = findNodeAt(mx, my);
+      lastMouse.x = t.clientX; lastMouse.y = t.clientY;
+      if (n) { touchMode = "drag"; dragNode = n; isDragging = true; }
+      else { touchMode = "pan"; isPanning = true; }
+    } else if (e.touches.length >= 2) {
+      touchMode = "pinch";
+      isDragging = false; isPanning = false; dragNode = null;
+      var t1 = e.touches[0], t2 = e.touches[1];
+      pinchStartDist = getTouchDistance(t1, t2);
+      pinchStartScale = camera.scale;
+      var mid = getTouchMidpoint(t1, t2);
+      pinchWorldCenter = screenToWorld(mid.x - rect.left, mid.y - rect.top);
+    }
+    e.preventDefault();
+  }, { passive: false });
+
+  canvas.addEventListener("touchmove", function(e) {
+    if (!e.touches || !e.touches.length) return;
+    var rect = canvas.getBoundingClientRect();
+
+    if (touchMode === "drag" && e.touches.length === 1 && dragNode) {
+      var t = e.touches[0];
+      var w = screenToWorld(t.clientX - rect.left, t.clientY - rect.top);
+      dragNode.x = w.x; dragNode.y = w.y; draw(); e.preventDefault(); return;
+    }
+    if (touchMode === "pan" && e.touches.length === 1) {
+      var t3 = e.touches[0];
+      var dx = t3.clientX - lastMouse.x;
+      var dy = t3.clientY - lastMouse.y;
+      camera.x += dx / camera.scale; camera.y += dy / camera.scale;
+      lastMouse.x = t3.clientX; lastMouse.y = t3.clientY; draw(); e.preventDefault(); return;
+    }
+    if (e.touches.length >= 2) {
+      touchMode = "pinch";
+      var p1 = e.touches[0], p2 = e.touches[1];
+      var dist = getTouchDistance(p1, p2);
+      if (pinchStartDist > 0) camera.scale = Math.max(0.12, Math.min(6, pinchStartScale * (dist / pinchStartDist)));
+      var mid2 = getTouchMidpoint(p1, p2);
+      var after = screenToWorld(mid2.x - rect.left, mid2.y - rect.top);
+      if (pinchWorldCenter) {
+        camera.x += after.x - pinchWorldCenter.x;
+        camera.y += after.y - pinchWorldCenter.y;
+      }
+      draw(); e.preventDefault(); return;
+    }
+  }, { passive: false });
+
+  canvas.addEventListener("touchend", function(e) {
+    if (e.touches.length === 0) {
+      touchMode = null; isDragging = false; isPanning = false; dragNode = null; pinchStartDist = 0; pinchWorldCenter = null;
+    } else if (e.touches.length === 1) {
+      touchMode = "pan";
+      lastMouse.x = e.touches[0].clientX; lastMouse.y = e.touches[0].clientY;
+      isDragging = false; dragNode = null; isPanning = true; pinchStartDist = 0; pinchWorldCenter = null;
+    }
+    e.preventDefault();
+  }, { passive: false });
+
+  syncLayoutModeSelectUI();
+  if (layoutModeTrigger && layoutModeWrap) {
+    layoutModeTrigger.addEventListener("click", function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      if (layoutModeWrap.classList.contains("open")) {
+        closeLayoutModeSelect();
+      } else {
+        openLayoutModeSelect();
+      }
+    });
+    layoutModeOptions.forEach(function(optionButton) {
+      optionButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        var nextValue = optionButton.getAttribute("data-value");
+        if (layoutMode.value !== nextValue) {
+          layoutMode.value = nextValue;
+          layoutMode.dispatchEvent(new Event("change", { bubbles: true }));
+        } else {
+          syncLayoutModeSelectUI();
+        }
+        closeLayoutModeSelect();
+      });
+    });
+    document.addEventListener("click", function(event) {
+      if (!layoutModeWrap.contains(event.target)) closeLayoutModeSelect();
+    });
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "Escape") closeLayoutModeSelect();
+    });
+  }
+
+  // UI events
+  layoutMode.addEventListener("change", function() {
+    syncLayoutModeSelectUI();
+    updateForceDensityVisibility();
+    applyLayout(layoutMode.value);
+    closeLayoutModeSelect();
+    closeMobilePanel();
+  });
+  toggleLabels.addEventListener("change", function(){ draw(); });
+  toggleArrows.addEventListener("change", function(){ draw(); });
+  toggleHoverFocus.addEventListener("change", function(){ draw(); });
+
+  forceDensitySlider.addEventListener("input", function() {
+    updateForceDensityUI();
+    if (isForceLikeMode(layoutMode.value)) {
+      applyLayout(layoutMode.value);
+    }
+  });
+
+  exportPNG.addEventListener("click", function() {
+    var link = document.createElement("a");
+    link.download = "校際合作網絡圖.png";
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+  });
+
+  menuToggle.addEventListener("click", toggleMobilePanel);
+  panelBackdrop.addEventListener("click", closeMobilePanel);
+
+
+function syncHeadBarState() {
+  var collapsed = appRoot.classList.contains("headbar-collapsed");
+  var label = collapsed ? "展開資訊" : "收合資訊";
+  headBarCollapse.textContent = label;
+  headBarCollapse.setAttribute("aria-expanded", String(!collapsed));
+  headBarCollapse.setAttribute("aria-label", label);
+  headBarCollapse.setAttribute("title", label);
+}
+syncHeadBarState();
+
+headBarCollapse.addEventListener("click", function() {
+  appRoot.classList.toggle("headbar-collapsed");
+  syncHeadBarState();
+});
+
+  rerunForce.addEventListener("click", function() {
+    if (layoutMode.value === "fr") computeFrLayout();
+    else if (layoutMode.value === "kk") computeKkLayout();
+
+    if (isForceLikeMode(layoutMode.value)) {
+      applyLayout(layoutMode.value);
+    }
+    closeMobilePanel();
+  });
+
+  window.addEventListener("resize", function() {
+    syncResponsiveUI();
+    resizeCanvas();
+  });
+
+  syncResponsiveUI();
+  updateForceDensityUI();
+  updateForceDensityVisibility();
+  resizeCanvas();
+  loadGexf();
+})();
+</script>
+</body>
+</html>

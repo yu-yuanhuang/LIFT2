@@ -1,0 +1,1631 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2026-04-15">
+    <creator>OpenAI</creator>
+    <description>10_景興國中_t1校內網絡_專業社群 一模有向網絡</description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="name_attr" title="點名稱" type="string"/>
+      <attribute id="type_attr" title="點身分別" type="string"/>
+      <attribute id="degree_attr" title="連結數" type="integer"/>
+      <attribute id="targets_attr" title="連結對象" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="10001" label="10001">
+        <attvalues>
+          <attvalue for="name_attr" value="10001"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="2"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="11.6"/>
+        <viz:position x="500.0" y="0.0" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10002" label="10002">
+        <attvalues>
+          <attvalue for="name_attr" value="10002"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="7"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="20.6"/>
+        <viz:position x="495.539" y="66.643" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10003" label="10003">
+        <attvalues>
+          <attvalue for="name_attr" value="10003"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="4"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="15.2"/>
+        <viz:position x="482.235" y="132.098" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10004" label="10004">
+        <attvalues>
+          <attvalue for="name_attr" value="10004"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="5"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="17.0"/>
+        <viz:position x="460.325" y="195.195" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10005" label="10005">
+        <attvalues>
+          <attvalue for="name_attr" value="10005"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="3"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="13.4"/>
+        <viz:position x="430.201" y="254.808" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10006" label="10006">
+        <attvalues>
+          <attvalue for="name_attr" value="10006"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="9"/>
+          <attvalue for="targets_attr" value="10007；10015；10016；10020；10024；10029；10032；10045"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="24.2"/>
+        <viz:position x="392.4" y="309.875" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10007" label="10007">
+        <attvalues>
+          <attvalue for="name_attr" value="10007"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="8"/>
+          <attvalue for="targets_attr" value="10015；10019；10020；10026；10029"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="22.4"/>
+        <viz:position x="347.596" y="359.412" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10008" label="10008">
+        <attvalues>
+          <attvalue for="name_attr" value="10008"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="2"/>
+          <attvalue for="targets_attr" value="10008"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="11.6"/>
+        <viz:position x="296.59" y="402.535" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10009" label="10009">
+        <attvalues>
+          <attvalue for="name_attr" value="10009"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="4"/>
+          <attvalue for="targets_attr" value="10006；10007；10009；10015；10016；10018；10019；10020；10022；10024；10026；10027；10029；10032；10035；10045；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="15.2"/>
+        <viz:position x="240.291" y="438.475" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10010" label="10010">
+        <attvalues>
+          <attvalue for="name_attr" value="10010"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="3"/>
+          <attvalue for="targets_attr" value="10002；10007；10014；10020；10021；10041；10042；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="13.4"/>
+        <viz:position x="179.704" y="466.59" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10011" label="10011">
+        <attvalues>
+          <attvalue for="name_attr" value="10011"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="0"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="115.91" y="486.379" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10012" label="10012">
+        <attvalues>
+          <attvalue for="name_attr" value="10012"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="3"/>
+          <attvalue for="targets_attr" value="10009；10043"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="13.4"/>
+        <viz:position x="50.048" y="497.489" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10013" label="10013">
+        <attvalues>
+          <attvalue for="name_attr" value="10013"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="0"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="8.0"/>
+        <viz:position x="-16.707" y="499.721" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10014" label="10014">
+        <attvalues>
+          <attvalue for="name_attr" value="10014"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="2"/>
+          <attvalue for="targets_attr" value="10010；10021"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="11.6"/>
+        <viz:position x="-83.165" y="493.035" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10015" label="10015">
+        <attvalues>
+          <attvalue for="name_attr" value="10015"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="11"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="27.8"/>
+        <viz:position x="-148.138" y="477.551" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10016" label="10016">
+        <attvalues>
+          <attvalue for="name_attr" value="10016"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="7"/>
+          <attvalue for="targets_attr" value="10006；10015；10020；10029；10032；10045"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="20.6"/>
+        <viz:position x="-210.467" y="453.545" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10017" label="10017">
+        <attvalues>
+          <attvalue for="name_attr" value="10017"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="1"/>
+          <attvalue for="targets_attr" value="10037；10041"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="9.8"/>
+        <viz:position x="-269.041" y="421.446" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10018" label="10018">
+        <attvalues>
+          <attvalue for="name_attr" value="10018"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="10"/>
+          <attvalue for="targets_attr" value="10002；10004；10006；10012；10018；10020；10026；10030；10032；10036；10037；10038；10042；10047"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="26.0"/>
+        <viz:position x="-322.814" y="381.826" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10019" label="10019">
+        <attvalues>
+          <attvalue for="name_attr" value="10019"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="5"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="17.0"/>
+        <viz:position x="-370.826" y="335.392" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10020" label="10020">
+        <attvalues>
+          <attvalue for="name_attr" value="10020"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="14"/>
+          <attvalue for="targets_attr" value="10006；10007；10009；10015；10016；10018；10019；10022；10024；10026；10027；10029；10032；10035；10042；10045；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="33.2"/>
+        <viz:position x="-412.221" y="282.974" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10021" label="10021">
+        <attvalues>
+          <attvalue for="name_attr" value="10021"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="8"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="22.4"/>
+        <viz:position x="-446.259" y="225.505" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10022" label="10022">
+        <attvalues>
+          <attvalue for="name_attr" value="10022"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="5"/>
+          <attvalue for="targets_attr" value="10002；10003；10006；10015；10016；10018；10020；10024；10025；10026；10027；10029；10032；10033；10035；10036；10037；10039；10042；10043；10045；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="17.0"/>
+        <viz:position x="-472.335" y="164.012" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10023" label="10023">
+        <attvalues>
+          <attvalue for="name_attr" value="10023"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="3"/>
+          <attvalue for="targets_attr" value="10010；10018；10021；10026；10029；10036；10038；10041；10042；10044；10046；10047"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="13.4"/>
+        <viz:position x="-489.981" y="99.593" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10024" label="10024">
+        <attvalues>
+          <attvalue for="name_attr" value="10024"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="7"/>
+          <attvalue for="targets_attr" value="10002；10003；10004；10005；10006；10015；10020；10022；10025；10026；10027；10029；10032；10033；10036；10039；10042；10047"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="20.6"/>
+        <viz:position x="-498.883" y="33.396" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10025" label="10025">
+        <attvalues>
+          <attvalue for="name_attr" value="10025"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="4"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="15.2"/>
+        <viz:position x="-498.883" y="-33.396" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10026" label="10026">
+        <attvalues>
+          <attvalue for="name_attr" value="10026"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="11"/>
+          <attvalue for="targets_attr" value="10004；10007；10015；10016；10018；10020；10027；10029；10030；10032；10042；10044；10045；10046；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="27.8"/>
+        <viz:position x="-489.981" y="-99.593" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10027" label="10027">
+        <attvalues>
+          <attvalue for="name_attr" value="10027"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="7"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="20.6"/>
+        <viz:position x="-472.335" y="-164.012" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10028" label="10028">
+        <attvalues>
+          <attvalue for="name_attr" value="10028"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="2"/>
+          <attvalue for="targets_attr" value="10005；10021；10035；10042；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="11.6"/>
+        <viz:position x="-446.259" y="-225.505" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10029" label="10029">
+        <attvalues>
+          <attvalue for="name_attr" value="10029"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="13"/>
+          <attvalue for="targets_attr" value="10020；10032；10044；10045；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="31.4"/>
+        <viz:position x="-412.221" y="-282.974" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10030" label="10030">
+        <attvalues>
+          <attvalue for="name_attr" value="10030"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="5"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="17.0"/>
+        <viz:position x="-370.826" y="-335.392" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10031" label="10031">
+        <attvalues>
+          <attvalue for="name_attr" value="10031"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="1"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="9.8"/>
+        <viz:position x="-322.814" y="-381.826" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10032" label="10032">
+        <attvalues>
+          <attvalue for="name_attr" value="10032"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="12"/>
+          <attvalue for="targets_attr" value="10002；10006；10007；10015；10016；10018；10019；10020；10021；10024；10026；10027；10029；10041；10042；10045；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="29.6"/>
+        <viz:position x="-269.041" y="-421.446" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10033" label="10033">
+        <attvalues>
+          <attvalue for="name_attr" value="10033"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="3"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="13.4"/>
+        <viz:position x="-210.467" y="-453.545" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10034" label="10034">
+        <attvalues>
+          <attvalue for="name_attr" value="10034"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="1"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="9.8"/>
+        <viz:position x="-148.138" y="-477.551" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10035" label="10035">
+        <attvalues>
+          <attvalue for="name_attr" value="10035"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="5"/>
+          <attvalue for="targets_attr" value="10015；10020；10026；10032"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="17.0"/>
+        <viz:position x="-83.165" y="-493.035" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10036" label="10036">
+        <attvalues>
+          <attvalue for="name_attr" value="10036"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="8"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="22.4"/>
+        <viz:position x="-16.707" y="-499.721" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10037" label="10037">
+        <attvalues>
+          <attvalue for="name_attr" value="10037"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="6"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="18.8"/>
+        <viz:position x="50.048" y="-497.489" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10038" label="10038">
+        <attvalues>
+          <attvalue for="name_attr" value="10038"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="4"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="15.2"/>
+        <viz:position x="115.91" y="-486.379" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10039" label="10039">
+        <attvalues>
+          <attvalue for="name_attr" value="10039"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="4"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="15.2"/>
+        <viz:position x="179.704" y="-466.59" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10040" label="10040">
+        <attvalues>
+          <attvalue for="name_attr" value="10040"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="1"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="9.8"/>
+        <viz:position x="240.291" y="-438.475" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10041" label="10041">
+        <attvalues>
+          <attvalue for="name_attr" value="10041"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="6"/>
+          <attvalue for="targets_attr" value="10047"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="18.8"/>
+        <viz:position x="296.59" y="-402.535" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10042" label="10042">
+        <attvalues>
+          <attvalue for="name_attr" value="10042"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="11"/>
+          <attvalue for="targets_attr" value="10003；10004；10018；10021；10022；10023；10024；10025；10029；10030；10036；10037；10038；10039；10041；10044；10047"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="27.8"/>
+        <viz:position x="347.596" y="-359.412" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10043" label="10043">
+        <attvalues>
+          <attvalue for="name_attr" value="10043"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="3"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="13.4"/>
+        <viz:position x="392.4" y="-309.875" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10044" label="10044">
+        <attvalues>
+          <attvalue for="name_attr" value="10044"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="5"/>
+          <attvalue for="targets_attr" value="10001；10002；10006；10007；10012；10017；10018；10020；10021；10023；10026；10028；10029；10030；10032；10036；10037；10042；10046；10047"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="17.0"/>
+        <viz:position x="430.201" y="-254.808" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10045" label="10045">
+        <attvalues>
+          <attvalue for="name_attr" value="10045"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="9"/>
+          <attvalue for="targets_attr" value=""/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="24.2"/>
+        <viz:position x="460.325" y="-195.195" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10046" label="10046">
+        <attvalues>
+          <attvalue for="name_attr" value="10046"/>
+          <attvalue for="type_attr" value="教師身分"/>
+          <attvalue for="degree_attr" value="4"/>
+          <attvalue for="targets_attr" value="10036"/>
+        </attvalues>
+        <viz:color r="124" g="149" b="171" a="1.0"/>
+        <viz:size value="15.2"/>
+        <viz:position x="482.235" y="-132.098" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="10047" label="10047">
+        <attvalues>
+          <attvalue for="name_attr" value="10047"/>
+          <attvalue for="type_attr" value="行政身分"/>
+          <attvalue for="degree_attr" value="14"/>
+          <attvalue for="targets_attr" value="10001；10002；10003；10004；10005；10006；10007；10008；10009；10010；10012；10014；10015；10016；10018；10019；10020；10021；10022；10023；10024；10025；10026；10027；10028；10029；10030；10031；10032；10033；10034；10035；10036；10037；10038；10039；10040；10041；10042；10043；10044；10045；10046"/>
+        </attvalues>
+        <viz:color r="180" g="123" b="123" a="1.0"/>
+        <viz:size value="33.2"/>
+        <viz:position x="495.539" y="-66.643" z="0.0"/>
+        <viz:shape value="disc"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="10006" target="10007" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e2" source="10006" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e3" source="10006" target="10016" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e4" source="10006" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e5" source="10006" target="10024" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e6" source="10006" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e7" source="10006" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e8" source="10006" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e9" source="10007" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e10" source="10007" target="10019" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e11" source="10007" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e12" source="10007" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e13" source="10007" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e14" source="10008" target="10008" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e15" source="10009" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e16" source="10009" target="10007" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e17" source="10009" target="10009" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e18" source="10009" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e19" source="10009" target="10016" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e20" source="10009" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e21" source="10009" target="10019" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e22" source="10009" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e23" source="10009" target="10022" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e24" source="10009" target="10024" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e25" source="10009" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e26" source="10009" target="10027" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e27" source="10009" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e28" source="10009" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e29" source="10009" target="10035" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e30" source="10009" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e31" source="10009" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e32" source="10010" target="10002" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e33" source="10010" target="10007" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e34" source="10010" target="10014" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e35" source="10010" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e36" source="10010" target="10021" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e37" source="10010" target="10041" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e38" source="10010" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e39" source="10010" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e40" source="10012" target="10009" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e41" source="10012" target="10043" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e42" source="10014" target="10010" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e43" source="10014" target="10021" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e44" source="10016" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e45" source="10016" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e46" source="10016" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e47" source="10016" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e48" source="10016" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e49" source="10016" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e50" source="10017" target="10037" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e51" source="10017" target="10041" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e52" source="10018" target="10002" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e53" source="10018" target="10004" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e54" source="10018" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e55" source="10018" target="10012" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e56" source="10018" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e57" source="10018" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e58" source="10018" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e59" source="10018" target="10030" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e60" source="10018" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e61" source="10018" target="10036" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e62" source="10018" target="10037" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e63" source="10018" target="10038" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e64" source="10018" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e65" source="10018" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e66" source="10020" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e67" source="10020" target="10007" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e68" source="10020" target="10009" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e69" source="10020" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e70" source="10020" target="10016" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e71" source="10020" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e72" source="10020" target="10019" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e73" source="10020" target="10022" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e74" source="10020" target="10024" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e75" source="10020" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e76" source="10020" target="10027" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e77" source="10020" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e78" source="10020" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e79" source="10020" target="10035" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e80" source="10020" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e81" source="10020" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e82" source="10020" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e83" source="10022" target="10002" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e84" source="10022" target="10003" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e85" source="10022" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e86" source="10022" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e87" source="10022" target="10016" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e88" source="10022" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e89" source="10022" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e90" source="10022" target="10024" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e91" source="10022" target="10025" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e92" source="10022" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e93" source="10022" target="10027" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e94" source="10022" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e95" source="10022" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e96" source="10022" target="10033" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e97" source="10022" target="10035" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e98" source="10022" target="10036" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e99" source="10022" target="10037" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e100" source="10022" target="10039" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e101" source="10022" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e102" source="10022" target="10043" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e103" source="10022" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e104" source="10022" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e105" source="10023" target="10010" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e106" source="10023" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e107" source="10023" target="10021" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e108" source="10023" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e109" source="10023" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e110" source="10023" target="10036" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e111" source="10023" target="10038" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e112" source="10023" target="10041" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e113" source="10023" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e114" source="10023" target="10044" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e115" source="10023" target="10046" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e116" source="10023" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e117" source="10024" target="10002" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e118" source="10024" target="10003" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e119" source="10024" target="10004" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e120" source="10024" target="10005" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e121" source="10024" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e122" source="10024" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e123" source="10024" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e124" source="10024" target="10022" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e125" source="10024" target="10025" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e126" source="10024" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e127" source="10024" target="10027" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e128" source="10024" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e129" source="10024" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e130" source="10024" target="10033" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e131" source="10024" target="10036" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e132" source="10024" target="10039" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e133" source="10024" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e134" source="10024" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e135" source="10026" target="10004" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e136" source="10026" target="10007" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e137" source="10026" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e138" source="10026" target="10016" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e139" source="10026" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e140" source="10026" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e141" source="10026" target="10027" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e142" source="10026" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e143" source="10026" target="10030" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e144" source="10026" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e145" source="10026" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e146" source="10026" target="10044" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e147" source="10026" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e148" source="10026" target="10046" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e149" source="10026" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e150" source="10028" target="10005" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e151" source="10028" target="10021" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e152" source="10028" target="10035" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e153" source="10028" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e154" source="10028" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e155" source="10029" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e156" source="10029" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e157" source="10029" target="10044" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e158" source="10029" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e159" source="10029" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e160" source="10032" target="10002" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e161" source="10032" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e162" source="10032" target="10007" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e163" source="10032" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e164" source="10032" target="10016" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e165" source="10032" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e166" source="10032" target="10019" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e167" source="10032" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e168" source="10032" target="10021" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e169" source="10032" target="10024" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e170" source="10032" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e171" source="10032" target="10027" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e172" source="10032" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e173" source="10032" target="10041" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e174" source="10032" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e175" source="10032" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e176" source="10032" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e177" source="10035" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e178" source="10035" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e179" source="10035" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e180" source="10035" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e181" source="10041" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e182" source="10042" target="10003" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e183" source="10042" target="10004" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e184" source="10042" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e185" source="10042" target="10021" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e186" source="10042" target="10022" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e187" source="10042" target="10023" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e188" source="10042" target="10024" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e189" source="10042" target="10025" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e190" source="10042" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e191" source="10042" target="10030" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e192" source="10042" target="10036" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e193" source="10042" target="10037" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e194" source="10042" target="10038" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e195" source="10042" target="10039" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e196" source="10042" target="10041" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e197" source="10042" target="10044" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e198" source="10042" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e199" source="10044" target="10001" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e200" source="10044" target="10002" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e201" source="10044" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e202" source="10044" target="10007" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e203" source="10044" target="10012" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e204" source="10044" target="10017" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e205" source="10044" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e206" source="10044" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e207" source="10044" target="10021" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e208" source="10044" target="10023" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e209" source="10044" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e210" source="10044" target="10028" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e211" source="10044" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e212" source="10044" target="10030" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e213" source="10044" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e214" source="10044" target="10036" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e215" source="10044" target="10037" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e216" source="10044" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e217" source="10044" target="10046" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e218" source="10044" target="10047" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e219" source="10046" target="10036" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e220" source="10047" target="10001" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e221" source="10047" target="10002" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e222" source="10047" target="10003" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e223" source="10047" target="10004" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e224" source="10047" target="10005" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e225" source="10047" target="10006" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e226" source="10047" target="10007" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e227" source="10047" target="10008" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e228" source="10047" target="10009" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e229" source="10047" target="10010" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e230" source="10047" target="10012" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e231" source="10047" target="10014" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e232" source="10047" target="10015" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e233" source="10047" target="10016" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e234" source="10047" target="10018" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e235" source="10047" target="10019" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e236" source="10047" target="10020" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e237" source="10047" target="10021" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e238" source="10047" target="10022" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e239" source="10047" target="10023" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e240" source="10047" target="10024" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e241" source="10047" target="10025" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e242" source="10047" target="10026" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e243" source="10047" target="10027" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e244" source="10047" target="10028" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e245" source="10047" target="10029" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e246" source="10047" target="10030" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e247" source="10047" target="10031" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e248" source="10047" target="10032" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e249" source="10047" target="10033" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e250" source="10047" target="10034" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e251" source="10047" target="10035" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e252" source="10047" target="10036" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e253" source="10047" target="10037" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e254" source="10047" target="10038" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e255" source="10047" target="10039" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e256" source="10047" target="10040" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e257" source="10047" target="10041" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e258" source="10047" target="10042" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e259" source="10047" target="10043" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e260" source="10047" target="10044" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e261" source="10047" target="10045" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+      <edge id="e262" source="10047" target="10046" weight="1" type="directed">
+        <viz:color r="160" g="160" b="160" a="1.0"/>
+        <viz:thickness value="1.5"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
