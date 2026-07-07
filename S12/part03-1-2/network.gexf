@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2026-04-16">
+    <creator>OpenAI</creator>
+    <description>09_北市大附小_校際網絡_校際間合作類別 二模有向網絡</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="0" title="點名稱" type="string"/>
+      <attribute id="1" title="點身分別" type="string"/>
+      <attribute id="2" title="連結數" type="integer"/>
+      <attribute id="3" title="連結對象" type="string"/>
+      <attribute id="4" title="原姓名" type="string"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="e0" title="方向" type="string"/>
+      <attribute id="e1" title="關係" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="p_12007" label="12007">
+        <attvalues>
+          <attvalue for="0" value="12007"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；行政與校務交流；學生學習與活動；資源共享與支援；專案/政策/研究合作"/>
+          <attvalue for="4" value="校長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-1000.00" z="0.0"/>
+        <viz:size value="25.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12031" label="12031">
+        <attvalues>
+          <attvalue for="0" value="12031"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；行政與校務交流；學生學習與活動；資源共享與支援；專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-965.52" z="0.0"/>
+        <viz:size value="25.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12053" label="12053">
+        <attvalues>
+          <attvalue for="0" value="12053"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；行政與校務交流；學生學習與活動；資源共享與支援；專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-931.03" z="0.0"/>
+        <viz:size value="25.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12057" label="12057">
+        <attvalues>
+          <attvalue for="0" value="12057"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；行政與校務交流；學生學習與活動；資源共享與支援；專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-896.55" z="0.0"/>
+        <viz:size value="25.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12008" label="12008">
+        <attvalues>
+          <attvalue for="0" value="12008"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；行政與校務交流；學生學習與活動；專案/政策/研究合作"/>
+          <attvalue for="4" value="輔導主任"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-862.07" z="0.0"/>
+        <viz:size value="23.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12049" label="12049">
+        <attvalues>
+          <attvalue for="0" value="12049"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；學生學習與活動；資源共享與支援；專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-827.59" z="0.0"/>
+        <viz:size value="23.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12032" label="12032">
+        <attvalues>
+          <attvalue for="0" value="12032"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；資源共享與支援；專案/政策/研究合作"/>
+          <attvalue for="4" value="圖具組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-793.10" z="0.0"/>
+        <viz:size value="20.80"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12037" label="12037">
+        <attvalues>
+          <attvalue for="0" value="12037"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；行政與校務交流；資源共享與支援"/>
+          <attvalue for="4" value="學務主任"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-758.62" z="0.0"/>
+        <viz:size value="20.80"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12042" label="12042">
+        <attvalues>
+          <attvalue for="0" value="12042"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；學生學習與活動；資源共享與支援"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-724.14" z="0.0"/>
+        <viz:size value="20.80"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12045" label="12045">
+        <attvalues>
+          <attvalue for="0" value="12045"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="教師專業學習；行政與校務交流；學生學習與活動；專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-689.66" z="0.0"/>
+        <viz:size value="20.80"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12059" label="12059">
+        <attvalues>
+          <attvalue for="0" value="12059"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；行政與校務交流；資源共享與支援"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-655.17" z="0.0"/>
+        <viz:size value="20.80"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12018" label="12018">
+        <attvalues>
+          <attvalue for="0" value="12018"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；行政與校務交流"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-620.69" z="0.0"/>
+        <viz:size value="18.60"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12027" label="12027">
+        <attvalues>
+          <attvalue for="0" value="12027"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教師專業學習；學生學習與活動；專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-586.21" z="0.0"/>
+        <viz:size value="18.60"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12030" label="12030">
+        <attvalues>
+          <attvalue for="0" value="12030"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教師專業學習；學生學習與活動；專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-551.72" z="0.0"/>
+        <viz:size value="18.60"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12041" label="12041">
+        <attvalues>
+          <attvalue for="0" value="12041"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="行政與校務交流；資源共享與支援；專案/政策/研究合作"/>
+          <attvalue for="4" value="教學組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-517.24" z="0.0"/>
+        <viz:size value="18.60"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12046" label="12046">
+        <attvalues>
+          <attvalue for="0" value="12046"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；學生學習與活動"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-482.76" z="0.0"/>
+        <viz:size value="18.60"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12048" label="12048">
+        <attvalues>
+          <attvalue for="0" value="12048"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-448.28" z="0.0"/>
+        <viz:size value="18.60"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12051" label="12051">
+        <attvalues>
+          <attvalue for="0" value="12051"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習；學生學習與活動"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-413.79" z="0.0"/>
+        <viz:size value="18.60"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12003" label="12003">
+        <attvalues>
+          <attvalue for="0" value="12003"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教學與課程合作；學生學習與活動"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-379.31" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12013" label="12013">
+        <attvalues>
+          <attvalue for="0" value="12013"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="行政與校務交流；專案/政策/研究合作"/>
+          <attvalue for="4" value="資訊組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-344.83" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12016" label="12016">
+        <attvalues>
+          <attvalue for="0" value="12016"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="行政與校務交流；專案/政策/研究合作"/>
+          <attvalue for="4" value="輔導組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-310.34" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12017" label="12017">
+        <attvalues>
+          <attvalue for="0" value="12017"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教師專業學習；行政與校務交流"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-275.86" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12036" label="12036">
+        <attvalues>
+          <attvalue for="0" value="12036"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="學生學習與活動；資源共享與支援"/>
+          <attvalue for="4" value="註冊組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-241.38" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12040" label="12040">
+        <attvalues>
+          <attvalue for="0" value="12040"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教師專業學習；行政與校務交流"/>
+          <attvalue for="4" value="特教組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-206.90" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12047" label="12047">
+        <attvalues>
+          <attvalue for="0" value="12047"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教學與課程合作；教師專業學習"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-172.41" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12050" label="12050">
+        <attvalues>
+          <attvalue for="0" value="12050"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教師專業學習；行政與校務交流"/>
+          <attvalue for="4" value="教務主任"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-137.93" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12056" label="12056">
+        <attvalues>
+          <attvalue for="0" value="12056"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="教師專業學習；行政與校務交流"/>
+          <attvalue for="4" value="研發主任"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-103.45" z="0.0"/>
+        <viz:size value="16.40"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12004" label="12004">
+        <attvalues>
+          <attvalue for="0" value="12004"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="教師專業學習"/>
+          <attvalue for="4" value="衛生組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-68.97" z="0.0"/>
+        <viz:size value="14.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12012" label="12012">
+        <attvalues>
+          <attvalue for="0" value="12012"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="行政與校務交流"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="-34.48" z="0.0"/>
+        <viz:size value="14.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12014" label="12014">
+        <attvalues>
+          <attvalue for="0" value="12014"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="行政與校務交流"/>
+          <attvalue for="4" value="課外組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="0.00" z="0.0"/>
+        <viz:size value="14.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12020" label="12020">
+        <attvalues>
+          <attvalue for="0" value="12020"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="行政與校務交流"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="34.48" z="0.0"/>
+        <viz:size value="14.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12026" label="12026">
+        <attvalues>
+          <attvalue for="0" value="12026"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="專案/政策/研究合作"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="68.97" z="0.0"/>
+        <viz:size value="14.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12033" label="12033">
+        <attvalues>
+          <attvalue for="0" value="12033"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="教師專業學習"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="103.45" z="0.0"/>
+        <viz:size value="14.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12038" label="12038">
+        <attvalues>
+          <attvalue for="0" value="12038"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="教師專業學習"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="137.93" z="0.0"/>
+        <viz:size value="14.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12044" label="12044">
+        <attvalues>
+          <attvalue for="0" value="12044"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="專案/政策/研究合作"/>
+          <attvalue for="4" value="課程組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="172.41" z="0.0"/>
+        <viz:size value="14.20"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12001" label="12001">
+        <attvalues>
+          <attvalue for="0" value="12001"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="206.90" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12002" label="12002">
+        <attvalues>
+          <attvalue for="0" value="12002"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="241.38" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12005" label="12005">
+        <attvalues>
+          <attvalue for="0" value="12005"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="275.86" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12006" label="12006">
+        <attvalues>
+          <attvalue for="0" value="12006"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="310.34" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12009" label="12009">
+        <attvalues>
+          <attvalue for="0" value="12009"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="344.83" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12010" label="12010">
+        <attvalues>
+          <attvalue for="0" value="12010"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value="融教組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="379.31" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12011" label="12011">
+        <attvalues>
+          <attvalue for="0" value="12011"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="413.79" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12015" label="12015">
+        <attvalues>
+          <attvalue for="0" value="12015"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value="體育組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="448.28" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12019" label="12019">
+        <attvalues>
+          <attvalue for="0" value="12019"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value="生教組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="482.76" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12021" label="12021">
+        <attvalues>
+          <attvalue for="0" value="12021"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="517.24" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12022" label="12022">
+        <attvalues>
+          <attvalue for="0" value="12022"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="551.72" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12023" label="12023">
+        <attvalues>
+          <attvalue for="0" value="12023"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="586.21" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12024" label="12024">
+        <attvalues>
+          <attvalue for="0" value="12024"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="620.69" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12025" label="12025">
+        <attvalues>
+          <attvalue for="0" value="12025"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="655.17" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12028" label="12028">
+        <attvalues>
+          <attvalue for="0" value="12028"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="689.66" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12029" label="12029">
+        <attvalues>
+          <attvalue for="0" value="12029"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value="研究組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="724.14" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12034" label="12034">
+        <attvalues>
+          <attvalue for="0" value="12034"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="758.62" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12035" label="12035">
+        <attvalues>
+          <attvalue for="0" value="12035"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="793.10" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12039" label="12039">
+        <attvalues>
+          <attvalue for="0" value="12039"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="827.59" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12043" label="12043">
+        <attvalues>
+          <attvalue for="0" value="12043"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="862.07" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12052" label="12052">
+        <attvalues>
+          <attvalue for="0" value="12052"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="896.55" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12054" label="12054">
+        <attvalues>
+          <attvalue for="0" value="12054"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="931.03" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12055" label="12055">
+        <attvalues>
+          <attvalue for="0" value="12055"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value="訓育組長"/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="965.52" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="p_12058" label="12058">
+        <attvalues>
+          <attvalue for="0" value="12058"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="0"/>
+          <attvalue for="3" value=""/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:position x="-700.00" y="1000.00" z="0.0"/>
+        <viz:size value="12.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="i_教師專業學習" label="教師專業學習">
+        <attvalues>
+          <attvalue for="0" value="教師專業學習"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="25"/>
+          <attvalue for="3" value="12004；12007；12008；12017；12018；12027；12030；12031；12032；12033；12037；12038；12040；12042；12045；12046；12047；12048；12049；12050；12051；12053；12056；12057；12059"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:position x="700.00" y="-1000.00" z="0.0"/>
+        <viz:size value="64.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="i_行政與校務交流" label="行政與校務交流">
+        <attvalues>
+          <attvalue for="0" value="行政與校務交流"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="12007；12008；12012；12013；12014；12016；12017；12018；12020；12031；12037；12040；12041；12045；12050；12053；12056；12057；12059"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:position x="700.00" y="-600.00" z="0.0"/>
+        <viz:size value="52.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="i_專案/政策/研究合作" label="專案/政策/研究合作">
+        <attvalues>
+          <attvalue for="0" value="專案/政策/研究合作"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="12007；12008；12013；12016；12026；12027；12030；12031；12032；12041；12044；12045；12048；12049；12053；12057"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:position x="700.00" y="-200.00" z="0.0"/>
+        <viz:size value="46.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="i_教學與課程合作" label="教學與課程合作">
+        <attvalues>
+          <attvalue for="0" value="教學與課程合作"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="12003；12007；12008；12018；12031；12032；12037；12042；12046；12047；12048；12049；12051；12053；12057；12059"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:position x="700.00" y="200.00" z="0.0"/>
+        <viz:size value="46.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="i_學生學習與活動" label="學生學習與活動">
+        <attvalues>
+          <attvalue for="0" value="學生學習與活動"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="14"/>
+          <attvalue for="3" value="12003；12007；12008；12027；12030；12031；12036；12042；12045；12046；12049；12051；12053；12057"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:position x="700.00" y="600.00" z="0.0"/>
+        <viz:size value="42.00"/>
+        <viz:shape value="disc"/>
+      </node>
+      <node id="i_資源共享與支援" label="資源共享與支援">
+        <attvalues>
+          <attvalue for="0" value="資源共享與支援"/>
+          <attvalue for="1" value="機構"/>
+          <attvalue for="2" value="11"/>
+          <attvalue for="3" value="12007；12031；12032；12036；12037；12041；12042；12049；12053；12057；12059"/>
+          <attvalue for="4" value=""/>
+        </attvalues>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:position x="700.00" y="1000.00" z="0.0"/>
+        <viz:size value="36.00"/>
+        <viz:shape value="disc"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="p_12003" target="i_教學與課程合作" label="12003→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12003→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="1" source="p_12003" target="i_學生學習與活動" label="12003→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12003→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="2" source="p_12004" target="i_教師專業學習" label="12004→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12004→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="3" source="p_12007" target="i_教學與課程合作" label="12007→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12007→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="4" source="p_12007" target="i_教師專業學習" label="12007→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12007→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="5" source="p_12007" target="i_行政與校務交流" label="12007→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12007→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="6" source="p_12007" target="i_學生學習與活動" label="12007→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12007→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="7" source="p_12007" target="i_資源共享與支援" label="12007→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12007→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="8" source="p_12007" target="i_專案/政策/研究合作" label="12007→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12007→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="9" source="p_12008" target="i_教學與課程合作" label="12008→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12008→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="10" source="p_12008" target="i_教師專業學習" label="12008→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12008→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="11" source="p_12008" target="i_行政與校務交流" label="12008→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12008→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="12" source="p_12008" target="i_學生學習與活動" label="12008→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12008→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="13" source="p_12008" target="i_專案/政策/研究合作" label="12008→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12008→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="14" source="p_12012" target="i_行政與校務交流" label="12012→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12012→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="15" source="p_12013" target="i_行政與校務交流" label="12013→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12013→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="16" source="p_12013" target="i_專案/政策/研究合作" label="12013→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12013→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="17" source="p_12014" target="i_行政與校務交流" label="12014→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12014→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="18" source="p_12016" target="i_行政與校務交流" label="12016→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12016→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="19" source="p_12016" target="i_專案/政策/研究合作" label="12016→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12016→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="20" source="p_12017" target="i_教師專業學習" label="12017→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12017→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="21" source="p_12017" target="i_行政與校務交流" label="12017→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12017→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="22" source="p_12018" target="i_教學與課程合作" label="12018→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12018→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="23" source="p_12018" target="i_教師專業學習" label="12018→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12018→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="24" source="p_12018" target="i_行政與校務交流" label="12018→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12018→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="25" source="p_12020" target="i_行政與校務交流" label="12020→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12020→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="26" source="p_12026" target="i_專案/政策/研究合作" label="12026→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12026→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="27" source="p_12027" target="i_教師專業學習" label="12027→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12027→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="28" source="p_12027" target="i_學生學習與活動" label="12027→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12027→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="29" source="p_12027" target="i_專案/政策/研究合作" label="12027→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12027→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="30" source="p_12030" target="i_教師專業學習" label="12030→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12030→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="31" source="p_12030" target="i_學生學習與活動" label="12030→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12030→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="32" source="p_12030" target="i_專案/政策/研究合作" label="12030→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12030→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="33" source="p_12031" target="i_教學與課程合作" label="12031→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12031→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="34" source="p_12031" target="i_教師專業學習" label="12031→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12031→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="35" source="p_12031" target="i_行政與校務交流" label="12031→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12031→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="36" source="p_12031" target="i_學生學習與活動" label="12031→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12031→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="37" source="p_12031" target="i_資源共享與支援" label="12031→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12031→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="38" source="p_12031" target="i_專案/政策/研究合作" label="12031→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12031→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="39" source="p_12032" target="i_教學與課程合作" label="12032→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12032→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="40" source="p_12032" target="i_教師專業學習" label="12032→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12032→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="41" source="p_12032" target="i_資源共享與支援" label="12032→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12032→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="42" source="p_12032" target="i_專案/政策/研究合作" label="12032→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12032→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="43" source="p_12033" target="i_教師專業學習" label="12033→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12033→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="44" source="p_12036" target="i_學生學習與活動" label="12036→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12036→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="45" source="p_12036" target="i_資源共享與支援" label="12036→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12036→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="46" source="p_12037" target="i_教學與課程合作" label="12037→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12037→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="47" source="p_12037" target="i_教師專業學習" label="12037→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12037→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="48" source="p_12037" target="i_行政與校務交流" label="12037→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12037→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="49" source="p_12037" target="i_資源共享與支援" label="12037→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12037→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="50" source="p_12038" target="i_教師專業學習" label="12038→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12038→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="51" source="p_12040" target="i_教師專業學習" label="12040→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12040→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="52" source="p_12040" target="i_行政與校務交流" label="12040→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12040→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="53" source="p_12041" target="i_行政與校務交流" label="12041→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12041→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="54" source="p_12041" target="i_資源共享與支援" label="12041→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12041→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="55" source="p_12041" target="i_專案/政策/研究合作" label="12041→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12041→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="56" source="p_12042" target="i_教學與課程合作" label="12042→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12042→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="57" source="p_12042" target="i_教師專業學習" label="12042→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12042→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="58" source="p_12042" target="i_學生學習與活動" label="12042→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12042→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="59" source="p_12042" target="i_資源共享與支援" label="12042→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12042→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="60" source="p_12044" target="i_專案/政策/研究合作" label="12044→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12044→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="61" source="p_12045" target="i_教師專業學習" label="12045→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12045→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="62" source="p_12045" target="i_行政與校務交流" label="12045→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12045→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="63" source="p_12045" target="i_學生學習與活動" label="12045→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12045→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="64" source="p_12045" target="i_專案/政策/研究合作" label="12045→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12045→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="65" source="p_12046" target="i_教學與課程合作" label="12046→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12046→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="66" source="p_12046" target="i_教師專業學習" label="12046→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12046→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="67" source="p_12046" target="i_學生學習與活動" label="12046→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12046→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="68" source="p_12047" target="i_教學與課程合作" label="12047→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12047→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="69" source="p_12047" target="i_教師專業學習" label="12047→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12047→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="70" source="p_12048" target="i_教學與課程合作" label="12048→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12048→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="71" source="p_12048" target="i_教師專業學習" label="12048→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12048→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="72" source="p_12048" target="i_專案/政策/研究合作" label="12048→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12048→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="73" source="p_12049" target="i_教學與課程合作" label="12049→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12049→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="74" source="p_12049" target="i_教師專業學習" label="12049→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12049→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="75" source="p_12049" target="i_學生學習與活動" label="12049→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12049→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="76" source="p_12049" target="i_資源共享與支援" label="12049→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12049→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="77" source="p_12049" target="i_專案/政策/研究合作" label="12049→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12049→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="78" source="p_12050" target="i_教師專業學習" label="12050→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12050→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="79" source="p_12050" target="i_行政與校務交流" label="12050→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12050→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="80" source="p_12051" target="i_教學與課程合作" label="12051→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12051→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="81" source="p_12051" target="i_教師專業學習" label="12051→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12051→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="82" source="p_12051" target="i_學生學習與活動" label="12051→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12051→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="83" source="p_12053" target="i_教學與課程合作" label="12053→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12053→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="84" source="p_12053" target="i_教師專業學習" label="12053→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12053→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="85" source="p_12053" target="i_行政與校務交流" label="12053→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12053→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="86" source="p_12053" target="i_學生學習與活動" label="12053→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12053→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="87" source="p_12053" target="i_資源共享與支援" label="12053→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12053→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="88" source="p_12053" target="i_專案/政策/研究合作" label="12053→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12053→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="89" source="p_12056" target="i_教師專業學習" label="12056→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12056→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="90" source="p_12056" target="i_行政與校務交流" label="12056→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12056→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="91" source="p_12057" target="i_教學與課程合作" label="12057→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12057→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="92" source="p_12057" target="i_教師專業學習" label="12057→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12057→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="93" source="p_12057" target="i_行政與校務交流" label="12057→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12057→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="94" source="p_12057" target="i_學生學習與活動" label="12057→學生學習與活動" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12057→學生學習與活動"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="95" source="p_12057" target="i_資源共享與支援" label="12057→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12057→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="96" source="p_12057" target="i_專案/政策/研究合作" label="12057→專案/政策/研究合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12057→專案/政策/研究合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="97" source="p_12059" target="i_教學與課程合作" label="12059→教學與課程合作" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12059→教學與課程合作"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="98" source="p_12059" target="i_教師專業學習" label="12059→教師專業學習" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12059→教師專業學習"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="99" source="p_12059" target="i_行政與校務交流" label="12059→行政與校務交流" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12059→行政與校務交流"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+      <edge id="100" source="p_12059" target="i_資源共享與支援" label="12059→資源共享與支援" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="12059→資源共享與支援"/>
+          <attvalue for="e1" value="校際間合作類別"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="1.0"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
