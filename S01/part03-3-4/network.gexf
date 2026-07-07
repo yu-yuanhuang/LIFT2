@@ -1,0 +1,3105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2026-04-13">
+    <creator>OpenAI ChatGPT</creator>
+    <description>辛亥國小｜校內網絡_行政運作資源協調（有向網路；節點與點詳情皆使用代碼；邊線標示單向／雙向）</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node" mode="static">
+      <attribute id="node_type" title="node_type" type="string"/>
+      <attribute id="0" title="點名稱" type="string"/>
+      <attribute id="1" title="點身分別" type="string"/>
+      <attribute id="2" title="連結數" type="integer"/>
+      <attribute id="3" title="連結對象" type="string"/>
+      <attribute id="4" title="傳出連結數" type="integer"/>
+      <attribute id="5" title="傳入連結數" type="integer"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="e0" title="方向關係" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="9001" label="9001">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9001"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="9002、9003、9004、9005、9006、9007、9008、9009、9010、9011、9012、9013、9014、9015、9016、9017、9018、9019、9020、9021、9022、9023、9024、9025、9026、9027、9028"/>
+          <attvalue for="4" value="27"/>
+          <attvalue for="5" value="22"/>
+        </attvalues>
+        <viz:position x="75.0923" y="113.0600" z="0.0"/>
+        <viz:size value="18.0000"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9002" label="9002">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9002"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="9001、9003、9004、9005、9006、9007、9008、9009、9010、9011、9012、9013、9014、9015、9016、9017、9018、9019、9020、9021、9022、9023、9024、9025、9026、9027、9028"/>
+          <attvalue for="4" value="27"/>
+          <attvalue for="5" value="11"/>
+        </attvalues>
+        <viz:position x="1.2406" y="60.0290" z="0.0"/>
+        <viz:size value="18.0000"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9003" label="9003">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9003"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="9001、9002、9007、9009、9012、9013、9015、9016、9017、9018、9019、9020、9022、9023、9024、9025"/>
+          <attvalue for="4" value="11"/>
+          <attvalue for="5" value="10"/>
+        </attvalues>
+        <viz:position x="-216.7425" y="-243.4044" z="0.0"/>
+        <viz:size value="13.9259"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9004" label="9004">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9004"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="9001、9002、9007、9008、9009、9010、9013、9016、9017、9018、9019、9020、9022、9023、9024、9025、9026"/>
+          <attvalue for="4" value="16"/>
+          <attvalue for="5" value="6"/>
+        </attvalues>
+        <viz:position x="-245.2686" y="66.9319" z="0.0"/>
+        <viz:size value="14.2963"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9005" label="9005">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9005"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="9001、9002、9008、9012、9013、9016、9018、9023、9026"/>
+          <attvalue for="4" value="4"/>
+          <attvalue for="5" value="6"/>
+        </attvalues>
+        <viz:position x="410.3821" y="199.5384" z="0.0"/>
+        <viz:size value="11.3333"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9006" label="9006">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9006"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="9001、9002、9007、9008、9009、9010、9012、9013、9015、9016、9017、9018、9019、9023、9025、9026"/>
+          <attvalue for="4" value="12"/>
+          <attvalue for="5" value="7"/>
+        </attvalues>
+        <viz:position x="-235.5422" y="176.0217" z="0.0"/>
+        <viz:size value="13.9259"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9007" label="9007">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9007"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9006、9008、9009、9010、9012、9014、9015、9016、9017、9018、9019、9020、9021、9022、9025、9026、9027"/>
+          <attvalue for="4" value="6"/>
+          <attvalue for="5" value="20"/>
+        </attvalues>
+        <viz:position x="-240.3573" y="-108.9048" z="0.0"/>
+        <viz:size value="15.7778"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9008" label="9008">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9008"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="22"/>
+          <attvalue for="3" value="9001、9002、9004、9005、9006、9007、9009、9010、9012、9013、9014、9015、9016、9017、9018、9019、9020、9021、9023、9024、9025、9027"/>
+          <attvalue for="4" value="20"/>
+          <attvalue for="5" value="9"/>
+        </attvalues>
+        <viz:position x="86.6095" y="-177.2301" z="0.0"/>
+        <viz:size value="16.1481"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9009" label="9009">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9009"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="25"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9006、9007、9008、9010、9012、9013、9014、9015、9016、9017、9018、9019、9020、9021、9022、9023、9024、9025、9026、9027、9028"/>
+          <attvalue for="4" value="11"/>
+          <attvalue for="5" value="23"/>
+        </attvalues>
+        <viz:position x="-164.4714" y="2.8335" z="0.0"/>
+        <viz:size value="17.2593"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9010" label="9010">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9010"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="25"/>
+          <attvalue for="3" value="9001、9002、9004、9006、9007、9008、9009、9011、9012、9013、9014、9015、9016、9017、9018、9019、9020、9021、9022、9023、9024、9025、9026、9027、9028"/>
+          <attvalue for="4" value="2"/>
+          <attvalue for="5" value="24"/>
+        </attvalues>
+        <viz:position x="79.3543" y="28.7301" z="0.0"/>
+        <viz:size value="17.2593"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9011" label="9011">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9011"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="9001、9002、9010、9013、9016、9017、9018、9025、9026"/>
+          <attvalue for="4" value="2"/>
+          <attvalue for="5" value="7"/>
+        </attvalues>
+        <viz:position x="450.0000" y="6.4991" z="0.0"/>
+        <viz:size value="11.3333"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9012" label="9012">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9012"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="23"/>
+          <attvalue for="3" value="9001、9002、9003、9005、9006、9007、9008、9009、9010、9013、9014、9015、9016、9017、9018、9019、9020、9021、9022、9023、9025、9026、9027"/>
+          <attvalue for="4" value="14"/>
+          <attvalue for="5" value="20"/>
+        </attvalues>
+        <viz:position x="-51.1429" y="-36.5085" z="0.0"/>
+        <viz:size value="16.5185"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9013" label="9013">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9013"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9005、9006、9008、9009、9010、9011、9012、9014、9015、9016、9017、9018、9019、9020、9021、9022、9023、9025、9026、9027"/>
+          <attvalue for="4" value="4"/>
+          <attvalue for="5" value="24"/>
+        </attvalues>
+        <viz:position x="184.2669" y="-70.9012" z="0.0"/>
+        <viz:size value="16.8889"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9014" label="9014">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9014"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="14"/>
+          <attvalue for="3" value="9001、9002、9007、9008、9009、9010、9012、9013、9016、9017、9018、9019、9020、9023"/>
+          <attvalue for="4" value="12"/>
+          <attvalue for="5" value="7"/>
+        </attvalues>
+        <viz:position x="-337.2324" y="-44.9629" z="0.0"/>
+        <viz:size value="13.1852"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9015" label="9015">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9015"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="18"/>
+          <attvalue for="3" value="9001、9002、9003、9006、9007、9008、9009、9010、9012、9013、9016、9017、9018、9019、9020、9021、9023、9025"/>
+          <attvalue for="4" value="15"/>
+          <attvalue for="5" value="8"/>
+        </attvalues>
+        <viz:position x="-107.6367" y="-299.9388" z="0.0"/>
+        <viz:size value="14.6667"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9016" label="9016">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9016"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9005、9006、9007、9008、9009、9010、9011、9012、9013、9014、9015、9017、9018、9019、9020、9021、9022、9023、9024、9025、9026、9027、9028"/>
+          <attvalue for="4" value="27"/>
+          <attvalue for="5" value="23"/>
+        </attvalues>
+        <viz:position x="89.4729" y="-55.6477" z="0.0"/>
+        <viz:size value="18.0000"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9017" label="9017">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9017"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="25"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9006、9007、9008、9009、9010、9011、9012、9013、9014、9015、9016、9018、9019、9020、9021、9022、9023、9025、9026、9027、9028"/>
+          <attvalue for="4" value="21"/>
+          <attvalue for="5" value="18"/>
+        </attvalues>
+        <viz:position x="-95.3444" y="86.4282" z="0.0"/>
+        <viz:size value="17.2593"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9018" label="9018">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9018"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9005、9006、9007、9008、9009、9010、9011、9012、9013、9014、9015、9016、9017、9019、9020、9021、9022、9023、9024、9025、9026、9027、9028"/>
+          <attvalue for="4" value="27"/>
+          <attvalue for="5" value="22"/>
+        </attvalues>
+        <viz:position x="160.1280" y="32.6324" z="0.0"/>
+        <viz:size value="18.0000"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9019" label="9019">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9019"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="25"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9006、9007、9008、9009、9010、9012、9013、9014、9015、9016、9017、9018、9020、9021、9022、9023、9024、9025、9026、9027、9028"/>
+          <attvalue for="4" value="10"/>
+          <attvalue for="5" value="23"/>
+        </attvalues>
+        <viz:position x="-133.5271" y="-91.7285" z="0.0"/>
+        <viz:size value="17.2593"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9020" label="9020">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9020"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="22"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9007、9008、9009、9010、9012、9013、9014、9015、9016、9017、9018、9019、9021、9022、9023、9024、9025、9026"/>
+          <attvalue for="4" value="13"/>
+          <attvalue for="5" value="17"/>
+        </attvalues>
+        <viz:position x="-49.5032" y="-221.4082" z="0.0"/>
+        <viz:size value="16.1481"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9021" label="9021">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9021"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="9001、9002、9007、9008、9009、9010、9012、9013、9015、9016、9017、9018、9019、9020、9024"/>
+          <attvalue for="4" value="14"/>
+          <attvalue for="5" value="6"/>
+        </attvalues>
+        <viz:position x="76.2754" y="-355.2456" z="0.0"/>
+        <viz:size value="13.5556"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9022" label="9022">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9022"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9007、9009、9010、9012、9013、9016、9017、9018、9019、9020、9023、9024、9025、9026、9027、9028"/>
+          <attvalue for="4" value="20"/>
+          <attvalue for="5" value="6"/>
+        </attvalues>
+        <viz:position x="-126.8328" y="212.2264" z="0.0"/>
+        <viz:size value="15.4074"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9023" label="9023">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9023"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="23"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9005、9006、9008、9009、9010、9012、9013、9014、9015、9016、9017、9018、9019、9020、9022、9025、9026、9027、9028"/>
+          <attvalue for="4" value="9"/>
+          <attvalue for="5" value="22"/>
+        </attvalues>
+        <viz:position x="-24.9406" y="198.7735" z="0.0"/>
+        <viz:size value="16.5185"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9024" label="9024">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9024"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9008、9009、9010、9016、9018、9019、9020、9021、9022、9025、9026"/>
+          <attvalue for="4" value="6"/>
+          <attvalue for="5" value="12"/>
+        </attvalues>
+        <viz:position x="204.2740" y="-236.2167" z="0.0"/>
+        <viz:size value="13.5556"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9025" label="9025">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9025"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="23"/>
+          <attvalue for="3" value="9001、9002、9003、9004、9006、9007、9008、9009、9010、9011、9012、9013、9015、9016、9017、9018、9019、9020、9022、9023、9024、9027、9028"/>
+          <attvalue for="4" value="22"/>
+          <attvalue for="5" value="8"/>
+        </attvalues>
+        <viz:position x="2.8255" y="-109.6731" z="0.0"/>
+        <viz:size value="16.5185"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9026" label="9026">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9026"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="9001、9002、9004、9005、9006、9007、9009、9010、9011、9012、9013、9016、9017、9018、9019、9020、9022、9023、9024、9027"/>
+          <attvalue for="4" value="16"/>
+          <attvalue for="5" value="7"/>
+        </attvalues>
+        <viz:position x="185.0258" y="180.8383" z="0.0"/>
+        <viz:size value="15.4074"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9027" label="9027">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9027"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="9001、9002、9007、9008、9009、9010、9012、9013、9016、9017、9018、9019、9022、9023、9025、9026"/>
+          <attvalue for="4" value="10"/>
+          <attvalue for="5" value="9"/>
+        </attvalues>
+        <viz:position x="95.4043" y="290.0018" z="0.0"/>
+        <viz:size value="13.9259"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+      <node id="9028" label="9028">
+        <attvalues>
+          <attvalue for="node_type" value="member"/>
+          <attvalue for="0" value="9028"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="11"/>
+          <attvalue for="3" value="9001、9002、9009、9010、9016、9017、9018、9019、9022、9023、9025"/>
+          <attvalue for="4" value="6"/>
+          <attvalue for="5" value="7"/>
+        </attvalues>
+        <viz:position x="-71.8092" y="397.2263" z="0.0"/>
+        <viz:size value="12.0741"/>
+        <viz:color r="166" g="185" b="170" a="0.90"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e1" source="9001" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e2" source="9001" target="9003" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e3" source="9001" target="9004" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e4" source="9001" target="9005" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e5" source="9001" target="9006" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e6" source="9001" target="9007" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e7" source="9001" target="9008" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e8" source="9001" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e9" source="9001" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e10" source="9001" target="9011" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e11" source="9001" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e12" source="9001" target="9013" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e13" source="9001" target="9014" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e14" source="9001" target="9015" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e15" source="9001" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e16" source="9001" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e17" source="9001" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e18" source="9001" target="9019" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e19" source="9001" target="9020" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e20" source="9001" target="9021" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e21" source="9001" target="9022" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e22" source="9001" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e23" source="9001" target="9024" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e24" source="9001" target="9025" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e25" source="9001" target="9026" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e26" source="9001" target="9027" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e27" source="9001" target="9028" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e28" source="9002" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e29" source="9002" target="9003" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e30" source="9002" target="9004" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e31" source="9002" target="9005" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e32" source="9002" target="9006" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e33" source="9002" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e34" source="9002" target="9008" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e35" source="9002" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e36" source="9002" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e37" source="9002" target="9011" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e38" source="9002" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e39" source="9002" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e40" source="9002" target="9014" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e41" source="9002" target="9015" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e42" source="9002" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e43" source="9002" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e44" source="9002" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e45" source="9002" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e46" source="9002" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e47" source="9002" target="9021" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e48" source="9002" target="9022" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e49" source="9002" target="9023" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e50" source="9002" target="9024" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e51" source="9002" target="9025" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e52" source="9002" target="9026" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e53" source="9002" target="9027" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e54" source="9002" target="9028" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e55" source="9003" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e56" source="9003" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e57" source="9003" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e58" source="9003" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e59" source="9003" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e60" source="9003" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e61" source="9003" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e62" source="9003" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e63" source="9003" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e64" source="9003" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e65" source="9003" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e66" source="9004" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e67" source="9004" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e68" source="9004" target="9008" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e69" source="9004" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e70" source="9004" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e71" source="9004" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e72" source="9004" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e73" source="9004" target="9017" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e74" source="9004" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e75" source="9004" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e76" source="9004" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e77" source="9004" target="9022" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e78" source="9004" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e79" source="9004" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e80" source="9004" target="9025" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e81" source="9004" target="9026" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e82" source="9005" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e83" source="9005" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e84" source="9005" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e85" source="9005" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e86" source="9006" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e87" source="9006" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e88" source="9006" target="9008" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e89" source="9006" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e90" source="9006" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e91" source="9006" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e92" source="9006" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e93" source="9006" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e94" source="9006" target="9017" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e95" source="9006" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e96" source="9006" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e97" source="9006" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e98" source="9007" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e99" source="9007" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e100" source="9007" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e101" source="9007" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e102" source="9007" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e103" source="9007" target="9019" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e104" source="9008" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e105" source="9008" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e106" source="9008" target="9005" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e107" source="9008" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e108" source="9008" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e109" source="9008" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e110" source="9008" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e111" source="9008" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e112" source="9008" target="9014" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e113" source="9008" target="9015" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e114" source="9008" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e115" source="9008" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e116" source="9008" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e117" source="9008" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e118" source="9008" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e119" source="9008" target="9021" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e120" source="9008" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e121" source="9008" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e122" source="9008" target="9025" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e123" source="9008" target="9027" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e124" source="9009" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e125" source="9009" target="9007" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e126" source="9009" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e127" source="9009" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e128" source="9009" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e129" source="9009" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e130" source="9009" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e131" source="9009" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e132" source="9009" target="9019" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e133" source="9009" target="9020" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e134" source="9009" target="9023" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e135" source="9010" target="9013" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e136" source="9010" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e137" source="9011" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e138" source="9011" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e139" source="9012" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e140" source="9012" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e141" source="9012" target="9003" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e142" source="9012" target="9007" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e143" source="9012" target="9008" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e144" source="9012" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e145" source="9012" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e146" source="9012" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e147" source="9012" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e148" source="9012" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e149" source="9012" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e150" source="9012" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e151" source="9012" target="9020" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e152" source="9012" target="9023" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e153" source="9013" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e154" source="9013" target="9010" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e155" source="9013" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e156" source="9013" target="9023" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e157" source="9014" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e158" source="9014" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e159" source="9014" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e160" source="9014" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e161" source="9014" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e162" source="9014" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e163" source="9014" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e164" source="9014" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e165" source="9014" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e166" source="9014" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e167" source="9014" target="9020" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e168" source="9014" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e169" source="9015" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e170" source="9015" target="9003" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e171" source="9015" target="9006" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e172" source="9015" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e173" source="9015" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e174" source="9015" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e175" source="9015" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e176" source="9015" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e177" source="9015" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e178" source="9015" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e179" source="9015" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e180" source="9015" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e181" source="9015" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e182" source="9015" target="9021" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e183" source="9015" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e184" source="9016" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e185" source="9016" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e186" source="9016" target="9003" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e187" source="9016" target="9004" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e188" source="9016" target="9005" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e189" source="9016" target="9006" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e190" source="9016" target="9007" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e191" source="9016" target="9008" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e192" source="9016" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e193" source="9016" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e194" source="9016" target="9011" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e195" source="9016" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e196" source="9016" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e197" source="9016" target="9014" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e198" source="9016" target="9015" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e199" source="9016" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e200" source="9016" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e201" source="9016" target="9019" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e202" source="9016" target="9020" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e203" source="9016" target="9021" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e204" source="9016" target="9022" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e205" source="9016" target="9023" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e206" source="9016" target="9024" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e207" source="9016" target="9025" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e208" source="9016" target="9026" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e209" source="9016" target="9027" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e210" source="9016" target="9028" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e211" source="9017" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e212" source="9017" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e213" source="9017" target="9003" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e214" source="9017" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e215" source="9017" target="9008" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e216" source="9017" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e217" source="9017" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e218" source="9017" target="9011" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e219" source="9017" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e220" source="9017" target="9013" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e221" source="9017" target="9014" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e222" source="9017" target="9015" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e223" source="9017" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e224" source="9017" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e225" source="9017" target="9019" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e226" source="9017" target="9020" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e227" source="9017" target="9023" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e228" source="9017" target="9025" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e229" source="9017" target="9026" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e230" source="9017" target="9027" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e231" source="9017" target="9028" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e232" source="9018" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e233" source="9018" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e234" source="9018" target="9003" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e235" source="9018" target="9004" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e236" source="9018" target="9005" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e237" source="9018" target="9006" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e238" source="9018" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e239" source="9018" target="9008" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e240" source="9018" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e241" source="9018" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e242" source="9018" target="9011" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e243" source="9018" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e244" source="9018" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e245" source="9018" target="9014" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e246" source="9018" target="9015" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e247" source="9018" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e248" source="9018" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e249" source="9018" target="9019" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e250" source="9018" target="9020" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e251" source="9018" target="9021" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e252" source="9018" target="9022" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e253" source="9018" target="9023" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e254" source="9018" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e255" source="9018" target="9025" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e256" source="9018" target="9026" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e257" source="9018" target="9027" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e258" source="9018" target="9028" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e259" source="9019" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e260" source="9019" target="9007" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e261" source="9019" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e262" source="9019" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e263" source="9019" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e264" source="9019" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e265" source="9019" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e266" source="9019" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e267" source="9019" target="9020" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e268" source="9019" target="9023" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e269" source="9020" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e270" source="9020" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e271" source="9020" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e272" source="9020" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e273" source="9020" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e274" source="9020" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e275" source="9020" target="9014" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e276" source="9020" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e277" source="9020" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e278" source="9020" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e279" source="9020" target="9019" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e280" source="9020" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e281" source="9020" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e282" source="9021" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e283" source="9021" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e284" source="9021" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e285" source="9021" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e286" source="9021" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e287" source="9021" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e288" source="9021" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e289" source="9021" target="9015" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e290" source="9021" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e291" source="9021" target="9017" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e292" source="9021" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e293" source="9021" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e294" source="9021" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e295" source="9021" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e296" source="9022" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e297" source="9022" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e298" source="9022" target="9003" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e299" source="9022" target="9004" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e300" source="9022" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e301" source="9022" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e302" source="9022" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e303" source="9022" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e304" source="9022" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e305" source="9022" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e306" source="9022" target="9017" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e307" source="9022" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e308" source="9022" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e309" source="9022" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e310" source="9022" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e311" source="9022" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e312" source="9022" target="9025" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e313" source="9022" target="9026" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e314" source="9022" target="9027" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e315" source="9022" target="9028" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e316" source="9023" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e317" source="9023" target="9009" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e318" source="9023" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e319" source="9023" target="9012" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e320" source="9023" target="9013" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e321" source="9023" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e322" source="9023" target="9017" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e323" source="9023" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e324" source="9023" target="9019" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e325" source="9024" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e326" source="9024" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e327" source="9024" target="9003" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e328" source="9024" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e329" source="9024" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e330" source="9024" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e331" source="9025" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e332" source="9025" target="9002" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e333" source="9025" target="9003" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e334" source="9025" target="9004" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e335" source="9025" target="9006" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e336" source="9025" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e337" source="9025" target="9008" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e338" source="9025" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e339" source="9025" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e340" source="9025" target="9011" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e341" source="9025" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e342" source="9025" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e343" source="9025" target="9015" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e344" source="9025" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e345" source="9025" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e346" source="9025" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e347" source="9025" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e348" source="9025" target="9022" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e349" source="9025" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e350" source="9025" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e351" source="9025" target="9027" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e352" source="9025" target="9028" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e353" source="9026" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e354" source="9026" target="9005" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e355" source="9026" target="9006" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e356" source="9026" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e357" source="9026" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e358" source="9026" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e359" source="9026" target="9011" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e360" source="9026" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e361" source="9026" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e362" source="9026" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e363" source="9026" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e364" source="9026" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e365" source="9026" target="9020" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e366" source="9026" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e367" source="9026" target="9024" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e368" source="9026" target="9027" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e369" source="9027" target="9001" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e370" source="9027" target="9007" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e371" source="9027" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e372" source="9027" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e373" source="9027" target="9012" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e374" source="9027" target="9013" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e375" source="9027" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e376" source="9027" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e377" source="9027" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e378" source="9027" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e379" source="9028" target="9009" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e380" source="9028" target="9010" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e381" source="9028" target="9016" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e382" source="9028" target="9018" type="directed" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="雙向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e383" source="9028" target="9019" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+      <edge id="e384" source="9028" target="9023" type="directed" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="e0" value="單向"/>
+        </attvalues>
+        <viz:color r="185" g="175" b="164" a="0.85"/>
+        <viz:thickness value="1.4"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

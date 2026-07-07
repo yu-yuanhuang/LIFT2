@@ -1,0 +1,2518 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-13">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="6" title="關係類型" type="string" />
+      <attribute id="7" title="是否雙向" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="點名稱" type="string" />
+      <attribute id="1" title="點身分別" type="string" />
+      <attribute id="2" title="連結數" type="long" />
+      <attribute id="3" title="連結對象" type="string" />
+      <attribute id="4" title="入向連結數" type="long" />
+      <attribute id="5" title="出向連結數" type="long" />
+    </attributes>
+    <nodes>
+      <node id="9001" label="9001">
+        <attvalues>
+          <attvalue for="0" value="9001" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="9002(入向)、9003(出向)、9006(入向)、9007(出向)、9008(入向)、9009(雙向)、9012(雙向)、9014(入向)、9016(入向)、9017(雙向)、9020(雙向)、9022(入向)、9026(入向)、9027(入向)、9028(入向)" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="6" />
+        </attvalues>
+      </node>
+      <node id="9002" label="9002">
+        <attvalues>
+          <attvalue for="0" value="9002" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="27" />
+          <attvalue for="3" value="9001(出向)、9003(出向)、9004(雙向)、9005(出向)、9006(出向)、9007(雙向)、9008(雙向)、9009(雙向)、9010(雙向)、9011(出向)、9012(雙向)、9013(出向)、9014(雙向)、9015(雙向)、9016(雙向)、9017(雙向)、9018(出向)、9019(出向)、9020(雙向)、9021(雙向)、9022(雙向)、9023(出向)、9024(出向)、9025(雙向)、9026(雙向)、9027(出向)、9028(雙向)" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="27" />
+        </attvalues>
+      </node>
+      <node id="9003" label="9003">
+        <attvalues>
+          <attvalue for="0" value="9003" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="21" />
+          <attvalue for="3" value="9001(入向)、9002(入向)、9004(入向)、9005(出向)、9006(雙向)、9007(入向)、9008(出向)、9012(入向)、9014(出向)、9015(出向)、9016(入向)、9017(入向)、9018(入向)、9020(雙向)、9021(雙向)、9022(雙向)、9024(雙向)、9025(出向)、9026(雙向)、9027(雙向)、9028(雙向)" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="13" />
+        </attvalues>
+      </node>
+      <node id="9004" label="9004">
+        <attvalues>
+          <attvalue for="0" value="9004" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="20" />
+          <attvalue for="3" value="9002(雙向)、9003(出向)、9005(出向)、9006(出向)、9010(出向)、9011(出向)、9012(入向)、9013(出向)、9014(雙向)、9016(雙向)、9017(雙向)、9018(雙向)、9020(入向)、9021(入向)、9022(雙向)、9024(雙向)、9025(雙向)、9026(雙向)、9027(出向)、9028(雙向)" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="17" />
+        </attvalues>
+      </node>
+      <node id="9005" label="9005">
+        <attvalues>
+          <attvalue for="0" value="9005" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="9002(入向)、9003(入向)、9004(入向)、9008(入向)、9012(雙向)、9013(出向)、9014(入向)、9016(入向)、9017(雙向)、9018(雙向)、9019(入向)、9024(入向)、9025(入向)、9026(入向)、9028(入向)" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="4" />
+        </attvalues>
+      </node>
+      <node id="9006" label="9006">
+        <attvalues>
+          <attvalue for="0" value="9006" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="20" />
+          <attvalue for="3" value="9001(出向)、9002(入向)、9003(雙向)、9004(入向)、9007(出向)、9008(雙向)、9009(出向)、9010(出向)、9011(出向)、9012(雙向)、9014(入向)、9016(雙向)、9017(雙向)、9019(出向)、9021(入向)、9022(出向)、9023(出向)、9024(雙向)、9025(入向)、9028(入向)" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="14" />
+        </attvalues>
+      </node>
+      <node id="9007" label="9007">
+        <attvalues>
+          <attvalue for="0" value="9007" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="14" />
+          <attvalue for="3" value="9001(入向)、9002(雙向)、9003(出向)、9006(入向)、9008(入向)、9012(入向)、9014(雙向)、9016(入向)、9020(入向)、9022(入向)、9024(出向)、9025(雙向)、9027(出向)、9028(入向)" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="6" />
+        </attvalues>
+      </node>
+      <node id="9008" label="9008">
+        <attvalues>
+          <attvalue for="0" value="9008" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="23" />
+          <attvalue for="3" value="9001(出向)、9002(雙向)、9003(入向)、9005(出向)、9006(雙向)、9007(出向)、9009(出向)、9010(出向)、9012(入向)、9013(出向)、9014(雙向)、9015(出向)、9016(雙向)、9017(雙向)、9018(雙向)、9019(雙向)、9020(出向)、9021(雙向)、9022(出向)、9024(雙向)、9025(雙向)、9027(出向)、9028(入向)" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="20" />
+        </attvalues>
+      </node>
+      <node id="9009" label="9009">
+        <attvalues>
+          <attvalue for="0" value="9009" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="14" />
+          <attvalue for="3" value="9001(雙向)、9002(雙向)、9006(入向)、9008(入向)、9012(入向)、9014(雙向)、9016(入向)、9017(入向)、9018(入向)、9020(雙向)、9021(入向)、9022(入向)、9027(出向)、9028(入向)" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="5" />
+        </attvalues>
+      </node>
+      <node id="9010" label="9010">
+        <attvalues>
+          <attvalue for="0" value="9010" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="16" />
+          <attvalue for="3" value="9002(雙向)、9004(入向)、9006(入向)、9008(入向)、9012(入向)、9013(出向)、9015(入向)、9016(入向)、9017(入向)、9018(入向)、9019(入向)、9021(入向)、9022(入向)、9024(出向)、9025(入向)、9026(入向)" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="9011" label="9011">
+        <attvalues>
+          <attvalue for="0" value="9011" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="12" />
+          <attvalue for="3" value="9002(入向)、9004(入向)、9006(入向)、9012(入向)、9014(入向)、9015(入向)、9016(入向)、9017(入向)、9018(入向)、9021(入向)、9024(入向)、9027(入向)" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="9012" label="9012">
+        <attvalues>
+          <attvalue for="0" value="9012" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="27" />
+          <attvalue for="3" value="9001(雙向)、9002(雙向)、9003(出向)、9004(出向)、9005(雙向)、9006(雙向)、9007(出向)、9008(出向)、9009(出向)、9010(出向)、9011(出向)、9013(雙向)、9014(出向)、9015(出向)、9016(出向)、9017(雙向)、9018(出向)、9019(出向)、9020(雙向)、9021(雙向)、9022(雙向)、9023(出向)、9024(出向)、9025(雙向)、9026(出向)、9027(出向)、9028(出向)" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="27" />
+        </attvalues>
+      </node>
+      <node id="9013" label="9013">
+        <attvalues>
+          <attvalue for="0" value="9013" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="17" />
+          <attvalue for="3" value="9002(入向)、9004(入向)、9005(入向)、9008(入向)、9010(入向)、9012(雙向)、9016(入向)、9017(入向)、9018(出向)、9019(入向)、9020(入向)、9021(入向)、9022(入向)、9025(入向)、9026(入向)、9027(入向)、9028(入向)" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="9014" label="9014">
+        <attvalues>
+          <attvalue for="0" value="9014" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="21" />
+          <attvalue for="3" value="9001(出向)、9002(雙向)、9003(入向)、9004(雙向)、9005(出向)、9006(出向)、9007(雙向)、9008(雙向)、9009(雙向)、9011(出向)、9012(入向)、9015(出向)、9016(入向)、9017(入向)、9019(雙向)、9020(雙向)、9022(出向)、9024(雙向)、9026(入向)、9027(雙向)、9028(入向)" />
+          <attvalue for="4" value="15" />
+          <attvalue for="5" value="15" />
+        </attvalues>
+      </node>
+      <node id="9015" label="9015">
+        <attvalues>
+          <attvalue for="0" value="9015" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="16" />
+          <attvalue for="3" value="9002(雙向)、9003(入向)、9008(入向)、9010(出向)、9011(出向)、9012(入向)、9014(入向)、9016(雙向)、9017(入向)、9018(出向)、9019(雙向)、9020(入向)、9021(雙向)、9024(入向)、9026(入向)、9028(入向)" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="7" />
+        </attvalues>
+      </node>
+      <node id="9016" label="9016">
+        <attvalues>
+          <attvalue for="0" value="9016" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="27" />
+          <attvalue for="3" value="9001(出向)、9002(雙向)、9003(出向)、9004(雙向)、9005(出向)、9006(雙向)、9007(出向)、9008(雙向)、9009(出向)、9010(出向)、9011(出向)、9012(入向)、9013(出向)、9014(出向)、9015(雙向)、9017(雙向)、9018(雙向)、9019(雙向)、9020(出向)、9021(雙向)、9022(雙向)、9023(出向)、9024(出向)、9025(雙向)、9026(出向)、9027(雙向)、9028(出向)" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="26" />
+        </attvalues>
+      </node>
+      <node id="9017" label="9017">
+        <attvalues>
+          <attvalue for="0" value="9017" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="26" />
+          <attvalue for="3" value="9001(雙向)、9002(雙向)、9003(出向)、9004(雙向)、9005(雙向)、9006(雙向)、9008(雙向)、9009(出向)、9010(出向)、9011(出向)、9012(雙向)、9013(出向)、9014(出向)、9015(出向)、9016(雙向)、9018(出向)、9019(出向)、9020(出向)、9021(雙向)、9022(雙向)、9023(出向)、9024(出向)、9025(出向)、9026(雙向)、9027(出向)、9028(出向)" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="26" />
+        </attvalues>
+      </node>
+      <node id="9018" label="9018">
+        <attvalues>
+          <attvalue for="0" value="9018" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="22" />
+          <attvalue for="3" value="9002(入向)、9003(出向)、9004(雙向)、9005(雙向)、9008(雙向)、9009(出向)、9010(出向)、9011(出向)、9012(入向)、9013(入向)、9015(入向)、9016(雙向)、9017(入向)、9019(雙向)、9021(入向)、9022(入向)、9023(出向)、9024(雙向)、9025(雙向)、9026(雙向)、9027(雙向)、9028(入向)" />
+          <attvalue for="4" value="17" />
+          <attvalue for="5" value="14" />
+        </attvalues>
+      </node>
+      <node id="9019" label="9019">
+        <attvalues>
+          <attvalue for="0" value="9019" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="9002(入向)、9005(出向)、9006(入向)、9008(雙向)、9010(出向)、9012(入向)、9013(出向)、9014(雙向)、9015(雙向)、9016(雙向)、9017(入向)、9018(雙向)、9022(雙向)、9024(出向)、9025(入向)" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="10" />
+        </attvalues>
+      </node>
+      <node id="9020" label="9020">
+        <attvalues>
+          <attvalue for="0" value="9020" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="18" />
+          <attvalue for="3" value="9001(雙向)、9002(雙向)、9003(雙向)、9004(出向)、9007(出向)、9008(入向)、9009(雙向)、9012(雙向)、9013(出向)、9014(雙向)、9015(出向)、9016(入向)、9017(入向)、9022(雙向)、9024(雙向)、9025(出向)、9027(出向)、9028(雙向)" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="15" />
+        </attvalues>
+      </node>
+      <node id="9021" label="9021">
+        <attvalues>
+          <attvalue for="0" value="9021" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="20" />
+          <attvalue for="3" value="9002(雙向)、9003(雙向)、9004(出向)、9006(出向)、9008(雙向)、9009(出向)、9010(出向)、9011(出向)、9012(雙向)、9013(出向)、9015(雙向)、9016(雙向)、9017(雙向)、9018(出向)、9022(出向)、9023(出向)、9024(雙向)、9025(出向)、9026(出向)、9028(雙向)" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="20" />
+        </attvalues>
+      </node>
+      <node id="9022" label="9022">
+        <attvalues>
+          <attvalue for="0" value="9022" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="24" />
+          <attvalue for="3" value="9001(出向)、9002(雙向)、9003(雙向)、9004(雙向)、9006(入向)、9007(出向)、9008(入向)、9009(出向)、9010(出向)、9012(雙向)、9013(出向)、9014(入向)、9016(雙向)、9017(雙向)、9018(出向)、9019(雙向)、9020(雙向)、9021(入向)、9023(出向)、9024(雙向)、9025(出向)、9026(雙向)、9027(出向)、9028(雙向)" />
+          <attvalue for="4" value="15" />
+          <attvalue for="5" value="20" />
+        </attvalues>
+      </node>
+      <node id="9023" label="9023">
+        <attvalues>
+          <attvalue for="0" value="9023" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="9002(入向)、9006(入向)、9012(入向)、9016(入向)、9017(入向)、9018(入向)、9021(入向)、9022(入向)" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="9024" label="9024">
+        <attvalues>
+          <attvalue for="0" value="9024" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="23" />
+          <attvalue for="3" value="9002(入向)、9003(雙向)、9004(雙向)、9005(出向)、9006(雙向)、9007(入向)、9008(雙向)、9010(入向)、9011(出向)、9012(入向)、9014(雙向)、9015(出向)、9016(入向)、9017(入向)、9018(雙向)、9019(入向)、9020(雙向)、9021(雙向)、9022(雙向)、9025(雙向)、9026(雙向)、9027(出向)、9028(雙向)" />
+          <attvalue for="4" value="19" />
+          <attvalue for="5" value="16" />
+        </attvalues>
+      </node>
+      <node id="9025" label="9025">
+        <attvalues>
+          <attvalue for="0" value="9025" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="20" />
+          <attvalue for="3" value="9002(雙向)、9003(入向)、9004(雙向)、9005(出向)、9006(出向)、9007(雙向)、9008(雙向)、9010(出向)、9012(雙向)、9013(出向)、9016(雙向)、9017(入向)、9018(雙向)、9019(出向)、9020(入向)、9021(入向)、9022(入向)、9024(雙向)、9027(出向)、9028(雙向)" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="15" />
+        </attvalues>
+      </node>
+      <node id="9026" label="9026">
+        <attvalues>
+          <attvalue for="0" value="9026" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="18" />
+          <attvalue for="3" value="9001(出向)、9002(雙向)、9003(雙向)、9004(雙向)、9005(出向)、9010(出向)、9012(入向)、9013(出向)、9014(出向)、9015(出向)、9016(入向)、9017(雙向)、9018(雙向)、9021(入向)、9022(雙向)、9024(雙向)、9027(出向)、9028(入向)" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="14" />
+        </attvalues>
+      </node>
+      <node id="9027" label="9027">
+        <attvalues>
+          <attvalue for="0" value="9027" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="20" />
+          <attvalue for="3" value="9001(出向)、9002(入向)、9003(雙向)、9004(入向)、9007(入向)、9008(入向)、9009(入向)、9011(出向)、9012(入向)、9013(出向)、9014(雙向)、9016(雙向)、9017(入向)、9018(雙向)、9020(入向)、9022(入向)、9024(入向)、9025(入向)、9026(入向)、9028(入向)" />
+          <attvalue for="4" value="17" />
+          <attvalue for="5" value="7" />
+        </attvalues>
+      </node>
+      <node id="9028" label="9028">
+        <attvalues>
+          <attvalue for="0" value="9028" />
+          <attvalue for="1" value="學校成員" />
+          <attvalue for="2" value="23" />
+          <attvalue for="3" value="9001(出向)、9002(雙向)、9003(雙向)、9004(雙向)、9005(出向)、9006(出向)、9007(出向)、9008(出向)、9009(出向)、9012(入向)、9013(出向)、9014(出向)、9015(出向)、9016(入向)、9017(入向)、9018(出向)、9020(雙向)、9021(雙向)、9022(雙向)、9024(雙向)、9025(雙向)、9026(出向)、9027(出向)" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="20" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="9001" target="9003" id="0" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9001" target="9007" id="1" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9001" target="9009" id="2" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9001" target="9012" id="3" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9001" target="9017" id="4" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9001" target="9020" id="5" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9001" id="6" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9003" id="7" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9004" id="8" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9005" id="9" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9006" id="10" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9007" id="11" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9008" id="12" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9009" id="13" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9010" id="14" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9011" id="15" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9012" id="16" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9013" id="17" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9014" id="18" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9015" id="19" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9016" id="20" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9017" id="21" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9018" id="22" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9019" id="23" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9020" id="24" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9021" id="25" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9022" id="26" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9023" id="27" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9024" id="28" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9025" id="29" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9026" id="30" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9027" id="31" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9002" target="9028" id="32" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9005" id="33" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9006" id="34" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9008" id="35" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9014" id="36" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9015" id="37" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9020" id="38" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9021" id="39" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9022" id="40" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9024" id="41" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9025" id="42" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9026" id="43" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9027" id="44" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9003" target="9028" id="45" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9002" id="46" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9003" id="47" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9005" id="48" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9006" id="49" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9010" id="50" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9011" id="51" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9013" id="52" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9014" id="53" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9016" id="54" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9017" id="55" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9018" id="56" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9022" id="57" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9024" id="58" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9025" id="59" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9026" id="60" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9027" id="61" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9004" target="9028" id="62" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9005" target="9012" id="63" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9005" target="9013" id="64" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9005" target="9017" id="65" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9005" target="9018" id="66" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9001" id="67" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9003" id="68" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9007" id="69" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9008" id="70" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9009" id="71" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9010" id="72" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9011" id="73" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9012" id="74" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9016" id="75" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9017" id="76" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9019" id="77" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9022" id="78" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9023" id="79" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9006" target="9024" id="80" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9007" target="9002" id="81" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9007" target="9003" id="82" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9007" target="9014" id="83" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9007" target="9024" id="84" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9007" target="9025" id="85" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9007" target="9027" id="86" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9001" id="87" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9002" id="88" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9005" id="89" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9006" id="90" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9007" id="91" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9009" id="92" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9010" id="93" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9013" id="94" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9014" id="95" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9015" id="96" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9016" id="97" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9017" id="98" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9018" id="99" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9019" id="100" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9020" id="101" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9021" id="102" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9022" id="103" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9024" id="104" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9025" id="105" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9008" target="9027" id="106" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9009" target="9001" id="107" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9009" target="9002" id="108" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9009" target="9014" id="109" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9009" target="9020" id="110" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9009" target="9027" id="111" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9010" target="9002" id="112" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9010" target="9013" id="113" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9010" target="9024" id="114" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9001" id="115" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9002" id="116" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9003" id="117" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9004" id="118" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9005" id="119" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9006" id="120" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9007" id="121" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9008" id="122" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9009" id="123" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9010" id="124" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9011" id="125" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9013" id="126" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9014" id="127" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9015" id="128" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9016" id="129" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9017" id="130" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9018" id="131" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9019" id="132" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9020" id="133" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9021" id="134" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9022" id="135" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9023" id="136" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9024" id="137" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9025" id="138" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9026" id="139" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9027" id="140" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9012" target="9028" id="141" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9013" target="9012" id="142" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9013" target="9018" id="143" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9001" id="144" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9002" id="145" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9004" id="146" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9005" id="147" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9006" id="148" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9007" id="149" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9008" id="150" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9009" id="151" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9011" id="152" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9015" id="153" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9019" id="154" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9020" id="155" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9022" id="156" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9024" id="157" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9014" target="9027" id="158" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9015" target="9002" id="159" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9015" target="9010" id="160" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9015" target="9011" id="161" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9015" target="9016" id="162" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9015" target="9018" id="163" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9015" target="9019" id="164" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9015" target="9021" id="165" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9001" id="166" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9002" id="167" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9003" id="168" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9004" id="169" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9005" id="170" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9006" id="171" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9007" id="172" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9008" id="173" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9009" id="174" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9010" id="175" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9011" id="176" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9013" id="177" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9014" id="178" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9015" id="179" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9017" id="180" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9018" id="181" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9019" id="182" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9020" id="183" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9021" id="184" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9022" id="185" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9023" id="186" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9024" id="187" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9025" id="188" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9026" id="189" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9027" id="190" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9016" target="9028" id="191" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9001" id="192" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9002" id="193" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9003" id="194" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9004" id="195" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9005" id="196" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9006" id="197" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9008" id="198" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9009" id="199" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9010" id="200" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9011" id="201" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9012" id="202" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9013" id="203" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9014" id="204" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9015" id="205" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9016" id="206" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9018" id="207" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9019" id="208" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9020" id="209" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9021" id="210" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9022" id="211" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9023" id="212" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9024" id="213" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9025" id="214" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9026" id="215" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9027" id="216" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9017" target="9028" id="217" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9003" id="218" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9004" id="219" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9005" id="220" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9008" id="221" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9009" id="222" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9010" id="223" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9011" id="224" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9016" id="225" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9019" id="226" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9023" id="227" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9024" id="228" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9025" id="229" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9026" id="230" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9018" target="9027" id="231" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9005" id="232" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9008" id="233" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9010" id="234" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9013" id="235" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9014" id="236" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9015" id="237" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9016" id="238" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9018" id="239" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9022" id="240" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9019" target="9024" id="241" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9001" id="242" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9002" id="243" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9003" id="244" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9004" id="245" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9007" id="246" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9009" id="247" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9012" id="248" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9013" id="249" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9014" id="250" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9015" id="251" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9022" id="252" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9024" id="253" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9025" id="254" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9027" id="255" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9020" target="9028" id="256" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9002" id="257" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9003" id="258" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9004" id="259" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9006" id="260" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9008" id="261" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9009" id="262" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9010" id="263" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9011" id="264" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9012" id="265" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9013" id="266" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9015" id="267" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9016" id="268" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9017" id="269" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9018" id="270" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9022" id="271" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9023" id="272" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9024" id="273" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9025" id="274" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9026" id="275" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9021" target="9028" id="276" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9001" id="277" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9002" id="278" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9003" id="279" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9004" id="280" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9007" id="281" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9009" id="282" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9010" id="283" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9012" id="284" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9013" id="285" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9016" id="286" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9017" id="287" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9018" id="288" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9019" id="289" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9020" id="290" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9023" id="291" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9024" id="292" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9025" id="293" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9026" id="294" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9027" id="295" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9022" target="9028" id="296" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9003" id="297" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9004" id="298" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9005" id="299" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9006" id="300" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9008" id="301" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9011" id="302" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9014" id="303" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9015" id="304" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9018" id="305" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9020" id="306" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9021" id="307" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9022" id="308" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9025" id="309" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9026" id="310" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9027" id="311" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9024" target="9028" id="312" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9002" id="313" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9004" id="314" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9005" id="315" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9006" id="316" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9007" id="317" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9008" id="318" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9010" id="319" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9012" id="320" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9013" id="321" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9016" id="322" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9018" id="323" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9019" id="324" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9024" id="325" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9027" id="326" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9025" target="9028" id="327" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9001" id="328" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9002" id="329" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9003" id="330" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9004" id="331" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9005" id="332" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9010" id="333" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9013" id="334" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9014" id="335" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9015" id="336" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9017" id="337" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9018" id="338" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9022" id="339" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9024" id="340" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9026" target="9027" id="341" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9027" target="9001" id="342" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9027" target="9003" id="343" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9027" target="9011" id="344" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9027" target="9013" id="345" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9027" target="9014" id="346" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9027" target="9016" id="347" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9027" target="9018" id="348" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9001" id="349" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9002" id="350" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9003" id="351" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9004" id="352" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9005" id="353" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9006" id="354" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9007" id="355" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9008" id="356" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9009" id="357" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9013" id="358" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9014" id="359" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9015" id="360" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9018" id="361" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9020" id="362" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9021" id="363" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9022" id="364" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9024" id="365" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9025" id="366" label="雙向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="雙向" />
+          <attvalue for="7" value="是" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9026" id="367" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+      <edge source="9028" target="9027" id="368" label="單向" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="單向" />
+          <attvalue for="7" value="否" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
