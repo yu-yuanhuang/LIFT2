@@ -244,6 +244,34 @@ button,select{font:inherit;}
   background:rgba(255,255,255,0.45);
 }
 #panel input[type="checkbox"]{accent-color:#a4927e;transform:translateY(1px);}
+#panel .frequency-filter-wrap{
+  display:none;margin-top:12px;padding:12px;border:1px solid rgba(191,167,147,0.24);border-radius:20px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.54), rgba(240,232,225,0.48));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.48), 0 10px 22px rgba(88,76,67,0.05);
+}
+#panel .frequency-filter-wrap.active{display:block;}
+#panel .frequency-filter-title{font-size:12px;font-weight:900;color:var(--text);letter-spacing:.02em;margin-bottom:8px;}
+#frequencyFilterWrap .frequency-select{margin-top:0;}
+#frequencyFilterWrap .select-trigger{
+  min-height:58px;padding:12px 16px;border-radius:20px;
+  background:linear-gradient(180deg, rgba(248,242,236,0.96), rgba(236,227,219,0.92));
+}
+#frequencyFilterWrap .select-trigger-text-wrap{display:block;flex:1 1 auto;min-width:0;}
+#frequencyFilterWrap .select-trigger-meta{display:block;margin-top:4px;font-size:11px;line-height:1.35;color:var(--muted);font-weight:700;}
+#frequencyFilterWrap .select-menu{top:calc(100% + 8px);}
+#frequencyFilterWrap .select-option .freq-mini-line{display:inline-block;width:24px;height:0;margin-right:8px;vertical-align:middle;border-top:2px solid var(--edge);}
+#frequencyFilterWrap .select-option[data-value="1"] .freq-mini-line{border-top-color:#5C9768;border-top-width:1px;}
+#frequencyFilterWrap .select-option[data-value="2"] .freq-mini-line{border-top-color:#4C80BF;border-top-width:2px;}
+#frequencyFilterWrap .select-option[data-value="3"] .freq-mini-line{border-top-color:#C64E4E;border-top-width:4px;}
+.frequency-filter-note{margin-top:8px;font-size:11px;line-height:1.45;color:var(--muted);font-weight:700;}
+.freq-legend-row{display:none;}
+.freq-legend-row.active{display:flex;}
+.legend-line.freq-1{border-top-color:#5C9768;border-top-width:1px;}
+.legend-line.freq-1:after{border-left-color:#5C9768;}
+.legend-line.freq-2{border-top-color:#4C80BF;border-top-width:2px;}
+.legend-line.freq-2:after{border-left-color:#4C80BF;}
+.legend-line.freq-3{border-top-color:#C64E4E;border-top-width:4px;}
+.legend-line.freq-3:after{border-left-color:#C64E4E;top:-5px;}
 #panel > div:last-child{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
 #panel button{margin:0;flex:1 1 auto;}
 #legend{
@@ -346,11 +374,11 @@ button,select{font:inherit;}
     </div>
     <div class="headbar-actions">
       <button id="headBarCollapse" type="button" aria-expanded="false" aria-label="展開資訊" title="展開資訊">展開資訊</button>
-      <a href="../index.html#part3" class="home-link" aria-label="返回原報告首頁">返回原報告首頁</a>
+      <a class="home-link" href="../index.html#part3" aria-label="返回原報告首頁">返回原報告首頁</a>
     </div>
   </div>
   <div class="headbar-body">
-    <p>以V10版視覺系統統一此頁配色、字型與互動元件。滑鼠拖曳空白處可平移，滾輪縮放，拖曳節點可微調位置。</p>
+    <p>以V10版視覺系統統一此頁配色、字型與互動元件。滑鼠拖曳空白處可平移，滾輪縮放，拖曳節點可微調位置；預設僅呈現原有合作關係，不顯示合作頻率狀態；勾選「顯示合作頻率」後，才展開頻率篩選、線條樣式與頻率圖例。</p>
   </div>
 </header>
 
@@ -383,6 +411,32 @@ button,select{font:inherit;}
           <button type="button" class="select-option" data-value="kk" role="option" aria-selected="false">Kamada–Kawai</button>
         </div>
       </div>
+    </div>
+    <label><input id="toggleFrequency" type="checkbox"> 顯示合作頻率</label>
+    <div class="frequency-filter-wrap" id="frequencyFilterWrap" aria-hidden="true">
+      <div class="frequency-filter-title">合作頻率展示樣式</div>
+      <div class="select-wrap custom-select frequency-select" id="frequencyFilterSelectWrap">
+        <select id="frequencyFilter" class="native-select" aria-label="合作頻率展示樣式" tabindex="-1">
+          <option value="all">全部顯示</option>
+          <option value="1">只顯示1</option>
+          <option value="2">只顯示2</option>
+          <option value="3">只顯示3</option>
+        </select>
+        <button type="button" class="select-trigger" id="frequencyFilterTrigger" aria-haspopup="listbox" aria-expanded="false" aria-controls="frequencyFilterMenu">
+          <span class="select-trigger-text-wrap">
+            <span class="select-trigger-text">全部顯示</span>
+            <span class="select-trigger-meta">依合作頻率套用顏色、線寬與標示</span>
+          </span>
+          <span class="select-trigger-icon" aria-hidden="true"></span>
+        </button>
+        <div class="select-menu" id="frequencyFilterMenu" role="listbox" aria-label="合作頻率展示樣式選單">
+          <button type="button" class="select-option is-selected" data-value="all" role="option" aria-selected="true"><span class="freq-mini-line"></span>全部顯示</button>
+          <button type="button" class="select-option" data-value="1" role="option" aria-selected="false"><span class="freq-mini-line"></span>只顯示1</button>
+          <button type="button" class="select-option" data-value="2" role="option" aria-selected="false"><span class="freq-mini-line"></span>只顯示2</button>
+          <button type="button" class="select-option" data-value="3" role="option" aria-selected="false"><span class="freq-mini-line"></span>只顯示3</button>
+        </div>
+      </div>
+      <div class="frequency-filter-note">未勾選時維持原有灰色合作關係圖，不顯示合作頻率狀態。</div>
     </div>
     <div style="margin-top:8px;">
       <label><input id="toggleLabels" type="checkbox" checked> 顯示標籤</label>
@@ -417,8 +471,10 @@ button,select{font:inherit;}
   <div id="legend">
     <div><strong>圖例</strong></div>
     <div class="legend-row"><span class="legend-circle"></span><span>學校成員</span></div>
-    <div class="legend-row"><span class="legend-square"></span><span>校與社區網絡_合作頻率</span></div>
-    <div class="legend-row"><span class="legend-line"></span><span>有向連結</span></div>
+    <div class="legend-row"><span class="legend-square"></span><span>校與社區網絡</span></div>
+    <div class="legend-row freq-legend-row" aria-hidden="true"><span class="legend-line freq-1"></span><span>頻率1：綠色細線</span></div>
+    <div class="legend-row freq-legend-row" aria-hidden="true"><span class="legend-line freq-2"></span><span>頻率2：藍色中線</span></div>
+    <div class="legend-row freq-legend-row" aria-hidden="true"><span class="legend-line freq-3"></span><span>頻率3：紅色粗線</span></div>
   </div>
 
   <div id="tooltip"></div>
@@ -439,6 +495,14 @@ button,select{font:inherit;}
   var toggleLabels = document.getElementById("toggleLabels");
   var toggleArrows = document.getElementById("toggleArrows");
   var toggleHoverFocus = document.getElementById("toggleHoverFocus");
+  var toggleFrequency = document.getElementById("toggleFrequency");
+  var frequencyFilterWrap = document.getElementById("frequencyFilterWrap");
+  var frequencyFilter = document.getElementById("frequencyFilter");
+  var frequencyFilterSelectWrap = document.getElementById("frequencyFilterSelectWrap");
+  var frequencyFilterTrigger = document.getElementById("frequencyFilterTrigger");
+  var frequencyFilterTriggerText = frequencyFilterTrigger ? frequencyFilterTrigger.querySelector(".select-trigger-text") : null;
+  var frequencyFilterMenu = document.getElementById("frequencyFilterMenu");
+  var frequencyFilterOptions = frequencyFilterMenu ? Array.prototype.slice.call(frequencyFilterMenu.querySelectorAll(".select-option")) : [];
   var exportPNG = document.getElementById("exportPNG");
   var rerunForce = document.getElementById("rerunForce");
   var forceDensityWrap = document.getElementById("forceDensityWrap");
@@ -484,6 +548,48 @@ button,select{font:inherit;}
     layoutModeTrigger.setAttribute("aria-expanded", "true");
   }
 
+
+  function dispatchNativeChange(el) {
+    if (!el) return;
+    var evt;
+    if (typeof Event === "function") {
+      evt = new Event("change", { bubbles: true });
+    } else {
+      evt = document.createEvent("HTMLEvents");
+      evt.initEvent("change", true, false);
+    }
+    el.dispatchEvent(evt);
+  }
+
+  function syncFrequencyFilterSelectUI() {
+    if (!frequencyFilter || !frequencyFilterTriggerText || !frequencyFilterOptions.length) return;
+    var value = frequencyFilter.value;
+    var label = "";
+    for (var i = 0; i < frequencyFilterOptions.length; i++) {
+      var optionButton = frequencyFilterOptions[i];
+      var isSelected = optionButton.getAttribute("data-value") === value;
+      optionButton.classList.toggle("is-selected", isSelected);
+      optionButton.setAttribute("aria-selected", isSelected ? "true" : "false");
+      if (isSelected) label = optionButton.textContent.replace(/^\s+|\s+$/g, "");
+    }
+    if (!label && frequencyFilter.options && frequencyFilter.selectedIndex >= 0) {
+      label = frequencyFilter.options[frequencyFilter.selectedIndex].text.replace(/^\s+|\s+$/g, "");
+    }
+    frequencyFilterTriggerText.textContent = label || "全部顯示";
+  }
+
+  function closeFrequencyFilterSelect() {
+    if (!frequencyFilterSelectWrap || !frequencyFilterTrigger) return;
+    frequencyFilterSelectWrap.classList.remove("open");
+    frequencyFilterTrigger.setAttribute("aria-expanded", "false");
+  }
+
+  function openFrequencyFilterSelect() {
+    if (!frequencyFilterSelectWrap || !frequencyFilterTrigger) return;
+    frequencyFilterSelectWrap.classList.add("open");
+    frequencyFilterTrigger.setAttribute("aria-expanded", "true");
+  }
+
   var width = 0;
   var height = 0;
   var dpr = window.devicePixelRatio || 1;
@@ -506,6 +612,51 @@ button,select{font:inherit;}
   var pinchWorldCenter = null;
 
   var FORCE_DISTANCE_VALUES = [1/1.8, 1/1.6, 1/1.4, 1/1.2, 1.0, 1.2, 1.4, 1.6, 1.8];
+
+  var FREQUENCY_STYLES = {
+    "1": { color: "#5C9768", size: 1.2, label: "1" },
+    "2": { color: "#4C80BF", size: 2.4, label: "2" },
+    "3": { color: "#C64E4E", size: 3.8, label: "3" }
+  };
+
+  function getFrequencyStyle(freq) {
+    var key = String(Math.round(parseFloat(freq || 1)));
+    return FREQUENCY_STYLES[key] || FREQUENCY_STYLES["1"];
+  }
+
+  function isFrequencyMode() {
+    return !!(toggleFrequency && toggleFrequency.checked);
+  }
+
+  function shouldShowEdge(edge) {
+    if (!isFrequencyMode()) return true;
+    if (!frequencyFilter || frequencyFilter.value === "all") return true;
+    return String(edge.frequency) === String(frequencyFilter.value);
+  }
+
+  function isAllFrequencyMode() {
+    return isFrequencyMode() && (!frequencyFilter || frequencyFilter.value === "all");
+  }
+
+  function getEdgeRenderStyle(edge) {
+    if (!isFrequencyMode()) return { color: EDGE_COLOR, size: 1.4 };
+    return getFrequencyStyle(edge.frequency);
+  }
+
+  function syncFrequencyControls() {
+    var enabled = isFrequencyMode();
+    if (frequencyFilterWrap) {
+      frequencyFilterWrap.className = enabled ? "frequency-filter-wrap active" : "frequency-filter-wrap";
+      frequencyFilterWrap.setAttribute("aria-hidden", enabled ? "false" : "true");
+    }
+    if (!enabled) closeFrequencyFilterSelect();
+    syncFrequencyFilterSelectUI();
+    var rows = document.getElementsByClassName ? document.getElementsByClassName("freq-legend-row") : [];
+    for (var i = 0; i < rows.length; i++) {
+      rows[i].className = enabled ? "legend-row freq-legend-row active" : "legend-row freq-legend-row";
+      rows[i].setAttribute("aria-hidden", enabled ? "false" : "true");
+    }
+  }
 
   function getForceDistanceFactor() {
     var idx = parseInt(forceDensitySlider.value, 10);
@@ -656,12 +807,28 @@ button,select{font:inherit;}
 
     for (i = 0; i < rawEdges.length; i++) {
       var e = rawEdges[i];
+      var frequency = parseFloat(e.getAttribute("weight") || "1");
+      var edgeAttvalues = e.getElementsByTagName("attvalue");
+      for (j = 0; j < edgeAttvalues.length; j++) {
+        var edgeAv = edgeAttvalues[j];
+        var edgeFor = edgeAv.getAttribute("for");
+        var edgeVal = edgeAv.getAttribute("value");
+        if (edgeFor === "e2" || edgeFor === "frequency" || edgeFor === "合作頻率") {
+          var parsedFrequency = parseFloat(edgeVal);
+          if (!isNaN(parsedFrequency)) frequency = parsedFrequency;
+        }
+      }
+      if (isNaN(frequency) || frequency < 1) frequency = 1;
+      frequency = String(Math.round(frequency));
+      var frequencyStyle = getFrequencyStyle(frequency);
+
       g.edges.push({
         id: e.getAttribute("id") || ("e" + (i + 1)),
         source: e.getAttribute("source"),
         target: e.getAttribute("target"),
-        color: EDGE_COLOR,
-        size: 1.4
+        frequency: frequency,
+        color: frequencyStyle.color,
+        size: frequencyStyle.size
       });
     }
     return g;
@@ -1194,6 +1361,7 @@ button,select{font:inherit;}
     if (hovered.id === nodeId) return true;
     for (var i = 0; i < graph.edges.length; i++) {
       var e = graph.edges[i];
+      if (!shouldShowEdge(e)) continue;
       if (e.source === hovered.id && e.target === nodeId) return true;
       if (e.target === hovered.id && e.source === nodeId) return true;
     }
@@ -1205,6 +1373,13 @@ button,select{font:inherit;}
     ctx.strokeStyle = color;
     ctx.fillStyle = color;
     ctx.lineWidth = widthLine;
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+    if (isFrequencyMode()) {
+      ctx.shadowColor = "rgba(88,76,67,0.10)";
+      ctx.shadowBlur = 3;
+      ctx.shadowOffsetY = 1;
+    }
     ctx.beginPath();
     ctx.moveTo(sx, sy);
     ctx.lineTo(tx, ty);
@@ -1219,6 +1394,31 @@ button,select{font:inherit;}
       ctx.closePath();
       ctx.fill();
     }
+    ctx.restore();
+  }
+
+
+  function drawFrequencyBadge(sx, sy, ex, ey, label, color) {
+    var mx = (sx + ex) / 2;
+    var my = (sy + ey) / 2;
+    var text = String(label);
+    ctx.save();
+    ctx.font = "bold 11px Arial, Noto Sans TC";
+    var tw = ctx.measureText(text).width;
+    var bw = Math.max(18, tw + 10);
+    var bh = 16;
+    ctx.globalAlpha = 0.92;
+    ctx.fillStyle = "rgba(251,248,244,0.92)";
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.rect(mx - bw / 2, my - bh / 2, bw, bh);
+    ctx.fill();
+    ctx.stroke();
+    ctx.fillStyle = color;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(text, mx, my + 0.5);
     ctx.restore();
   }
 
@@ -1321,13 +1521,24 @@ button,select{font:inherit;}
     var items = [];
     var i;
     if (n.type === "member") {
-      for (i = 0; i < graph.edges.length; i++) if (graph.edges[i].source === n.id && nodeMap[graph.edges[i].target]) items.push(nodeMap[graph.edges[i].target].label);
+      for (i = 0; i < graph.edges.length; i++) {
+        if (!shouldShowEdge(graph.edges[i])) continue;
+        if (graph.edges[i].source === n.id && nodeMap[graph.edges[i].target]) {
+          items.push(nodeMap[graph.edges[i].target].label + (isFrequencyMode() ? "（頻率" + graph.edges[i].frequency + "）" : ""));
+        }
+      }
     } else {
-      for (i = 0; i < graph.edges.length; i++) if (graph.edges[i].target === n.id && nodeMap[graph.edges[i].source]) items.push(nodeMap[graph.edges[i].source].label);
+      for (i = 0; i < graph.edges.length; i++) {
+        if (!shouldShowEdge(graph.edges[i])) continue;
+        if (graph.edges[i].target === n.id && nodeMap[graph.edges[i].source]) {
+          items.push(nodeMap[graph.edges[i].source].label + (isFrequencyMode() ? "（頻率" + graph.edges[i].frequency + "）" : ""));
+        }
+      }
     }
     var html = '<div class="title">' + escapeHtml(n.label) + '</div>';
     html += '<div class="meta">' + (n.type === "member" ? "學校成員" : "機構") + '</div>';
-    html += '<div><strong>連結數：' + items.length + '</strong></div>';
+    html += '<div><strong>目前顯示連結數：' + items.length + '</strong></div>';
+    if (isFrequencyMode() && frequencyFilter && frequencyFilter.value !== "all") html += '<div class="meta">合作頻率：' + escapeHtml(frequencyFilter.value) + '</div>';
     if (items.length) {
       html += '<div class="list"><ul style="margin:6px 0 0 18px;padding:0;">';
       for (var j = 0; j < items.length; j++) html += '<li>' + escapeHtml(items[j]) + '</li>';
@@ -1345,6 +1556,7 @@ button,select{font:inherit;}
     // edges
     for (var i = 0; i < graph.edges.length; i++) {
       var e = graph.edges[i];
+      if (!shouldShowEdge(e)) continue;
       var s = nodeMap[e.source];
       var t = nodeMap[e.target];
       if (!s || !t) continue;
@@ -1363,8 +1575,10 @@ button,select{font:inherit;}
       var ex = tp.x - ux * (tr + 10);
       var ey = tp.y - uy * (tr + 10);
 
+      var edgeStyle = getEdgeRenderStyle(e);
       ctx.globalAlpha = hovered && toggleHoverFocus.checked && !(e.source === hovered.id || e.target === hovered.id) ? 0.14 : 1;
-      drawArrow(sx, sy, ex, ey, e.color, e.size, toggleArrows.checked);
+      drawArrow(sx, sy, ex, ey, edgeStyle.color, edgeStyle.size, toggleArrows.checked);
+      if (isAllFrequencyMode()) drawFrequencyBadge(sx, sy, ex, ey, e.frequency, edgeStyle.color);
       ctx.globalAlpha = 1;
     }
 
@@ -1578,6 +1792,8 @@ button,select{font:inherit;}
   }, { passive: false });
 
   syncLayoutModeSelectUI();
+  syncFrequencyFilterSelectUI();
+  syncFrequencyControls();
   if (layoutModeTrigger && layoutModeWrap) {
     layoutModeTrigger.addEventListener("click", function(event) {
       event.preventDefault();
@@ -1594,7 +1810,7 @@ button,select{font:inherit;}
         var nextValue = optionButton.getAttribute("data-value");
         if (layoutMode.value !== nextValue) {
           layoutMode.value = nextValue;
-          layoutMode.dispatchEvent(new Event("change", { bubbles: true }));
+          dispatchNativeChange(layoutMode);
         } else {
           syncLayoutModeSelectUI();
         }
@@ -1605,9 +1821,44 @@ button,select{font:inherit;}
       if (!layoutModeWrap.contains(event.target)) closeLayoutModeSelect();
     });
     document.addEventListener("keydown", function(event) {
-      if (event.key === "Escape") closeLayoutModeSelect();
+      var key = event.key || event.keyCode;
+      if (key === "Escape" || key === 27) closeLayoutModeSelect();
     });
   }
+
+  if (frequencyFilterTrigger && frequencyFilterSelectWrap) {
+    frequencyFilterTrigger.addEventListener("click", function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      if (!isFrequencyMode()) return;
+      if (frequencyFilterSelectWrap.classList.contains("open")) {
+        closeFrequencyFilterSelect();
+      } else {
+        openFrequencyFilterSelect();
+      }
+    });
+    for (var fIdx = 0; fIdx < frequencyFilterOptions.length; fIdx++) {
+      frequencyFilterOptions[fIdx].addEventListener("click", function(event) {
+        event.preventDefault();
+        var nextValue = this.getAttribute("data-value");
+        if (frequencyFilter.value !== nextValue) {
+          frequencyFilter.value = nextValue;
+          dispatchNativeChange(frequencyFilter);
+        } else {
+          syncFrequencyFilterSelectUI();
+          closeFrequencyFilterSelect();
+        }
+      });
+    }
+    document.addEventListener("click", function(event) {
+      if (frequencyFilterSelectWrap && !frequencyFilterSelectWrap.contains(event.target)) closeFrequencyFilterSelect();
+    });
+    document.addEventListener("keydown", function(event) {
+      var key = event.key || event.keyCode;
+      if (key === "Escape" || key === 27) closeFrequencyFilterSelect();
+    });
+  }
+
 
   // UI events
   layoutMode.addEventListener("change", function() {
@@ -1620,6 +1871,18 @@ button,select{font:inherit;}
   toggleLabels.addEventListener("change", function(){ draw(); });
   toggleArrows.addEventListener("change", function(){ draw(); });
   toggleHoverFocus.addEventListener("change", function(){ draw(); });
+  if (toggleFrequency) toggleFrequency.addEventListener("change", function(){
+    syncFrequencyControls();
+    tooltip.style.display = "none";
+    draw();
+  });
+  if (frequencyFilter) frequencyFilter.addEventListener("change", function(){
+    syncFrequencyFilterSelectUI();
+    closeFrequencyFilterSelect();
+    tooltip.style.display = "none";
+    draw();
+    closeMobilePanel();
+  });
 
   forceDensitySlider.addEventListener("input", function() {
     updateForceDensityUI();
@@ -1675,6 +1938,7 @@ headBarCollapse.addEventListener("click", function() {
   syncResponsiveUI();
   updateForceDensityUI();
   updateForceDensityVisibility();
+  syncFrequencyControls();
   resizeCanvas();
   loadGexf();
 })();
