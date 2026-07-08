@@ -1,2085 +1,2285 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-04-15">
-    <creator>OpenAI GPT-5.4 Thinking</creator>
-    <description>03_板橋高中_校與社區網絡_合作頻率（有向二模網路；學校成員以ID顯示，合作頻率以全名顯示）</description>
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2026-07-08">
+    <creator>OpenAI</creator>
+    <description>S03_校與社區網絡_合作頻率 二模有向網絡；依合作頻率1、2、3建立edge屬性與視覺樣式</description>
   </meta>
-  <graph defaultedgetype="directed" mode="static" name="03_板橋高中_校與社區網絡_合作頻率">
-    <attributes class="node" mode="static">
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node">
       <attribute id="node_type" title="node_type" type="string"/>
-      <attribute id="點名稱" title="點名稱" type="string"/>
-      <attribute id="點身分別" title="點身分別" type="string"/>
-      <attribute id="連結數" title="連結數" type="long"/>
-      <attribute id="連結對象" title="連結對象" type="string"/>
+      <attribute id="0" title="點名稱" type="string"/>
+      <attribute id="1" title="點身分別" type="string"/>
+      <attribute id="2" title="連結數" type="integer"/>
+      <attribute id="3" title="連結對象" type="string"/>
+      <attribute id="4" title="角色／職稱" type="string"/>
+      <attribute id="5" title="姓名" type="string"/>
     </attributes>
-    <attributes class="edge" mode="static">
-      <attribute id="方向標示" title="方向標示" type="string"/>
-      <attribute id="網路類型" title="網路類型" type="string"/>
+    <attributes class="edge">
+      <attribute id="e0" title="方向" type="string"/>
+      <attribute id="e1" title="關係" type="string"/>
+      <attribute id="e2" title="合作頻率" type="double"/>
+      <attribute id="frequency" title="frequency" type="integer"/>
     </attributes>
     <nodes>
-      <node id="M_3001" label="3001">
+      <node id="p_3002" label="3002">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3001"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3002"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="林高教官室(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3002" label="3002">
+      <node id="p_3003" label="3003">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3002"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="林高教官室"/>
+          <attvalue for="0" value="3003"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="國立臺灣師範大學特教系(3)；臺北市立陽明教養院(3)；臺灣社會與情緒教育創新推廣協會(2)；台灣未來學校教育學會(1)；親子天下(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="19.09"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3003" label="3003">
+      <node id="p_3004" label="3004">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3003"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="5"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學特教系；臺北市立陽明教養院；臺灣社會與情緒教育創新推廣協會；台灣未來學校教育學會；親子天下"/>
+          <attvalue for="0" value="3004"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="國立臺灣師範大學(1)；台北流行音樂中心(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3004" label="3004">
+      <node id="p_3005" label="3005">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3004"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學；台北流行音樂中心"/>
+          <attvalue for="0" value="3005"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="國立臺灣師範大學(2)；親子天下(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3005" label="3005">
+      <node id="p_3006" label="3006">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3005"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學；親子天下"/>
+          <attvalue for="0" value="3006"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3+2設計公司(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3006" label="3006">
+      <node id="p_3009" label="3009">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3006"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3+2設計公司"/>
+          <attvalue for="0" value="3009"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="幼獅文化事業股份有限公司(2)；創新出版(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3007" label="3007">
+      <node id="p_3010" label="3010">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3007"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3010"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="國立臺灣師範大學心輔所(1)；任林教育基金會(1)；感恩社會福利基金會(1)；臺北市立聯合醫院中興院區(1)；板橋亞東醫院(1)；Taipei Times(1)；同在諮商所(1)；河流療癒趙歌頌缽(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="24.55"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3008" label="3008">
+      <node id="p_3011" label="3011">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3008"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3011"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="11"/>
+          <attvalue for="3" value="國立臺灣師範大學(2)；國立臺灣大學(1)；國家檔案局(1)；法醫研究所(1)；新北地方法院(1)；司法改革基金會(3)；社團法人台灣少年權益與福利促進聯盟(1)；廢死聯盟(3)；國際特赦組織(3)；公視(2)；林作逸老師(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="30.00"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3009" label="3009">
+      <node id="p_3012" label="3012">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3009"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="幼獅文化事業股份有限公司；創新出版"/>
+          <attvalue for="0" value="3012"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="國立臺灣師範大學教育學院(2)；SEL IN TAIWAN(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3010" label="3010">
+      <node id="p_3013" label="3013">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3010"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="8"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學心輔所；任林教育基金會；感恩社會福利基金會；臺北市立聯合醫院中興院區；板橋亞東醫院；Taipei Times；同在諮商所；河流療癒趙歌頌缽"/>
+          <attvalue for="0" value="3013"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="沖繩球陽高校(3)；日本鹿本高校(2)；日本長野秀峰高校(2)；國立體育大學(2)；淡江大學(2)；市民永續股份有限公司(3)；富山縣漁津市公所(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="22.73"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3011" label="3011">
+      <node id="p_3015" label="3015">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3011"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="11"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學；國立臺灣大學；國家檔案局；法醫研究所；新北地方法院；司法改革基金會；社團法人台灣少年權益與福利促進聯盟；廢死聯盟；國際特赦組織；公視；林作逸老師"/>
+          <attvalue for="0" value="3015"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="國立臺灣師範大學(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3012" label="3012">
+      <node id="p_3025" label="3025">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3012"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學教育學院；SEL IN TAIWAN"/>
+          <attvalue for="0" value="3025"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="日本船橋高校(1)；日本一宮高校(3)；美國密蘇里州Principia School(1)；法國伽利略高中(1)；台北醫學大學(3)；輔仁大學(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="20.91"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3013" label="3013">
+      <node id="p_3026" label="3026">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3013"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="7"/>
-          <attvalue for="連結對象" value="沖繩球陽高校；日本鹿本高校；日本長野秀峰高校；國立體育大學；淡江大學；市民永續股份有限公司；富山縣漁津市公所"/>
+          <attvalue for="0" value="3026"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="板橋亞東醫院(2)；旭立諮商中心(2)；荷光心理諮商所(2)；台灣性諮商學會(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="17.27"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3014" label="3014">
+      <node id="p_3031" label="3031">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3014"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3031"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="日本球陽高校(1)；東吳大學師培中心(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3015" label="3015">
+      <node id="p_3033" label="3033">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3015"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學"/>
+          <attvalue for="0" value="3033"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="國立臺灣師範大學(2)；國立臺北大學(2)；台北醫學大學(1)；國立台灣圖書分館(1)；海山基金會(1)；扶輪社(2)；獅子會(2)；駐外單位(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="24.55"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3016" label="3016">
+      <node id="p_3036" label="3036">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3016"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3036"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="國立臺灣師範大學地球科學系(2)；國立臺灣大學海洋科學研究所(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3017" label="3017">
+      <node id="p_3037" label="3037">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3017"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3037"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="德國內爾布勞寧中學(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3018" label="3018">
+      <node id="p_3039" label="3039">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3018"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3039"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="11"/>
+          <attvalue for="3" value="新北市立清水高級中學(1)；新北市立丹鳳高級中學(1)；臺北市立麗山高級中學(1)；桃園市立壽山高級中等學校(1)；新北市立瑞芳高級工業職業學校(1)；日本船橋高校(3)；日本一宮高校(3)；美國密蘇里州Principia School(3)；法國伽利略高中(2)；國教署英語文學科中心(3)；基督教台灣信義會板橋福音堂(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="30.00"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3019" label="3019">
+      <node id="p_3041" label="3041">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3019"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3041"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="國立臺灣師範大學(1)；國立臺灣師範大學心測中心(1)；國立臺灣大學(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="15.45"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3020" label="3020">
+      <node id="p_3043" label="3043">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3020"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3043"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="國立高雄師範大學(1)；史丹佛大學(1)；洛杉磯公共圖書館(1)；國立故宮博物院(1)；美國在台協會(1)；親子天下(1)；MAKER FAIRE(1)；皮克斯總部(1)；輝達(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="26.36"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3021" label="3021">
+      <node id="p_3046" label="3046">
         <attvalues>
           <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3021"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
+          <attvalue for="0" value="3046"/>
+          <attvalue for="1" value="學校成員"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="翰林出版事業股份有限公司(3)；龍騰文化(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
+        <viz:color r="174" g="185" b="170" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="disc"/>
       </node>
-      <node id="M_3022" label="3022">
+      <node id="i_3+2設計公司" label="3+2設計公司">
         <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3022"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3023" label="3023">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3023"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3024" label="3024">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3024"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3025" label="3025">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3025"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="6"/>
-          <attvalue for="連結對象" value="日本船橋高校；日本一宮高校；美國密蘇里州Principia School；法國伽利略高中；台北醫學大學；輔仁大學"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3026" label="3026">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3026"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="4"/>
-          <attvalue for="連結對象" value="板橋亞東醫院；旭立諮商中心；荷光心理諮商所；台灣性諮商學會"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3027" label="3027">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3027"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3028" label="3028">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3028"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3029" label="3029">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3029"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3030" label="3030">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3030"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3031" label="3031">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3031"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="日本球陽高校；東吳大學師培中心"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3032" label="3032">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3032"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3033" label="3033">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3033"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="8"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學；國立臺北大學；台北醫學大學；國立台灣圖書分館；海山基金會；扶輪社；獅子會；駐外單位"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3034" label="3034">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3034"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3035" label="3035">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3035"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3036" label="3036">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3036"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學地球科學系；國立臺灣大學海洋科學研究所"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3037" label="3037">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3037"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="德國內爾布勞寧中學"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3038" label="3038">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3038"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3039" label="3039">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3039"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="11"/>
-          <attvalue for="連結對象" value="新北市立清水高級中學；新北市立丹鳳高級中學；臺北市立麗山高級中學；桃園市立壽山高級中等學校；新北市立瑞芳高級工業職業學校；日本船橋高校；日本一宮高校；美國密蘇里州Principia School；法國伽利略高中；國教署英語文學科中心；基督教台灣信義會板橋福音堂"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3040" label="3040">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3040"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3041" label="3041">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3041"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="3"/>
-          <attvalue for="連結對象" value="國立臺灣師範大學；國立臺灣師範大學心測中心；國立臺灣大學"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3042" label="3042">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3042"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3043" label="3043">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3043"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="9"/>
-          <attvalue for="連結對象" value="國立高雄師範大學；史丹佛大學；洛杉磯公共圖書館；國立故宮博物院；美國在台協會；親子天下；MAKER FAIRE；皮克斯總部；輝達"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3044" label="3044">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3044"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3045" label="3045">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3045"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="0"/>
-          <attvalue for="連結對象" value="無"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="M_3046" label="3046">
-        <attvalues>
-          <attvalue for="node_type" value="member"/>
-          <attvalue for="點名稱" value="3046"/>
-          <attvalue for="點身分別" value="學校成員"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="翰林出版事業股份有限公司；龍騰文化"/>
-        </attvalues>
-        <viz:color r="174" g="185" b="170"/>
-        <viz:size value="10"/>
-      </node>
-      <node id="I_新北市立清水高級中學" label="新北市立清水高級中學">
-        <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="新北市立清水高級中學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3039"/>
+          <attvalue for="0" value="3+2設計公司"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3006(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_新北市立丹鳳高級中學" label="新北市立丹鳳高級中學">
+      <node id="i_MAKER FAIRE" label="MAKER FAIRE">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="新北市立丹鳳高級中學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3039"/>
+          <attvalue for="0" value="MAKER FAIRE"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_臺北市立麗山高級中學" label="臺北市立麗山高級中學">
+      <node id="i_SEL IN TAIWAN" label="SEL IN TAIWAN">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="臺北市立麗山高級中學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3039"/>
+          <attvalue for="0" value="SEL IN TAIWAN"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3012(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_桃園市立壽山高級中等學校" label="桃園市立壽山高級中等學校">
+      <node id="i_Taipei Times" label="Taipei Times">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="桃園市立壽山高級中等學校"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3039"/>
+          <attvalue for="0" value="Taipei Times"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3010(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_新北市立瑞芳高級工業職業學校" label="新北市立瑞芳高級工業職業學校">
+      <node id="i_任林教育基金會" label="任林教育基金會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="新北市立瑞芳高級工業職業學校"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3039"/>
+          <attvalue for="0" value="任林教育基金會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3010(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_沖繩球陽高校" label="沖繩球陽高校">
+      <node id="i_公視" label="公視">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="沖繩球陽高校"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3013"/>
+          <attvalue for="0" value="公視"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_日本鹿本高校" label="日本鹿本高校">
+      <node id="i_創新出版" label="創新出版">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="日本鹿本高校"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3013"/>
+          <attvalue for="0" value="創新出版"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3009(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_日本長野秀峰高校" label="日本長野秀峰高校">
+      <node id="i_台北流行音樂中心" label="台北流行音樂中心">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="日本長野秀峰高校"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3013"/>
+          <attvalue for="0" value="台北流行音樂中心"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3004(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_日本船橋高校" label="日本船橋高校">
+      <node id="i_台北醫學大學" label="台北醫學大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="日本船橋高校"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="3025；3039"/>
+          <attvalue for="0" value="台北醫學大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="3025(3)；3033(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_日本一宮高校" label="日本一宮高校">
+      <node id="i_台灣性諮商學會" label="台灣性諮商學會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="日本一宮高校"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="3025；3039"/>
+          <attvalue for="0" value="台灣性諮商學會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3026(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_日本球陽高校" label="日本球陽高校">
+      <node id="i_台灣未來學校教育學會" label="台灣未來學校教育學會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="日本球陽高校"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3031"/>
+          <attvalue for="0" value="台灣未來學校教育學會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3003(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_美國密蘇里州Principia School" label="美國密蘇里州Principia School">
+      <node id="i_史丹佛大學" label="史丹佛大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="美國密蘇里州Principia School"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="3025；3039"/>
+          <attvalue for="0" value="史丹佛大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_法國伽利略高中" label="法國伽利略高中">
+      <node id="i_司法改革基金會" label="司法改革基金會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="法國伽利略高中"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="3025；3039"/>
+          <attvalue for="0" value="司法改革基金會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_德國內爾布勞寧中學" label="德國內爾布勞寧中學">
+      <node id="i_同在諮商所" label="同在諮商所">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="德國內爾布勞寧中學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3037"/>
+          <attvalue for="0" value="同在諮商所"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3010(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺灣師範大學" label="國立臺灣師範大學">
+      <node id="i_國家檔案局" label="國家檔案局">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺灣師範大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="6"/>
-          <attvalue for="連結對象" value="3004；3005；3011；3015；3033；3041"/>
+          <attvalue for="0" value="國家檔案局"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺灣師範大學特教系" label="國立臺灣師範大學特教系">
+      <node id="i_國教署英語文學科中心" label="國教署英語文學科中心">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺灣師範大學特教系"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3003"/>
+          <attvalue for="0" value="國教署英語文學科中心"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3039(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺灣師範大學心輔所" label="國立臺灣師範大學心輔所">
+      <node id="i_國立台灣圖書分館" label="國立台灣圖書分館">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺灣師範大學心輔所"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3010"/>
+          <attvalue for="0" value="國立台灣圖書分館"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3033(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺灣師範大學教育學院" label="國立臺灣師範大學教育學院">
+      <node id="i_國立故宮博物院" label="國立故宮博物院">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺灣師範大學教育學院"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3012"/>
+          <attvalue for="0" value="國立故宮博物院"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺灣師範大學地球科學系" label="國立臺灣師範大學地球科學系">
+      <node id="i_國立臺北大學" label="國立臺北大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺灣師範大學地球科學系"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3036"/>
+          <attvalue for="0" value="國立臺北大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3033(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺灣師範大學心測中心" label="國立臺灣師範大學心測中心">
+      <node id="i_國立臺灣大學" label="國立臺灣大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺灣師範大學心測中心"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3041"/>
+          <attvalue for="0" value="國立臺灣大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="3011(1)；3041(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺灣大學" label="國立臺灣大學">
+      <node id="i_國立臺灣大學海洋科學研究所" label="國立臺灣大學海洋科學研究所">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺灣大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="3011；3041"/>
+          <attvalue for="0" value="國立臺灣大學海洋科學研究所"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3036(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺灣大學海洋科學研究所" label="國立臺灣大學海洋科學研究所">
+      <node id="i_國立臺灣師範大學" label="國立臺灣師範大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺灣大學海洋科學研究所"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3036"/>
+          <attvalue for="0" value="國立臺灣師範大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="3004(1)；3005(2)；3011(2)；3015(1)；3033(2)；3041(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="20.91"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立高雄師範大學" label="國立高雄師範大學">
+      <node id="i_國立臺灣師範大學地球科學系" label="國立臺灣師範大學地球科學系">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立高雄師範大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3043"/>
+          <attvalue for="0" value="國立臺灣師範大學地球科學系"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3036(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立臺北大學" label="國立臺北大學">
+      <node id="i_國立臺灣師範大學心測中心" label="國立臺灣師範大學心測中心">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立臺北大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3033"/>
+          <attvalue for="0" value="國立臺灣師範大學心測中心"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3041(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立體育大學" label="國立體育大學">
+      <node id="i_國立臺灣師範大學心輔所" label="國立臺灣師範大學心輔所">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立體育大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3013"/>
+          <attvalue for="0" value="國立臺灣師範大學心輔所"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3010(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_台北醫學大學" label="台北醫學大學">
+      <node id="i_國立臺灣師範大學教育學院" label="國立臺灣師範大學教育學院">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="台北醫學大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="3025；3033"/>
+          <attvalue for="0" value="國立臺灣師範大學教育學院"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3012(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_輔仁大學" label="輔仁大學">
+      <node id="i_國立臺灣師範大學特教系" label="國立臺灣師範大學特教系">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="輔仁大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3025"/>
+          <attvalue for="0" value="國立臺灣師範大學特教系"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3003(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_淡江大學" label="淡江大學">
+      <node id="i_國立體育大學" label="國立體育大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="淡江大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3013"/>
+          <attvalue for="0" value="國立體育大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3013(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_東吳大學師培中心" label="東吳大學師培中心">
+      <node id="i_國立高雄師範大學" label="國立高雄師範大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="東吳大學師培中心"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3031"/>
+          <attvalue for="0" value="國立高雄師範大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_史丹佛大學" label="史丹佛大學">
+      <node id="i_國際特赦組織" label="國際特赦組織">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="史丹佛大學"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3043"/>
+          <attvalue for="0" value="國際特赦組織"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國教署英語文學科中心" label="國教署英語文學科中心">
+      <node id="i_基督教台灣信義會板橋福音堂" label="基督教台灣信義會板橋福音堂">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國教署英語文學科中心"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3039"/>
+          <attvalue for="0" value="基督教台灣信義會板橋福音堂"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3039(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立台灣圖書分館" label="國立台灣圖書分館">
+      <node id="i_富山縣漁津市公所" label="富山縣漁津市公所">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立台灣圖書分館"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3033"/>
+          <attvalue for="0" value="富山縣漁津市公所"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3013(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_洛杉磯公共圖書館" label="洛杉磯公共圖書館">
+      <node id="i_市民永續股份有限公司" label="市民永續股份有限公司">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="洛杉磯公共圖書館"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3043"/>
+          <attvalue for="0" value="市民永續股份有限公司"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3013(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國立故宮博物院" label="國立故宮博物院">
+      <node id="i_幼獅文化事業股份有限公司" label="幼獅文化事業股份有限公司">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國立故宮博物院"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3043"/>
+          <attvalue for="0" value="幼獅文化事業股份有限公司"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3009(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國家檔案局" label="國家檔案局">
+      <node id="i_廢死聯盟" label="廢死聯盟">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國家檔案局"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="廢死聯盟"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_法醫研究所" label="法醫研究所">
+      <node id="i_德國內爾布勞寧中學" label="德國內爾布勞寧中學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="法醫研究所"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="德國內爾布勞寧中學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3037(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_新北地方法院" label="新北地方法院">
+      <node id="i_感恩社會福利基金會" label="感恩社會福利基金會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="新北地方法院"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="感恩社會福利基金會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3010(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_任林教育基金會" label="任林教育基金會">
+      <node id="i_扶輪社" label="扶輪社">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="任林教育基金會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3010"/>
+          <attvalue for="0" value="扶輪社"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3033(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_感恩社會福利基金會" label="感恩社會福利基金會">
+      <node id="i_新北地方法院" label="新北地方法院">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="感恩社會福利基金會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3010"/>
+          <attvalue for="0" value="新北地方法院"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_海山基金會" label="海山基金會">
+      <node id="i_新北市立丹鳳高級中學" label="新北市立丹鳳高級中學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="海山基金會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3033"/>
+          <attvalue for="0" value="新北市立丹鳳高級中學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3039(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_司法改革基金會" label="司法改革基金會">
+      <node id="i_新北市立清水高級中學" label="新北市立清水高級中學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="司法改革基金會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="新北市立清水高級中學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3039(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_社團法人台灣少年權益與福利促進聯盟" label="社團法人台灣少年權益與福利促進聯盟">
+      <node id="i_新北市立瑞芳高級工業職業學校" label="新北市立瑞芳高級工業職業學校">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="社團法人台灣少年權益與福利促進聯盟"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="新北市立瑞芳高級工業職業學校"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3039(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_廢死聯盟" label="廢死聯盟">
+      <node id="i_日本一宮高校" label="日本一宮高校">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="廢死聯盟"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="日本一宮高校"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="3025(3)；3039(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_國際特赦組織" label="國際特赦組織">
+      <node id="i_日本球陽高校" label="日本球陽高校">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="國際特赦組織"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="日本球陽高校"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3031(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_臺北市立陽明教養院" label="臺北市立陽明教養院">
+      <node id="i_日本船橋高校" label="日本船橋高校">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="臺北市立陽明教養院"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3003"/>
+          <attvalue for="0" value="日本船橋高校"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="3025(1)；3039(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_臺北市立聯合醫院中興院區" label="臺北市立聯合醫院中興院區">
+      <node id="i_日本長野秀峰高校" label="日本長野秀峰高校">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="臺北市立聯合醫院中興院區"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3010"/>
+          <attvalue for="0" value="日本長野秀峰高校"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3013(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_板橋亞東醫院" label="板橋亞東醫院">
+      <node id="i_日本鹿本高校" label="日本鹿本高校">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="板橋亞東醫院"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="2"/>
-          <attvalue for="連結對象" value="3010；3026"/>
+          <attvalue for="0" value="日本鹿本高校"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3013(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_美國在台協會" label="美國在台協會">
+      <node id="i_旭立諮商中心" label="旭立諮商中心">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="美國在台協會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3043"/>
+          <attvalue for="0" value="旭立諮商中心"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3026(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_臺灣社會與情緒教育創新推廣協會" label="臺灣社會與情緒教育創新推廣協會">
+      <node id="i_東吳大學師培中心" label="東吳大學師培中心">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="臺灣社會與情緒教育創新推廣協會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3003"/>
+          <attvalue for="0" value="東吳大學師培中心"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3031(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_台灣未來學校教育學會" label="台灣未來學校教育學會">
+      <node id="i_板橋亞東醫院" label="板橋亞東醫院">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="台灣未來學校教育學會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3003"/>
+          <attvalue for="0" value="板橋亞東醫院"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="3010(1)；3026(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_公視" label="公視">
+      <node id="i_林作逸老師" label="林作逸老師">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="公視"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="林作逸老師"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_親子天下" label="親子天下">
+      <node id="i_林高教官室" label="林高教官室">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="親子天下"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="3"/>
-          <attvalue for="連結對象" value="3003；3005；3043"/>
+          <attvalue for="0" value="林高教官室"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3002(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_MAKER FAIRE" label="MAKER FAIRE">
+      <node id="i_桃園市立壽山高級中等學校" label="桃園市立壽山高級中等學校">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="MAKER FAIRE"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3043"/>
+          <attvalue for="0" value="桃園市立壽山高級中等學校"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3039(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_SEL IN TAIWAN" label="SEL IN TAIWAN">
+      <node id="i_沖繩球陽高校" label="沖繩球陽高校">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="SEL IN TAIWAN"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3012"/>
+          <attvalue for="0" value="沖繩球陽高校"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3013(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_市民永續股份有限公司" label="市民永續股份有限公司">
+      <node id="i_河流療癒趙歌頌缽" label="河流療癒趙歌頌缽">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="市民永續股份有限公司"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3013"/>
+          <attvalue for="0" value="河流療癒趙歌頌缽"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3010(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_幼獅文化事業股份有限公司" label="幼獅文化事業股份有限公司">
+      <node id="i_法國伽利略高中" label="法國伽利略高中">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="幼獅文化事業股份有限公司"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3009"/>
+          <attvalue for="0" value="法國伽利略高中"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="3025(1)；3039(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_創新出版" label="創新出版">
+      <node id="i_法醫研究所" label="法醫研究所">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="創新出版"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3009"/>
+          <attvalue for="0" value="法醫研究所"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_翰林出版事業股份有限公司" label="翰林出版事業股份有限公司">
+      <node id="i_洛杉磯公共圖書館" label="洛杉磯公共圖書館">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="翰林出版事業股份有限公司"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3046"/>
+          <attvalue for="0" value="洛杉磯公共圖書館"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_龍騰文化" label="龍騰文化">
+      <node id="i_海山基金會" label="海山基金會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="龍騰文化"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3046"/>
+          <attvalue for="0" value="海山基金會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3033(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_Taipei Times" label="Taipei Times">
+      <node id="i_淡江大學" label="淡江大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="Taipei Times"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3010"/>
+          <attvalue for="0" value="淡江大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3013(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_扶輪社" label="扶輪社">
+      <node id="i_獅子會" label="獅子會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="扶輪社"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3033"/>
+          <attvalue for="0" value="獅子會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3033(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_獅子會" label="獅子會">
+      <node id="i_皮克斯總部" label="皮克斯總部">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="獅子會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3033"/>
+          <attvalue for="0" value="皮克斯總部"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_旭立諮商中心" label="旭立諮商中心">
+      <node id="i_社團法人台灣少年權益與福利促進聯盟" label="社團法人台灣少年權益與福利促進聯盟">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="旭立諮商中心"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3026"/>
+          <attvalue for="0" value="社團法人台灣少年權益與福利促進聯盟"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3011(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_荷光心理諮商所" label="荷光心理諮商所">
+      <node id="i_美國在台協會" label="美國在台協會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="荷光心理諮商所"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3026"/>
+          <attvalue for="0" value="美國在台協會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_台灣性諮商學會" label="台灣性諮商學會">
+      <node id="i_美國密蘇里州Principia School" label="美國密蘇里州Principia School">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="台灣性諮商學會"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3026"/>
+          <attvalue for="0" value="美國密蘇里州Principia School"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="3025(1)；3039(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="13.64"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_同在諮商所" label="同在諮商所">
+      <node id="i_翰林出版事業股份有限公司" label="翰林出版事業股份有限公司">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="同在諮商所"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3010"/>
+          <attvalue for="0" value="翰林出版事業股份有限公司"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3046(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_台北流行音樂中心" label="台北流行音樂中心">
+      <node id="i_臺北市立聯合醫院中興院區" label="臺北市立聯合醫院中興院區">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="台北流行音樂中心"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3004"/>
+          <attvalue for="0" value="臺北市立聯合醫院中興院區"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3010(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_河流療癒趙歌頌缽" label="河流療癒趙歌頌缽">
+      <node id="i_臺北市立陽明教養院" label="臺北市立陽明教養院">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="河流療癒趙歌頌缽"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3010"/>
+          <attvalue for="0" value="臺北市立陽明教養院"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3003(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_基督教台灣信義會板橋福音堂" label="基督教台灣信義會板橋福音堂">
+      <node id="i_臺北市立麗山高級中學" label="臺北市立麗山高級中學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="基督教台灣信義會板橋福音堂"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3039"/>
+          <attvalue for="0" value="臺北市立麗山高級中學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3039(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_富山縣漁津市公所" label="富山縣漁津市公所">
+      <node id="i_臺灣社會與情緒教育創新推廣協會" label="臺灣社會與情緒教育創新推廣協會">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="富山縣漁津市公所"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3013"/>
+          <attvalue for="0" value="臺灣社會與情緒教育創新推廣協會"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3003(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_駐外單位" label="駐外單位">
+      <node id="i_荷光心理諮商所" label="荷光心理諮商所">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="駐外單位"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3033"/>
+          <attvalue for="0" value="荷光心理諮商所"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3026(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_3+2設計公司" label="3+2設計公司">
+      <node id="i_親子天下" label="親子天下">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="3+2設計公司"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3006"/>
+          <attvalue for="0" value="親子天下"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="3003(2)；3005(2)；3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="15.45"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_林作逸老師" label="林作逸老師">
+      <node id="i_輔仁大學" label="輔仁大學">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="林作逸老師"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3011"/>
+          <attvalue for="0" value="輔仁大學"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3025(3)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_林高教官室" label="林高教官室">
+      <node id="i_輝達" label="輝達">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="林高教官室"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3002"/>
+          <attvalue for="0" value="輝達"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3043(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_皮克斯總部" label="皮克斯總部">
+      <node id="i_駐外單位" label="駐外單位">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="皮克斯總部"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3043"/>
+          <attvalue for="0" value="駐外單位"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3033(1)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
-      <node id="I_輝達" label="輝達">
+      <node id="i_龍騰文化" label="龍騰文化">
         <attvalues>
           <attvalue for="node_type" value="institution"/>
-          <attvalue for="點名稱" value="輝達"/>
-          <attvalue for="點身分別" value="機構"/>
-          <attvalue for="連結數" value="1"/>
-          <attvalue for="連結對象" value="3043"/>
+          <attvalue for="0" value="龍騰文化"/>
+          <attvalue for="1" value="校與社區網絡"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="3046(2)"/>
+          <attvalue for="4" value=""/>
+          <attvalue for="5" value=""/>
         </attvalues>
-        <viz:color r="198" g="182" b="188"/>
-        <viz:size value="11"/>
+        <viz:color r="198" g="182" b="188" a="1.0"/>
+        <viz:size value="11.82"/>
+        <viz:shape value="square"/>
       </node>
     </nodes>
     <edges>
-      <edge id="e1" source="M_3002" target="I_林高教官室" label="單向" type="directed" weight="1">
+      <edge id="0" source="p_3002" target="i_林高教官室" label="3002→林高教官室 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3002→林高教官室"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e2" source="M_3003" target="I_國立臺灣師範大學特教系" label="單向" type="directed" weight="1">
+      <edge id="1" source="p_3003" target="i_國立臺灣師範大學特教系" label="3003→國立臺灣師範大學特教系 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3003→國立臺灣師範大學特教系"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e3" source="M_3003" target="I_臺北市立陽明教養院" label="單向" type="directed" weight="1">
+      <edge id="2" source="p_3003" target="i_臺北市立陽明教養院" label="3003→臺北市立陽明教養院 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3003→臺北市立陽明教養院"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e4" source="M_3003" target="I_臺灣社會與情緒教育創新推廣協會" label="單向" type="directed" weight="1">
+      <edge id="3" source="p_3003" target="i_臺灣社會與情緒教育創新推廣協會" label="3003→臺灣社會與情緒教育創新推廣協會 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3003→臺灣社會與情緒教育創新推廣協會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e5" source="M_3003" target="I_台灣未來學校教育學會" label="單向" type="directed" weight="1">
+      <edge id="4" source="p_3003" target="i_台灣未來學校教育學會" label="3003→台灣未來學校教育學會 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3003→台灣未來學校教育學會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e6" source="M_3003" target="I_親子天下" label="單向" type="directed" weight="1">
+      <edge id="5" source="p_3003" target="i_親子天下" label="3003→親子天下 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3003→親子天下"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e7" source="M_3004" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+      <edge id="6" source="p_3004" target="i_國立臺灣師範大學" label="3004→國立臺灣師範大學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3004→國立臺灣師範大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e8" source="M_3004" target="I_台北流行音樂中心" label="單向" type="directed" weight="1">
+      <edge id="7" source="p_3004" target="i_台北流行音樂中心" label="3004→台北流行音樂中心 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3004→台北流行音樂中心"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e9" source="M_3005" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+      <edge id="8" source="p_3005" target="i_國立臺灣師範大學" label="3005→國立臺灣師範大學 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3005→國立臺灣師範大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e10" source="M_3005" target="I_親子天下" label="單向" type="directed" weight="1">
+      <edge id="9" source="p_3005" target="i_親子天下" label="3005→親子天下 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3005→親子天下"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e11" source="M_3006" target="I_3+2設計公司" label="單向" type="directed" weight="1">
+      <edge id="10" source="p_3006" target="i_3+2設計公司" label="3006→3+2設計公司 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3006→3+2設計公司"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e12" source="M_3009" target="I_幼獅文化事業股份有限公司" label="單向" type="directed" weight="1">
+      <edge id="11" source="p_3009" target="i_幼獅文化事業股份有限公司" label="3009→幼獅文化事業股份有限公司 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3009→幼獅文化事業股份有限公司"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e13" source="M_3009" target="I_創新出版" label="單向" type="directed" weight="1">
+      <edge id="12" source="p_3009" target="i_創新出版" label="3009→創新出版 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3009→創新出版"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e14" source="M_3010" target="I_國立臺灣師範大學心輔所" label="單向" type="directed" weight="1">
+      <edge id="13" source="p_3010" target="i_國立臺灣師範大學心輔所" label="3010→國立臺灣師範大學心輔所 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3010→國立臺灣師範大學心輔所"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e15" source="M_3010" target="I_任林教育基金會" label="單向" type="directed" weight="1">
+      <edge id="14" source="p_3010" target="i_任林教育基金會" label="3010→任林教育基金會 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3010→任林教育基金會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e16" source="M_3010" target="I_感恩社會福利基金會" label="單向" type="directed" weight="1">
+      <edge id="15" source="p_3010" target="i_感恩社會福利基金會" label="3010→感恩社會福利基金會 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3010→感恩社會福利基金會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e17" source="M_3010" target="I_臺北市立聯合醫院中興院區" label="單向" type="directed" weight="1">
+      <edge id="16" source="p_3010" target="i_臺北市立聯合醫院中興院區" label="3010→臺北市立聯合醫院中興院區 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3010→臺北市立聯合醫院中興院區"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e18" source="M_3010" target="I_板橋亞東醫院" label="單向" type="directed" weight="1">
+      <edge id="17" source="p_3010" target="i_板橋亞東醫院" label="3010→板橋亞東醫院 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3010→板橋亞東醫院"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e19" source="M_3010" target="I_Taipei Times" label="單向" type="directed" weight="1">
+      <edge id="18" source="p_3010" target="i_Taipei Times" label="3010→Taipei Times (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3010→Taipei Times"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e20" source="M_3010" target="I_同在諮商所" label="單向" type="directed" weight="1">
+      <edge id="19" source="p_3010" target="i_同在諮商所" label="3010→同在諮商所 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3010→同在諮商所"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e21" source="M_3010" target="I_河流療癒趙歌頌缽" label="單向" type="directed" weight="1">
+      <edge id="20" source="p_3010" target="i_河流療癒趙歌頌缽" label="3010→河流療癒趙歌頌缽 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3010→河流療癒趙歌頌缽"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e22" source="M_3011" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+      <edge id="21" source="p_3011" target="i_國立臺灣師範大學" label="3011→國立臺灣師範大學 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→國立臺灣師範大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e23" source="M_3011" target="I_國立臺灣大學" label="單向" type="directed" weight="1">
+      <edge id="22" source="p_3011" target="i_國立臺灣大學" label="3011→國立臺灣大學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→國立臺灣大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e24" source="M_3011" target="I_國家檔案局" label="單向" type="directed" weight="1">
+      <edge id="23" source="p_3011" target="i_國家檔案局" label="3011→國家檔案局 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→國家檔案局"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e25" source="M_3011" target="I_法醫研究所" label="單向" type="directed" weight="1">
+      <edge id="24" source="p_3011" target="i_法醫研究所" label="3011→法醫研究所 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→法醫研究所"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e26" source="M_3011" target="I_新北地方法院" label="單向" type="directed" weight="1">
+      <edge id="25" source="p_3011" target="i_新北地方法院" label="3011→新北地方法院 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→新北地方法院"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e27" source="M_3011" target="I_司法改革基金會" label="單向" type="directed" weight="1">
+      <edge id="26" source="p_3011" target="i_司法改革基金會" label="3011→司法改革基金會 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→司法改革基金會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e28" source="M_3011" target="I_社團法人台灣少年權益與福利促進聯盟" label="單向" type="directed" weight="1">
+      <edge id="27" source="p_3011" target="i_社團法人台灣少年權益與福利促進聯盟" label="3011→社團法人台灣少年權益與福利促進聯盟 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→社團法人台灣少年權益與福利促進聯盟"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e29" source="M_3011" target="I_廢死聯盟" label="單向" type="directed" weight="1">
+      <edge id="28" source="p_3011" target="i_廢死聯盟" label="3011→廢死聯盟 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→廢死聯盟"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e30" source="M_3011" target="I_國際特赦組織" label="單向" type="directed" weight="1">
+      <edge id="29" source="p_3011" target="i_國際特赦組織" label="3011→國際特赦組織 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→國際特赦組織"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e31" source="M_3011" target="I_公視" label="單向" type="directed" weight="1">
+      <edge id="30" source="p_3011" target="i_公視" label="3011→公視 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→公視"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e32" source="M_3011" target="I_林作逸老師" label="單向" type="directed" weight="1">
+      <edge id="31" source="p_3011" target="i_林作逸老師" label="3011→林作逸老師 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3011→林作逸老師"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e33" source="M_3012" target="I_國立臺灣師範大學教育學院" label="單向" type="directed" weight="1">
+      <edge id="32" source="p_3012" target="i_國立臺灣師範大學教育學院" label="3012→國立臺灣師範大學教育學院 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3012→國立臺灣師範大學教育學院"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e34" source="M_3012" target="I_SEL IN TAIWAN" label="單向" type="directed" weight="1">
+      <edge id="33" source="p_3012" target="i_SEL IN TAIWAN" label="3012→SEL IN TAIWAN (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3012→SEL IN TAIWAN"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e35" source="M_3013" target="I_沖繩球陽高校" label="單向" type="directed" weight="1">
+      <edge id="34" source="p_3013" target="i_沖繩球陽高校" label="3013→沖繩球陽高校 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3013→沖繩球陽高校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e36" source="M_3013" target="I_日本鹿本高校" label="單向" type="directed" weight="1">
+      <edge id="35" source="p_3013" target="i_日本鹿本高校" label="3013→日本鹿本高校 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3013→日本鹿本高校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e37" source="M_3013" target="I_日本長野秀峰高校" label="單向" type="directed" weight="1">
+      <edge id="36" source="p_3013" target="i_日本長野秀峰高校" label="3013→日本長野秀峰高校 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3013→日本長野秀峰高校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e38" source="M_3013" target="I_國立體育大學" label="單向" type="directed" weight="1">
+      <edge id="37" source="p_3013" target="i_國立體育大學" label="3013→國立體育大學 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3013→國立體育大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e39" source="M_3013" target="I_淡江大學" label="單向" type="directed" weight="1">
+      <edge id="38" source="p_3013" target="i_淡江大學" label="3013→淡江大學 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3013→淡江大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e40" source="M_3013" target="I_市民永續股份有限公司" label="單向" type="directed" weight="1">
+      <edge id="39" source="p_3013" target="i_市民永續股份有限公司" label="3013→市民永續股份有限公司 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3013→市民永續股份有限公司"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e41" source="M_3013" target="I_富山縣漁津市公所" label="單向" type="directed" weight="1">
+      <edge id="40" source="p_3013" target="i_富山縣漁津市公所" label="3013→富山縣漁津市公所 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3013→富山縣漁津市公所"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e42" source="M_3015" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+      <edge id="41" source="p_3015" target="i_國立臺灣師範大學" label="3015→國立臺灣師範大學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3015→國立臺灣師範大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e43" source="M_3025" target="I_日本船橋高校" label="單向" type="directed" weight="1">
+      <edge id="42" source="p_3025" target="i_日本船橋高校" label="3025→日本船橋高校 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3025→日本船橋高校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e44" source="M_3025" target="I_日本一宮高校" label="單向" type="directed" weight="1">
+      <edge id="43" source="p_3025" target="i_日本一宮高校" label="3025→日本一宮高校 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3025→日本一宮高校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e45" source="M_3025" target="I_美國密蘇里州Principia School" label="單向" type="directed" weight="1">
+      <edge id="44" source="p_3025" target="i_美國密蘇里州Principia School" label="3025→美國密蘇里州Principia School (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3025→美國密蘇里州Principia School"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e46" source="M_3025" target="I_法國伽利略高中" label="單向" type="directed" weight="1">
+      <edge id="45" source="p_3025" target="i_法國伽利略高中" label="3025→法國伽利略高中 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3025→法國伽利略高中"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e47" source="M_3025" target="I_台北醫學大學" label="單向" type="directed" weight="1">
+      <edge id="46" source="p_3025" target="i_台北醫學大學" label="3025→台北醫學大學 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3025→台北醫學大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e48" source="M_3025" target="I_輔仁大學" label="單向" type="directed" weight="1">
+      <edge id="47" source="p_3025" target="i_輔仁大學" label="3025→輔仁大學 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3025→輔仁大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e49" source="M_3026" target="I_板橋亞東醫院" label="單向" type="directed" weight="1">
+      <edge id="48" source="p_3026" target="i_板橋亞東醫院" label="3026→板橋亞東醫院 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3026→板橋亞東醫院"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e50" source="M_3026" target="I_旭立諮商中心" label="單向" type="directed" weight="1">
+      <edge id="49" source="p_3026" target="i_旭立諮商中心" label="3026→旭立諮商中心 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3026→旭立諮商中心"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e51" source="M_3026" target="I_荷光心理諮商所" label="單向" type="directed" weight="1">
+      <edge id="50" source="p_3026" target="i_荷光心理諮商所" label="3026→荷光心理諮商所 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3026→荷光心理諮商所"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e52" source="M_3026" target="I_台灣性諮商學會" label="單向" type="directed" weight="1">
+      <edge id="51" source="p_3026" target="i_台灣性諮商學會" label="3026→台灣性諮商學會 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3026→台灣性諮商學會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e53" source="M_3031" target="I_日本球陽高校" label="單向" type="directed" weight="1">
+      <edge id="52" source="p_3031" target="i_日本球陽高校" label="3031→日本球陽高校 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3031→日本球陽高校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e54" source="M_3031" target="I_東吳大學師培中心" label="單向" type="directed" weight="1">
+      <edge id="53" source="p_3031" target="i_東吳大學師培中心" label="3031→東吳大學師培中心 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3031→東吳大學師培中心"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e55" source="M_3033" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+      <edge id="54" source="p_3033" target="i_國立臺灣師範大學" label="3033→國立臺灣師範大學 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3033→國立臺灣師範大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e56" source="M_3033" target="I_國立臺北大學" label="單向" type="directed" weight="1">
+      <edge id="55" source="p_3033" target="i_國立臺北大學" label="3033→國立臺北大學 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3033→國立臺北大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e57" source="M_3033" target="I_台北醫學大學" label="單向" type="directed" weight="1">
+      <edge id="56" source="p_3033" target="i_台北醫學大學" label="3033→台北醫學大學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3033→台北醫學大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e58" source="M_3033" target="I_國立台灣圖書分館" label="單向" type="directed" weight="1">
+      <edge id="57" source="p_3033" target="i_國立台灣圖書分館" label="3033→國立台灣圖書分館 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3033→國立台灣圖書分館"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e59" source="M_3033" target="I_海山基金會" label="單向" type="directed" weight="1">
+      <edge id="58" source="p_3033" target="i_海山基金會" label="3033→海山基金會 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3033→海山基金會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e60" source="M_3033" target="I_扶輪社" label="單向" type="directed" weight="1">
+      <edge id="59" source="p_3033" target="i_扶輪社" label="3033→扶輪社 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3033→扶輪社"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e61" source="M_3033" target="I_獅子會" label="單向" type="directed" weight="1">
+      <edge id="60" source="p_3033" target="i_獅子會" label="3033→獅子會 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3033→獅子會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e62" source="M_3033" target="I_駐外單位" label="單向" type="directed" weight="1">
+      <edge id="61" source="p_3033" target="i_駐外單位" label="3033→駐外單位 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3033→駐外單位"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e63" source="M_3036" target="I_國立臺灣師範大學地球科學系" label="單向" type="directed" weight="1">
+      <edge id="62" source="p_3036" target="i_國立臺灣師範大學地球科學系" label="3036→國立臺灣師範大學地球科學系 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3036→國立臺灣師範大學地球科學系"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e64" source="M_3036" target="I_國立臺灣大學海洋科學研究所" label="單向" type="directed" weight="1">
+      <edge id="63" source="p_3036" target="i_國立臺灣大學海洋科學研究所" label="3036→國立臺灣大學海洋科學研究所 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3036→國立臺灣大學海洋科學研究所"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e65" source="M_3037" target="I_德國內爾布勞寧中學" label="單向" type="directed" weight="1">
+      <edge id="64" source="p_3037" target="i_德國內爾布勞寧中學" label="3037→德國內爾布勞寧中學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3037→德國內爾布勞寧中學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e66" source="M_3039" target="I_新北市立清水高級中學" label="單向" type="directed" weight="1">
+      <edge id="65" source="p_3039" target="i_新北市立清水高級中學" label="3039→新北市立清水高級中學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→新北市立清水高級中學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e67" source="M_3039" target="I_新北市立丹鳳高級中學" label="單向" type="directed" weight="1">
+      <edge id="66" source="p_3039" target="i_新北市立丹鳳高級中學" label="3039→新北市立丹鳳高級中學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→新北市立丹鳳高級中學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e68" source="M_3039" target="I_臺北市立麗山高級中學" label="單向" type="directed" weight="1">
+      <edge id="67" source="p_3039" target="i_臺北市立麗山高級中學" label="3039→臺北市立麗山高級中學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→臺北市立麗山高級中學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e69" source="M_3039" target="I_桃園市立壽山高級中等學校" label="單向" type="directed" weight="1">
+      <edge id="68" source="p_3039" target="i_桃園市立壽山高級中等學校" label="3039→桃園市立壽山高級中等學校 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→桃園市立壽山高級中等學校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e70" source="M_3039" target="I_新北市立瑞芳高級工業職業學校" label="單向" type="directed" weight="1">
+      <edge id="69" source="p_3039" target="i_新北市立瑞芳高級工業職業學校" label="3039→新北市立瑞芳高級工業職業學校 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→新北市立瑞芳高級工業職業學校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e71" source="M_3039" target="I_日本船橋高校" label="單向" type="directed" weight="1">
+      <edge id="70" source="p_3039" target="i_日本船橋高校" label="3039→日本船橋高校 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→日本船橋高校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e72" source="M_3039" target="I_日本一宮高校" label="單向" type="directed" weight="1">
+      <edge id="71" source="p_3039" target="i_日本一宮高校" label="3039→日本一宮高校 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→日本一宮高校"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e73" source="M_3039" target="I_美國密蘇里州Principia School" label="單向" type="directed" weight="1">
+      <edge id="72" source="p_3039" target="i_美國密蘇里州Principia School" label="3039→美國密蘇里州Principia School (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→美國密蘇里州Principia School"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e74" source="M_3039" target="I_法國伽利略高中" label="單向" type="directed" weight="1">
+      <edge id="73" source="p_3039" target="i_法國伽利略高中" label="3039→法國伽利略高中 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→法國伽利略高中"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
-      <edge id="e75" source="M_3039" target="I_國教署英語文學科中心" label="單向" type="directed" weight="1">
+      <edge id="74" source="p_3039" target="i_國教署英語文學科中心" label="3039→國教署英語文學科中心 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→國教署英語文學科中心"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e76" source="M_3039" target="I_基督教台灣信義會板橋福音堂" label="單向" type="directed" weight="1">
+      <edge id="75" source="p_3039" target="i_基督教台灣信義會板橋福音堂" label="3039→基督教台灣信義會板橋福音堂 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3039→基督教台灣信義會板橋福音堂"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e77" source="M_3041" target="I_國立臺灣師範大學" label="單向" type="directed" weight="1">
+      <edge id="76" source="p_3041" target="i_國立臺灣師範大學" label="3041→國立臺灣師範大學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3041→國立臺灣師範大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e78" source="M_3041" target="I_國立臺灣師範大學心測中心" label="單向" type="directed" weight="1">
+      <edge id="77" source="p_3041" target="i_國立臺灣師範大學心測中心" label="3041→國立臺灣師範大學心測中心 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3041→國立臺灣師範大學心測中心"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e79" source="M_3041" target="I_國立臺灣大學" label="單向" type="directed" weight="1">
+      <edge id="78" source="p_3041" target="i_國立臺灣大學" label="3041→國立臺灣大學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3041→國立臺灣大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e80" source="M_3043" target="I_國立高雄師範大學" label="單向" type="directed" weight="1">
+      <edge id="79" source="p_3043" target="i_國立高雄師範大學" label="3043→國立高雄師範大學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→國立高雄師範大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e81" source="M_3043" target="I_史丹佛大學" label="單向" type="directed" weight="1">
+      <edge id="80" source="p_3043" target="i_史丹佛大學" label="3043→史丹佛大學 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→史丹佛大學"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e82" source="M_3043" target="I_洛杉磯公共圖書館" label="單向" type="directed" weight="1">
+      <edge id="81" source="p_3043" target="i_洛杉磯公共圖書館" label="3043→洛杉磯公共圖書館 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→洛杉磯公共圖書館"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e83" source="M_3043" target="I_國立故宮博物院" label="單向" type="directed" weight="1">
+      <edge id="82" source="p_3043" target="i_國立故宮博物院" label="3043→國立故宮博物院 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→國立故宮博物院"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e84" source="M_3043" target="I_美國在台協會" label="單向" type="directed" weight="1">
+      <edge id="83" source="p_3043" target="i_美國在台協會" label="3043→美國在台協會 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→美國在台協會"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e85" source="M_3043" target="I_親子天下" label="單向" type="directed" weight="1">
+      <edge id="84" source="p_3043" target="i_親子天下" label="3043→親子天下 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→親子天下"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e86" source="M_3043" target="I_MAKER FAIRE" label="單向" type="directed" weight="1">
+      <edge id="85" source="p_3043" target="i_MAKER FAIRE" label="3043→MAKER FAIRE (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→MAKER FAIRE"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e87" source="M_3043" target="I_皮克斯總部" label="單向" type="directed" weight="1">
+      <edge id="86" source="p_3043" target="i_皮克斯總部" label="3043→皮克斯總部 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→皮克斯總部"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e88" source="M_3043" target="I_輝達" label="單向" type="directed" weight="1">
+      <edge id="87" source="p_3043" target="i_輝達" label="3043→輝達 (1)" weight="1.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3043→輝達"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="1.0"/>
+          <attvalue for="frequency" value="1"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="92" g="151" b="104" a="1.0"/>
+        <viz:thickness value="1.2"/>
       </edge>
-      <edge id="e89" source="M_3046" target="I_翰林出版事業股份有限公司" label="單向" type="directed" weight="1">
+      <edge id="88" source="p_3046" target="i_翰林出版事業股份有限公司" label="3046→翰林出版事業股份有限公司 (3)" weight="3.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3046→翰林出版事業股份有限公司"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="3.0"/>
+          <attvalue for="frequency" value="3"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="198" g="78" b="78" a="1.0"/>
+        <viz:thickness value="3.8"/>
       </edge>
-      <edge id="e90" source="M_3046" target="I_龍騰文化" label="單向" type="directed" weight="1">
+      <edge id="89" source="p_3046" target="i_龍騰文化" label="3046→龍騰文化 (2)" weight="2.0">
         <attvalues>
-          <attvalue for="方向標示" value="單向"/>
-          <attvalue for="網路類型" value="二模網路"/>
+          <attvalue for="e0" value="3046→龍騰文化"/>
+          <attvalue for="e1" value="校與社區網絡_合作頻率"/>
+          <attvalue for="e2" value="2.0"/>
+          <attvalue for="frequency" value="2"/>
         </attvalues>
-        <viz:color r="185" g="175" b="164"/>
-        <viz:thickness value="1.0"/>
+        <viz:color r="76" g="128" b="191" a="1.0"/>
+        <viz:thickness value="2.4"/>
       </edge>
     </edges>
   </graph>
